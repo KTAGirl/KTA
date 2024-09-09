@@ -7,7 +7,10 @@ From the technical perspective, this modlist is intended to be very lean, and al
 
 We hope to get a really wide community around the modlist, and being easy to maintain - it should be possible for ANY community member to issue a fix if modlist owner is not around for any reason. NO MORE WAITING FOR AGES FOR 'UNDER MAINTENANCE' PIC!
 
-Current stats:
+# About Wabbajack
+[Wabbajack](https://www.wabbajack.org/) is an ingenious piece of software, which allows you to take the whole modlist - and install it to your PC quite easily, while not violating any rights of mod writers. 
+
+# Current Stats
 | Stats | Value |
 |-----|-----|
 | Required Version | AE (sorry, folks), but paid AE Upgrade is not required |
@@ -20,7 +23,7 @@ Current stats:
 | Active Plugins | 133 |
 | Largest Mod | DD, 2.9G | 
 | Environment Overhaul Mod | [Project Rainforest](https://www.nexusmods.com/skyrimspecialedition/mods/20636) | 
-| ENB | [TBD] |
+| ENB | TBD, probably [Silent Horizons](https://www.nexusmods.com/skyrimspecialedition/mods/21543) |
 | Female Body | [3BA](https://www.nexusmods.com/skyrimspecialedition/mods/30174) |
 | Male Support | SOS (too many things relying on SOS, sigh) |
 | Physics | HDT-SMP+CBPC |
@@ -34,6 +37,9 @@ Current stats:
 | DCL | Never ever | 
 | Prostitution Mod | The Ancient Profession |
 | Defeat Mod | TBD |
-| Prison Mod (TBD) | Pamatronic |
+| Prison Mod (TODO) | Pamatronic |
 | Follower Mods | EFF+Devious Followers |
+| MCM Config | 5-stage MCM Recorder | 
+| Game Start | Customized Live Another Life | 
+| Main Custom Mods (Planned) | Pacifist, Seduction Combat Spell | 
 | Development Tools Included | LOOT+FNIS+Nemesis+BodySlide+CK |
