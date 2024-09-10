@@ -32,25 +32,25 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | Active Mods | 190 |
 | Active Plugins | 132 |
 | Largest Mod | DD, 2.9G | 
-| Environment Overhaul Mod | [Project Rainforest](https://www.nexusmods.com/skyrimspecialedition/mods/20636) | 
+| Environment Overhaul Mod | [Project Rainforest](https://www.nexusmods.com/skyrimspecialedition/mods/20636) <br> (as public nudity is common, at least it should be in tropics) | 
 | ENB | TBD, probably [Silent Horizons](https://www.nexusmods.com/skyrimspecialedition/mods/21543) |
 | Female Body | [3BA](https://www.nexusmods.com/skyrimspecialedition/mods/30174) |
 | Male Support | SOS (too many things relying on SOS, sigh) |
 | Physics | HDT-SMP+CBPC |
 | Animations Engine | Nemesis+FNIS |
-| # of Animations (as reported by Nemesis) | 35000+ |
+| # of Animations (as reported by Nemesis) | 35000+ (and still seems to work pretty stable) |
 | Survival Engine | SunHelm |
 | Sex Engine | SexLab AE 166b+SLAL |
 | Arousal Mod | Arousal NG |
 | Main Gameplay Theme | Slaverun as a Free Woman |
 | Visual LL Mods | "Porny" series by PyGee333, GlevsSexySkyrim, Diabloesque Decorations |
 | DD | Yes, but using them as little as possible |
-| DCL | Never ever | 
+| DCL | Never ever (you can add it yourself, but it will ruin gameplay balance) | 
 | Prostitution Mod | The Ancient Profession |
 | Defeat Mod | TBD |
 | Prison Mod (TODO) | Pamatronic |
 | Follower Mods | EFF+Devious Followers |
-| MCM Config | 5-stage MCM Recorder | 
+| MCM Config | 5-stage MCM Recorder |
 | Game Start | Customized Live Another Life | 
 | Main Custom Mods (Planned) | Pacifist, Seduction Combat Spell | 
 | Development Tools Included | LOOT+FNIS+Nemesis+BodySlide+CK |
