@@ -1,16 +1,18 @@
 # Kick Their Ass (KTA) 
 ## Skyrim KTA modlist for Wabbajack
 
+### The Big Idea
 The point of this modlist is to provide hardcore NSFW play, with some idea behind. It is certainly not your usual "play to get abused" kind of setups. Instead, sure, your heroine will have to have tons of sex, but on the other hand, here sex is not an end in itself, but rather a _tool_ to have a bigger task to be done. Whoring to buy the freedom for women of the whole country (and to kick sore asses of those pesky males too ;) ) - what can be more controversial? 
 
-From the technical perspective, this modlist is intended to be very lean, and also easy to modify and maintain. No more convoluted patches and fragile combinations breaking on each mod update. "Keep It Simple, ~~Stupid~~ Student!" is our modus operandi! In addition, modlist also includes development tools. 
+### Technical: Simple=Maintainable+Lean
+From the technical perspective, this modlist is intended to be very lean, and also easy to modify and maintain. No more convoluted patches and fragile combinations breaking on each mod update. "Keep It Simple, ~~Stupid~~ Student!" is our modus operandi! We try to avoid conflicts, and convoluted patches which happen to be so fragile. Less conflicts to start with = less maintenance. 
 
-We hope to get a really wide community around the modlist, and being easy to maintain - it should be possible for ANY community member to issue a fix if modlist owner is not around for any reason. NO MORE WAITING FOR AGES FOR 'UNDER MAINTENANCE' PIC!
+We hope to get a really wide community around the modlist, and being easy to maintain - it should be possible for ANY community member to issue a fix if modlist owner is not around for any reason. NO MORE WAITING FOR AGES LOOKING AT THAT 'UNDER MAINTENANCE' PIC on Wabbajack! In addition, modlist also includes development tools. 
 
-# About Wabbajack
+### About Wabbajack
 [Wabbajack](https://www.wabbajack.org/) is an ingenious piece of software, which allows you to take the whole modlist - and install it to your PC quite easily, while not violating any rights of mod writers. 
 
-# Current Stats
+### Current Stats
 | Stats | Value |
 |-----|-----|
 | Current KTA Version | 0.0.8 |
@@ -36,7 +38,7 @@ We hope to get a really wide community around the modlist, and being easy to mai
 | Male Support | SOS (too many things relying on SOS, sigh) |
 | Physics | HDT-SMP+CBPC |
 | Animations Engine | Nemesis+FNIS |
-| # of Animations | 3500+ |
+| # of Animations (as reported by Nemesis) | 35000+ |
 | Survival Engine | SunHelm |
 | Sex Engine | SexLab AE 166b+SLAL |
 | Arousal Mod | Arousal NG |
