@@ -21,6 +21,7 @@ We hope to get a really wide community around the modlist, and being easy to mai
 | Minimum VRAM <ins>**(hard requirement)**</ins> | 8G (you might be able to get away with 6G - still to be tested) |
 | Minimum Recommended GPU | Desktop: GTX 1080 Mobile: RTX 2070 |
 | Minimum Recommended CPU | i5 or Ryzen 5 |
+| Minimum Recommended Drive Type | SSD (no HDDs, please) |
 | Modlist File Size | 2.2G |
 | Including Generated BodySlides | 1.5G |
 | To be downloaded by Wabbajack | ~12G |
@@ -39,7 +40,8 @@ We hope to get a really wide community around the modlist, and being easy to mai
 | Survival Engine | SunHelm |
 | Sex Engine | SexLab AE 166b+SLAL |
 | Arousal Mod | Arousal NG |
-| Main Theme | Slaverun |
+| Main Gameplay Theme | Slaverun as a Free Woman |
+| Visual LL Mods | "Porny" series by PyGee333, GlevsSexySkyrim, Diabloesque Decorations |
 | DD | Yes, but using them as little as possible |
 | DCL | Never ever | 
 | Prostitution Mod | The Ancient Profession |
