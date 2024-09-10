@@ -1,5 +1,5 @@
 # Kick Their Ass (KTA) 
-## NSFW Wabbajack modlist for Skyrim AE
+## Very NSFW Wabbajack modlist for Skyrim AE
 
 ### The Big Idea
 The point of this modlist is to provide hardcore NSFW play, with some idea behind. It is certainly not your usual "play to get abused" kind of setups. Instead, sure, your heroine will have to have tons of sex, but on the other hand, here sex is not an end in itself, but rather a _tool_ to have a bigger task to be done. Whoring to buy the freedom for women of the whole country (and to kick sore asses of those pesky males too ;) ) - what can be more controversial? 
