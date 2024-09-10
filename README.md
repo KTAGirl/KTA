@@ -7,7 +7,7 @@ The point of this modlist is to provide hardcore NSFW play, with some idea behin
 ### Technical: Simple+Open=Maintainable+Lean
 From the technical perspective, this modlist is intended to be very <ins>**simple**</ins>, very lean, and also easy to modify and maintain. No more convoluted patches and fragile combinations breaking on each mod update. "Keep It Simple, ~~Stupid~~ Student!" is our modus operandi! We try to avoid conflicts, and convoluted patches which happen to be so fragile. Less conflicts to start with = less maintenance. 
 
-And we want KTA to be <ins>**open**</ins>. We hope to get a really wide community around the modlist, and being easy to maintain - it should be possible for ANY community member to issue a fix if modlist owner is not around for any reason. NO MORE WAITING FOR AGES LOOKING AT THAT 'UNDER MAINTENANCE' PIC on Wabbajack! In addition, modlist also includes development tools. 
+And we want KTA to be <ins>**open**</ins>. We hope to get a really wide community around the modlist, and being easy to maintain - it should be possible for ANY community member to issue a fix if modlist owner is not around for any reason. NO MORE WAITING FOR AGES LOOKING AT THAT 'UNDER MAINTENANCE' PIC on Wabbajack! BTW, modlist also includes development tools. 
 
 ### About Wabbajack
 [Wabbajack](https://www.wabbajack.org/) is an ingenious piece of software, which allows you to take the whole modlist - and install it to your PC quite easily, while not violating any rights of mod writers. 
