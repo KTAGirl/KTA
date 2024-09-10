@@ -1,7 +1,7 @@
 # Kick Their Ass (KTA) 
 ## Skyrim KTA modlist for Wabbajack
 
-The point of this modlist is to provide hardcore NSFW play, with some idea behind. It is certainly not your usual "play to get abused" kind of setups. Instead, sure, your heroine will have to have tons of sex, but on the other hand, here sex is not an end in itself, but rather a tool to have a bigger task to be done. Whoring to buy the freedom for the whole country (and to kick sore asses of those pesky males too ;) ) - what can be more controversial? 
+The point of this modlist is to provide hardcore NSFW play, with some idea behind. It is certainly not your usual "play to get abused" kind of setups. Instead, sure, your heroine will have to have tons of sex, but on the other hand, here sex is not an end in itself, but rather a _tool_ to have a bigger task to be done. Whoring to buy the freedom for women of the whole country (and to kick sore asses of those pesky males too ;) ) - what can be more controversial? 
 
 From the technical perspective, this modlist is intended to be very lean, and also easy to modify and maintain. No more convoluted patches and fragile combinations breaking on each mod update. "Keep It Simple, ~~Stupid~~ Student!" is our modus operandi! In addition, modlist also includes development tools. 
 
@@ -13,12 +13,19 @@ We hope to get a really wide community around the modlist, and being easy to mai
 # Current Stats
 | Stats | Value |
 |-----|-----|
-| Required Version | AE (sorry, folks), but paid AE Upgrade is not required |
+| Current KTA Version | 0.0.8 |
+| Required Skyrim Version | AE (sorry, folks), but paid AE Upgrade is not required |
+| Requires <ins>**pristine**</ins> Skyrim folder | Yes, as all Wabbajack modlists; AE Upgrade files should be fine |
+| Keeps Skyrim folder pristine | Yes, as all Wabbajack modlists |
+| Minimum RAM | 8G (we hope)  |
+| Minimum VRAM <ins>**(hard requirement)**</ins> | 8G (you might be able to get away with 6G - still to be tested) |
+| Minimum Recommended GPU | Desktop: GTX 1080 Mobile: RTX 2070 |
+| Minimum Recommended CPU | i5 or Ryzen 5 |
 | Modlist File Size | 2.2G |
 | Including Generated BodySlides | 1.5G |
 | To be downloaded by Wabbajack | ~12G |
 | Installed File Size | ~31.5G |
-| Total Space Needed | ~46G (compare it to 500+G for some other modlists) |
+| Total Space Needed | ~50G (compare it to 350-500+G for a typical Wabbajack modlist) |
 | Active Mods | 191 |
 | Active Plugins | 133 |
 | Largest Mod | DD, 2.9G | 
