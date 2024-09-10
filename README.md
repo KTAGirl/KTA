@@ -24,10 +24,10 @@ We hope to get a really wide community around the modlist, and being easy to mai
 | Modlist File Size | 2.2G |
 | Including Generated BodySlides | 1.5G |
 | To be downloaded by Wabbajack | ~12G |
-| Installed File Size | ~31.5G |
+| Installed File Size | ~32G |
 | Total Space Needed | ~50G (compare it to 350-500+G for a typical Wabbajack modlist) |
-| Active Mods | 191 |
-| Active Plugins | 133 |
+| Active Mods | 190 |
+| Active Plugins | 132 |
 | Largest Mod | DD, 2.9G | 
 | Environment Overhaul Mod | [Project Rainforest](https://www.nexusmods.com/skyrimspecialedition/mods/20636) | 
 | ENB | TBD, probably [Silent Horizons](https://www.nexusmods.com/skyrimspecialedition/mods/21543) |
