@@ -43,7 +43,7 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | Sex Engine | SexLab AE 166b+SLAL |
 | Arousal Mod | Arousal NG |
 | Main Gameplay Theme | Slaverun as a Free Woman |
-| Visual LL Mods | "Porny" series by PyGee333, GlevsSexySkyrim, Diabloesque Decorations |
+| LL Eye Candy | "Porny" series by PyGee333, GlevsSexySkyrim, Diabloesque Decorations, <br> Hydra Slavegirls, (Planned) Bimbos of Skyrim |
 | DD | Yes, but using them as little as possible |
 | DCL | Never ever (you can add it yourself, but it will ruin gameplay balance) | 
 | Prostitution Mod | The Ancient Profession |
