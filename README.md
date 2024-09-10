@@ -4,10 +4,10 @@
 ### The Big Idea
 The point of this modlist is to provide hardcore NSFW play, with some idea behind. It is certainly not your usual "play to get abused" kind of setups. Instead, sure, your heroine will have to have tons of sex, but on the other hand, here sex is not an end in itself, but rather a _tool_ to have a bigger task to be done. Whoring to buy the freedom for women of the whole country (and to kick sore asses of those pesky males too ;) ) - what can be more controversial? 
 
-### Technical: Simple=Maintainable+Lean
-From the technical perspective, this modlist is intended to be very lean, and also easy to modify and maintain. No more convoluted patches and fragile combinations breaking on each mod update. "Keep It Simple, ~~Stupid~~ Student!" is our modus operandi! We try to avoid conflicts, and convoluted patches which happen to be so fragile. Less conflicts to start with = less maintenance. 
+### Technical: Simple+Open=Maintainable+Lean
+From the technical perspective, this modlist is intended to be very <ins>**simple**</ins>, very lean, and also easy to modify and maintain. No more convoluted patches and fragile combinations breaking on each mod update. "Keep It Simple, ~~Stupid~~ Student!" is our modus operandi! We try to avoid conflicts, and convoluted patches which happen to be so fragile. Less conflicts to start with = less maintenance. 
 
-We hope to get a really wide community around the modlist, and being easy to maintain - it should be possible for ANY community member to issue a fix if modlist owner is not around for any reason. NO MORE WAITING FOR AGES LOOKING AT THAT 'UNDER MAINTENANCE' PIC on Wabbajack! In addition, modlist also includes development tools. 
+And we want KTA to be <ins>**open**</ins>. We hope to get a really wide community around the modlist, and being easy to maintain - it should be possible for ANY community member to issue a fix if modlist owner is not around for any reason. NO MORE WAITING FOR AGES LOOKING AT THAT 'UNDER MAINTENANCE' PIC on Wabbajack! In addition, modlist also includes development tools. 
 
 ### About Wabbajack
 [Wabbajack](https://www.wabbajack.org/) is an ingenious piece of software, which allows you to take the whole modlist - and install it to your PC quite easily, while not violating any rights of mod writers. 
