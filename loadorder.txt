@@ -35,6 +35,8 @@ Book Covers Skyrim.esp
 The Ancient Profession.esp
 TAP Interiors.esp
 hydra_slavegirls.esp
+MoreNastyCritters.esp
+SexLab-Parasites.esp
 Nier AIO Music Replacer.esp
 Hydragorgon Furniture Patch.esp
 SLSFFameComments.esp
@@ -93,7 +95,6 @@ Non-Devious Devices - No Gags.esp
 Non-Devious Devices - No Blindfolds.esp
 SlaverunEnforcerStandsalone.esp
 SRREnforcerEnhanced.esp
-MoreNastyCritters.esp
 NoOverpenetration.esp
 SlaveTats.esp
 FadeTattoos.esp
@@ -104,7 +105,6 @@ MasculinizedLevelListsDG.esp
 SerialStrip.esp
 Tiwa44_SGMD_CBBE_1_4.esp
 Reasonable Quest Rewards.esp
-NMWW_3PP.esp
 SLAL_SHanimAnimObj.esp
 NibblesAnimObjects.esp
 SLALAnimObj.esp
@@ -125,9 +125,18 @@ HotkeyReminder.esp
 CoMAP - Shrines and Altars.esp
 CoMAP - Hearthfire Settlements.esp
 CoMAP - Jorrvaskr Marker.esp
+FMEA Skyrim.esp
 CoMAP - KhajiitCaravans.esp
 CoMAP - Orc Stronghold Forts.esp
 SexLabTools.esp
+KTA-firewood1.esp
+KTA-seduce.esp
+SexistGuards.esp
+Sexist Guards_Voice.esp
+Sexist Guards_Voice0.esp
+Sexist Guards_Voice00.esp
+EstrusChaurus.esp
+Follower Slavery Mod.esp
 alternate start - live another life.esp
 Atlas Map Markers.esp
 A Clear Map of Skyrim.esp
