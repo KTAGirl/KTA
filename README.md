@@ -25,15 +25,15 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | Minimum Recommended GPU | Desktop: GTX 1080 Mobile: RTX 2070 |
 | Minimum Recommended CPU | i5 or Ryzen 5 |
 | Minimum Recommended Drive Type | SSD (no HDDs, please) |
-| Modlist File Size | 2.3G |
+| Modlist File Size | 2.4G |
 | Including Generated BodySlides | 1.5G |
 | To be downloaded by Wabbajack | ~12G |
-| Installed File Size | ~31G |
+| Installed File Size | ~32G |
 | Total Space Needed | ~50G (compare it to 350-500+G for a typical Wabbajack modlist) |
-| Active Mods | 176 |
-| Including NSFW Mods | 84 |
+| Active Mods | 197 |
+| Including NSFW Mods | 93 |
 | Active Plugins | 134 |
-| Including NSFW Plugins | 75 |
+| Including NSFW Plugins | 79 |
 | OPTIONAL NSFW Mods / Plugins <br> (to be downloaded and installed later) | 12/3 (it is only eye and ear candy, and downloading extra 28 files from LL <br> is not fun, especially when you're eager to start playing :blush: )|
 | Largest Mod | DD, 2.9G | 
 | Environment Overhaul Mod | [Project Rainforest](https://www.nexusmods.com/skyrimspecialedition/mods/20636) (as public nudity is common, at least it should be <br> in tropics) | 
@@ -42,7 +42,7 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | Male Support | SOS (too many things relying on SOS, sigh) |
 | Physics | HDT-SMP+CBPC |
 | Animations Engine | Nemesis+FNIS |
-| # of Animations (as reported by Nemesis) | 35000+ (and still seems to work pretty stable) |
+| # of Animations (as reported by Nemesis) | 35730 (and still seems to work pretty stable, thanks to Nemesis) |
 | Survival Engine | SunHelm |
 | Sex Engine | SexLab AE 166b+SLAL |
 | Arousal Mod | Arousal NG |
@@ -54,7 +54,7 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | Defeat Mod | TBD, probably Acheron+Practical Defeat |
 | Prison Mod (TODO) | Pamatronic |
 | Follower Mods | EFF+Devious Followers |
-| MCM Config | 5-stage MCM Recorder |
+| MCM Config | Fully automated MCM Recorder (17 stages, ~15-20 minutes) |
 | Game Start | Customized Live Another Life | 
 | Main Custom Mods (Planned) | Pacifist, Seduction Combat Spell | 
 | Development Tools Included | LOOT+FNIS+Nemesis+BodySlide+CK |
