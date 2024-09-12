@@ -54,7 +54,7 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | Defeat Mod | TBD, probably Acheron+Practical Defeat |
 | Prison Mod (TODO) | Pamatronic |
 | Follower Mods | EFF+Devious Followers |
-| MCM Config | Fully automated MCM Recorder (17 stages, ~15-20 minutes) |
-| Game Start | Customized Live Another Life | 
+| MCM Config | Fully automated MCM Recorder replay (17 stages, ~15-20 minutes) |
+| Game Start | (To be) Customized Live Another Life | 
 | Main Custom Mods (Planned) | Pacifist, Seduction Combat Spell | 
 | Development Tools Included | LOOT+FNIS+Nemesis+BodySlide+CK |
