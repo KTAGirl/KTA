@@ -27,17 +27,17 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | Minimum Recommended Drive Type | SSD (no HDDs, please) |
 | Modlist File Size | 2.4G |
 | Including Generated BodySlides | 1.5G |
-| To be downloaded by Wabbajack | ~12G |
-| Installed File Size | ~32G |
+| To be downloaded by Wabbajack | ~12.5G |
+| Installed File Size | ~32.5G |
 | Total Space Needed | ~50G (compare it to 350-500+G for a typical Wabbajack modlist) |
-| Active Mods | 197 |
+| Active Mods | 202 |
 | Including NSFW Mods | 93 |
-| Active Plugins | 134 |
+| Active Plugins | 132 |
 | Including NSFW Plugins | 79 |
 | OPTIONAL NSFW Mods / Plugins <br> (to be downloaded and installed later) | 12/3 (it is only eye and ear candy, and downloading extra 28 files from LL <br> is not fun, especially when you're eager to start playing :blush: )|
 | Largest Mod | DD, 2.9G | 
 | Environment Overhaul Mod | [Project Rainforest](https://www.nexusmods.com/skyrimspecialedition/mods/20636) (as public nudity is common, at least it should be <br> in tropics) | 
-| ENB | TBD, probably [Silent Horizons](https://www.nexusmods.com/skyrimspecialedition/mods/21543) |
+| ENB | [PRT XII](https://www.nexusmods.com/skyrimspecialedition/mods/4743/?tab=files) |
 | Female Body | [3BA](https://www.nexusmods.com/skyrimspecialedition/mods/30174) |
 | Male Support | SOS (too many things relying on SOS, sigh) |
 | Physics | HDT-SMP+CBPC |
