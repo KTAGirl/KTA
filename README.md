@@ -88,4 +88,6 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
    20. Wait until strip animation sequence ends.
    21. Open console (~), type in "coc whiterunstables"
    22. Leave stables, observe "You're now complying with slavery laws", and run to Whiterun entrance.
-   23. Stop before the entrance. This is where your journey begins. Stark naked and carrying nothing.  
+   23. ESC->Mod Configuration->Slaverun Reloaded->Cheats->uncheck "Cheats Enabled".
+   24. Stop before the entrance. This is where your journey begins. Stark naked and carrying nothing.
+   25. Save the game.
