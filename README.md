@@ -58,3 +58,18 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | Game Start | (To be customized) Live Another Life | 
 | Main Custom Mods (Planned) | Pacifist, Seduction Combat Spell | 
 | Development Tools Included | LOOT+FNIS+Nemesis+BodySlide+CK |
+
+### Install
+1. Install Wabbajack from https://www.wabbajack.org/
+2. Install KTA modlist using Wabbajack
+3. Launch ModOrganizer.exe from the install folder
+4. Launch SKSE
+5. Load KTA save file, OR
+6. Start New Game, AND
+   1. Design your character (at minimum, set sex to 1, and choose one of the presets included)
+   2. Wait until all messages are gone, and plus 1 minute. While at it, clock 'Ok' to any messages appearing.
+   3. Save game.
+   4. Load game you just saved, wait until the message are gone (again), and plus another 1 minute.
+   5. ESC->Mod Configuration->MCM Recorder->play KTA->Yes->Ok->Close MCM->Run Recording
+   6. Wait for 15-20 minutes while replay is in progress (yes, it takes this long 😒 ).
+   7. 
