@@ -84,8 +84,8 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
    16. Open console (~), type in "coc whiterundragonsreach"
    17. Speak to the Jarl, choose "[Cheat] Skip until enslavement, Bellamy"
    18. Run all the way outside of the Whiterun gates, save (just in case)
-   19. Approach to Bellamy, you will be force-greeted. When having a choice, choose "Of course, Sir, I don't want any trouble".
-   20. Wait until strip animation sequence ends.
+   19. Approach Bellamy, you will be force-greeted. When having a choice, choose "Of course, Sir, I don't want any trouble".
+   20. Wait until you're told that you can recover your posessions
    21. Open console (~), type in "coc whiterunstables"
    22. Leave stables, observe "You're now complying with slavery laws", and run to Whiterun entrance.
    23. ESC->Mod Configuration->Slaverun Reloaded->Cheats->uncheck "Cheats Enabled".
