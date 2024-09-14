@@ -87,4 +87,4 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
    19. Wait until strip animation sequence ends.
    20. Open console (~), type in "coc whiterunstables"
    21. Leave stables, observe "You're now complying with slavery laws", and run to Whiterun entrance.
-   22. Stop before the entrance. This is where your journey begins. Stark naked and wearing nothing.  
+   22. Stop before the entrance. This is where your journey begins. Stark naked and carrying nothing.  
