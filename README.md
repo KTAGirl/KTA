@@ -66,20 +66,25 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 4. Launch SKSE
 5. Load KTA save file, OR
 6. Start New Game, AND
-   1. Design your character (at minimum, set sex to 1, and choose one of the presets included)
+   1. Design your character (at minimum, set sex to 1, and choose one of the presets included; recommended skin tone is at least 2)
    2. (You're now in Live Another Life's Dungeon) Wait until all messages are gone, and plus 1 minute. While at it, clock 'Ok' to any messages appearing.
    3. Save game.
    4. Load game you just saved, wait until the messages are gone (again), and plus another 1 minute.
    5. ESC->Mod Configuration->MCM Recorder->play KTA->Yes->Ok->Close MCM->Run Recording
    6. Wait for 15-20 minutes while replay is in progress (yes, it takes this long 😒 ), until you see "KTA has finished playing", press ok, wait until all messages are gone, plus another 1 minute.
    7. Save game.
-   4. Load game you just saved
-   5. (the following part will be replaced with custom start for Live Another Life) Go to Mara's statue, choose "I arrived by ship" -> "Solitude", go to bed nearby, sleep.
-   6. Run towards Solitude until you meet a Courier, take the note, read the note.
-   7. Speak to carriage driver or to a guard, choose "[CHEAT] Jump to the end of prequest"
-   8. Open console (~), type in "coc whiterunstables"
-   9. Leave stables, run to Whiterun entrance, speak to the guard, choose "Hello, Sir...", click through the rest of the dialog
-   10. Open console (~), type in "coc whiterundragonsreach"
-   11. Speak to the Jarl, choose "[Cheat] Skip until enslavement, Bellamy"
-   12. Run all the way outside of the Whiterun gates, save (just in case)
-   13. 
+   8. Load game you just saved
+   9. (the following part will be replaced with custom start for Live Another Life) Go to Mara's statue, choose "I arrived by ship" -> "Solitude", go to bed nearby, sleep.
+   10. Jump into water and drop everything you have. 
+   11. Run towards Solitude until you meet a Courier, take the note, read the note.
+   12. Speak to carriage driver or to a guard, choose "[CHEAT] Jump to the end of prequest"
+   13. Open console (~), type in "coc whiterunstables"
+   14. Leave stables, run to Whiterun entrance, speak to the guard, choose "Hello, Sir...", click through the rest of the dialog
+   15. Open console (~), type in "coc whiterundragonsreach"
+   16. Speak to the Jarl, choose "[Cheat] Skip until enslavement, Bellamy"
+   17. Run all the way outside of the Whiterun gates, save (just in case)
+   18. Approach to Bellamy, you will be force-greeted. When having a choice, choose "Of course, Sir, I don't want any trouble".
+   19. Wait until strip animation sequence ends.
+   20. Open console (~), type in "coc whiterunstables"
+   21. Leave stables, observe "You're now complying with slavery laws", and run to Whiterun entrance.
+   22. Stop before the entrance. This is where your journey begins. Stark naked and wearing nothing.  
