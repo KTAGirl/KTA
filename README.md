@@ -74,4 +74,7 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
    6. Wait for 15-20 minutes while replay is in progress (yes, it takes this long 😒 ), until you see "KTA has finished playing", press ok, wait until all messages are gone, plus another 1 minute.
    7. Save game.
    4. Load game you just saved
-   5. Go to Mara's statue, choose "I arrived by ship" -> "Solitude", go to bed nearby, sleep. 
+   5. (the following part will be replaced with custom start for Live Another Life) Go to Mara's statue, choose "I arrived by ship" -> "Solitude", go to bed nearby, sleep.
+   6. Run towards Solitude until you meet a Courier, take the note, read the note.
+   7. Speak to carriage driver or to a guard, choose "[CHEAT]Jump to the end of prequest"
+   8. open console (~), type in "coc whiterunstables"
