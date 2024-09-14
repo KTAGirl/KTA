@@ -67,9 +67,11 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 5. Load KTA save file, OR
 6. Start New Game, AND
    1. Design your character (at minimum, set sex to 1, and choose one of the presets included)
-   2. Wait until all messages are gone, and plus 1 minute. While at it, clock 'Ok' to any messages appearing.
+   2. (You're now in Live Another Life's Dungeon) Wait until all messages are gone, and plus 1 minute. While at it, clock 'Ok' to any messages appearing.
    3. Save game.
-   4. Load game you just saved, wait until the message are gone (again), and plus another 1 minute.
+   4. Load game you just saved, wait until the messages are gone (again), and plus another 1 minute.
    5. ESC->Mod Configuration->MCM Recorder->play KTA->Yes->Ok->Close MCM->Run Recording
-   6. Wait for 15-20 minutes while replay is in progress (yes, it takes this long 😒 ).
-   7. 
+   6. Wait for 15-20 minutes while replay is in progress (yes, it takes this long 😒 ), until you see "KTA has finished playing", press ok, wait until all messages are gone, plus another 1 minute.
+   7. Save game.
+   4. Load game you just saved
+   5. Go to Mara's statue, choose "I arrived by ship" -> "Solitude", go to bed nearby, sleep. 
