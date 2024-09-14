@@ -15,7 +15,7 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 ### Current Stats
 | Stats | Value |
 |-----|-----|
-| Current KTA Version | 0.0.9 |
+| Current KTA Version | 0.0.10 |
 | Required Skyrim Version | AE (sorry, folks), but paid AE Upgrade is not required |
 | Other Tools Needed | 7z (to re-pack multipart archives) |
 | Requires <ins>**pristine**</ins> Skyrim folder | Yes, as all Wabbajack modlists; if you have AE Upgrade - <br> leaving its files should be fine |
@@ -25,15 +25,15 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | Minimum Recommended GPU | Desktop: GTX 1080 Mobile: RTX 2070 |
 | Minimum Recommended CPU | i5 or Ryzen 5 |
 | Minimum Recommended Drive Type | SSD (no HDDs, please) |
-| Modlist File Size | 2.4G |
-| Including Generated BodySlides | 1.5G |
-| To be downloaded by Wabbajack | ~12.5G |
-| Installed File Size | ~32.5G |
-| Total Space Needed | ~50G (compare it to 350-500+G for a typical Wabbajack modlist) |
-| Active Mods | 202 |
-| Including NSFW Mods | 93 |
-| Active Plugins | 132 |
-| Including NSFW Plugins | 79 |
+| Modlist File Size | 2.5G |
+| Including Generated BodySlides | 1.6G |
+| To be downloaded by Wabbajack | ~14.5G |
+| Installed File Size | ~39G |
+| Total Space Needed | ~60G (compare it to 350-500+G for a typical Wabbajack modlist) |
+| Active Mods | 223 |
+| Including NSFW Mods | ~100 |
+| Active Plugins | 153 |
+| Including NSFW Plugins | ~85 |
 | OPTIONAL NSFW Mods / Plugins <br> (to be downloaded and installed later) | 12/3 (it is only eye and ear candy, and downloading extra 28 files from LL <br> is not fun, especially when you're eager to start playing :blush: )|
 | Largest Mod | DD, 2.9G | 
 | Environment Overhaul Mod | [Project Rainforest](https://www.nexusmods.com/skyrimspecialedition/mods/20636) (as public nudity is common, at least it should be <br> in tropics) | 
@@ -42,19 +42,19 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | Male Support | SOS (too many things relying on SOS, sigh) |
 | Physics | HDT-SMP+CBPC |
 | Animations Engine | Nemesis+FNIS |
-| # of Animations (as reported by Nemesis) | 35730 (and still seems to work pretty stable, thanks to Nemesis) |
+| # of Animations (as reported by Nemesis) | 36000+ (and still seems to work pretty stable, thanks to Nemesis) |
 | Survival Engine | SunHelm |
 | Sex Engine | SexLab AE 166b+SLAL |
 | Arousal Mod | Arousal NG |
 | Main Gameplay Theme | Slaverun as a Free Woman |
-| LL Eye Candy | "Porny" series by PyGee333, GlevsSexySkyrim, Diabloesque Decorations, <br> Hydra Slavegirls, (Planned) Bimbos of Skyrim |
+| LL Eye Candy | "Porny" series by PyGee333, GlevsSexySkyrim, Diabloesque Decorations, <br> Hydra Slavegirls, Bimbos of Skyrim |
 | DD | Yes, but using them as little as possible |
 | DCL | Never ever (you can add it yourself, but it will ruin gameplay balance, <br> and probably a few other things too) | 
 | Prostitution Mod | The Ancient Profession |
 | Defeat Mod | TBD, probably Acheron+Practical Defeat |
-| Prison Mod (TODO) | Pamatronic |
+| Prison Mod (TODO) | Pamatronic's Prison Alternative |
 | Follower Mods | EFF+Devious Followers |
-| MCM Config | Fully automated MCM Recorder replay (17 stages, ~15-20 minutes) |
-| Game Start | (To be) Customized Live Another Life | 
+| MCM Config | Fully automated MCM Recorder replay (23 stages, ~15-20 minutes) |
+| Game Start | (To be customized) Live Another Life | 
 | Main Custom Mods (Planned) | Pacifist, Seduction Combat Spell | 
 | Development Tools Included | LOOT+FNIS+Nemesis+BodySlide+CK |
