@@ -15,7 +15,7 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 ### Current Stats
 | Stats | Value |
 |-----|-----|
-| Current KTA Version | 0.0.10 |
+| Current KTA Version | 0.0.12 |
 | Required Skyrim Version | AE (sorry, folks), but paid AE Upgrade is not required |
 | Other Tools Needed | 7z (to re-pack multipart archives) |
 | Requires <ins>**pristine**</ins> Skyrim folder | Yes, as all Wabbajack modlists; if you have AE Upgrade - <br> leaving its files should be fine |
@@ -75,19 +75,11 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
    7. Manual post-config (doesn't work from Recorder 😒): ESC->Mod Configuration->SunHelm->Enable, wait until all messages are gone, plus another 1 minute.
    8. Save game.
    9. Load game you just saved
-   10. (the following part will be replaced with custom start for Live Another Life) Go to Mara's statue, choose "I arrived by ship" -> "Solitude", go to bed nearby, sleep.
-   11. Jump into water and drop everything you have. 
-   12. Run towards Solitude until you meet a Courier, take the note, read the note.
-   13. Speak to carriage driver or to a guard, choose "[CHEAT] Jump to the end of prequest"
-   14. Open console (~), type in "coc whiterunstables"
-   15. Leave stables, run to Whiterun entrance, speak to the guard, choose "Hello, Sir...", click through the rest of the dialog
-   16. Open console (~), type in "coc whiterundragonsreach"
-   17. Speak to the Jarl, choose "[Cheat] Skip until enslavement, Bellamy"
-   18. Run all the way outside of the Whiterun gates, save (just in case)
-   19. Approach Bellamy, you will be force-greeted. When having a choice, choose "Of course, Sir, I don't want any trouble".
-   20. Wait until you're told that you can recover your posessions
-   21. Open console (~), type in "coc whiterunstables"
-   22. Leave stables, observe "You're now complying with slavery laws", and run to Whiterun entrance.
-   23. ESC->Mod Configuration->Slaverun Reloaded->Cheats->uncheck "Cheats Enabled".
-   24. Stop before the entrance. This is where your journey begins. Stark naked and carrying nothing.
-   25. Save the game.
+   10. Go to Mara's statue, and follow the only available options, then go to a bed to the right, sleep.
+   11. (the following part will be replaced with improving KTA custom start for Live Another Life) You'll find yourself in Bannnered Mare.
+   12. Run all the way outside of the Whiterun gates, save (just in case)
+      +. On the way, you're likely to be greeted by Courier. Take whatever it gives you, and you can safely ignore it. 
+   14. Approach Bellamy, you will be force-greeted. When having a choice, choose "Of course, Sir, I don't want any trouble".
+   15. Wait until you're told that you can recover your posessions
+   16. Stop before the entrance. This is where your journey begins. Stark naked and carrying nothing.
+   17. Save the game.
