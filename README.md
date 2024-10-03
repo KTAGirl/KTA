@@ -67,7 +67,7 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 5. Load KTA save file, OR
 6. Start New Game, AND
    1. Design your character (at minimum, set sex to 1, and choose one of the presets included; recommended skin tone is at least 2)
-   2. (You're now in Live Another Life's Dungeon) Wait until all messages are gone, and plus 1 minute. While at it, clock 'Ok' to any messages appearing.
+   2. (You're now in Live Another Life's Dungeon) Wait until all messages are gone, and plus 1 minute. While at it, click 'Ok' to any messages appearing.
    3. Save game.
    4. Load game you just saved, wait until the messages are gone (again), and plus another 1 minute.
    5. ESC->Mod Configuration->MCM Recorder->play KTA->Yes->Ok->Close MCM->Run Recording
