@@ -50,12 +50,12 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | LL Eye Candy | "Porny" series by PyGee333, GlevsSexySkyrim, Diabloesque Decorations, <br> Hydra Slavegirls, Bimbos of Skyrim |
 | DD | Yes, but using them as little as possible |
 | DCL | Never ever (you can add it yourself, but it will ruin gameplay balance, <br> and probably a few other things too) | 
-| Prostitution Mod | The Ancient Profession |
+| Prostitution Mod | The Ancient Profession (Probably to be changed to SLSO-driven Radiant) |
 | Defeat Mod | TBD, probably Acheron+Practical Defeat |
-| Prison Mod (TODO) | Pamatronic's Prison Alternative |
+| Prison Mod | Pamatronic's Prison Alternative |
 | Follower Mods | EFF+Devious Followers |
 | MCM Config | Fully automated MCM Recorder replay (23 stages, ~15-20 minutes) |
-| Game Start | (To be customized) Live Another Life | 
+| Game Start | Customized Live Another Life | 
 | Main Custom Mods (Planned) | Pacifist, Seduction Combat Spell | 
 | Development Tools Included | LOOT+FNIS+Nemesis+BodySlide+CK |
 
