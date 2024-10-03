@@ -25,14 +25,14 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | Minimum Recommended GPU | Desktop: GTX 1080 Mobile: RTX 2070 |
 | Minimum Recommended CPU | i5 or Ryzen 5 |
 | Minimum Recommended Drive Type | SSD (no HDDs, please, except maybe for downloads folder) |
-| Modlist File Size | 2.5G |
+| Modlist File Size | 2.6G |
 | Including Generated BodySlides | 1.6G |
-| To be downloaded by Wabbajack | ~14.5G |
-| Installed File Size | ~39G |
-| Total Space Needed | ~60G (compare it to 350-500+G for a typical Wabbajack modlist) |
-| Active Mods | 223 |
+| To be downloaded by Wabbajack | ~19G |
+| Installed File Size | ~48G |
+| Total Space Needed | ~70G (compare it to 350-500+G for a typical Wabbajack modlist) |
+| Active Mods | 256 |
 | Including NSFW Mods | ~100 |
-| Active Plugins | 153 |
+| Active Mod Plugins | 175 |
 | Including NSFW Plugins | ~85 |
 | OPTIONAL NSFW Mods / Plugins <br> (to be downloaded and installed later) | 12/3 (it is only eye and ear candy, and downloading extra 28 files from LL <br> is not fun, especially when you're eager to start playing :blush: )|
 | Largest Mod | DD, 2.9G | 
@@ -78,7 +78,7 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
    10. Go to Mara's statue, and follow the only available options, then go to a bed to the right, sleep.
    11. (the following part will be replaced with improving KTA custom start for Live Another Life) You'll find yourself in Bannnered Mare.
    12. Run all the way outside of the Whiterun gates, save (just in case)
-      +. On the way, you're likely to be greeted by Courier. Take whatever it gives you, and you can safely ignore it. 
+      - On the way, you're likely to be greeted by Courier. Take whatever it gives you, and you can safely ignore it. 
    14. Approach Bellamy, you will be force-greeted. When having a choice, choose "Of course, Sir, I don't want any trouble".
    15. Wait until you're told that you can recover your posessions
    16. Stop before the entrance. This is where your journey begins. Stark naked and carrying nothing.
