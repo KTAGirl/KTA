@@ -1,0 +1,1215 @@
+Alternate Start - Live Another Life
+===================================
+
+Misery and despair have haunted you all your life. Just when you thought it couldn't get any worse, you've been arrested and thrown in the dungeons. Your trial was supposed to be weeks ago, only nobody has come for you. It's been so long since seeing daylight you no longer know what month it is anymore. The dungeon is cold, damp, and worse still, you're running out of food. At least you have that leak in the wall for water. It seems as though you've been forgotten, soon to rot away and die. The eight have forsaken you! Or... have they?
+
+Live Another Life provides an alternative means to start the game for those who do not wish to go through the lengthy intro sequence at Helgen. You will be given the opportunity to choose your race and then choose a new life for your character to lead. A wide variety of choices will be available. What you choose will have a lasting impact, so choose carefully or the gods may forsake you again!
+
+Additional support has also been provided to allow you to extend Live Another Life with your own starts.
+
+My Patreon Page: https://www.patreon.com/arthmoor
+
+Download Locations
+==================
+
+AFK Mods              - https://www.afkmods.com/index.php?/files/file/1889-alternate-start-live-another-life/
+ModDB                 - https://www.moddb.com/mods/alternate-start-live-another-life
+Bethesda.net [PC+XB1] - https://creations.bethesda.net/en/skyrim/details/5770/Alternate_Start___Live_Another_Life
+Skyrim SE Nexus       - https://www.nexusmods.com/skyrimspecialedition/mods/272/ [This download is outdated and no longer being supported]
+
+Live Another Life Bug Tracker: https://afktrack.afkmods.com/index.php?a=issues&project=33
+
+Installation Requirements
+=========================
+
+Skyrim Special Edition 1.6.1130 or greater.
+Unofficial Skyrim Special Edition Patch 4.3.2 or greater.
+
+You will need to turn on subtitles to see the text for the startup quest.
+
+Alternately, download and use Fuz Ro D-oh - Silent Voice (https://www.nexusmods.com/skyrimspecialedition/mods/15109) to see subtitles only on those NPCs with no voiced audio. This requires SKSE64, so it will only work on PC copies of the game.
+
+DO NOT extract the contents of the BSA file into your Data folder as loose files, or let your mod manager perform an equivalent function on the contents of the file. Doing so will cause things to load in the wrong order and break the game. Skyrim is intended to load a BSA alongside it's ESM/ESP file. Circumventing this causes issues which I will not provide support for. If you insist on going against this advice, you will receive no support for the problems you generate as a result of this.
+
+Installation - Wrye Bash BAIN
+=============================
+
+Drop the archive into your Skyrim Special Edition Mods\Bash Installers folder, then install as usual.
+Make sure the mod is active in the Wrye Bash mods tab.
+
+Installation - Manual
+=====================
+
+Drop "alternate start - live another life.esp", "alternate start - live another life.bsa", "alternate start - live another life - textures.bsa", and "alternate start - live another life.ini" into your Data folder.
+Activate the mod using whatever management tool suits you.
+
+Uninstalling Live Another Life
+==============================
+
+Due to the nature of Skyrim mods, especially those adding scripts, it is strongly discouraged to attempt uninstalling a mod from your active game. Any mod that is more than pure mesh or texture replacements has the possibility to leave behind permanent changes to your save that you may not want. This is not something modders can correct for. It is how the game was designed by Bethesda. No support will be provided for anyone who uninstalls this mod from an active game and continues on with that save.
+
+That said, should you insist on going forward with doing so you must adhere to the following:
+
+First things first. You need to be sure the main quest has been started before you can uninstall this mod. The quest "Live Another Life" must have been marked as completed, AND you must have "Before the Storm" listed in your journal. Uninstalling prior to this will break the main quest as well as the civil war.
+
+It should also go without saying that if you're using the farmhouse start, clean your stuff out of it first because if you don't you'll lose it all.
+
+Clean your stuff out of any other start location containers you may be using, including any that are part of the vanilla game because they will NO LONGER BE SAFE STORAGE!!!
+
+Once that's done, use your preferred method to uninstall the mod. The "alternate start - live another life.esp", "alternate start - live another life.bsa", "alternate start - live another life - textures.bsa", and "alternate start - live another life.ini" files must be removed entirely.
+
+Load Order
+==========
+
+Due to the sensitive nature of the mod, it should be loaded relatively late in the load order. A lot of other mods may seek to make modifications to Helgen and the charactergen quests. Moving this further down in your list will likely help, a lot. I highly recommend going with the order LOOT (https://loot.github.io/) specifies.
+
+Should load BEFORE Open Cities if you are using it so that location and region data for Whiterun don't get clobbered.
+
+Starting the Main Quest
+=======================
+
+Skyrim has a lot more flexibility in pursuit of the main quest, even when playing the default Helgen scenario. Alduin's appearance does not force one to pursue the main quest beyond Helgen. So this mod is mainly providing a mechanism to bypass Helgen and not encounter Alduin either. The game will patiently wait for you to follow along. So there's no special effort really needed to avoid it, just don't do it :)
+
+For most of the starts, it will appear as though your "Live Another Life" quest has stalled. You will not have an active objective telling you where to go next. When you are ready to begin pursuing the main quest, talk to an innkeeper and ask them for rumors. You'll be given a generic rumor about Helgen and told to travel there. You can also simply go to Helgen on your own without anyone telling you to do so.
+
+The main quest will also start if you join the Civil War, complete the first two missions for your chosen side, and then get sent to Whiterun. Once there, you'll find Whiterun closed. If you manage to bribe or persuade your way in, the next guard you pass by who delivers the line about Helgen being hit by a dragon will resolve the beginning portion. Otherwise asking them what they mean by dragons will get you pointed toward Helgen and you can proceed from there.
+
+If you somehow avoid all the guards and get into Dragonsreach without ever hearing about Helgen, the MQ will be force-started upon entering the main hall. Sorry, but this failsafe is required because it is not possible to advance the Civil War until Bleak Falls Barrow and Dragon Rising have been completed. Bethesda did not supply dialogue to allow for a Stormcloak takeover of Whiterun before starting the Main Quest.
+
+Choosing the campsite start will begin immediately with the encounter with Alduin.
+
+Using this mod to follow the default Helgen sequence will play out the same as the vanilla game.
+
+Extensions
+==========
+
+As of version 2.5.0 and higher, Live Another Life allows for extensions to be written to provide additional starting options. This is a known list of extensions that are available:
+
+City Guard - the example extension provided on the Nexus page for LAL.
+New Beginnings ( https://www.nexusmods.com/skyrimspecialedition/mods/4939/ ) - Several new start options using the extension framework.
+Folkstead ( https://www.nexusmods.com/skyrimspecialedition/mods/6393/ ) - Start option added for the Borders of Hammerfell.
+Haafstad ( https://www.nexusmods.com/skyrimspecialedition/mods/6397/ ) - Start option added for the Borders of High Rock.
+Nyhus ( https://www.nexusmods.com/skyrimspecialedition/mods/6399/ ) - Start option added for the Borders of Cyrodiil.
+
+Compatibility Patches
+=====================
+
+Starting Spell Choice - ( https://www.nexusmods.com/skyrimspecialedition/mods/1997/ )
+
+Compatibility
+=============
+
+Tested and confirmed to work with Open Cities Skyrim.
+
+Known to be incompatible with any mod which attempts to remove the essential flags from any NPCs in Helgen.
+
+Not compatible with Opening Scene Overhaul ( https://www.nexusmods.com/skyrimspecialedition/mods/168/ ) due to conflicts with edits to MQ101. Moving LAL after it in the load order should resolve the problem but obviously that then makes the opening scene overhaul a moot point because it will be overridden. If you ignore this and leave it with OSO after LAL, the initial load screen will freeze and the game will never load. There is nothing that can be done about this. Do not follow advice given to install OSO after saving in the prison cell either if you plan to run the vanilla start because that will still mess up several things LAL expects to have happen that won't.
+
+Helgen Reborn ( https://www.nexusmods.com/skyrimspecialedition/mods/5673 ) – Previously required a lockout for the vanilla start. As of Helgen Reborn 105.3 this is no longer the case and all start options are now fully compatible.
+
+Better Vampires ( https://www.nexusmods.com/skyrimspecialedition/mods/1925/ ) - No issues should arise from using LAL and BV together. Even the vampire start should work properly as the method LAL uses to change you into one uses script calls BV retains in its edited version of the player's vampire quest.
+
+Mods altering the Abandoned Prison (cell 00021594) will probably need to be patched since the navmesh has been edited.
+
+Mods which alter the following quests will not be compatible without a patch:
+
+MQ101 - Unbound
+MQ102 - Before the Storm
+WERoad01 - Farmer refugees after dragon attack
+
+Mods which edit the following scripts will not be compatible unless patched:
+
+QF_MQ101_0003372B
+QF_MQ102_0004E50D
+TIF__0005A6A6
+TIF__0005A6B1
+TIF__000D50CA
+TIF__000D50DB
+TIF__000D50E0
+TIF__000D660D
+TIF__000E2D03
+
+Known Issues
+============
+
+The Thane offer won't be available in every city right away if you use a property owner start. The quest interaction makes doing so impossible without sacrificing too much of the content to it.
+
+When picking the Companions guild start, you need to go watch the fight before Vlikas will go outside to train you.
+
+When choosing one of the two civil war starts, you are strongly advised to let the Jagged Crown scene play out. If you don't, the quest may fail to start and the entire civil war quest line will get jammed.
+
+There may be some unfound dialogue that references Helgen. If you find some and have NOT witnessed Alduin fly overhead yet, please report those with as much detail as possible.
+
+Some quests in a major city you pick a start for may not be available until after you've left that city and returned later. This is normal. It's due to how "Change Location" events work in the game and there's nothing that can be done about it.
+
+If you start the game inside of Whiterun by any means, go to the Bannered Mare and hear the Helgen rumor, and then for some reason decide to go straight to Dragonsreach, all of the Helgen objectives will complete and the MQ will be officially started. This is not something that can be worked around due to the numerous ways mods could provide alternative access into the city at some later point. It's part of the failsafe system.
+
+Choosing the Shadowfoot Sanctum property start will still have the outer gate locked. This cannot be addressed because the GetFormFromFile() Papyrus function cannot return a result for a non-persistent reference. You will have to pick your way out the door when you leave.
+
+Troubleshooting
+===============
+
+Nothing happened. I tried to start a new game and ended up going to Helgen. Again.
+----------------------------------------------------------------------------------
+
+Make sure the mod is actually activated. Even if your mod manager tells you it is. NMM is notorious for lying to its users, claiming a mod is active, but in reality it isn't. Check with Wrye Bash, or with the official game launcher, to be sure that the mod really is active.
+
+Help! I'm stuck at the main menu starting a new game!
+-----------------------------------------------------
+
+You must be using the latest release of the game, which is listed in the requirements. If you are not on the current version, update your game.
+
+Mods that make large scale blanket changes to either essential flags or quest item flags may be blocking you from playing.
+
+Check the Data\Scripts folder and make sure there are no copies of the following files:
+
+  dunPostHelgenEnableScript, QF_MQ101_0003372B, QF_MQ102_0004E50D, TIF__0005A6A6, TIF__0005A6B1, TIF__000D50CA, TIF__000D50DB, TIF__000D50E0, TIF__000D197B, TIF__000D660D, or TIF__000E2D03.
+
+  If these files are present, they will break the quest controls for Live Another Life. You'll need to figure out which packages installed these since they would only come from mods. Skyrim's own
+  files are in Bethesda's BSAs and get overridden by the ones in my BSA.
+
+Verify its placement in load order. This mod should be loaded near the end of the list, not the beginning. LOOT has it placed appropriately and should be used if you are in doubt.
+
+Dude, there's a pole in my face. Why did you not move it?
+---------------------------------------------------------
+
+This is a commonly mentioned problem that's caused by using Enhanced Character Edit (https://www.nexusmods.com/skyrimspecialedition/mods/12302/) alongside starting with LAL. It is not a problem with this mod, and it's unknown exactly why ECE does the camera thing the way it does.
+
+It's not something I feel I should be responsible for fixing since I have not caused this to happen.
+
+Your mod is broken, it says my save can't be updated! You need to fix that!
+---------------------------------------------------------------------------
+
+Actually, no, it's not broken. Upgrading a save when you're still in the prison cell is not supported, never has been, and is a source of bugs. The message telling you to start a new game was added to make sure people are aware of this. Do not attempt to continue on with your game in this state as it WILL cause you problems.
+
+No. I do not need to fix anything. You need to break yourself of bad habits.
+
+The game instantly CTDs when trying to talk to Mara. Why do you make such buggy mods man?
+-----------------------------------------------------------------------------------------
+
+Once again, this one is not actually due to something I've done. The problem actually comes from certain OTHER mods that have done dialogue options that cause some problems with "talking activator" objects. Mara is one such object. The fact that you're getting this problem here is merely a coincidence and you'd have run into it again elsewhere, like during the Molag Bal quest. So Mara has done you a favor in her infinite wisdom.
+
+The 2 most common causes of this are:
+
+1. Having an old version of the Sofia follower mod installed.
+2. Having version 4.0 of the Vilja mod installed.
+
+These problems can be fixed by updating those mods to their current versions where the authors have addressed the issue in their mods. There may be other mods with the same problem but they have not been brought to light yet.
+
+Emma explains the problem in more detail here: https://forums.nexusmods.com/index.php?/topic/565358-live-another-life/page-975#entry20667239
+
+Speaking to Mara results in no dialogue. You suck at this!
+----------------------------------------------------------
+
+This is a common symptom of running out of available file handles for the game. By default, Skyrim (and most other BGS games) have a code limit of 512 file handles that can be accessed by the game. Given that it's now a common occurrence for people to have more than 255 plugins and associated archives, that limit is easily exhausted.
+
+When this happens, anything that would be beyond the 512 handles range will simply be ignored by the game when you start it. This can result in a number of bad things depending on what gets ignored, but one of them is Mara not offering her dialogue due to how her dialogue system is set up.
+
+In order to fix this when you encounter it, you need to install SSE Engine Fixes.[https://www.nexusmods.com/skyrimspecialedition/mods/17230] In the configuration for that mod, you need to raise the "MaxStdio" setting in the EngineFixes.toml file. By default in SSE Engine Fixes this is already set to 2048 so you may not need to do anything more than install it. If you STILL cannot get things working correctly, bump the setting to 4096. Do not go any higher than that though as MaxStdio cannot be raised beyond that point by the version of the compiler libraries SSE was compiled with.
+
+The game crashes whenever I use the bed! Don't tell me this isn't your fault either.
+------------------------------------------------------------------------------------
+
+Surprise! It's not my fault either.
+
+One known cause for this is using a body mod with a mismatched skeleton that's not compatible with it. When the bed is used, your character gets stripped of the prison clothing and your new equipment is added based on what you started as. It is this process that causes the issue when a skeleton mod that doesn't match the body is used. Something to do with bones the body mod is looking for that the skeleton doesn't have. Oddly enough, this tends to only happen on female characters. I have no idea why that is.
+
+If this just confused the shit out of you, you're not alone. I don't use body mods. The only advice I can offer is to contact the authors of the body mod you're using and find out if it's compatible with the skeleton you're using. Trust me, you'll know if you're not using the vanilla skeleton because it requires installing one separately.
+
+Again, since I don't know body mods, it's possible you just need to be sure that if the body mod comes with one that you're using that instead of something else.
+
+If you are also using FNIS, make sure to run GenerateFNISforUsers following whatever process is involved in that. Sorry, I can't be of any help as I don't use FNIS myself.
+
+Another known cause for this issue can be related to some settings in the ENB configuration if you're using ENB. At least one person has confirmed the following:
+
+In enblocal.ini, change:
+
+[GLOBAL]
+UsePatchSpeedhackWithoutGraphics=false
+UseDefferedRendering=true
+
+To:
+
+[GLOBAL]
+UsePatchSpeedhackWithoutGraphics=true
+UseDefferedRendering=false
+
+Since I don't use ENB, I do not know why these would cause problems, but it's a possibility to check. Nexus thread where this was brought up: https://forums.nexusmods.com/index.php?/topic/4611100-alternate-start-ctd-when-activating-bed/
+
+The game crashes when I try to go outside. Admit it, you suck at this!
+----------------------------------------------------------------------
+
+Heh, nope, not me either :P
+
+There are sporadic reports about this issue coming up occasionally. The best information I currently have on this is that it could be due to a certain version of ENB that's installed, or some bad configuration in the ENB on any version. Since this doesn't happen consistently (which I attribute to not everyone using ENB) there's not much else to go on.
+
+If this is happening to you, try running the game without ENB and see what happens. If it works, you have your culprit. You would have run into issues with the game regardless of using LAL or not.
+
+I chose a start and ended up back in the prison cell after using the bed. Why do you suck at this?
+--------------------------------------------------------------------------------------------------
+
+The game engine is what it is. There may be any number of unknown causes for why this happens.
+
+One known cause though is that you chose an outdoor start, and somehow that starting area is outside of what the game thinks the current borders are. You'll need to check your load order to make sure nothing has changed the border regions or worldspace dimensions that shouldn't be doing so. If it's a border regions issue, setting "bBorderRegionsEnabled" to 0 in your ini file may help.
+
+The Live Another Life quest never finishes, it's stuck in my journal.
+---------------------------------------------------------------------
+
+Not exactly. The quest remains active because it's necessary for it to do so. Go speak to an innkeeper to pick up on it. Any properly configured innkeeper will have a rumors topic that should get things started.
+
+My quest will close out when you've spoken to the Jarl in Whiterun about being in Helgen.
+
+General Tullius and Ulfric Stormcloak are missing. You broke my game!
+---------------------------------------------------------------------
+
+You are using an old version of the mod. Upgrade to version 3.1.0 or later and make sure you aren't getting any script errors with the patch script that updates things.
+
+Also make sure you're not trying to upgrade while still in the prison cell as that will not work.
+
+I found your burned up corpse and clicked on it, but nothing happens.
+---------------------------------------------------------------------
+
+This isn't quite the problem it used to be since all you'll be missing out on is the journal, which is a good read, but not critical to anything.
+
+If it simply refuses to work, just skip it and either go to the cave, go to Riverwood, or go to Whiterun.
+
+OK, I did that, then went to the cave, but nothing is there.
+------------------------------------------------------------
+
+The quest marker isn't GPS accurate. You should be able to easily spot two poor hapless souls on the ground, doubled over in pain. That's Hadvar and Ralof. Go talk to one.
+
+If you have already been told about the Jagged Crown, Hadvar and Ralof will no longer be present in the cave as their story lines no longer call for them to be anywhere near Helgen.
+
+No, you don't get it! A whole bunch of pieces in the Helgen cave have gone missing. What have you done!
+-------------------------------------------------------------------------------------------------------
+
+It wasn't me! No, really, chances are this was the fault of TESVSnip.
+
+As of version 2.0 of Live Another Life, causes for this are coming from other mods that have likely also been run through TESVSnip.
+That program has turned out to be dangerous and cause data loss due to improper handling of compressed record data.
+
+If you are having trouble with this problem (commonly referred to as "blue voids") check the readmes of your mods for mention of TESVSnip, sometimes simply referred to as Snip.
+Remove those mods first. Check the cave. You'll likely find the problem has resolved itself.
+
+Only the mod's author can correct these issues, and they'll need to do it by rebuilding their work without using TESVSnip on the files.
+
+(It's 2016+ people, why are you still using mods from 2012?)
+
+Whiterun's map markers are missing! I need those!
+-------------------------------------------------
+
+They're not missing. They're just turned off. When the time comes in either the main quest or the civil war to approach Whiterun, those map markers will be off. Simply walk up to the city gates and let the guard stationed there confront you. Once you gain entry to the city the map markers will be turned back on.
+
+Please DO NOT console your way around them. You will be likely to break something. Efforts have been made to close possible loopholes but intentionally sabotaging them by using the console is not one of those loopholes that can be accounted for. Just don't.
+
+The guard at the Whiterun gate won't walk up to talk to me. What gives?
+-----------------------------------------------------------------------
+
+If the guard does not walk up to you, it's quite possible you've spoken to him recently. Walk over and talk to him and everything should proceed as normal.
+
+Ulfric is naked, you pervert!
+-----------------------------
+
+Well the ladies like him th.... no wait.
+
+This issue has been reported on occasion to occur in conjunction with Immersive Armors.
+Immersive Armors has a toggle switch within its MCM menu that should resolve this problem while using an alternate start mod.
+
+I walked by the farmhouse and the game crashed.
+-----------------------------------------------
+
+Update your game. This is a legacy issue caused by using a version of Skyrim that's too old.
+
+Options Available
+=================
+
+Choose from one of the many options to start your character. As more ideas are fleshed out, this list will grow.
+
+Caught Crossing the Border Illegally
+------------------------------------
+
+For those who wish to use this to play through the original game start at Helgen, this option will streamline the process to skip the race selection dialogue during the lead up to your execution. All of the tutorial prompts will be removed as well.
+
+Escape My Cell
+--------------
+
+You've been left to die, forgotten, in a damp, dark cell. All you really want is a second chance - to escape! Fortunately, Mara has taken pity on you and provided you a means to do just that, if you can manage it.
+
+With this start option, 3 lockpicks will appear in the soul gem holder. Pick the lock on the jail cell door and win your freedom. It's that simple. You will simply begin the game proper as soon as you've climbed up the stairs. Until doing so, you can still go back and ask Mara for another option. After that, you're committed.
+
+Should you fail to pick the lock, you can go back and pick another start option to get out. Sorry, Mara insists we limit this strictly to 3 lockpicks only.
+
+Arrived by Ship
+---------------
+
+You will arrive by ship in the port of Solitude, Dawnstar, Windhelm, or Raven Rock with little more than some basic supplies, middle class clothing, and a decent sum of gold to start over upon your arrival.
+
+Property Owner
+--------------
+
+You will start off with the fully furnished house of your choice in one of 4 major cities. Windhelm is not included due to the quest that interacts directly with the house there. Raven Rock is similarly not included due to the attached quest involved with acquiring that property.
+
+Each house will start you off with appropriate class clothing and some leftover cash to spend. There will also be a selection of weapons fitting to the city available on the storage chest in the bedroom.
+
+Alternatively, you can choose from one of the 3 Hearthfire houses. For these, you will start off with a fully furnished Entry Way, Main Hall, Cellar, and all exterior additions. The only thing which will not be enabled is the bard since the bard specifically mentions your steward you don't have yet. The drafting table outside should be ready to go with whatever additions you want on the house afterward.
+
+If owning property in a city is boring, you don't like Hearthfire houses, or you'd prefer to have access to all of the available hold questing, you can choose instead to own a farmhouse. The farmhouse is situated on the main road just north of Rorikstead and comes complete with a pair of NPCs to act as your farm hands. Your farm will generate a regular income that you can collect from the farm hands. You do need to come home from time to time to collect it though. The farmhouse also supports adoption if Hearthfire Multiple Adoptions is installed.
+
+Member of a Guild
+-----------------
+
+You will be a new recruit in one of the joinable factions in the game. The Companions, College of Winterhold, Dark Brotherhood, Thieves Guild, The Dawnguard, or the Volkihar Vampires (Lord Harkon's Court). Your starting equipment will be geared toward the faction you have chosen.
+
+For the Thieves Guild, you will begin just inside the Ragged Flagon, having just emerged from the Ratway. Talk to Brynjolf to seal the deal.
+For the Dark Brotherhood, you will begin immediately inside the Falkreath Sanctuary and need only speak to Astrid to complete the process.
+For the College, you'll be placed just outside the Hall of Elements and will have completed the initial joining phase.
+For the Companions, you'll begin in Jorvaskr and begin with the mission to train with Varkas.
+For the Dawnguard, you'll start off in Fort Dawnguard ready to pick up the questline just after Bloodlines.
+For the Volkihar, you'll start off in Harkon's castle just after being bitten and becoming a vampire lord.
+
+Patron at an Inn
+----------------
+
+You will be able to choose from one of several inns throughout Skyrim (and Raven Rock too). Some are relatively safe, others not so much. Nightgate Inn in particular is isolated in the mountains and is more dangerous than most others. Do be careful.
+
+Outlaw in the Wilds
+-------------------
+
+You will begin as a member of a group of bandits. For the sake of variety, the group of bandits will be chosen at random, from any properly configured bandit lair in either Tamriel or Solstheim. You will begin with standard bandit level equipment. The bandit faction at the start location will remain friendly to you as long as you don't piss them off first. Tread carefully though, you WILL have a bounty of 1500 gold in the hold the game chooses. The guards will not take kindly to seeing you trotting into a civilized area unless you're prepared to pay up.
+
+Soldier in the Army
+-------------------
+
+You begin as a recruited soldier in either the Stormcloaks or the Imperial Legion. Which one you choose will determine the gear you start with. You will begin at the point immediately after what would be each one's first mission, which is little more than a cannon fodder quest on either side.
+
+Make sure you watch the Jagged Crown scene or things will get messed up!
+
+Camping in the Woods
+--------------------
+
+You are a lone hunter, camping in the woods. This will start you off with decent low level equipment, a campfire, cooking pot, bedroll and tent. The camp will be in the forest/hills near Helgen and will serve as an alternative method for witnessing the dragon attack that will not require you to actually be in the village when it is destroyed. The camp will remain in place permanently should you wish to return and use it as a base.
+
+Shipwrecked off the Coast
+-------------------------
+
+Shipwrecked! You were a passenger aboard a merchant ship on the way to Solitude when the ship struck an iceberg off the coast and then capsized. Make your escape from the doomed vessel, retrieving any useful items on your way out, then make your way to the nearby ice floes. From there, you'll quickly realize it's a LONG way off to shore.
+
+Take care if using survival mods, especially those with hypothermia modules. You can freeze to death quickly!
+
+Attacked and Left for Dead
+--------------------------
+
+You find yourself in a remote area, robbed and left for dead by bandits. They were kind enough to leave what they thought was your corpse dressed in ragged clothes, but nothing more. Can you survive the harsh wilderness and reach safety alive?
+
+The random locations now include a few spots on Solstheim as well.
+
+With proper setup, any location in Tamriel or Solstheim in any mod can be made to work with this. See the extension documentation for details.
+
+Vampire in a Secluded Lair
+--------------------------
+
+The lair has always been home to you, for as long as you can remember. It isn't even clear to you anymore how long you've been a vampire, but you know you still hunger for prey and still have an urge to adventure.
+
+The game will pick a random vampire lair location from anywhere in Tamriel or Solstheim as long as the dungeon is properly configured. This can include locations added by mods as well. You will begin equipped with standard vampire armor and weapons like all of the other vampires in the game.
+
+Be aware you could potentially be dropped into a cell with hostile enemies nearby. Be careful when exiting your lair.
+
+Necromancer in a Hidden Lab
+---------------------------
+
+The laboratory you discovered in Blackreach is running low on supplies. It looks like you'll need to set forth soon to replenish, and perhaps see what's going on in the world these days.
+
+Fair warning - there is a Dwemer Sphere outside the door to the lab. You'll need to plan ahead before leaving.
+
+Vigilant of Stendarr
+--------------------
+
+You have been accepted into the Vigilants of Stendarr and have been granted living access to their headquarters outside of Dawnstar.
+
+The chest next to you when you begin is yours and is a safe storage container.
+
+Warlock's Thrall
+----------------
+
+You snap to your senses, a sudden weight lifted from your mind by a curious ring you found while gutting a fish. You aren't even sure why you put it on, but you did. Then, suddenly, it becomes clear... You've been under the control of a pair of warlocks dabbling in necromancy! Fortunately they are not aware you've broken their hold over you, and now is your chance to escape!
+
+You begin the game in Boulderfall Cave, the home of two warlocks. Aside from some rather mundane robes and boots, you are equipped with a very powerful Ring of Nullification and a cheap iron dagger. You are safe so long as you choose to remain in the cave. Venture outside, and as soon as you've wandered far enough, the warlocks will realize you've broken their hold and become hostile. Time to run if you want to live!
+
+Note: There is no safe storage at this location, so don't leave anything here if you want it later.
+
+Live in an Orc Stronghold
+-------------------------
+
+You'll begin in the orc stronghold of Dushnikh Yal. Though you have lived there for some time, they still call you outlander, and now you once more hunger for adventure.
+
+For some people, this may be considered an unbalanced option since you get decked out in a full set of orcish armor and a nice big orcish battleaxe, but you're still level 1. Death can still find you easily enough.
+
+Khajiit Caravan Guard
+---------------------
+
+You've been with the caravan for a long time now, and finally your group leader has hired a new guard. Time for some adventure, but you'll always be welcome at the camps in Whiterun or Markarth. This option only activates for a Khajiit.
+
+Member of a Forsworn Tribe
+--------------------------
+
+Once the true rulers of The Reach, your tribesmen and kin have since been forced to carve out a life in the rugged mountains, away from more comfortable living. The time has come for you to leave and find adventure on your own. Only available for Bretons.
+
+Note - You get a usable chest in the start location that's safe to keep things in.
+
+Argonian Dock Worker
+--------------------
+
+You've been on these docks for months now, perhaps longer. The locals aren't treating you any better and it's high time you did something about it. A life of adventure and glory is just the change of pace you need.
+
+Note - The first end table inside the door, with the soul gem holder on it, belongs to you and can be used as storage. The container does not respawn.
+
+Redguard Alik'r Warrior
+-----------------------
+
+Disillusioned with life back home in Hammerfell, you joined the Alik'r and set out to Skyrim on a mission. Only things are not what they seem and it looks like time to set out on your own. Nobody back home will know the difference anyway.
+
+Dunmer Refugee (Windhelm)
+-------------------------
+
+Morrowind is still a very hostile place, and you've decided to take your chances in Skyrim instead. Upon arrival though, Windhelm isn't at all what you expected or were hoping for. It looks like it's time to cast aside your expectations of an easy life and become an adventurer.
+
+Note - The bedroll and sack you start standing next to for this are yours. The sack is safe storage.
+
+Dunmer Refugee (Raven Rock)
+---------------------------
+
+The mainland of Morrowind is still a hostile place, and you've had enough. You're taking your chances on Solstheim in Raven Rock. Upon your arrival though, it's not at all what you were hoping. They almost treat you as an outsider. It looks like that easy life isn't there to be had after all. Might be time to take up adventuring instead.
+
+This start will begin in the abandon building on the edge of town and from there, you're on your own.
+
+Note - The bedroll and sack you start standing next to for this are yours. The sack is safe storage.
+
+Starting on Solstheim can be tough since the DLC is intended for higher level characters. Death will visit often if you are not careful!
+
+Altmer Agent of the Thalmor
+---------------------------
+
+You're assigned to the Thalmor Embassy near Solitude. As part of your regular duties, you are tasked with routine investigations of various matters in Skyrim. Though Elenwen has yet to trust you with a field assignment - until now. How fortunate that it should mean finally getting to do some adventuring on the side while you're out.
+
+You begin the game inside the Thalmor Embassy on the upper floor, standing next to a bed. Since the Embassy does not respawn in the vanilla game, all storage should be safe. You will be a member of the Thalmor faction, so you can take what you wish from the building at any time, and can sleep in any of the beds you can find.
+
+Once you have arrived at Helgen, you will be removed from the faction and the Embassy will then be closed to you until the party during the main quest. Thalmor may become hostile toward you at this point due to their assumption that you've abandoned your post. Be aware that membership in the Thalmor faction may also make Stormcloaks hostile toward you, including cities run by them! Unlike the bandit start, you will retain this membership for as long as you avoid going to Helgen.
+
+Erik the Slayer's Childhood Friend
+----------------------------------
+
+Only available for Nords.
+
+You and Erik have lived in Rorikstead all your lives and have been the best of friends since Mralki took you in. Farming isn't a bad life, but ever since Lokir started telling all those stories about a life of adventure, it's all you two have talked about for months. Erik's father has finally given his blessing and the two of you are finally geared up and ready to depart!
+
+You begin the game at the Frostfruit Inn in Rorikstead. Erik's mini-quest is completed and he has been assigned as your follower. You can dismiss him at any time just like normal. Your starting equipment will be the same as his equipment.
+
+Member of the Penitus Oculatus
+------------------------------
+
+Only available for Imperials.
+
+You've been assigned to the Emperor's detail in Dragon Bridge. The commander has finally realized that someone needs to go out and do some field work to prepare for the Emperor's visit to Skyrim. Fortunately, the commander has chosen you for the job. It can't hurt to do some adventuring on the side while you're out doing your duties.
+
+You begin the game at the Penitus Oculatus Outpost in Dragon Bridge. You are equipped with a full uniform, an Imperial sword, and Imperial shield plus incidental gear and loot. As a member of the faction, you will be able to take anything from the outpost if you want, but since this cell respawns, you DO NOT have safe storage. Membership in this faction may cause other factions to react in a hostile manner!
+
+Upon the "Unbound" quest completing, you will be removed from the faction on the assumption that you have failed to fulfill the duties you were assigned to. You will also be expelled should you decide to turn on your fellow Oculatus members and attack them.
+
+Surprise Me
+-----------
+
+Random roll that will pick one of the above. The standard Helgen start will not be included in this. Race specific starts will only apply if the player's race matches.
+
+Credits
+=======
+
+Chesko - For his polygon shape detection script.
+Nikkita - For her awesome work on the voiced lines for the statue of Mara in the starting cell.
+Dwip - The new mesh section for the farmhouse interior.
+
+Licensing and Legal
+===================
+
+Redistribution is strictly forbidden without prior consent. This means do not upload it anywhere unless you have obtained permission from me.
+
+This mod may not be included in mod packs of any sort.
+
+Non-English translation versions may be uploaded without permission on the following conditions:
+
+1. All mod files contained in this archive are retained with their current names.
+2. No alterations are made to the contents of the plugins or master file other than those necessary to translate the English text.
+3. No alterations or additions are made to the meshes and textures other than those necessary to translate English text.
+4. This readme is included, in ENGLISH, exactly as it is written in the version it was downloaded with.
+
+Compatibility Patches may be distributed ONLY under the following conditions:
+
+1. Permission must be obtained from me in advance. There will be no exceptions to this.
+2. The documentation for the patch must mention that I am the creator of this mod.
+3. The documentation for the patch must contain a link back to one of the download sites listed at the top of this readme.
+4. You are solely responsible for any support issues arising from the use of the compatibility patch.
+
+All inquiries regarding this mod must be directed to me. If after 1 year contact cannot be established or you have not received a response, stewardship of this mod will fall to the community at AFK Mods (www.afkmods.com). I can be contacted via PM at AFK Mods under the username Arthmoor. A good faith effort must be made before assuming that contact cannot be established before concluding that I am no longer maintaining this mod.
+
+Requests made on Twitter, Facebook, Reddit, Discord, or any other social media format will not be acknowledged and permission will never be granted via these mediums.
+
+Mod history archives such as Morrowind Mod History are permitted to keep a copy of this mod within their archives for historical purposes provided all authorship and credit information is retained and the contents of the mod are not altered in any way.
+
+This mod is not made, guaranteed, or supported by Microsoft, Zenimax, Bethesda Game Studios, or any of their affiliates.
+
+Revision History
+================
+
+Version 4.2.2 [2024-07-21]
+--------------------------
+
+The .esp and .bsa files have been changed to lowercase filenames. This is to help facilitate universal filename compatibility for Steam Deck and regular linux users whose file systems are case sensitive. Many of them make use of the in-game menu to download mods and Bethesda.net ALWAYS downloads in lowercase. For the benefit of people using linux or the Steam Deck, it would be greatly appreciated if any mods which currently use LAL as a file dependency change the case of that dependency in their master lists. (Bug #34096)
+The Imperial Deserter in Red Water Den has a line referencing you being in Helgen that needs to be properly conditioned.
+Teldryn Sero has a line about dragons that should not play until you've been to Helgen. (Bug #34031)
+
+Version 4.2.1 [2023-12-14]
+--------------------------
+
+Updated USSEP synchronization.
+Fixed a landscape anomaly at the Khajiit Caravan start location.
+
+Version 4.2.0 [2023-06-23]
+--------------------------
+
+When choosing the vanilla start, the player is never placed back into handcuffs. Fix provided by arranz.
+Camera controls are enabled prematurely on the boat ride to Solstheim when choosing to arrive by ship there. Fix provided by arranz.
+
+Version 4.1.9 [2023-05-26]
+--------------------------
+
+Synced with the latest USSEP fixes.
+
+Version 4.1.8 [2023-02-25]
+--------------------------
+
+Moved the call to disable the bed until after the player is moved out of the Abandoned Prison. This will prevent the skeleton and regular bed from momentarily being visible when the fake bed is activated. (Bug #32508)
+When choosing a property start, the ownership achievement is never given to the player as it normally would when purchasing a home the regular way.
+When choosing the Breezehome start, Lydia is not marriable because this is normally set when purchasing Breezehome from the steward instead of being handled normally like all the other housecarls.
+
+Version 4.1.7 [2022-06-21]
+--------------------------
+
+If Savlian Shoal is killed and Geraldine is still alive, she will take over administering the profits for the farmhouse start. If they are BOTH killed though, the profits quest will end as usual. (Bug #29448)
+
+Version 4.1.6 [2021-11-13]
+--------------------------
+
+Synced with the latest USSEP fixes.
+
+Version 4.1.5 [2021-07-04]
+--------------------------
+
+Synced with the latest USSEP fixes.
+
+Version 4.1.4 [2020-12-23]
+--------------------------
+
+An edit to a bush across from the Old Hroldan Inn has been removed. It was a leftover from when the Redguard start was across the road.
+Synced with the latest USSEP fixes.
+After picking your starting choice, a skeleton will now appear on the bed in the prison cell once you've left.
+
+Version 4.1.3 [2020-01-15]
+--------------------------
+
+Lighting at the farmhouse start has been adjusted.
+A script needed to keep bandits from showing up in Helgen before the proper time had been accidentally left out of the archive during the last update.
+
+Version 4.1.2 [2019-08-29]
+--------------------------
+
+Shady Sam's voice setting was not able to deliver merchant lines. (Bug #27176)
+The inn choice for Oakwood was not flagged properly and would show up no matter what. Obviously this doesn't work if Oakwood isn't installed. (Bug #27204)
+The anti-cheat script was still not accounting for having passed the portions of the vanilla MQ that should be disabling it.
+
+Version 4.1.1 [2019-07-22]
+--------------------------
+
+The anti-cheat script was not taking vanilla quest starts into account.
+
+Version 4.1.0 [2019-07-20]
+--------------------------
+
+A light has been added over the bed in the starting cell.
+Added support for my Oakwood inn as a starting position.
+
+Version 4.0.9 [2019-03-14]
+--------------------------
+
+Added support for Shadowfoot Sanctum DLC.
+Added support for my Granite Hill inn as a starting position.
+
+Version 4.0.8 [2018-09-11]
+--------------------------
+
+The storage chest for the Vigilants start will only enable as yours if you've actually picked that start. (Bug #24648)
+The end table used for the Argonian start will only enable as yours if you've actually picked that start. (Bug #24648)
+Belethor should no longer speak of dragons before they have been enabled. (Bug #23513)
+Removed an unnecessary navmesh edit east of Shoal's Rest Farm that was conflicting with Legacy of the Dragonborn.
+
+Version 4.0.7 [2018-07-22]
+--------------------------
+
+The marker object that updates Helgen to be occupied by bandits has been replaced with a dedicated one internal to LAL so that this mod can now be loaded before Open Cities where it should really go. This will eliminate a compatibility problem with region and location data in Whiterun.
+
+Version 4.0.6 [2018-07-07]
+--------------------------
+
+A required script to assist with faction hostility was missing from the archive.
+
+Version 4.0.5 [2018-06-09]
+--------------------------
+
+Support for starting at Tundra Homestead has been added if that DLC is owned.
+Inn start support for Telengard has been added. Don't freeze your ass off! This requires Telengard 1.0.2 or greater to work.
+
+Version 4.0.4 [2018-05-12]
+--------------------------
+
+The scene between Grimvar and Idesa will no longer play upon arriving in Windhelm when playing a Dark Brotherhood start since this should already be completed.
+
+Version 4.0.3 [2017-07-16]
+--------------------------
+
+Fixed an issue with the Thalmor start that was resulting in the embassy triggers not being enabled properly for Diplomatic Immunity.
+The player's chest in Druadach Redoubt was facing the wrong direction. (Bug #22353)
+
+Version 4.0.2a [2017-04-03]
+---------------------------
+
+The version tracking number was not being properly initialized on a new game, triggering false upgrade warnings for saves in the prison cell.
+
+Version 4.0.2 [2017-04-02]
+--------------------------
+
+The guard who handles the confrontation at the Whiterun city gate is now essential so that he doesn't end up accidentally getting killed if the main quest is delayed for a significant period of time. If he is dead already and the controlling quest is still running, he will be resurrected since his role there is critical.
+The gate guard will also now be moved to his position the moment the quest is activated that needs him there since he seems to wander off easily. (Bug #21815)
+
+Version 4.0.1 [2016-11-11]
+--------------------------
+
+Fixed a missed water data edit.
+
+Version 4.0 [2016-10-14]
+------------------------
+
+Conversion to Skyrim Special Edition.
+
+Version 3.1.5a [2016-09-06]
+---------------------------
+
+Oops! Accidentally broke the vanilla start due to a missing safeguard in the script for another quest.
+
+Version 3.1.5 [2016-09-05]
+--------------------------
+
+Leftover NPCs in Helgen Keep were not disposed of properly if you had skipped going into the keep or the cave after seeing Alduin fly away and the LAL quest had stopped. This fix will not run retroactively.
+Hadvar and Ralof should no longer be standing around in the cave if you never rescued one of them. One or both will be disabled if Jagged Crown has not yet progressed to being directed to Korvanjund when you complete the LAL quest.
+The guard at the Whiterun gate was not returning to his post after confronting you due to a USLEEP fix which had not been forwarded. (Bug #21058)
+Dawnguard gargoyles placed in vampire lairs should no longer attack you if you choose a vampire start and end up in a dungeon that has some. (Bug #21133)
+
+Version 3.1.4 [2016-05-02]
+--------------------------
+
+Plugged another loophole that caused entering Dragonsreach to advance the Main Quest before visiting Helgen and before completing Korvanjund. The failsafe there should now only trigger if the player enters Dragonsreach during Message to Whiterun if they have not yet been to Helgen. This will not be tweaked further as this failsafe is in place to prevent breaking the MQ.
+Starting the game in Whiterun should no longer cause the confrontation outside the city gate to fail. Bethesda installed a number of failsafes to stop the guard from intercepting the player and these failsafes were clashing with what LAL intends to do. The vanilla confrontation quest will now be shut down and a cloned version of it run in its place to handle this for any non-vanilla starts.
+
+Version 3.1.3 [2016-04-24]
+--------------------------
+
+One of the child beds was mismarked with a chest keyword instead of a bed keyword so it would not get set properly in aliases for multiple adoptions.
+Added a railing around the stairway to the basement of the farmhouse. Can't have the kids falling in!
+Forwarded fixes from USLEEP 3.0.1 for tavern acoustic spaces and music.
+Plugged another loophole in the Dragonsreach failsafe that should cover getting the Helgen objective but talking to the gate guard to get in without going there.
+Being sent to Solstheim as the result of one of the randomized picks (bandit, vampire, left for dead) was not correctly setting the Solstheim start flag on all possible destinations due to using the wrong function for checking locations.
+Trimmed several properties off and rewrote the parts that used them to run through formlists instead. This should help reduce Papyrus string usage, even if it's just a small amount.
+Retro scripts are now blocked from running on a brand new save as some of the logic in them might cause some problems if they're allowed to do so.
+Hadvar and Ralof should no longer appear inside the Helgen Cave if The Jagged Crown has started, causing a plot continuity error.
+
+Version 3.1.2 [2016-02-02]
+--------------------------
+
+Picking up the rumor about Helgen from the Bannered Mare caused the MQ to get shorted if the player then passed a guard on the way out of the city.
+Confronting the guard at the Whiterun gate, but then going to Helgen without entering the city results in the gate becoming locked again and the map markers disabled. A failsafe check is now in place to prevent this from happening.
+A further failsafe has been added to the trigger in Dragonsreach to enable the map markers on the off chance the player finds a way into the city without confronting the gate guard.
+
+Version 3.1.1 [2016-01-23]
+--------------------------
+
+Imperials can now start the game as a member of the Penitus Oculatus at the outpost in Dragon Bridge.
+Fixed a bug that would cause vanilla starts to be blocked from entering Whiterun because the guard would not confront you and open the gate.
+Fixed a bug in the friendly faction assault system that wasn't recognizing attacks against Thalmor faction members.
+
+Version 3.1.0 [2016-01-14]
+--------------------------
+
+Made it possible to join the Civil War without having to go to Helgen first. Advancement beyond "Message to Whiterun" requires starting the Main Quest.
+The journal found on the burned corpse no longer has specific dates listed. A slightly different version will be provided if the player has been to Korvunjund for Jagged Crown.
+If the player advances Jagged Crown up to the gathering at Korvunjund before going to Helgen, Hadvar and Ralof will no longer appear in the Helgen Keep cave.
+The inn rumor has been modified to simply provide a generic response that directs the player to travel to Helgen. Shady Sam will remain in the game as an Easter Egg, but no longer has any relevant function in the mod. Your quest stage will automatically be adjusted to account for this if you were partway through it.
+Starting as a soldier in the war no longer triggers background events in Helgen.
+Bandit and Vampire starts could fail to move you to a location due to incomplete keyword checks in the conditions for starting the controller quests.
+
+Version 3.0.7 [2015-11-24]
+--------------------------
+
+Updated Frostfall detection for Frostfall 3.0.
+It was possible to approach the Helgen area and enter the cave in the back side of the keep without triggering the Alduin flyover under very specific conditions. This would then result in some quest stages being skipped, which then caused the trigger detection to shut down. Once the trigger detection shut down, Tullius and Ulfric would not be enabled, which then blocked access to the Civil War. If playing a Thalmor start, the Thalmor Embassy would not reset properly for Diplomatic Immunity either, which could then seriously break the main quest.
+
+Version 3.0.6 [2015-11-15]
+--------------------------
+
+Bandit start bounty location properties were never filled which resulted in no bounty ever being applied to the player for the hold the start location was in.
+Starting in the Winking Skeever in Solitude did not properly trigger Roggvir's execution scene upon exiting the inn.
+Starting with a Hearthfire house would cause certain upgrades to become unavailable or trigger dialogue claiming the player had no funds to purchase them. An unused script variable in the Hearthfire DLC was to blame for this.
+Skeletons and Draugr were hostile toward vampires in their start locations and has been corrected.
+
+Version 3.0.5 [2015-10-10]
+--------------------------
+
+Bandit starts can now choose from as many valid bandit camps as there are in the game within Tamriel and Solstheim, with the following exceptions: Mistwatch, Nilheim, Trevas Watch, Ustengrav, Bloodskaal Barrow, Haknir's Shoal, and Hrodulf's House. Locations added by mods will be potential choices as well as long as they are properly configured.
+Vampire starts can now choose from as many valid vampire lairs as there are in the game within Tamriel and Solstheim, with the following exceptions: Potema's Catacombs, and Redwater Den. Locations added by mods will be potential choices as well as long as they are properly configured.
+Left for Dead starts can now choose any location in Tamriel or Solstheim at random as long as the destination marker is tagged with the MQ101HelgenArcher5 location reference type, and the destination marker is in a valid location record. Other mods will thus be able to set up locations for this without the need for any patches.
+Sven and Hilde will no longer be outside their house eternally waiting for the Dragonborn to go to Helgen so their scene will run. They should arrive there as needed when the time comes now.
+
+Version 3.0.4 [2015-08-05]
+--------------------------
+
+WhiterunStablesScene3 fix from USKP 2.1.3 carried over.
+The failsafe trigger box should not be active if the mod was installed into an existing save that is already past chargen.
+The objectives for A Second Chance are not completed properly if the vanilla start is used.
+Added bShowTutorials=0 to the ini file fragment to turn off the remaining tutorial prompts that were not activated by scripts.
+Navmesh blockers should now get properly cleared when starting in a Hearthfire home. Bethesda's testing script was not disabling the one in the main hall.
+Two unknown facegen mesh files have been removed from the archive.
+
+Version 3.0.3 [2015-07-13]
+--------------------------
+
+Forgot to generate the needed linked NPC refs for the plantable herb mounds.
+
+Version 3.0.2 [2015-06-20]
+--------------------------
+
+Dialogue condition checks for Shady Sam in Kynesgrove and Dragon Bridge had somehow been changed to check for Grelod instead, which obviously should not happen.
+Journal entries and dialogue responses when looking for Sam were indicating the wrong days for when he'd be in Kynesgrove or Dragon Bridge.
+Added some plantable herb mounds to Shoal's Rest Farm.
+All starts in Solstheim will now set the boat up so that you can talk to the captain to ride back to Skyrim.
+
+Version 3.0.1 [2015-03-08]
+--------------------------
+
+The scene trigger and castle gate outside Castle Volkihar were overlooked when setting up the Volkihar start. (Bug #18872)
+The sack and bed for the Raven Rock Dunmer start were not owned by the player.
+Serana's AI override was not properly conditioned to keep her from leaving Dimhollow Crypt if neither of the DLC1 starts were chosen.
+
+Version 3.0.0 [2015-02-25]
+--------------------------
+
+NOTE: All Skyrim DLCs are now REQUIRED! Please make sure you meet these requirements before downloading this update!
+
+As of version 3.0.0, this mod now requires all 3 official DLCs to run.
+Irileth's dialogue to tell her Alvor or Gerdur had sent you wasn't available on the vanilla start option. (Bug #18363)
+Maramal and Talen-Jei will no longer be standing in the center of the Bee & Barb waiting for dragons to be enabled before their scene starts.
+Inn Patron starts now include Markarth, Riften, Solitude, Whiterun, and Windhelm.
+The Helgen lockouts have been removed for Helgen Reborn and Morskom Estate. Apparently at some point updates to those mods, or to LAL itself, have rendered them unnecessary. (Bug #18591)
+Property owner starts never sent notification to the Hearthfire adoption system that the player owned a house. So if a new vanilla house had not been purchased yet in a second city, the game would not know there was already one available for adoption purposes. (Bug #18681)
+Mod specific checks will only log Papyrus data until after leaving the prison cell. These checks are only needed for starting the game so don't need to be looked at for every load.
+Property start options were added for Hearthfire. You can now choose one of the 3 houses to start in.
+Three new Left For Dead start positions have been placed on Solstheim. These won't be easy. It's Solstheim after all!
+Raven Rock was added to the list of destinations to arrive by ship. Choosing this will treat you to the boat ride animation you'd see coming from Windhelm.
+It is now possible to join Harkon's Court as a vampire lord.
+Old Hroldan Inn has been added to the inn start list.
+The Redguard start location has been moved north into the hills near Soljund's Sinkhole to avoid compatibility issues with Shezrie's Old Hroldan Town mod.
+
+Version 2.5.5 [2014-12-14]
+--------------------------
+
+Missed a variable check on the bed script for Helgen mods. (Bug #18239)
+
+Version 2.5.4 [2014-11-22]
+--------------------------
+
+Added a small stable for the player's horse at Shoal's Rest Farm if they own one. The horse should stable itself when fast traveling to the farm unless you're riding it.
+The vanilla start option will be blocked if Morskom Estate is installed due to problems with their intro video on the cart ride. (Bug #18132)
+A failsafe trigger has been added to the prison cell to return the player there if another mod somehow pulls you out before you're able to complete a proper startup. (Bug #18133)
+Matlara, Ingrid, and Vilod will now be explicitly disabled by LAL during the Helgen cleanup process because they can sometimes be found in the ruins and should not be there. (Bug #17118)
+
+Version 2.5.3 [2014-10-16]
+--------------------------
+
+The journal entries for the Shady Sam quest obtained in Dragon Bridge or Kynsegrove were giving incorrect text due to the wrong alias being referenced. (Bug #17361)
+Two posts in the Abandoned Prison did not meet the ceiling and have been raised. (Bug #17343)
+
+Version 2.5.2 [2014-09-04]
+--------------------------
+
+First person mode will now be forced when using the vanilla start to avoid critical bugs that happen if that start gets chosen while still in 3rd person. (Bug #17120)
+Added a new mesh to support the Hearthfire add-on for the farmhouse start.
+Added a new ESP that provided support for moving a spouse and up to 6 children into the home if Hearthfire and Hearthfire Multiple Adoptions are installed.
+The trigger used for setting the quest stage when using the cell escape start should have been disabled if any other start was chosen. Otherwise it will cause the player to be transported back to their chosen start location if it's encountered later.
+The chargen quest will now be self contained and will show up in the journal as "A Second Chance". A new stage has been added that will close out the journal with a more appropriate log.
+The trigger in Dragonsreach that sets up the scene with Balgruuf about Helgen was moving him without first checking if he was already in the room, which could result in him floating in a seated position away from the throne.
+
+Version 2.5.1 [2014-08-12]
+--------------------------
+
+Forgot to include an alias for the Whiterun city gate into the restructured quest.
+
+Version 2.5.0 [2014-08-10]
+--------------------------
+
+Overhauled the startup quest to allow for "plugging in" additional start options without the need to directly edit the quest scripts that run the mod.
+Fixed a long standing bug with the random "Surprise Me" option. It should now be a lot more random than before.
+Intro scenes in Sleeping Giant Inn, Windpeak Inn, and The Frozen Hearth will now play properly when these inn starts are chosen.
+The friendly faction trigger in Mara's Eye Pond was not large enough, making it possible for the player to step outside of it and cause the vampires there to turn hostile when they shouldn't.
+It was possible for the guild randomizer to pick the Dawnguard start even if the DLC was not active.
+Starting as a soldier for the Imperials or Stormcloaks was not marking Unbound as completed.
+If the player went directly to Whiterun after seeing Alduin fly over, it was possible for Balgruuf and Irileth to be elsewhere in Dragonsreach when the scene about Helgen starts.
+
+Version 2.4.1 [2014-07-17]
+--------------------------
+
+Added an ini snippet to prevent the character's hands from returning to the bound state when switching races during chargen.
+ARTH_TIF_LALNewStart_020370F7 was attempting to set an invalid quest objective. (Bug #16522)
+The old prison start cell has been removed. If you find yourself suddenly transported to the Sleeping Giant Inn in Riverwood, trust me, I'll know what happened :P
+Synchronized fixes from USKP 2.0.5.
+
+Version 2.4.0 [2014-05-29]
+--------------------------
+
+The starting prison cell location has been relocated to the Abandoned Prison in Eastmarch. Across the road/river from Fort Amol. This has been done to provide access to a new start option.
+The farmhouse start has been relocated to a new plot of land north of Rorikstead. The property name has also been changed from Karnsdale Farmhouse to Shoal's Rest Farm. The interior cell was not affected, so there is no need to worry about losing anything inside.
+All vanilla edits to faction data have been removed. Faction relationships will now be exclusively handled in the DLC support script.
+The starting journal entries have removed mention of going to Helgen, and the initial objective to ask about war rumors has been removed. In order to pursue the startup quest, go to an innkeeper and ask about rumors. One of them will now deal with the operation in Helgen.
+Removed several unused silent voice files that were floating around.
+New start added: Erik the Slayer's childhood friend. Only available to Nords.
+New start added: Escape My Cell.
+New start added: Warlock's Thrall.
+
+Version 2.3.7 [2014-05-02]
+--------------------------
+
+Dunmer can now choose whether to start in Windhelm or in Raven Rock (if Dragonborn is installed).
+The Dunmer start in previous versions failed to properly advance the DLC2Init quest to stage 100. This resulted in numerous quests on Solstheim not being started when they should be. This has now been fixed but cannot be applied retroactively since some quests could have been started through other means. If you wish to make it fix itself anyway, just walk on to the boat in Raven Rock and the trigger there will do this for you.
+The inn patron start option will now offer the chance to start in Raven Rock if Dragonborn is installed. This works for any race.
+Several old scripts that should have been cleaned out ages ago have been removed.
+Shady Sam will now carry his traditional vendor inventory once you have made your way to Helgen.
+Syncronized fixes from USKP 2.0.4.
+
+Version 2.3.6a [2014-03-31]
+---------------------------
+
+The wrong version of the script controlling Whiterun's gate was packaged and has been corrected.
+
+Version 2.3.6 [2014-03-27]
+--------------------------
+
+Reworked the method for setting Tullius and Ulfric aside. They will both be disabled temporarily instead of trying to move them around to confine them. The only exceptions now will be for soldier starts, which don't require going to Helgen, and the campsite start, which triggers the events that would re-enable them both anyway. This should avoid some previously unknown Papyrus timing issues that were getting in the way too.
+Hilde's scene in Riverwood after Alduin has appeared should now play out properly if the player visits Riverwood before advancing Before the Storm (MQ102).
+Start options for Solitude will now be disabled if Giskard's Return to Helgen is installed.
+The second collapse inside Helgen Keep has been removed and any live soldiers that needed to be killed will be. This allows access to the whole keep in order to loot it if desired. The bridge collapse will remain in place though so you will still need to go around to the other side if you want to rescue Hadvar or Ralof.
+A dialogue bug with Irileth if the player told Sven about the dragon attack instead of Alvor or Gerdur was fixed.
+Retro script update messages will only be logged if they should actually run.
+
+Version 2.3.5 [2014-02-21]
+--------------------------
+
+Part of the clutter in Honeyside was not clearing if Hearthfire was installed.
+There were some misaligned wall pieces in the starting prison cell.
+The lights on the bridge approaching the College of Winterhold were never turned on for the College start.
+Due to complications from the quest at Nilheim, the bandit start located here has been moved to Snowpoint Beacon in Winterhold. (Bug #14530)
+Merged necessary fixes to match up with USKP 2.0.1. (Bug #14623)
+A backup method for Ulfric and Tullius to get out of the prison cell after you reach Helgen has been added.
+
+Version 2.3.4 [2013-11-13]
+--------------------------
+
+Vampire starts were not receiving the full status update upon being transformed the first time. (Bug #12351)
+The farmhouse location has been fixed up so that it will be available for radiant quests such as the Companions Animal Extermination quest.
+The farmhouse was incorrectly assigned to Haafingar Hold when it's really in Hjaalmarch.
+
+Version 2.3.3b [2013-10-18]
+---------------------------
+
+Found the root cause of the Alduin flyover failure - a line of code had been accidentally deleted from the modified MQ102 quest fragments. Doh!
+
+Version 2.3.3a [2013-10-08]
+---------------------------
+
+The workaround fix for the campsite start that handles stage 40 of the startup quest needed to be replicated in the general stage 45 handler for approaching Helgen in the other starts.
+Minor synchronization fixes ported over to match up with USKP 2.0.
+
+Version 2.3.3 [2013-09-29]
+--------------------------
+
+The north and east gates to Helgen should be unlockable after MQ101 is done but the two stages that handle this were not being called.
+The clutter at the campsite start was not supposed to get disabled for existing saves that started from this position. (Bug #13370)
+Something broke the campsite start, preventing Alduin's flyover from running. This in turn would cause Ralof and Hadvar to fail to progress once one of them was taken out of the Helgen cave.
+For users of Frostfall, two Snowberry Extract potions will now be available in one of the containers aboard the ship for the shipwreck start.
+
+Version 2.3.2 [2013-07-30]
+--------------------------
+
+The campsite start was not set up to handle returning Ulfric and Tullius back to where they belong after the adjustments in version 2.3.1 were made.
+Facegen data for the farmhouse NPCs needed to be regenerated due to having incorrect paths in the generated mesh files.
+A dead crew member for the shipwreck start that I forgot to place is now in the ship, floating next to his old bed.
+Three more start locations for the Left For Dead option have been added. Skyrim is surprisingly crowded - these are getting hard to find.
+Fixed a missing ownership flag on one of the snowberry bushes at the farmhouse.
+Fixed the weapon racks inside the farmhouse so they'll work with the fixed rack scripts supplied by the USKP 1.3.3 update.
+
+Version 2.3.1 [2013-06-26]
+--------------------------
+
+The script that determines the player as having approached Helgen was not checking the worldspace to be sure they were actually still in Tamriel.
+Ulfric and Tullius will now be moved back to their proper locations when the player sees Alduin since conditions are proper for them to return home at that point.
+The setup script that does the reset for the player default spells will now refer back to the original vanilla function. My duplicated copy has been removed. This will allow mods that have modified the default race spell handling to work as intended if they've modified the vanilla script to do this.
+All vanilla markers used by the script that moves the player out of the prison cell have been replaced with dedicated markers belonging to the mod. This should help prevent situations where the transfer fails and you are dumped back into the cell with Ulfric and Tullius fighting it out.
+
+Version 2.3 [2013-05-03]
+------------------------
+
+A new start option for Dunmer has been added. If Dragonborn is installed, this will start you off in Raven Rock instead of Windhelm.
+A new start option to join the Dawnguard has been added, which begins immediately following the end of Awakening, back in Fort Dawnguard.
+A new start option for Altmer has been added. You will begin at the Thalmor Embassy and be on friendly terms with them until you reach Helgen.
+Unbound (MQ101) was never marked as completed when using a start that required visiting Helgen to initiate the main quest. This would block the startup of any mod checking for the completion flag on MQ101.
+The Mara statue now has voiced lines, thanks to Nikkita. No, really, huge thanks even. Quality voice acting is a rare thing.
+Merged necessary fixes from USKP 1.3.2.
+
+Version 2.2.2 [2013-03-18]
+--------------------------
+
+Merged fixes from Official Patch 1.9.
+Merged fixes needed from USKP 1.3.1.
+
+Version 2.2.1 [2013-03-06]
+--------------------------
+
+The trigger box in Helgen Keep that collapses the first tunnel section should not be active once bandits have taken over the keep, nor should it be playing dragon roar sounds at that point. (Bug #11878)
+The torturer in the keep is never disabled in MQ101 stage 500 like he should be. (Bug #11877)
+Dawnguard vampires should no longer act hostile toward their thralls. (Bug #12115)
+Khajiit starts will now have an active caravan camp to relax in before departing on a life of adventure. (Bug #12222)
+
+Version 2.2 [2013-01-19]
+------------------------
+
+A new version tracking system has been created to better manage patch upgrades for the mod.
+If the Vigilants start is being played, a check for Dawnguard being installed will now be made to transfer the inventory from your chest inside the Hall to a chest outside for when the Dawguard quest progresses to the point where the Hall has been destroyed.
+The second collapsing hallway section added in Helgen Keep will now be disabled once Helgen is taken over by bandits.
+There will no longer be a jarring forced teleport that takes place when the player approaches Helgen. Alduin will instead begin his flight as naturally as possible from just behind the city walls.
+Adjusting for Alduin's new flight path, the burned corpse with the journal is now found inside the remains of Helgen.
+The corpse journal and quest logs have been rewritten to better suit the new configuration, along with the camping start in the woods.
+If you are able to reach South Skybound Watch before having been close enough to Helgen, Alduin will begin his flyover if you climb to the top of the ruined tower there.
+
+Version 2.1.8a - Hotfix [2012-12-20]
+------------------------------------
+
+The alias usage set up in 2.1.8 for innkeepers didn't work and would result in the complete failure of the Live Another Life quest to operate. All aliases would be blank, with the first visible result being the Mara statue not appearing. The failure only occurred with certain mods installed. This has now been redone in a way that doesn't trigger the problem.
+
+Version 2.1.8 [2012-12-18]
+--------------------------
+
+Disabled a dialogue branch where you could tell the Jarl in Whiterun that the Imperials were about to execute you if you did not use the Helgen start.
+A topic where you could ask Viarmo about dragons has been delayed until the MQ starts.
+A topic where you could ask Fihada for arrows to take down a dragon has been delayed until the MQ starts.
+A greeting delivered by Heimvar in Solitude about dragons has been delayed until the MQ starts.
+Dialogue for the Helgen rumors which rely on the innkeepers in Solitude and Windhelm will reference the innkeeper aliases for these towns in case the primaries happen to be dead.
+An objective will now be displayed to inform you when your farmhouse profits are ready to collect if you chose that start.
+If Savlian Shoal is killed, the farmhouse profits can no longer be collected.
+
+Version 2.1.7 [2012-10-12]
+--------------------------
+
+Fixed the error which caused the Helgen cart ride to break yet again. This damn thing is far too sensitive.
+
+Version 2.1.6 [2012-09-25]
+--------------------------
+
+Two scripts were left out of the distribution that are necessary to advance the startup quest.
+An objective marker has been added for Darkwater Crossing. This will only take effect for a new game.
+Fixed a possible loophole that could have contributed to General Tullius not being available for the cart ride to Helgen.
+
+Version 2.1.5 [2012-09-22]
+--------------------------
+
+Refined the Helgen approach script to detect any horse the player may be riding and keep them with the player when transported.
+
+Version 2.1.4 [2012-09-16]
+--------------------------
+
+Choosing the Helgen start will no longer strip the player's inventory which will preserve anything that other mods add at the beginning of the game.
+The farmhouse now has an anvil, tanning rack, and grindstone for simple crafting operations.
+The farmhouse also now has a stable across the road to put your horse if you own one.
+Redid the script trigger that detects approach to Helgen since the trigger box method was not reliable.
+A new start option has been added for Dunmer.
+
+Version 2.1.3 [2012-08-28]
+--------------------------
+
+Set ownership on the exterior barrels and furniture at the farmhouse.
+Added some salt piles to the farmhouse interior so the cooking pot can be used immediately.
+Dialogue scripts for the statue were calling the wrong objective number after the 2.1 update changed them for the startup quest.
+
+Version 2.1.2 [2012-08-18]
+--------------------------
+
+The initial rumors in Helgen dialogue will now display a new objective to go to Solitude or Windhelm if it's asked outside of those two cities.
+Dialogue referencing Shady Sam as wearing hooded leather armor has been updated to reflect his new outfit.
+One of the bandit start options was still pointing to the old marker at Faldar's Tooth, causing bandits to remain permanently friendly to the player. Visit Nilheim to correct this, as this is the location that replaced Faldar's Tooth.
+When choosing the shipwreck or Redguard start, the startup quest will no longer silently advance stages causing the dialogue to be blocked.
+Further general script optimizations.
+When getting close to Hadvar and Ralof in the cave, the objective marker will split to highlight them both instead of remaining focused on the middle of the cave floor.
+
+Version 2.1.1 [2012-07-28]
+--------------------------
+
+Further minor script optimizations to remove more calls to Game.GetPlayer().
+Papyrus wasn't starting the house purchase quest fast enough which caused the house variables to not be set at all for property owner starts.
+All submenus for the initial dialogue to choose a start now have "walk away" support to randomize the choices in those menus. This are also accessible via "Surprise me" options in each one.
+The Left for Dead start now randomizes between 5 different locations. More may be added in a future update when more good locations are found.
+The Helgen approach trigger is now equipped to deal with mounted players properly.
+During the initial character generation, 3rd person mode will be available again after fixing the bed script to force a fade to black before swapping in the player's starting gear.
+Made some fine tuning adjustments to the prison cell lighting to eliminate striping issues that were noticed.
+Shady Sam gets a new outfit.
+
+Version 2.1 [2012-07-12]
+------------------------
+
+Navmeshes have been refinalized with CK 1.6.89 to update their formats for Patch 1.6. Skyrim 1.6.89 is now required for this mod to function.
+All Papyrus scripts have been recompiled to be sure they're in compliance with Patch 1.6's compiled script formats.
+House quest starts have been corrected to set the proper starting variable for the ownership quest. Retroactively fixing this will not be necessary for existing games.
+A new startup quest has been added to make the Helgen run-up easier to manage. This should kick in retroactively for anyone who hasn't been to the corpse yet.
+
+Version 2.0 [2012-06-08]
+------------------------
+
+Complete rebuild of the mod after it was discovered damage had been done by TESVSnip which caused significant data loss to an unknown number of forms.
+
+Optimized scripts used throughout the mod to reduce the number of function calls needed to process the information.
+Added player safe storage to the vampire start. Use the end table next to the starting bedroll area.
+Added a quest objective for the wilderness start to clarify the existence of the burned corpse.
+Modified the journal entry for the wilderness start so it makes more sense with the above objective addition.
+Fixed a bug where ignoring the burned corpse would result in Hadvar and Ralof not being placed in the cave.
+
+Version 1.4.4 [2012-05-21]
+--------------------------
+
+For DB starts, Grelod the Kind was not killed as she should have been.
+The block added to keep people out of the torture room was not properly disabled for Helgen starts.
+Made it possible to warn Riverwood about the dragon if the player ignores Hadvar and Ralof, or doesn't completely follow through on rescuing one of them.
+
+Please note that none of the following changes will matter if you've already begun a game with this installed. These changes only affect newly started characters.
+
+Added a Redguard start for the Alik'r.
+
+Version 1.4.3 [2012-05-16]
+--------------------------
+
+Typo - it should be a "Burned Corpse".
+Fixed a bug in the friendly fire script that allowed the Four Skull Lookout bandit start to be exploited.
+The bandit start location at Faldar's Tooth has been relocated to Nilheim to avoid complications from the interior portion of the hideout. This will change your allegiance to Nilheim if you started at Faldar's Tooth.
+The trigger boxes that control the bandit/vampire friendly faction stuff have been fixed to use the proper actor detection method.
+Removed several abandoned script properties from the Live Another Life quest.
+Blocked off access to the torture room in Helgen for non-vanilla starts.
+
+Please note that none of the following changes will matter if you've already begun a game with this installed. These changes only affect newly started characters.
+
+Moved the 3rd person lockout to the initial stage of the quest so it can't be invoked during script lag following the race menu. (NO, I will NOT remove this feature.)
+Cleaned up vanilla NPC handling in the scripting prior to the scenario start by switching their static properties over to quest aliases. Static properties eat memory long term. Quest aliases purge once the quest is done. My small part to helping keep Skyrim memory use under control.
+
+Version 1.4.2 [2012-04-27]
+--------------------------
+
+A bug in the gift menu handling for Hadvar or Ralof made it possible to break progression into the main quest if the player didn't actually give one of them a potion.
+A quest objective has been added that will display after picking your start option and being moved to the destination.
+
+Please note that none of the following changes will matter if you've already begun a game with this installed. These changes only affect newly started characters.
+
+3rd person camera control will be disabled until after you've picked a start and used the bed to begin.
+The crazed adventurer's tenure as a plot device has been terminated and the actor burned at the stake for his insolence. Find the journal on the burned corpse now instead.
+Helgen cleanup will now leave behind the expected amount of damage and rubble.
+The Headsman in Helgen will no longer be hanging around after he should be dead and gone.
+
+Version 1.4.1 [2012-04-19]
+--------------------------
+
+Changed the farmhouse profits quest to use RegisterForSingleUpdateGameTime() rather than a repeating update to prevent it running updates forever if the mod is uninstalled. (STUPID PAPYRUS!)
+If the player skipped the Helgen cave after reading the journal, the "Live Another Life" quest never closes out. This has now been fixed and will be taken care of upon entering Dragonsreach and speaking to the Jarl.
+Blocked Marmal's scene in Riften about dragons from playing before the MQ has begun, along with several other dialogue options from other NPCs elsewhere.
+Generated facegen texture data for the farmhouse NPCs to eliminate the grey face bug.
+
+Please note that none of the following changes will matter if you've already begun a game with this installed. These changes only affect newly started characters.
+
+Fixed the crazed adventurer not equipping their weapon/shield. They should be slightly more of a threat now.
+Changed the torches carried by the orc in the shipwreck start to use non-shadow versions.
+
+Version 1.4 [2012-03-29]
+------------------------
+
+Moved the bandit start location in Knifepoint Ridge over to Four Skull Lookout, in The Reach. This avoids script timing issues with entering and leaving the mine.
+  (Note that this will change your allegiance to the new location if you started in Knifepoint Ridge)
+Rebuilt the navmeshes at the farmhouse start location.
+The campsite start had no cook pot or axe for the chopping block.
+
+Please note that none of the following changes will matter if you've already begun a game with this installed. These changes only affect newly started characters.
+
+Reworked the main quest hook. You will now be attacked by a hostile crazed adventurer rather than finding one dead on the road due to difficulties in getting them to STAY DEAD!
+Eliminated the camera bobbing and locked arms at startup.
+The civil war start scenes will now play for Jagged Crown instead of the less important comments about Balgruuf, which should trigger as expected later.
+
+Version 1.3 [2012-03-19]
+------------------------
+
+Corrected a deleted reference at the farmhouse location that could lead to game crashes exiting to the main menu.
+Cleaned out numerous dirty edits in various locations. Should help with odd compatibility issues.
+The Khajiit caravan start added the player to the wrong faction, making bandits non-hostile. This is now corrected.
+The farmhouse start should not have access to the bookshelf and weapon racks unless the player actually started that scenario.
+
+Please note that none of the following changes will matter if you've already begun a game with this installed. These changes only affect newly started characters.
+
+Starting "Before the Storm" (MQ102) is now done via a journal found on a dead adventurer on the road outside Helgen, for all but the campsite and civil war starts.
+  + Reading the book will initiate the quest, and will activate Alduin's overflight of the area. So you'll be able to see the dragon now.
+  + Hadvar and Ralof will be found inside the cave you would ordinarily come out of, which is down the dirt path from where the dead adventurer is.
+  + This will allow you to decide who to pick as a friend, or ignore them both and let their fate be decided apart from yours.
+
+Disabled the stray Imperial soldier left behind during the Helgen cleanup stages.
+Cut some stages off of the Helgen cleanup that didn't need to be touched.
+Several minor dialogue entries have new conditions added to block talking about dragons if MQ102 hasn't been triggered yet.
+The campsite start will now provide fur armor rather than leather.
+Starting positions for the two civil war starts have been relocated further from Ulfric and Tullius to avoid crowding them at the beginning of their scenes.
+Added an option to start as an Argonian dock worker in Windhelm.
+
+Version 1.2 [2012-03-03]
+------------------------
+
+Repackaged with a BSA so the mod can exist peacefully on Steam Workshop now that BSA load ordering is fixed in Bethesda's 1.4.27 patch.
+Fixed the issue with exploiting attacks on the bandit/vampire locations those starts sent you to. It was far to easy to kill them one member at a time while the others watched.
+Moved the vampire start to Mara's Eye Pond. Bloodlet Throne interferes with future plans for the Helgen area.
+Moved the College of Winterhold start outside in the courtyard.
+Added an option to start as a Vigilant of Stendarr.
+
+Version 1.1 [2012-02-23]
+------------------------
+
+Tweaks for timing issues on the woodland hunter and Dark Brotherhood starts to try and fix issues with the quest stage sequences that disrupt player animation states.
+Adjusted lighting in the initial prison cell due to a bad radius set on the light reference.
+Fixed a bug in the Thieves Guild start where Brand-Shei would not be in jail where he belongs.
+Fixed a bug where Breezehome still had old junk enabled due to a bad property assignment.
+The bandit start will no longer allow you to kill your fellow bandits with impunity. Be aware that in some cases simply raising your weapon in front of one can get you attacked.
+Modified the prison cell to remove all of the takeable junk. The bed will now explicitly remove only the prison attire instead of everything.
+The two Whiterun start options will now prevent the gate guard from stopping you to block access to the city since you're already inside.
+The bed will no longer start Helgen if no choice has been made yet.
+The Helgen map marker has been removed from the initial map display. It will now be discoverable like all the others.
+Silent audio files on the Mara statue have all been shortened to 2 seconds each.
+Added an option to start as a vampire. This will be a stage 4 disease using Bloodlet Throne as a base.
+Added an option to start as a member of a Khajiit caravan.
+Added an option for hardcore survivalists where you are left for dead in a remote area.
+Added an option to start as a necromancer holed up in Sinderion's laboratory in Blackreach.
+Added an option to start as a member of a Forsworn tribe. Only available to Bretons.
+
+Version 1.0 [2012-02-14]
+------------------------
+
+Initial release.

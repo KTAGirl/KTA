@@ -1,0 +1,30 @@
+Dungeon Compatibility With Live Another Life
+============================================
+
+Enabling Your Dungeon as a Bandit or Vampire Start
+==================================================
+
+Beginning with LAL 3.0.5, the bandit and vampire start options can now choose any qualifying dungeon in the game that is part of either Tamriel (the main Skyrim landmass) or Solstheim. This greatly expands the options from a limited set (3 bandit, 1 vampire) to an effectively unlimited number depending on the number of mods in the game.
+
+This was restricted to Tamriel and Solstheim due to the fact that, so far, all known large landmass mods have some kind of plot based restrictions on when you can access them which makes them unsuitable to pick randomly at the beginning of the game.
+
+In order to allow a dungeon to be used by the selection system, some keyword flags need to be set on the location. The setup process is identical for each type, except for the primary keyword.
+
+A bandit lair needs they keyword LocTypeBanditCamp, while a vampire lair needs LocTypeVampireLair.
+
+The location requires one marker of the type LocationCenterMarker, which will be where the player gets dropped after leaving the prison.
+
+The location also requires one map marker outside marked as MapMarkerRefType.
+
+If the dungeon you are making should not be selectable during startup, but needs to be available to the radiant quest system later on, the easiest method for blocking it would be to have your location stored in an alias on a control quest. Mark the location in that control quest as reserved, and LAL will ignore it. You can then clear that alias in a script when the time is right in your mod. (This approach is generally what should be done for plot-locked locations anyway, to keep vanilla stuff from picking it before it's ready.)
+
+Assuming all goes well, this should provide some addition options for people using LAL alongside your mod, and as an added bonus, allow your dungeon to be selected by other types of radiant quests in the vanilla game as well.
+
+Providing Additional Left For Dead Start Locations
+==================================================
+
+If you are making a mod that you feel has an appropriate location that could be used for a Left For Dead option in LAL, providing access to this should be a simple process.
+
+All you need to do is place an XMarkerHeading object in the appropriate location, mark it with location reference type MQ101HelgenArcher5, and that's it. The same restrictions are in place for these as the other two types. The location must be either part of Tamriel or part of Solstheim. LAL picks a random location in the game that has one of these tagged markers when Left For Dead is selected, which effectively makes this unlimited, although it's best used in remote areas that require effort to reach a populated place.
+
+The MQ101HelgenArcher5 keyword is not used by the vanilla game or any of the DLCs so it should be safe to use in this manner, so long as another mod hasn't used it for their own purposes.

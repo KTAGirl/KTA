@@ -1,0 +1,32 @@
+[
+  {
+    "Mod": "SexLab Aroused",
+    "option": "$SLA_IsNakedOnly",
+    "page": "$SLA_Settings",
+    "toggle": "off"
+  },
+  {
+    "Mod": "SexLab Aroused",
+    "option": "$SLA_ExtendedNPCNaked",
+    "page": "$SLA_Settings",
+    "toggle": "On"
+  },
+  {
+    "Mod": "SexLab Aroused",
+    "option": "$SLA_EnableSOS",
+    "page": "$SLA_Settings",
+    "toggle": "On"
+  },
+  {
+    "Mod": "SexLab Aroused",
+    "option": "$SLA_EnableDesire",
+    "page": "$SLA_Settings",
+    "toggle": "off"
+  },
+  {
+    "Mod": "SexLab Aroused",
+    "option": "$SLA_Effect_NakedMax",
+    "page": "$SLA_EffectSetting",
+    "slider": 90.0
+  }
+]

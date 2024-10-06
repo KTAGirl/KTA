@@ -1,0 +1,38 @@
+[
+  {
+    "Mod": "Slaverun Reloaded",
+    "option": "Player level required to start quest",
+    "page": "Common Settings",
+    "slider": 1.0
+  },
+  {
+    "Mod": "Slaverun Reloaded",
+    "option": "Days to automatically enslave cities",
+    "page": "Slavery Status",
+    "slider": 1.0
+  },
+  {
+    "Mod": "Slaverun Reloaded",
+    "option": "Slot 30 - Helmet",
+    "page": "Enforcer Nudity Law",
+    "toggle": "off"
+  },
+  {
+    "Mod": "Slaverun Reloaded",
+    "option": "Give Devious Devices to Slaves",
+    "page": "Enforcer Nudity Law",
+    "toggle": "off"
+  },
+  {
+    "Mod": "Slaverun Reloaded",
+    "option": "Strip Free Females",
+    "page": "Enforcer Nudity Law",
+    "toggle": "off"
+  },
+  {
+    "Mod": "Slaverun Reloaded",
+    "option": "Males initiate sex when",
+    "page": "Enforcer Sex",
+    "slider": 75.0
+  }
+]

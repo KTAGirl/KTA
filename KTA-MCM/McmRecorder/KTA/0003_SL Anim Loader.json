@@ -1,0 +1,12 @@
+[
+  {
+    "Click": "$SLAL_EnableAll",
+    "Mod": "SL Anim Loader",
+    "page": "$SLAL_GeneralOptions"
+  },
+  {
+    "Click": "$SLAL_RegisterAnimations",
+    "Mod": "SL Anim Loader",
+    "page": "$SLAL_GeneralOptions"
+  }
+]

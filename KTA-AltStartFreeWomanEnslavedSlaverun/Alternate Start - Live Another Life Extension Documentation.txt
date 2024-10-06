@@ -1,0 +1,36 @@
+Creating a Quest Based Addon for Live Another Life
+==================================================
+
+By semi-popular demand, a framework for adding on new start options for Live Another Life has been created. This should allow for much more seamless introduction of extended start options for the player without the obvious problems of conflicts introduced by multiple extensions being written. Not to mention it will no longer lock modders and/or players into needing a certain version of Live Another Life for their favorite extender to continue to work - beyond needing 2.5.0 or greater of course.
+
+In order to create an extension, the following process is needed:
+
+ESMify the Alternate Start - Live Another Life.esp file. You will not be able to do the remainder of this process otherwise. You can use either TES5Edit or Wrye Bash to do this.
+
+Once loaded into the CK, find the ARTHLALChargenQuest entry. Open it up, and go to the "Player Dialogue" tab.
+
+Along the left side of the display you'll find various dialogue branches. You will need to create one to fill in here, with whatever name you want. It will automatically prompt you for a topic to go with it (Alternatively, put your dialogue in your own quest). Make sure none of the branches you create are marked as blocking topics. They need to be "Top Level" in order to work.
+
+Once you have the topic branch created, you can set up the dialogue as you see fit. You can either have just one response for a single option, or you can have several subtopics linked to your branch in order to provide some extra choices. In order to work from the menu, the dialogue must be conditioned to be spoken by the ARTHLALMaraStatueActivator talking activator object.
+
+With the way Live Another Life works, each actual response record needs to be flagged as a "Goodbye". A TopicInfo script must be attached to this with the following code supplied:
+
+ChargenQuest.SetAddonQuestStage(Int, Quest)
+
+"Quest" must be a quest record from your mod.
+"Int" must be an integer quest stage > 0 which is part of your quest.
+"ChargenQuest" is the property for the ARTH_LAL_StartQuest script. If this is not properly set, your extension will not get processed.
+
+When the topic is used, Live Another Life will call your quest stage after the player has used the bed in the prison cell.
+
+In the stage fragment for your quest, add whatever code you see fit. That would be where you'd outfit the player, set up any factions they should belong to, and then move them to whatever destination you have in mind. A journal entry to set the tone for your scenario would need to be placed here as well.
+
+When your quest fragment runs, the last line needs to be:
+
+ARTHLALRumorsOfWarQuest.RegisterForSingleUpdate(0.25)
+
+This needs to be done in order to make sure the data is setup to allow the player to proceed through the quest to get to Helgen. I realize some of you may not want this to happen, but it's necessary for the proper functioning of the mod since it is NOT set up to be a means to kill the Main Quest.
+
+Once all of your work is done, and you've saved (you have been saving, right?) and exited the CK, don't forget to ESPify the Alternate Start - Live Another Life.esp file. Forgetting to do this will lead to undesirable results.
+
+Now go test it! Hopefully it's all working well :)

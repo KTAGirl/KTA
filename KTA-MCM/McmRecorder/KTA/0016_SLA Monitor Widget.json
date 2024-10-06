@@ -1,0 +1,8 @@
+	[
+  {
+    "choose": "$SLAM_CENTER",
+    "Mod": "SLA Monitor Widget",
+    "option": "$SLAM_VERTICALANCHOR",
+    "page": "$SLAM_WIDGETLOOKS"
+  }
+]

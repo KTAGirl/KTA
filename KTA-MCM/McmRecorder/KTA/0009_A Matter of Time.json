@@ -1,0 +1,72 @@
+[
+  {
+    "Click": "$AMOT Horizontal Anchor",
+    "index": 3,
+    "Mod": "A Matter of Time",
+    "page": "$AMOT Page Display"
+  },
+  {
+    "choose": "$AMOT Preset Default",
+    "Mod": "A Matter of Time",
+    "option": "$AMOT Reset",
+    "page": "$AMOT Page Display"
+  },
+  {
+    "Click": "$AMOT Horizontal Anchor",
+    "Mod": "A Matter of Time",
+    "page": "$AMOT Page Display"
+  },
+  {
+    "Click": "$AMOT Horizontal Anchor",
+    "index": 2,
+    "Mod": "A Matter of Time",
+    "page": "$AMOT Page Display"
+  },
+  {
+    "Click": "$AMOT Horizontal Anchor",
+    "index": 3,
+    "Mod": "A Matter of Time",
+    "page": "$AMOT Page Display"
+  },
+  {
+    "index": 3,
+    "Mod": "A Matter of Time",
+    "option": "$AMOT Horizontal Offset",
+    "page": "$AMOT Page Display",
+    "slider": 1.0
+  },
+  {
+    "index": 3,
+    "Mod": "A Matter of Time",
+    "option": "$AMOT Vertical Offset",
+    "page": "$AMOT Page Display",
+    "slider": 174.0
+  },
+  {
+    "Mod": "A Matter of Time",
+    "option": "$AMOT Horizontal Offset",
+    "page": "$AMOT Page Display",
+    "slider": -10.0
+  },
+  {
+    "index": 2,
+    "Mod": "A Matter of Time",
+    "option": "$AMOT Horizontal Offset",
+    "page": "$AMOT Page Display",
+    "slider": -10.0
+  },
+  {
+    "index": 3,
+    "Mod": "A Matter of Time",
+    "option": "$AMOT Vertical Offset",
+    "page": "$AMOT Page Display",
+    "slider": 108.0
+  },
+  {
+    "index": 3,
+    "Mod": "A Matter of Time",
+    "option": "$AMOT Horizontal Offset",
+    "page": "$AMOT Page Display",
+    "slider": -10.0
+  }
+]

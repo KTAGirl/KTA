@@ -1,0 +1,8 @@
+[
+  {
+    "Mod": "SexLab",
+    "option": "$SSL_AllowCreatures",
+    "page": "$SSL_AnimationSettings",
+    "toggle": "On"
+  }
+]

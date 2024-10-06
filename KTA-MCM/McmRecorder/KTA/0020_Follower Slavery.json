@@ -1,0 +1,18 @@
+[
+  {
+    "Click": "Slave Gender",
+    "Mod": "Follower Slavery",
+    "page": "System Settings"
+  },
+  {
+    "Click": "Slave Gender",
+    "Mod": "Follower Slavery",
+    "page": "System Settings"
+  },
+  {
+    "Mod": "Follower Slavery",
+    "option": "npc female",
+    "page": "Owners",
+    "toggle": "off"
+  }
+]
