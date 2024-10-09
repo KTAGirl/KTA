@@ -1,6 +1,7 @@
 ## Major
 - Seduce spell
 - Castration integration to Simple Defeat
+- Book + Note
 
 ## Minor
 - Oppression: sort out Locations [WIP]
