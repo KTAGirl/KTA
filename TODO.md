@@ -13,6 +13,7 @@
 - WJ CDN and listing
 - Discord
 - LL page
+- LL: philosophy
 - LAL patch: compile Slaverun's part (using external compiler?)
 - LAL patch: rm Slaverun's Courier
 - LAL patch: better teleport location
