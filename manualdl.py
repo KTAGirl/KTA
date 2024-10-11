@@ -68,7 +68,7 @@ with open('manualdl.md', 'w') as md:
         for prompt in prompts:
             if len(xprompt) > 0:
                 xprompt = xprompt + '<br>'
-            xprompt = xprompt + '*' + prompt
+            xprompt = xprompt + ':lips:' + prompt
         md.write('|'+str(rowidx)+'|['+manualurl+']('+manualurl+')|'+xprompt+'|\n')
         rowidx = rowidx + 1
     
