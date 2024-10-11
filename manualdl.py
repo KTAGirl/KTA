@@ -54,7 +54,7 @@ with open('manualdl.md', 'w') as md:
                     prompt=prompts[0]
                     assert(prompt.startswith('prompt='))
                     prompt = prompt[len('prompt='):]
-                    print('manualUrl='+manualurl+' prompt='+prompt)
+                    # print('manualUrl='+manualurl+' prompt='+prompt)
                     if manualurl not in todl:
                         todl[manualurl]=[]
                     todl[manualurl].append(prompt)
@@ -71,10 +71,12 @@ with open('manualdl.md', 'w') as md:
     rowidx = 1
     for manualurl in todl:
         prompts = todl[manualurl]
-        print(manualurl+' '+str(prompts))
+        # print(manualurl+' '+str(prompts))
         xprompt = ''
         for prompt in prompts:
-            xprompt = xprompt + '<br>' + prompt
+            if len(xprompt) > 0:
+                xprompt = xprompt + '<br>'
+            xprompt = xprompt + prompt
         md.write('|'+str(rowidx)+'|['+manualurl+']('+manualurl+')|'+xprompt+'|\n')
         rowidx = rowidx + 1
     
