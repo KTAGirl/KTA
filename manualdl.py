@@ -6,6 +6,7 @@ with open('../MO2/profiles/KTA-FULL/modlist.txt') as f0:
 # print(lines)
 
 lines = list(filter(lambda s: s.startswith('+'),lines))
+lines.append('@installationFile=loot_0.24.0-win64.7Z')
 
 # print(lines)
 
@@ -17,14 +18,17 @@ with open('manualdl.md', 'w') as md:
 
     for mod0 in lines:
         mod = mod0[1:]
-        # print(mod)
-        modmetaname = '../MO2/mods/' + mod + '/meta.ini'
-        try:
-            with open(modmetaname) as modmeta:
-                modmetalines = [line.rstrip() for line in modmeta]
-        except:
-            modmetalines = []
-        installfiles = list(filter(lambda s: s.startswith('installationFile='),modmetalines))
+        if(mod0[0]=='@'):
+            installfiles=[mod]
+        else:
+            # print(mod)
+            modmetaname = '../MO2/mods/' + mod + '/meta.ini'
+            try:
+                with open(modmetaname) as modmeta:
+                    modmetalines = [line.rstrip() for line in modmeta]
+            except:
+                modmetalines = []
+            installfiles = list(filter(lambda s: s.startswith('installationFile='),modmetalines))
         assert(len(installfiles)<=1)
         if(len(installfiles)==1):
             installfile = installfiles[0]
