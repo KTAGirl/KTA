@@ -4,12 +4,14 @@
 - Book + Note
 
 ## Minor
-- Oppression: sort out Locations [WIP]
+- Oppression: research better Locations handling (cities are too wide)
 - Oppression: crime per hold
 - Pacifist: proportional to weapon damage
 - Pacifist: +destruction spells
 - List patch (Bash? Something else?)
 - manualdl.py: list OPTIONALs separately
+- manualdl.py: WARNINGs for non-Nexus and non-manualURL .metas
+- manualdl.py: adding more TOOLs
 - WJ CDN and listing
 - Discord
 - LL page
