@@ -13,7 +13,7 @@ with open('manualdl.md', 'w') as md:
     md.write('## Kick Their Asses - Manual Downloads\n')
     md.write('|#| URL | Comment |\n')
     md.write('|-----|-----|-----|\n')
-    rowidx = 1
+    todl = {}
 
     for mod0 in lines:
         mod = mod0[1:]
@@ -54,7 +54,27 @@ with open('manualdl.md', 'w') as md:
                     prompt=prompts[0]
                     assert(prompt.startswith('prompt='))
                     prompt = prompt[len('prompt='):]
-                    # print('manualUrl='+manualurl+' prompt='+prompt)
-                    md.write('|'+str(rowidx)+'|['+manualurl+']('+manualurl+')|'+prompt+'|\n')
-                    rowidx = rowidx + 1
+                    print('manualUrl='+manualurl+' prompt='+prompt)
+                    if manualurl not in todl:
+                        todl[manualurl]=[]
+                    todl[manualurl].append(prompt)
+                    #found=todl.get(manualurl)
+                    #if(found==None):
+                    #    todl[manualurl] = [prompt]
+                    #else:
+                    #    print('FOUND: '+str(found))
+                    #    found.append(prompt)
+                    #    todl[manualurl] = prompts
+                    #    print('POST-FOUND: '+prompts)
+                    #    print('POST-FOUND: '+str(todl[manualurl]))
+
+    rowidx = 1
+    for manualurl in todl:
+        prompts = todl[manualurl]
+        print(manualurl+' '+str(prompts))
+        xprompt = ''
+        for prompt in prompts:
+            xprompt = xprompt + '<br>' + prompt
+        md.write('|'+str(rowidx)+'|['+manualurl+']('+manualurl+')|'+xprompt+'|\n')
+        rowidx = rowidx + 1
     
