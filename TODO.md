@@ -17,6 +17,7 @@
 - LAL patch: compile Slaverun's part (using external compiler?)
 - LAL patch: rm Slaverun's Courier
 - LAL patch: better teleport location
+- Slaverun/MeatFarm fix
 
 ## Future
 - Apropos-like
