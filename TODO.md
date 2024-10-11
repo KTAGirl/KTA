@@ -9,7 +9,7 @@
 - Pacifist: proportional to weapon damage
 - Pacifist: +destruction spells
 - List patch (Bash? Something else?)
-- python to generate DL list for non-Nexus (mostly LL)
+- manualdl.py: list OPTIONALs separately
 - WJ CDN and listing
 - Discord
 - LL page
@@ -17,6 +17,7 @@
 - LAL patch: compile Slaverun's part (using external compiler?)
 - LAL patch: rm Slaverun's Courier
 - LAL patch: better teleport location
+- Slaverun/MeatFarm fix
 
 ## Future
 - Apropos-like
