@@ -8,6 +8,7 @@
 - Oppression: research better Locations handling (cities are too wide)
 - Oppression: better location change reporting
 - Oppression: crime per hold
+- Oppression: self: drop armor/weapon after getting bounty 
 - Pacifist: proportional to weapon damage
 - Pacifist: +destruction spells
 - List patch (Bash? Something else?)
