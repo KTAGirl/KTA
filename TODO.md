@@ -14,6 +14,7 @@
 - manualdl.py: list OPTIONALs separately
 - manualdl.py: WARNINGs for non-Nexus and non-manualURL .metas
 - manualdl.py: adding more TOOLs
+- manualdl.py: sort (to improve stability)
 - WJ CDN and listing
 - Discord
 - LL page
