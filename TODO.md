@@ -9,7 +9,7 @@
 - Pacifist: proportional to weapon damage
 - Pacifist: +destruction spells
 - List patch (Bash? Something else?)
-- python to generate DL list for non-Nexus (mostly LL)
+- manualdl.py: list OPTIONALs separately
 - WJ CDN and listing
 - Discord
 - LL page
