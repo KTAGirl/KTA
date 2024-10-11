@@ -35,7 +35,6 @@ PamaPrisonAlternative.esm
 SGEyebrows.esp
 iWant Widgets.esl
 KTA-firewood1.esl
-MoreColorfulCritters.esp
 Particle Patch for ENB.esp
 Dolomite Weathers.esp
 SkyUI_SE.esp
@@ -194,3 +193,5 @@ MeatFarm.esp
 AnimatedParasites.esp
 Skyrim Flora Overhaul.esp
 BlendedRoads.esp
+SimpleDefeat.esp
+naked_comments_begone.esp

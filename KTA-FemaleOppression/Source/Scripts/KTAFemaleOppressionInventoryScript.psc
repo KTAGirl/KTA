@@ -9,8 +9,14 @@ EndEvent
 
 Event OnUpdate()
        Location l = oppressedFemale.GetCurrentLocation()
-       If l.HasKeyword(LocTypeCity) == False && l.HasKeyword(LocTypeTown) == False && l.HasKeyword(LocTypeHabitation) == False &&  l.HasKeyword(LocTypeDwelling) == False && l.HasKeyword(LocTypeJail) == False
-          Debug.Notification("NOT Oppressed: " + oppressedFemale.GetActorBase().GetName()  )
+       If l == None
+          ; Debug.Notification("NOT Oppressed (NoLoc): " + oppressedFemale.GetActorBase().GetName()  )
+          RegisterForSingleUpdate(2.0) 
+           return
+       EndIf
+       If l.HasKeyword(LocTypeCity) == False && l.HasKeyword(LocTypeTown) == False &&  l.HasKeyword(LocTypeDwelling) == False && l.HasKeyword(LocTypeJail) == False
+          ; Debug.Notification("NOT Oppressed: " + oppressedFemale.GetActorBase().GetName()  )
+          RegisterForSingleUpdate(2.0) 
            return
        EndIf
        Form[] inventory = oppressedFemale.GetContainerForms()

@@ -6,8 +6,26 @@ EndEvent
 
 Event OnUpdate()
        Location l = Game.GetPlayer().GetCurrentLocation()
-       If l.HasKeyword(LocTypeCity) == False && l.HasKeyword(LocTypeTown) == False && l.HasKeyword(LocTypeHabitation) == False &&  l.HasKeyword(LocTypeDwelling) == False && l.HasKeyword(LocTypeJail) == False
+       If l == None
+          Debug.Notification("NOT Oppressed (NoLoc): Player"  )
+          RegisterForSingleUpdate(2.0)
+          return
+       EndIf
+       If l.HasKeyword(LocTypeCity)
+           Debug.Notification("Oppressed: Loc=City"  )
+       EndIf
+       If l.HasKeyword(LocTypeTown)
+           Debug.Notification("Oppressed: Loc=Town"  )
+       EndIf
+       If l.HasKeyword(LocTypeDwelling)
+           Debug.Notification("Oppressed: Loc=Dwelling"  )
+       EndIf
+       If l.HasKeyword(LocTypeJail)
+           Debug.Notification("Oppressed: Loc=Jail"  )
+       EndIf
+       If l.HasKeyword(LocTypeCity) == False && l.HasKeyword(LocTypeTown) == False &&  l.HasKeyword(LocTypeDwelling) == False && l.HasKeyword(LocTypeJail) == False
           Debug.Notification("NOT Oppressed: Player"  )
+          RegisterForSingleUpdate(2.0)
            return
        EndIf
        Form[] inventory = Game.GetPlayer().GetContainerForms()
