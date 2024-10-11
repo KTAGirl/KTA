@@ -1,5 +1,4 @@
 ## Major
-- Disappearing Pacifist & Oppression Effects?
 - Seduce spell
 - Castration integration to Simple Defeat
 - Book + Note
