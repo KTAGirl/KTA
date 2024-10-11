@@ -22,6 +22,7 @@
 - LAL patch: rm Slaverun's Courier
 - LAL patch: better teleport location
 - Slaverun/MeatFarm fix
+- Customize Markers + Hotkey map
 
 ## Future
 - Apropos-like
