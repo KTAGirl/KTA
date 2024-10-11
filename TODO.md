@@ -25,6 +25,5 @@
 
 ## Future
 - Apropos-like
-
-Minor:
 - DYNDOLOD
+- Research SexLab P+
