@@ -62,7 +62,6 @@ zdd.esp
 CustomComments.esp
 SexLabSkoomaWhore.esp
 SexLab UtilityPlus.esp
-ManguzInns-resources.esp
 The Naked DragonSSE.esp
 BrandingDeviceOfDoom.esp
 EFFDialogue.esp

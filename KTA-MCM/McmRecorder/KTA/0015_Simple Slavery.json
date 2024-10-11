@@ -8,5 +8,10 @@
     "Mod": "Simple Slavery",
     "option": "Devious Followers",
     "toggle": "On"
+  },
+  {
+    "Mod": "Simple Slavery",
+    "option": "Meat Farm",
+    "toggle": "On"
   }
 ]

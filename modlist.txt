@@ -39,8 +39,8 @@
 -Synthesis Output
 +xEdit Output
 -TOOLS_separator
-+The Naked Dragon
-+Manguz Inn Resources
+-The Naked Dragon
+-Manguz Inn Resources
 +SexLabs Beastess SE Patched
 +Simple Slavery Plus Plus 6.3.22 [SE]
 +TAP Interiors

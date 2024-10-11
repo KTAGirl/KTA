@@ -1,0 +1,33 @@
+[
+  {
+    "Mod": "Extra Pocket",
+    "option": "Ingots and Ores",
+    "page": "Prohibit Items",
+    "toggle": "On"
+  },
+  {
+    "Mod": "Extra Pocket",
+    "option": "Ingots and Ores",
+    "page": "Prohibit Items",
+    "toggle": "off"
+  },
+  {
+    "Mod": "Extra Pocket",
+    "option": "Ingots and Ores",
+    "page": "Prohibit Items",
+    "toggle": "On"
+  },
+  {
+    "index": 2,
+    "Mod": "Extra Pocket",
+    "option": "Poisons",
+    "page": "Prohibit Items",
+    "toggle": "On"
+  },
+  {
+    "Mod": "Extra Pocket",
+    "option": "Tools",
+    "page": "Prohibit Items",
+    "toggle": "On"
+  }
+]
