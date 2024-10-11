@@ -12,6 +12,7 @@ lines = list(filter(lambda s: s.startswith('+'),lines))
 with open('manualdl.md', 'w') as md:
     md.write('## Kick Their Asses - Manual Downloads\n')
     md.write('|#| URL | Comment |\n')
+    md.write('|-----|-----|-----|\n')
     rowidx = 1
 
     for mod0 in lines:

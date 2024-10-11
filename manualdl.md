@@ -1,5 +1,6 @@
 ## Kick Their Asses - Manual Downloads
 |#| URL | Comment |
+|-----|-----|-----|
 |1|[https://www.loverslab.com/files/file/27958-simple-defeat/](https://www.loverslab.com/files/file/27958-simple-defeat/)|Please download "SimpleDefeat 1.7.2.7z"|
 |2|[https://www.loverslab.com/files/file/6792-animatedparasites-se/](https://www.loverslab.com/files/file/6792-animatedparasites-se/)|Please download "AnimatedParasites_SE_0.1.5.3.3.7z"|
 |3|[https://www.loverslab.com/files/file/19655-meat-farm-reupload/](https://www.loverslab.com/files/file/19655-meat-farm-reupload/)|Please download "MeatFarm_V1.3.1.zip"|
