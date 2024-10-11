@@ -5,6 +5,7 @@
 
 ## Minor
 - Oppression: research better Locations handling (cities are too wide)
+- Oppression: better location change reporting
 - Oppression: crime per hold
 - Pacifist: proportional to weapon damage
 - Pacifist: +destruction spells
