@@ -61,11 +61,12 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 
 ### Install
 1. Install Wabbajack from https://www.wabbajack.org/
-2. Install KTA modlist using Wabbajack
-3. Launch ModOrganizer.exe from the install folder
-4. Launch SKSE
-5. Load KTA save file, OR
-6. Start New Game, AND
+2. Download [the following files](https://github.com/KTAGirl/KTA/blob/main/manualdl.md) manually into WJ downloads folder
+3. Install KTA modlist using Wabbajack
+4. Launch ModOrganizer.exe from the install folder
+5. Launch SKSE
+6. Load KTA save file, OR
+7. Start New Game, AND
    1. Design your character (at minimum, set sex to 1, and choose one of the presets included; recommended skin tone is at least 2)
    2. (You're now in Live Another Life's Dungeon) Wait until all messages are gone, and plus 1 minute. While at it, click 'Ok' to any messages appearing.
    3. Save game.
