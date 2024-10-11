@@ -28,6 +28,7 @@
 +Bodyslide Output
 -GENERATED_separator
 +KTA-LALPatch
++Alternate Start - Live Another Life - SSE
 +KTA-Pacifist
 +KTA-FemaleOppression
 -KTA-AltStartFreeWomanEnslavedSlaverun - Backup 2
@@ -140,6 +141,8 @@
 -Project Rainforest SE - A Tropical Climate and Environment Overhaul
 +Dolomite Weathers - Natural Lighting Vivid Atmospherics II
 +True Storms Special Edition - Thunder Rain and Weather Redone
++Summer Skyrim Overhaul HD
++Summer Skyrim
 -PROJECT RAINFOREST_separator
 +ENB Light
 +Natural Waterfalls
@@ -238,7 +241,6 @@
 +Hunterborn SE MCM
 +Hunterborn
 +Cheeky Mara greeting replacer for Alternate Start
-+Alternate Start - Live Another Life - SSE
 +EFF - Extensible Follower Framework
 -noweha Less Pay for Firewood SE
 +Reasonable Quest Rewards

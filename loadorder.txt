@@ -195,3 +195,5 @@ Skyrim Flora Overhaul.esp
 BlendedRoads.esp
 SimpleDefeat.esp
 naked_comments_begone.esp
+Summer Skyrim.esp
+SummerSkyrim.esp

@@ -1,7 +1,7 @@
 {
     "AdditionalProfiles": [],
     "AlwaysEnabled": [],
-    "Description": "Skyrim is in even deeper trouble than usual. Crazy horny Jarls enslaved most of women and declared them public sex slaves, available to any willing male, and it is you who is sent from modern times to free the Skyrim. However, it is not that easy: coming from frowning-on-violence society, you are Pacifist, unable to deal any damage directly, so you need help from followers. Keep in mind that in Slutrim, as Jarls name it, followers can be only male, and happen to be devious. To make things even worse, usual Skyrim money cheats are gone, so the only realistic way to make your living is by selling your body. Fortunately, being a Dragonwhore, you are well-suited for these challenges. ",
+    "Description": "Skyrim is in even deeper trouble than usual. Crazy horny Jarls enslaved most of women and declared them public sex slaves, available to any willing male, and it is you who is sent from modern times to free the women of Skyrim. However, it is not that easy: coming from frowning-on-violence society, you are Pacifist, unable to deal any damage directly, so you need help from followers. Keep in mind that in Slutrim, as Jarls name it, followers can be only male, and happen to be devious. To make things even worse, usual Skyrim money cheats are gone, so you should resort to using some not so usual skills. ",
     "Downloads": "C:\\Modding\\MO2\\downloads",
     "Game": "SkyrimSpecialEdition",
     "Ignore": [
@@ -48,7 +48,9 @@
         "mods\\KTA-MCM",
         "mods\\KTA-firewood",
         "mods\\KTA-Seduce",
-        "mods\\KTA-AltStartFreeWomanEnslavedSlaverun",
+        "mods\\KTA-LALPatch",
+        "mods\\KTA-FemaleOppression",
+        "mods\\KTA-Pacifist",
         ""
     ],
     "MachineUrl": "",
