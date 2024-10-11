@@ -3,6 +3,7 @@
 - Castration integration to Simple Defeat
 - Book + Note
 - KTA-Lite
+- Make female followers non-devious
 
 ## Minor
 - Oppression: research better Locations handling (cities are too wide)
