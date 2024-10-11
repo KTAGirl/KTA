@@ -58,15 +58,7 @@ with open('manualdl.md', 'w') as md:
                     if manualurl not in todl:
                         todl[manualurl]=[]
                     todl[manualurl].append(prompt)
-                    #found=todl.get(manualurl)
-                    #if(found==None):
-                    #    todl[manualurl] = [prompt]
-                    #else:
-                    #    print('FOUND: '+str(found))
-                    #    found.append(prompt)
-                    #    todl[manualurl] = prompts
-                    #    print('POST-FOUND: '+prompts)
-                    #    print('POST-FOUND: '+str(todl[manualurl]))
+
 
     rowidx = 1
     for manualurl in todl:
@@ -76,7 +68,7 @@ with open('manualdl.md', 'w') as md:
         for prompt in prompts:
             if len(xprompt) > 0:
                 xprompt = xprompt + '<br>'
-            xprompt = xprompt + prompt
+            xprompt = xprompt + '*' + prompt
         md.write('|'+str(rowidx)+'|['+manualurl+']('+manualurl+')|'+xprompt+'|\n')
         rowidx = rowidx + 1
     
