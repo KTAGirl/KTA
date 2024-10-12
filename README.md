@@ -42,7 +42,7 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | Male Support | SOS (too many things relying on SOS, sigh) |
 | Physics | HDT-SMP+CBPC |
 | Animations Engine | Nemesis+FNIS |
-| # of Animations (as reported by Nemesis) | 36000+ (and still seems to work pretty stable, thanks to Nemesis) |
+| # of Animations (as reported by Nemesis) | 36428+ (and still seems to work pretty stable, thanks to Nemesis) |
 | Survival Engine | SunHelm |
 | Sex Engine | SexLab AE 166b+SLAL |
 | Arousal Mod | Arousal NG |
