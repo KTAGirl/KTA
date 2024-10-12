@@ -50,14 +50,14 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | LL Eye Candy | "Porny" series by PyGee333, GlevsSexySkyrim, Diabloesque Decorations, <br> Hydra Slavegirls, Bimbos of Skyrim |
 | DD | Yes, but using them as little as possible |
 | DCL | Never ever (well, you can add it yourself, but it will ruin gameplay balance, <br> and probably a few other things too) | 
-| Prostitution Mod | The Ancient Profession (Probably to be changed to SLSO-driven Radiant) |
-| Defeat Mod | Acheron+Practical Defeat, +SimpleDefeat for Player defeating NPC |
+| Prostitution Mod | None (who needs prostitutes when slaves are available for free)? |
+| Defeat Mod | SimpleDefeat |
 | Prison Mod | Pamatronic's Prison Alternative |
 | Follower Mods | EFF+Devious Followers |
-| MCM Config | Fully automated MCM Recorder replay (25 stages, ~15-20 minutes) |
-| Game Start | Customized Live Another Life | 
-| Main Custom Mods | Pacifist, FemaleOppression, TODO: Seduction Combat Spell | 
-| Development Tools Included | LOOT+FNIS+Nemesis+BodySlide+CK |
+| MCM Config | Fully automated MCM Recorder replay (27 stages, ~15-20 minutes) |
+| Game Start | Patched Live Another Life | 
+| Main Custom Mods | Pacifist, FemaleOppression, Seduction Combat Spell [WIP] | 
+| Development Tools Included | LOOT+FNIS+Nemesis+BodySlide+CK+xEdit |
 
 ### Install
 1. Install Wabbajack from https://www.wabbajack.org/
