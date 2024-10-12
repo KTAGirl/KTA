@@ -1,6 +1,17 @@
 import json
 import shutil
 import re
+import os
+
+def dir_size(start_path):
+    total_size = 0
+    for dirpath, dirnames, filenames in os.walk(start_path):
+        for f in filenames:
+            fp = os.path.join(dirpath, f)
+            # skip if it is symbolic link
+            if not os.path.islink(fp):
+                total_size += os.path.getsize(fp)
+    return total_size
 
 # stats
 stats = dict()
@@ -9,6 +20,8 @@ stats = dict()
 
 with open('../MO2/Kick Their Ass.compiler_settings', 'r') as rfile:
     kta_cs = json.load(rfile)
+    
+stats['VERSION']=kta_cs['Version']
 
 with open('Kick Their Ass.compiler_settings', 'w') as wfile:
     json.dump(kta_cs, wfile, sort_keys=True, indent=4)
@@ -166,9 +179,10 @@ with open('manualdl.md', 'w') as md:
 with open('../KTA/Kick Their Ass.wabbajack.meta.json', 'r') as rfile:
     kta_stats = json.load(rfile)
 stats['WBSIZE'] = f"{kta_stats['Size']/1e9:.1f}G"
-stats['DLSIZE'] = f"{kta_stats['SizeOfArchives']/1e9:.1f}G"
-stats['INSTALLSIZE'] = f"{kta_stats['SizeOfInstalledFiles']/1e9:.1f}G"
-stats['TOTALSPACE'] = f"{(kta_stats['Size']+kta_stats['SizeOfArchives']+kta_stats['SizeOfInstalledFiles'])/1e9:.1f}G"
+stats['DLSIZE'] = f"{kta_stats['SizeOfArchives']/1e9:.0f}G"
+stats['INSTALLSIZE'] = f"{kta_stats['SizeOfInstalledFiles']/1e9:.0f}G"
+stats['TOTALSPACE'] = f"{round((kta_stats['Size']+kta_stats['SizeOfArchives']+kta_stats['SizeOfInstalledFiles'])/1e9+5,-1):.0f}G"
+stats['BODYSLIDESZ'] = f"{dir_size('../MO2/mods/BodySlide Output')/1e9:.1f}G"
 
 # generating README.md
 with open('README-template.md', 'r') as fr:

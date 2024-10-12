@@ -15,18 +15,18 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 ### Current Stats
 | Stats | Value |
 |-----|-----|
-| Current KTA Version | 0.0.12 |
+| Current KTA Version | %VERSION% |
 | Required Skyrim Version | AE (sorry, folks), but paid AE Upgrade is not required |
 | Other Tools Needed | 7z (to re-pack multipart archives) |
 | Requires <ins>**pristine**</ins> Skyrim folder | Yes, as all Wabbajack modlists; if you have AE Upgrade - <br> leaving its files should be fine |
 | Keeps Skyrim folder pristine | Yes, as all Wabbajack modlists |
-| Minimum RAM | 8G (we hope)  |
+| Minimum RAM | 8G (hopefully :smirk:)  |
 | Minimum VRAM <ins>**(hard requirement)**</ins> | 8G (you might be able to get away with 6G - still to be tested) |
 | Minimum Recommended GPU | Desktop: GTX 1080 Mobile: RTX 2070 |
 | Minimum Recommended CPU | i5 or Ryzen 5 |
 | Minimum Recommended Drive Type | SSD (no HDDs, please, except maybe for downloads folder) |
 | Modlist File Size | %WBSIZE% |
-| Including Generated BodySlides | 1.7G |
+| Including Generated BodySlides | %BODYSLIDESZ% |
 | To be downloaded by Wabbajack | %DLSIZE% |
 | Installed File Size | %INSTALLSIZE% |
 | Total Space Needed | %TOTALSPACE% (compare it to 350-500+G for a typical Wabbajack modlist) |
