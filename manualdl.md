@@ -94,5 +94,7 @@
 |91|[https://www.loverslab.com/topic/62724-sexistderogatory-guards-npcs-and-player-comments/page/61/#comment-2283055](https://www.loverslab.com/topic/62724-sexistderogatory-guards-npcs-and-player-comments/page/61/#comment-2283055)|:lips:Please download "SexistGuards v2.91 SSE.zip"|
 |92|[https://www.loverslab.com/topic/94228-se-compatibility-tracking-jul-30/page/173/?tab=comments#comment-2853096](https://www.loverslab.com/topic/94228-se-compatibility-tracking-jul-30/page/173/?tab=comments#comment-2853096)|:lips:Please download "Sex Lab - Sexual Fame Framework SE V0.99.7z"|
 |93|[https://www.nexusmods.com/skyrimspecialedition/mods/164?tab=files](https://www.nexusmods.com/skyrimspecialedition/mods/164?tab=files)|:lips:Please download "SSEEdit 4.1.5f"|
-|94|[https://www.nexusmods.com/skyrimspecialedition/mods/74948?tab=files](https://www.nexusmods.com/skyrimspecialedition/mods/74948?tab=files)|:lips:Please download "PRTXII - Golden Age preset"|
-|95|[https://www.nexusmods.com/skyrimspecialedition/mods/974?tab=files](https://www.nexusmods.com/skyrimspecialedition/mods/974?tab=files)|:lips:Please download "BAE v0.10"|
+|94|[https://www.nexusmods.com/skyrimspecialedition/mods/17230?tab=files](https://www.nexusmods.com/skyrimspecialedition/mods/17230?tab=files)|:lips:Please download "(Part 2) Engine Fixes - skse64 Preloader and TBB Lib"|
+|95|[https://www.nexusmods.com/skyrimspecialedition/mods/4743?tab=files](https://www.nexusmods.com/skyrimspecialedition/mods/4743?tab=files)|:lips:Please download "PRT XII - ENB 12.7"|
+|96|[https://www.nexusmods.com/skyrimspecialedition/mods/74948?tab=files](https://www.nexusmods.com/skyrimspecialedition/mods/74948?tab=files)|:lips:Please download "PRTXII - Golden Age preset"|
+|97|[https://www.nexusmods.com/skyrimspecialedition/mods/974?tab=files](https://www.nexusmods.com/skyrimspecialedition/mods/974?tab=files)|:lips:Please download "BAE v0.10"|
