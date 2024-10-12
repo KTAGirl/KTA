@@ -57,14 +57,15 @@ with open('manualdl.md', 'w') as md:
                     manualurl=manualurls[0]
                     # assert(manualurl.startswith('manualURL='))
                     # manualurl = manualurl[len('manualURL='):]
-                    m = re.search('^manualURL *= *(.*)',manualurl)
-                    manualurl = m.group(0)
+                    m = re.search(r'^manualURL *= *(.*)',manualurl)
+                    manualurl = m.group(1)
+                    # print(manualurl)
                     # prompts = list(filter(lambda s: s.startswith('prompt='),filemetalines))
                     prompts = list(filter(lambda s: re.search('^prompt *=',s),filemetalines))
                     assert(len(prompts)==1)
                     prompt=prompts[0]
                     m = re.search('^prompt *= *(.*)',prompt)
-                    prompt = m.group(0)
+                    prompt = m.group(1)
                     # assert(prompt.startswith('prompt='))
                     # prompt = prompt[len('prompt='):]
                     # print('manualUrl='+manualurl+' prompt='+prompt)
