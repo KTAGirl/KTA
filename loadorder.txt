@@ -14,6 +14,7 @@ Expressive Facegen Morphs.esl
 ApachiiHair.esm
 SexLab.esm
 SexLabAroused.esm
+MoreColorfulCritters.esp
 ZaZAnimationPack.esm
 Schlongs of Skyrim - Core.esm
 Sexy Adventures.esl
@@ -36,14 +37,15 @@ SGEyebrows.esp
 iWant Widgets.esl
 KTA-firewood1.esl
 Particle Patch for ENB.esp
-Dolomite Weathers.esp
 SkyUI_SE.esp
+Dolomite Weathers.esp
 TrueStormsSE.esp
 EnhancedLightsandFX.esp
 SexLab_Solutions.esp
 Book Covers Skyrim.esp
 Project Rainforest.esp
 ELFX - Exteriors.esp
+Summer Skyrim.esp
 The Ancient Profession.esp
 TAP Interiors.esp
 Unique Flowers & Plants.esp
@@ -62,10 +64,11 @@ zdd.esp
 CustomComments.esp
 SexLabSkoomaWhore.esp
 SexLab UtilityPlus.esp
-The Naked DragonSSE.esp
+SummerSkyrim.esp
 BrandingDeviceOfDoom.esp
 EFFDialogue.esp
 DeviousFollowers.esp
+MeatFarm.esp
 PrisonAlternative_Executions_Riften.esp
 PaPunishmentPack1.esp
 SimpleSlavery.esp
@@ -128,7 +131,6 @@ SexLab_Solutions - USSEP Patch.esp
 SLALAnimObjBillyy.esp
 ERF - Futanari CBBE - Equippable.esp
 SOS - ERF - Futanari CBBE - Addon.esp
-TheNakedDragon-SL.esp
 FNIS.esp
 MCMHelper.esp
 DeviousFollowers - Unofficially Patched.esp
@@ -166,13 +168,21 @@ Hunterborn - Soups and Stews.esp
 Beastess_Patch.esp
 Immersive Arousal.esp
 ENB Light.esp
+KTAFemaleOppression.esp
+ExtraPocket.esp
+brcastration.esp
+No NPC Greetings.esp
+No Vendor Yells.esp
+AnimatedParasites.esp
+BlendedRoads.esp
+SimpleDefeat.esp
+naked_comments_begone.esp
 Water for ENB (Tropical Green).esp
 Natural Waterfalls - Water for ENB Patch (Tropical Green).esp
 ELFXEnhancer.esp
 Atlas Map Markers.esp
 A Clear Map of Skyrim.esp
 KTA-Pacifist.esp
-KTAFemaleOppression.esp
 alternate start - live another life.esp
 Blubbo_Trees_Variations_Nexus.esp
 FlowerFields.esp
@@ -184,15 +194,5 @@ Blubbos_Riften_Trees_2022.esp
 Blubbos_Markarth_2022.esp
 Blubbos_Riverwood_2023.esp
 Blubbos_NewWhiterun_2022.esp
-ExtraPocket.esp
-brcastration.esp
-No NPC Greetings.esp
-No Vendor Yells.esp
-MeatFarm.esp
-AnimatedParasites.esp
 Skyrim Flora Overhaul.esp
-BlendedRoads.esp
-SimpleDefeat.esp
-naked_comments_begone.esp
-Summer Skyrim.esp
-SummerSkyrim.esp
+KTA-Seduce.esp
