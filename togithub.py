@@ -162,7 +162,14 @@ with open('manualdl.md', 'w') as md:
         md.write('|'+str(rowidx)+'|['+manualurl+']('+manualurl+')|'+xprompt+'|\n')
         rowidx = rowidx + 1
     
-    
+# reading ../KTA/Kick Their Ass.wabbajack.meta.json
+with open('../KTA/Kick Their Ass.wabbajack.meta.json', 'r') as rfile:
+    kta_stats = json.load(rfile)
+stats['WBSIZE'] = f"{kta_stats['Size']/1e9:.1f}G"
+stats['DLSIZE'] = f"{kta_stats['SizeOfArchives']/1e9:.1f}G"
+stats['INSTALLSIZE'] = f"{kta_stats['SizeOfInstalledFiles']/1e9:.1f}G"
+stats['TOTALSPACE'] = f"{(kta_stats['Size']+kta_stats['SizeOfArchives']+kta_stats['SizeOfInstalledFiles'])/1e9:.1f}G"
+
 # generating README.md
 with open('README-template.md', 'r') as fr:
     readme = fr.read()
