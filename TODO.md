@@ -12,10 +12,8 @@
 - Pacifist: proportional to weapon damage
 - Pacifist: +destruction spells
 - List patch (Bash? Something else?)
-- manualdl.py: list OPTIONALs separately
-- manualdl.py: WARNINGs for non-Nexus and non-manualURL .metas
-- manualdl.py: adding more TOOLs
-- manualdl.py: sort (to improve stability)
+- togithub.py: list OPTIONALs separately
+- togithub.py: more stats
 - WJ CDN and listing
 - Discord
 - LL page
