@@ -6,9 +6,7 @@
 
 ## Minor
 - Seduce: cleanup (rm Seduce1?)
-- Seduce: restrict to isHostile
 - Oppression: research better Locations handling (cities are too wide)
-- Oppression: better location change reporting
 - Oppression: crime per hold
 - Oppression: self: drop armor/weapon after getting bounty 
 - Pacifist: proportional to weapon damage
