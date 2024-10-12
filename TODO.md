@@ -14,7 +14,6 @@
 - List patch (Bash? Something else?)
 - togithub.py: list OPTIONALs separately
 - togithub.py: more stats
-- togithub.py: filter modlist (and maybe loadorder?)
 - WJ CDN and listing
 - Discord
 - LL page
