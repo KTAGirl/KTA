@@ -36,7 +36,6 @@ PamaPrisonAlternative.esm
 SGEyebrows.esp
 iWant Widgets.esl
 Amputator.esm
-EVGAnimatedTraversal.esl
 KTA-firewood1.esl
 Particle Patch for ENB.esp
 SkyUI_SE.esp
@@ -177,6 +176,14 @@ AnimatedParasites.esp
 BlendedRoads.esp
 SimpleDefeat.esp
 naked_comments_begone.esp
+SFO_SkinFeatureOverlays.esp
+GMsHair aXing.esp
+Koralina's Makeup Tweaks.esp
+EvenMoreMakeup.esp
+Improved Eyes Skyrim.esp
+Brows for High Poly Head.esp
+Kyoe BanginBrows - Light - HighPolyHead.esp
+Kyoe BanginBrows.esp
 Water for ENB (Tropical Green).esp
 Natural Waterfalls - Water for ENB Patch (Tropical Green).esp
 ELFXEnhancer.esp
@@ -196,9 +203,4 @@ Blubbos_Markarth_2022.esp
 Blubbos_Riverwood_2023.esp
 Blubbos_NewWhiterun_2022.esp
 Skyrim Flora Overhaul.esp
-Realistic AI Detection 3 - Lite.esp
 Book Of Shadows.esp
-DestructibleDisplayCases.esp
-Dynamic Activation Key.esp
-Take A Peek - New Stealth Mechanic.esp
-SkyClimb.esp
