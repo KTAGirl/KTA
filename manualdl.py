@@ -7,6 +7,7 @@ with open('../MO2/profiles/KTA-FULL/modlist.txt') as f0:
 # print(lines)
 
 lines = list(filter(lambda s: s.startswith('+'),lines))
+activemods = len(lines)
 lines.append('@loot_0.24.0-win64.7Z')
 lines.append('@SSEEdit 4.1.5f-164-4-1-5f-1714283656.7z')
 lines.append('@BAE v0.10-974-0-10.7z')
@@ -99,3 +100,4 @@ with open('manualdl.md', 'w') as md:
         md.write('|'+str(rowidx)+'|['+manualurl+']('+manualurl+')|'+xprompt+'|\n')
         rowidx = rowidx + 1
     
+print('|Active Mods|'+str(activemods)+'|')
