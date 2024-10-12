@@ -133,7 +133,8 @@ with open('manualdl.md', 'w') as md:
             if ns != None:
                 assert(ns == 0 or ns == 1)
                 nsfw_nexus += ns
-            else:  
+            else:
+                print(installfile)
                 url = 'https://www.nexusmods.com/skyrimspecialedition/mods/' + str(modid)
                 print(url)
                 nsfw_or_not += 1
