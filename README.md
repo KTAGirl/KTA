@@ -68,17 +68,18 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 6. Load KTA save file, OR
 7. Start New Game, AND
    1. Design your character (at minimum, set sex to 1, and choose one of the presets included; recommended skin tone is at least 2)
-   2. (You're now in Live Another Life's Dungeon) Wait until all messages are gone, and plus 1 minute. While at it, click 'Ok' to any messages appearing.
-   3. Save game.
-   4. Load game you just saved, wait until the messages are gone (again), and plus another 1 minute.
-   5. ESC->Mod Configuration->MCM Recorder->play KTA->Yes->Ok->Close MCM->Run Recording
-   6. Wait for 15-20 minutes while replay is in progress (yes, it takes this long 😒 ), until you see "KTA has finished playing", press ok.
-   7. Manual post-config (doesn't work from Recorder 😒): ESC->Mod Configuration->SunHelm->Enable, wait until all messages are gone, plus another 1 minute.
-   8. Save game.
-   9. Load game you just saved
-   10. Go to Mara's statue, and follow the only available options, then go to a bed to the right, sleep.
-   11. (the following part will be replaced with improving KTA custom start for Live Another Life) You'll find yourself in Bannnered Mare.
-   12. Run all the way outside of the Whiterun gates, save (just in case)
+      + Don't forget to load Sculpt     
+   3. (You're now in Live Another Life's Dungeon) Wait until all messages are gone, and plus 1 minute. While at it, click 'Ok' to any messages appearing.
+   4. Save game.
+   5. Load game you just saved, wait until the messages are gone (again), and plus another 1 minute.
+   6. ESC->Mod Configuration->MCM Recorder->play KTA->Yes->Ok->Close MCM->Run Recording
+   7. Wait for 15-20 minutes while replay is in progress (yes, it takes this long 😒 ), until you see "KTA has finished playing", press ok.
+   8. Manual post-config (doesn't work from Recorder 😒): ESC->Mod Configuration->SunHelm->Enable, wait until all messages are gone, plus another 1 minute.
+   9. Save game.
+   10. Load game you just saved
+   11. Go to Mara's statue, and follow the only available options, then go to a bed to the right, sleep.
+   12. (the following part will be replaced with improving KTA custom start for Live Another Life) You'll find yourself in Bannnered Mare.
+   13. Run all the way outside of the Whiterun gates, save (just in case)
       - On the way, you're likely to be greeted by Courier. Take whatever it gives you, and you can safely ignore it. 
    14. Approach Bellamy, you will be force-greeted. When having a choice, choose "Of course, Sir, I don't want any trouble".
    15. Wait until you're told that you can recover your posessions
