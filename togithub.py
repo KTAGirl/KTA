@@ -2,6 +2,9 @@ import json
 import shutil
 import re
 
+# stats
+stats = dict()
+
 # copy files 
 
 with open('../MO2/Kick Their Ass.compiler_settings', 'r') as rfile:
@@ -28,7 +31,7 @@ with open('../MO2/profiles/KTA-FULL/modlist.txt') as f0:
 # print(lines)
 
 lines = list(filter(lambda s: s.startswith('+'),lines))
-activemods = len(lines)
+stats['ACTIVEMODS'] = len(lines)
 lines.append('@loot_0.24.0-win64.7Z')
 lines.append('@SSEEdit 4.1.5f-164-4-1-5f-1714283656.7z')
 lines.append('@BAE v0.10-974-0-10.7z')
@@ -121,6 +124,16 @@ with open('manualdl.md', 'w') as md:
         md.write('|'+str(rowidx)+'|['+manualurl+']('+manualurl+')|'+xprompt+'|\n')
         rowidx = rowidx + 1
     
-print('|Active Mods|'+str(activemods)+'|')
+    
+# generating README.md
+with open('README-template.md', 'r') as fr:
+    readme = fr.read()
+for key in stats:
+    key1 = '%'+key+'%'
+    readme = readme.replace(key1,str(stats[key]))
+with open('README.md', 'w') as fw:
+    fw.write(readme)
+    
+# print('|Active Mods|'+str(activemods)+'|')
 
 wait = input("Press Enter to continue.")
