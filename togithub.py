@@ -38,6 +38,12 @@ lines.append('@BAE v0.10-974-0-10.7z')
 
 # print(lines)
 
+nsfw_nexus=0
+nsfw_ll=0
+nsfw_or_not=0
+with open('nsfw-nexus.json', 'r') as rfile:
+    nsfw_nexus_dict = json.load(rfile)
+
 with open('manualdl.md', 'w') as md:
     md.write('## Kick Their Asses - Manual Downloads\n')
     md.write('|#| URL | Comment |\n')
@@ -56,12 +62,16 @@ with open('manualdl.md', 'w') as md:
                     modmetalines = [line.rstrip() for line in modmeta]
             except:
                 modmetalines = []
-            installfiles = list(filter(lambda s: s.startswith('installationFile='),modmetalines))
+            # installfiles = list(filter(lambda s: s.startswith('installationFile='),modmetalines))
+            installfiles = list(filter(lambda s: re.search('^installationFile *= *',s),modmetalines))
         assert(len(installfiles)<=1)
+        manualurl = ''
         if(len(installfiles)==1):
             installfile = installfiles[0]
-            assert(installfile.startswith('installationFile='))
-            installfile = installfile[len('installationFile='):]
+            # assert(installfile.startswith('installationFile='))
+            # installfile = installfile[len('installationFile='):]
+            m = re.search('^installationFile *= *(.*)',installfile)
+            installfile = m.group(1)
             if(installfile.startswith('C:/Modding/MO2/downloads/')):
                 installfile = installfile[len('C:/Modding/MO2/downloads/'):]
             #if(installfile.startswith('../MO2/downloads/')):
@@ -109,7 +119,32 @@ with open('manualdl.md', 'w') as md:
                         #if not url.startswith('url="https://cf-files.nexusmods.com/'):
                         if not re.search('^url *= *"https://cf-files.nexusmods.com/',url):
                             print('WARNING: non-Nexus url '+url[len('url='):]+'in '+filemetaname)
+        
+        modids = list(filter(lambda s: re.search('^modid *= *',s),modmetalines))
+        assert(len(modids)<=1)
+        modid = 0
+        if(len(modids)==1):
+            m = re.search('^modid *= *(.*)',modids[0])
+            if m:
+                modid = m.group(1)
+        if str(modid) != '0':
+            # print(modid)
+            ns = nsfw_nexus_dict.get(modid)
+            if ns != None:
+                assert(ns == 0 or ns == 1)
+                nsfw_nexus += ns
+            else:  
+                url = 'https://www.nexusmods.com/skyrimspecialedition/mods/' + str(modid)
+                print(url)
+                nsfw_or_not += 1
+        else:
+            if manualurl != '':
+                if re.search('loverslab',manualurl):
+                    nsfw_ll += 1
 
+    if nsfw_or_not:
+        print('WARNING: NSFW_OR_NOT=' + str(nsfw_or_not))
+    stats['NSFWMODS'] = nsfw_nexus + nsfw_ll
 
     rowidx = 1
     sorted_todl = dict(sorted(todl.items()))
