@@ -27,7 +27,14 @@ with open('Kick Their Ass.compiler_settings', 'w') as wfile:
     json.dump(kta_cs, wfile, sort_keys=True, indent=4)
 
 shutil.copyfile("../MO2/profiles/KTA-FULL/loadorder.txt","loadorder.txt")
-shutil.copyfile("../MO2/profiles/KTA-FULL/modlist.txt","modlist.txt")
+#shutil.copyfile("../MO2/profiles/KTA-FULL/modlist.txt","modlist.txt")
+with open('../MO2/profiles/KTA-FULL/modlist.txt','r') as rfile:
+    lines = [line.rstrip() for line in rfile]
+# print(lines)
+lines = list(filter(lambda s: s.endswith('_separator') or not s.startswith('-'),lines))
+with open('modlist.txt','w') as wfile:
+    for line in lines:
+        wfile.write(line+'\n')
 
 shutil.copytree('../MO2/mods/KTA-MCM', 'KTA-MCM', dirs_exist_ok=True)
 shutil.copytree('../MO2/mods/KTA-firewood', 'KTA-firewood', dirs_exist_ok=True)
@@ -37,12 +44,7 @@ shutil.copytree('../MO2/mods/KTA-Seduce', 'KTA-Seduce', dirs_exist_ok=True)
 shutil.copytree('../MO2/mods/KTA-LALPatch', 'KTA-LALPatch', dirs_exist_ok=True)
 
 # process KTA-FULL profile
-
-with open('../MO2/profiles/KTA-FULL/modlist.txt') as f0:
-    lines = [line.rstrip() for line in f0]
     
-# print(lines)
-
 lines = list(filter(lambda s: s.startswith('+'),lines))
 stats['ACTIVEMODS'] = len(lines)
 lines.append('@loot_0.24.0-win64.7Z')
