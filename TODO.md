@@ -1,11 +1,12 @@
 ## Major
-- Seduce spell
 - Castration integration to Simple Defeat
 - Book + Note
 - KTA-Lite
 - Make female followers non-devious
 
 ## Minor
+- Seduce: cleanup (rm Seduce1?)
+- Seduce: restrict to isHostile
 - Oppression: research better Locations handling (cities are too wide)
 - Oppression: better location change reporting
 - Oppression: crime per hold
