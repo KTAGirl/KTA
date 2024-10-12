@@ -1,33 +1,48 @@
 Scriptname KTAFemaleSelfOppressionScript extends activemagiceffect  
 
+string lastmsg = ""
+
 Event OnEffectStart(Actor akTarget, Actor akCaster)
 	RegisterForSingleUpdate(2.0)
 EndEvent
 
 Event OnUpdate()
        Location l = Game.GetPlayer().GetCurrentLocation()
+       string msg = ""
        If l == None
-          Debug.Notification("NOT Oppressed (NoLoc): Player"  )
+          msg = "NOT Oppressed (NoLoc): Player"
+          If msg != lastmsg
+              Debug.Notification(msg)
+              lastmsg = msg
+          Endif
           RegisterForSingleUpdate(2.0)
           return
        EndIf
        If l.HasKeyword(LocTypeCity)
-           Debug.Notification("Oppressed: Loc=City"  )
+           msg = "Oppressed: Loc=City" 
        EndIf
        If l.HasKeyword(LocTypeTown)
-           Debug.Notification("Oppressed: Loc=Town"  )
+           msg = "Oppressed: Loc=Town" 
        EndIf
        If l.HasKeyword(LocTypeDwelling)
-           Debug.Notification("Oppressed: Loc=Dwelling"  )
+           msg = "Oppressed: Loc=Dwelling"
        EndIf
        If l.HasKeyword(LocTypeJail)
-           Debug.Notification("Oppressed: Loc=Jail"  )
+           msg = "Oppressed: Loc=Jail" 
        EndIf
        If l.HasKeyword(LocTypeCity) == False && l.HasKeyword(LocTypeTown) == False &&  l.HasKeyword(LocTypeDwelling) == False && l.HasKeyword(LocTypeJail) == False
-          Debug.Notification("NOT Oppressed: Player"  )
+          msg = "NOT Oppressed: Player"
+          If msg != lastmsg
+              Debug.Notification(msg)
+              lastmsg = msg
+          Endif 
           RegisterForSingleUpdate(2.0)
            return
        EndIf
+       If msg != lastmsg
+           Debug.Notification(msg)
+           lastmsg = msg
+       Endif
        Form[] inventory = Game.GetPlayer().GetContainerForms()
        Int i = inventory.Length
        int bounty = 0
