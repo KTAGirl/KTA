@@ -183,6 +183,7 @@ ELFXEnhancer.esp
 Atlas Map Markers.esp
 A Clear Map of Skyrim.esp
 KTA-Pacifist.esp
+KTA-Seduce.esp
 alternate start - live another life.esp
 Blubbo_Trees_Variations_Nexus.esp
 FlowerFields.esp
@@ -195,4 +196,3 @@ Blubbos_Markarth_2022.esp
 Blubbos_Riverwood_2023.esp
 Blubbos_NewWhiterun_2022.esp
 Skyrim Flora Overhaul.esp
-KTA-Seduce.esp
