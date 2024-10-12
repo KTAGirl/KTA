@@ -35,6 +35,7 @@ PamaFurnitureScr.esp
 PamaPrisonAlternative.esm
 SGEyebrows.esp
 iWant Widgets.esl
+Amputator.esm
 KTA-firewood1.esl
 Particle Patch for ENB.esp
 SkyUI_SE.esp
@@ -46,8 +47,6 @@ Book Covers Skyrim.esp
 Project Rainforest.esp
 ELFX - Exteriors.esp
 Summer Skyrim.esp
-The Ancient Profession.esp
-TAP Interiors.esp
 Unique Flowers & Plants.esp
 hydra_slavegirls.esp
 MoreNastyCritters.esp
