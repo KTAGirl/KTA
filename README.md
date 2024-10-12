@@ -15,7 +15,7 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 ### Current Stats
 | Stats | Value |
 |-----|-----|
-| Current KTA Version | 0.0.12 |
+| Current KTA Version | 0.0.14 |
 | Required Skyrim Version | AE (sorry, folks), but paid AE Upgrade is not required |
 | Other Tools Needed | 7z (to re-pack multipart archives) |
 | Requires <ins>**pristine**</ins> Skyrim folder | Yes, as all Wabbajack modlists; if you have AE Upgrade - <br> leaving its files should be fine |
@@ -28,7 +28,7 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | Modlist File Size | 2.5G |
 | Including Generated BodySlides | 1.8G |
 | To be downloaded by Wabbajack | 19G |
-| Installed File Size | 49G |
+| Installed File Size | 51G |
 | Total Space Needed | 80G (compare it to 350-500+G for a typical Wabbajack modlist) |
 | Active Mods | 290 |
 | Including NSFW Mods (Nexus+LL) | 124 (18+106) |
