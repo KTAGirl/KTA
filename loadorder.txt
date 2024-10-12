@@ -204,3 +204,5 @@ Blubbos_Riverwood_2023.esp
 Blubbos_NewWhiterun_2022.esp
 Skyrim Flora Overhaul.esp
 Book Of Shadows.esp
+DeviousFollowers - Cutting Room Floor - Patch.esp
+DF SLACS Patch.esp

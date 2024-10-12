@@ -2,6 +2,7 @@ import json
 import shutil
 import re
 import os
+import glob
 
 def dir_size(start_path):
     total_size = 0
@@ -56,6 +57,8 @@ lines.append('@BAE v0.10-974-0-10.7z')
 nsfw_nexus=0
 nsfw_ll=0
 nsfw_or_not=0
+esxs=0
+nsfw_esxs=0
 with open('nsfw-nexus.json', 'r') as rfile:
     nsfw_nexus_dict = json.load(rfile)
 
@@ -70,6 +73,10 @@ with open('manualdl.md', 'w') as md:
         if(mod0[0]=='@'):
             installfiles=['installationFile='+mod]
         else:
+            local_esxs = len(glob.glob('../MO2/mods/' + mod + '/*.esl'))
+            local_esxs += len(glob.glob('../MO2/mods/' + mod + '/*.esp'))
+            local_esxs += len(glob.glob('../MO2/mods/' + mod + '/*.esm'))
+            esxs += local_esxs
             # print(mod)
             modmetaname = '../MO2/mods/' + mod + '/meta.ini'
             try:
@@ -148,6 +155,7 @@ with open('manualdl.md', 'w') as md:
             if ns != None:
                 assert(ns == 0 or ns == 1)
                 nsfw_nexus += ns
+                nsfw_esxs += local_esxs * ns
             else:
                 print(installfile)
                 url = 'https://www.nexusmods.com/skyrimspecialedition/mods/' + str(modid)
@@ -157,6 +165,7 @@ with open('manualdl.md', 'w') as md:
             if manualurl != '':
                 if re.search('loverslab',manualurl):
                     nsfw_ll += 1
+                    nsfw_esxs += local_esxs
 
     if nsfw_or_not:
         print('WARNING: NSFW_OR_NOT=' + str(nsfw_or_not))
@@ -185,6 +194,8 @@ stats['DLSIZE'] = f"{kta_stats['SizeOfArchives']/1e9:.0f}G"
 stats['INSTALLSIZE'] = f"{kta_stats['SizeOfInstalledFiles']/1e9:.0f}G"
 stats['TOTALSPACE'] = f"{round((kta_stats['Size']+kta_stats['SizeOfArchives']+kta_stats['SizeOfInstalledFiles'])/1e9+5,-1):.0f}G"
 stats['BODYSLIDESZ'] = f"{dir_size('../MO2/mods/BodySlide Output')/1e9:.1f}G"
+stats['ESXS'] = str(esxs)
+stats['NSFWESXS'] = str(nsfw_esxs)
 
 # generating README.md
 with open('README-template.md', 'r') as fr:

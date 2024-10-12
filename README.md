@@ -32,8 +32,8 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | Total Space Needed | 80G (compare it to 350-500+G for a typical Wabbajack modlist) |
 | Active Mods | 290 |
 | Including NSFW Mods (Nexus+LL) | 124 (18+106) |
-| Active Mod Plugins | 175 |
-| Including NSFW Plugins | ~85 |
+| Active Mod Plugins | 208 |
+| Including NSFW Plugins | 104 |
 | OPTIONAL NSFW Mods / Plugins <br> (to be downloaded and installed later) | 12/3 (it is only eye and ear candy, and downloading extra 28 files from LL <br> is not fun, especially when you're eager to start playing :blush: )|
 | Largest Mod | DD, 2.9G | 
 | Environment Overhaul Mod | [Project Rainforest](https://www.nexusmods.com/skyrimspecialedition/mods/20636) (as public nudity is common, at least it should be <br> in tropics) | 
