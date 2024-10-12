@@ -145,6 +145,8 @@ with open('manualdl.md', 'w') as md:
     if nsfw_or_not:
         print('WARNING: NSFW_OR_NOT=' + str(nsfw_or_not))
     stats['NSFWMODS'] = nsfw_nexus + nsfw_ll
+    stats['NSFWMODSLL'] = nsfw_ll
+    stats['NSFWMODSNEXUS'] = nsfw_nexus
 
     rowidx = 1
     sorted_todl = dict(sorted(todl.items()))

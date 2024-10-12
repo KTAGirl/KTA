@@ -31,7 +31,7 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | Installed File Size | ~48G |
 | Total Space Needed | ~70G (compare it to 350-500+G for a typical Wabbajack modlist) |
 | Active Mods | 290 |
-| Including NSFW Mods | 112 |
+| Including NSFW Mods (Nexus+LL) | 112 (11+101) |
 | Active Mod Plugins | 175 |
 | Including NSFW Plugins | ~85 |
 | OPTIONAL NSFW Mods / Plugins <br> (to be downloaded and installed later) | 12/3 (it is only eye and ear candy, and downloading extra 28 files from LL <br> is not fun, especially when you're eager to start playing :blush: )|
