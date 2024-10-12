@@ -57,7 +57,7 @@ with open('manualdl.md', 'w') as md:
                     manualurl=manualurls[0]
                     # assert(manualurl.startswith('manualURL='))
                     # manualurl = manualurl[len('manualURL='):]
-                    m = re.search(r'^manualURL *= *(.*)',manualurl)
+                    m = re.search('^manualURL *= *(.*)',manualurl)
                     manualurl = m.group(1)
                     # print(manualurl)
                     # prompts = list(filter(lambda s: s.startswith('prompt='),filemetalines))
@@ -74,19 +74,22 @@ with open('manualdl.md', 'w') as md:
                     todl[manualurl].append(prompt)
                 else:
                     assert(len(manualurls)==0)
-                    urls=list(filter(lambda s: s.startswith('url='),filemetalines))
+                    # urls=list(filter(lambda s: s.startswith('url='),filemetalines))
+                    urls = list(filter(lambda s: re.search('^url *=',s),filemetalines))
                     if len(urls) == 0:
                         print('WARNING: neither manualURL nor url in '+filemetaname)
                     else:
                         assert(len(urls)==1)
                         url = urls[0]
-                        if not url.startswith('url="https://cf-files.nexusmods.com/'):
+                        #if not url.startswith('url="https://cf-files.nexusmods.com/'):
+                        if not re.search('^url *= *"https://cf-files.nexusmods.com/',url):
                             print('WARNING: non-Nexus url '+url[len('url='):]+'in '+filemetaname)
 
 
     rowidx = 1
-    for manualurl in todl:
-        prompts = todl[manualurl]
+    sorted_todl = dict(sorted(todl.items()))
+    for manualurl in sorted_todl:
+        prompts = sorted_todl[manualurl]
         # print(manualurl+' '+str(prompts))
         xprompt = ''
         for prompt in prompts:
