@@ -36,6 +36,7 @@ PamaPrisonAlternative.esm
 SGEyebrows.esp
 iWant Widgets.esl
 Amputator.esm
+EVGAnimatedTraversal.esl
 KTA-firewood1.esl
 Particle Patch for ENB.esp
 SkyUI_SE.esp
@@ -195,3 +196,9 @@ Blubbos_Markarth_2022.esp
 Blubbos_Riverwood_2023.esp
 Blubbos_NewWhiterun_2022.esp
 Skyrim Flora Overhaul.esp
+Realistic AI Detection 3 - Lite.esp
+Book Of Shadows.esp
+DestructibleDisplayCases.esp
+Dynamic Activation Key.esp
+Take A Peek - New Stealth Mechanic.esp
+SkyClimb.esp

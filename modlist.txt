@@ -237,6 +237,18 @@
 +SMP-NPC crash fix - ORIG
 +Faster HDT-SMP - ORIG
 -BODY_separator
++SkyClimb DD&Toy Patch
++SkyClimb 1.1.1 (Testing)
++EVG Animated Traversal
++Animation Motion Revolution
++Take a Peek - New Stealth Mechanic
++Dynamic Activation Key
++Security Overhaul SKSE - Add-ons
++Security Overhaul SKSE - Lock Variations
++Destructible Display Cases
++Book Of Shadows - Behaviour Based Stealth Additions
++Realistic AI Detection (RAID)
+-GAMEPLAY - THIEVERY_separator
 +Naked Comments Begone
 +No Vendor Yells
 +No NPC Greetings (Special Edition)

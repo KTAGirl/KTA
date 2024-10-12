@@ -72,13 +72,14 @@
 |69|[https://www.loverslab.com/files/file/30996-sunstarved-tanlines-racemenu-overlays-for-slavetats/](https://www.loverslab.com/files/file/30996-sunstarved-tanlines-racemenu-overlays-for-slavetats/)|:lips:Please download "Sunstarved Slavetats (LL version).7z"|
 |70|[https://www.loverslab.com/files/file/11344-sos-addon-futanari-cbbe-sse/](https://www.loverslab.com/files/file/11344-sos-addon-futanari-cbbe-sse/)|:lips:Please download "SOS - Futanari CBBE SSE V1.1b.7z"|
 |71|[https://www.loverslab.com/files/file/23433-schlongs-of-skyrim-ae-no-dll-version/](https://www.loverslab.com/files/file/23433-schlongs-of-skyrim-ae-no-dll-version/)|:lips:Please download "Schlongs_of_Skyrim_AE - v1.1.4.zip"|
-|72|[https://www.loverslab.com/files/file/31709-animatedships-porny-sails-replacer/](https://www.loverslab.com/files/file/31709-animatedships-porny-sails-replacer/)|:lips:Please download "AnimatedShips  Porny Sails.rar"|
-|73|[https://www.loverslab.com/files/file/32052-porny-book-covers/](https://www.loverslab.com/files/file/32052-porny-book-covers/)|:lips:Please download "Porny Book Covers 0.9.rar"|
-|74|[https://www.loverslab.com/files/file/29396-porny-skill-tree/](https://www.loverslab.com/files/file/29396-porny-skill-tree/)|:lips:Please download "Porny Skill Tree.rar"|
-|75|[https://www.loverslab.com/files/file/27751-porny-spellbooks/](https://www.loverslab.com/files/file/27751-porny-spellbooks/)|:lips:Please download "Porny Spell Tomes Animated 2k (kanjs replacer).rar"|
-|76|[https://www.loverslab.com/files/file/2266-glevs-sexy-skyrim/](https://www.loverslab.com/files/file/2266-glevs-sexy-skyrim/)|:lips:Please download "GlevSexySkyrim_2016-2-4.7z"|
-|77|[https://www.loverslab.com/files/file/27736-porny-signs/](https://www.loverslab.com/files/file/27736-porny-signs/)|:lips:Please download "Porny Mead bottle logos.rar"<br>:lips:Please download "Porny Signs - redone v1.0.rar"|
-|78|[https://www.loverslab.com/files/file/29744-porny-banners/](https://www.loverslab.com/files/file/29744-porny-banners/)|:lips:Please download "Porny Banners.rar"|
-|79|[https://www.loverslab.com/files/file/31547-porny-loadscreens/](https://www.loverslab.com/files/file/31547-porny-loadscreens/)|:lips:Please download "pornyloadScreens 101.rar"|
-|80|[https://skse.silverlock.org/](https://skse.silverlock.org/)|:lips:Please download "Current Anniversary Edition build 2.2.6 (game version 1.6.1170)"|
-|81|[https://github.com/loot/loot/releases/tag/0.24.0](https://github.com/loot/loot/releases/tag/0.24.0)|:lips:Please download "loot_0.24.0-win64.7z"|
+|72|[https://www.loverslab.com/files/file/30623-skyclimb-ddtoy-patch/](https://www.loverslab.com/files/file/30623-skyclimb-ddtoy-patch/)|:lips:Please download "SkyClimb DD&Toy Patch.7z"|
+|73|[https://www.loverslab.com/files/file/31709-animatedships-porny-sails-replacer/](https://www.loverslab.com/files/file/31709-animatedships-porny-sails-replacer/)|:lips:Please download "AnimatedShips  Porny Sails.rar"|
+|74|[https://www.loverslab.com/files/file/32052-porny-book-covers/](https://www.loverslab.com/files/file/32052-porny-book-covers/)|:lips:Please download "Porny Book Covers 0.9.rar"|
+|75|[https://www.loverslab.com/files/file/29396-porny-skill-tree/](https://www.loverslab.com/files/file/29396-porny-skill-tree/)|:lips:Please download "Porny Skill Tree.rar"|
+|76|[https://www.loverslab.com/files/file/27751-porny-spellbooks/](https://www.loverslab.com/files/file/27751-porny-spellbooks/)|:lips:Please download "Porny Spell Tomes Animated 2k (kanjs replacer).rar"|
+|77|[https://www.loverslab.com/files/file/2266-glevs-sexy-skyrim/](https://www.loverslab.com/files/file/2266-glevs-sexy-skyrim/)|:lips:Please download "GlevSexySkyrim_2016-2-4.7z"|
+|78|[https://www.loverslab.com/files/file/27736-porny-signs/](https://www.loverslab.com/files/file/27736-porny-signs/)|:lips:Please download "Porny Mead bottle logos.rar"<br>:lips:Please download "Porny Signs - redone v1.0.rar"|
+|79|[https://www.loverslab.com/files/file/29744-porny-banners/](https://www.loverslab.com/files/file/29744-porny-banners/)|:lips:Please download "Porny Banners.rar"|
+|80|[https://www.loverslab.com/files/file/31547-porny-loadscreens/](https://www.loverslab.com/files/file/31547-porny-loadscreens/)|:lips:Please download "pornyloadScreens 101.rar"|
+|81|[https://skse.silverlock.org/](https://skse.silverlock.org/)|:lips:Please download "Current Anniversary Edition build 2.2.6 (game version 1.6.1170)"|
+|82|[https://github.com/loot/loot/releases/tag/0.24.0](https://github.com/loot/loot/releases/tag/0.24.0)|:lips:Please download "loot_0.24.0-win64.7z"|
