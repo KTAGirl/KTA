@@ -13,7 +13,6 @@
 - Pacifist: +destruction spells
 - List patch (Bash? Something else?)
 - togithub.py: list OPTIONALs separately
-- togithub.py: more stats
 - WJ CDN and listing
 - Discord
 - LL page
