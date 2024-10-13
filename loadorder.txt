@@ -36,6 +36,7 @@ PamaPrisonAlternative.esm
 SGEyebrows.esp
 iWant Widgets.esl
 Amputator.esm
+EVGAnimatedTraversal.esl
 KTA-firewood1.esl
 Particle Patch for ENB.esp
 SkyUI_SE.esp
@@ -66,6 +67,7 @@ SexLab UtilityPlus.esp
 SummerSkyrim.esp
 BrandingDeviceOfDoom.esp
 EFFDialogue.esp
+ImprovedTalosSE.esp
 DeviousFollowers.esp
 MeatFarm.esp
 PrisonAlternative_Executions_Riften.esp
@@ -132,6 +134,7 @@ ERF - Futanari CBBE - Equippable.esp
 SOS - ERF - Futanari CBBE - Addon.esp
 FNIS.esp
 MCMHelper.esp
+Asmodeus_PornStars_Pack2_Replacer.esp
 DeviousFollowers - Unofficially Patched.esp
 DevFollowersVoiceMore.esp
 TrueDirectionalMovement.esp
@@ -184,6 +187,18 @@ Improved Eyes Skyrim.esp
 Brows for High Poly Head.esp
 Kyoe BanginBrows - Light - HighPolyHead.esp
 Kyoe BanginBrows.esp
+Book Of Shadows.esp
+Koralina's Eyebrows.esp
+ImprovedShalidorSE.esp
+New Vaermina Statue.esp
+[namida1126]Yvonne Assets.esp
+DestructibleDisplayCases.esp
+Dynamic Weather And Time Based Detection.esp
+Realistic AI Detection 3 - Lite.esp
+Better Stealth AI for Followers.esp
+Dynamic Activation Key.esp
+Take A Peek - New Stealth Mechanic.esp
+suspiciouscityguards.esp
 Water for ENB (Tropical Green).esp
 Natural Waterfalls - Water for ENB Patch (Tropical Green).esp
 ELFXEnhancer.esp
@@ -203,6 +218,3 @@ Blubbos_Markarth_2022.esp
 Blubbos_Riverwood_2023.esp
 Blubbos_NewWhiterun_2022.esp
 Skyrim Flora Overhaul.esp
-Book Of Shadows.esp
-Koralina's Eyebrows.esp
-Asmodeus_PornStars_Pack2_Replacer.esp
