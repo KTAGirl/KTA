@@ -218,3 +218,4 @@ Blubbos_Markarth_2022.esp
 Blubbos_Riverwood_2023.esp
 Blubbos_NewWhiterun_2022.esp
 Skyrim Flora Overhaul.esp
+KTA-DF-Patch.esp

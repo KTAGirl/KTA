@@ -43,6 +43,7 @@ shutil.copytree('../MO2/mods/KTA-Pacifist', 'KTA-Pacifist', dirs_exist_ok=True)
 shutil.copytree('../MO2/mods/KTA-FemaleOppression', 'KTA-FemaleOppression', dirs_exist_ok=True)
 shutil.copytree('../MO2/mods/KTA-Seduce', 'KTA-Seduce', dirs_exist_ok=True)
 shutil.copytree('../MO2/mods/KTA-LALPatch', 'KTA-LALPatch', dirs_exist_ok=True)
+shutil.copytree('../MO2/mods/KTA-DF-Patch', 'KTA-DF-Patch', dirs_exist_ok=True)
 
 # process KTA-FULL profile
     
