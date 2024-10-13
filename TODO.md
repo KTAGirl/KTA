@@ -2,13 +2,16 @@
 - Castration integration to Simple Defeat
 - Book + Note
 - KTA-Lite
-- Make female followers non-devious
+- external compiler
 
 ## Minor
+- DF-patch: mark other female followers as non-devious
 - Seduce: cleanup (rm Seduce1?)
-- Oppression: research better Locations handling (cities are too wide)
+- Oppression: expand new location detection to other walled cities
 - Oppression: crime per hold
-- Oppression: self: drop armor/weapon after getting bounty 
+- Oppression: fix equipitem after changing outfit (next OnUpdate())
+- Oppression: when printing, print also name of Actor
+- Oppression: dropObject instead of removeItem for followers 
 - Pacifist: proportional to weapon damage
 - Pacifist: +destruction spells
 - List patch (Bash? Something else?)
@@ -21,6 +24,7 @@
 - LAL patch: rm Slaverun's Courier
 - LAL patch: better teleport location
 - Slaverun/MeatFarm fix
+- find out why Alt Life Quest is not completed (or it is?)
 - Customize Markers + Hotkey map
 
 ## Future
