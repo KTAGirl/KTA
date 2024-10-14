@@ -26,6 +26,7 @@
 - find out why Alt Life Quest is not completed (or it is?)
 - Customize Markers + Hotkey map
 - KTA-Lite Wabbajack? (to reduce DL times)?
+- Make real patch for LAL
 
 ## Future
 - Apropos-like
