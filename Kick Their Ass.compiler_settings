@@ -1,7 +1,9 @@
 {
-    "AdditionalProfiles": [],
+    "AdditionalProfiles": [
+        "KTA-Lite"
+    ],
     "AlwaysEnabled": [],
-    "Description": "Skyrim is in even deeper trouble than usual. Crazy horny Jarls enslaved most of women and declared them public sex slaves, available to any willing male, and it is you who is sent from modern times to free the women of Skyrim. However, it is not that easy: coming from frowning-on-violence society, you are Pacifist, unable to deal any damage directly, so you need help from followers. Keep in mind that in Slutrim, as Jarls name it, followers can be only male, and happen to be devious. To make things even worse, usual Skyrim money cheats are gone, so you should resort to using some not so usual skills. ",
+    "Description": "Skyrim is in even deeper trouble than usual. Crazy horny Jarls enslaved most of women and declared them public sex slaves, available to any willing male, and it is you who is sent from modern times to free the women of Skyrim (now known as Slaverim, or as males put it, Slutrim). However, it is not that easy: coming from frowning-on-violence society, you are Pacifist, unable to deal any damage directly, so you cannot just slash your way through as you're used to. To make things even worse, usual Skyrim money cheats are gone, so you should resort to using some not so usual skills. ",
     "Downloads": "C:\\Modding\\MO2\\downloads",
     "Game": "SkyrimSpecialEdition",
     "Ignore": [
@@ -71,5 +73,5 @@
     "Source": "C:\\Modding\\MO2",
     "UseGamePaths": true,
     "UseTextureRecompression": false,
-    "Version": "0.0.14"
+    "Version": "0.0.15"
 }

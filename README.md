@@ -15,7 +15,7 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 ### Current Stats
 | Stats | Value |
 |-----|-----|
-| Current KTA Version | 0.0.14 |
+| Current KTA Version | 0.0.15 |
 | Required Skyrim Version | AE (sorry, folks), but paid AE Upgrade is not required |
 | Other Tools Needed | 7z (to re-pack multipart archives) |
 | Requires <ins>**pristine**</ins> Skyrim folder | Yes, as all Wabbajack modlists; if you have AE Upgrade - <br> leaving its files should be fine |
@@ -27,14 +27,14 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | Minimum Recommended Drive Type | SSD (no HDDs, please, except maybe for downloads folder) |
 | Modlist File Size | 2.5G |
 | Including Generated BodySlides | 1.8G |
-| To be downloaded by Wabbajack | 19G |
-| Installed File Size | 51G |
+| To be downloaded by Wabbajack | 21G |
+| Installed File Size | 53G |
 | Total Space Needed | 80G (compare it to 350-500+G for a typical Wabbajack modlist) |
 | Active Mods | 320 |
 | Including NSFW Mods (Nexus+LL+KTA) | 145 (30+107+8) |
 | Active Mod Plugins | 232 |
 | Including NSFW Plugins | 122 |
-| OPTIONAL Mods / Plugins <br> (removed from KTA-Lite profile) | 23/12 (it is only eye and ear candy, increasing GPU requirements and DL times a lot )|
+| OPTIONAL Mods / Plugins <br> (disabled in KTA-Lite profile) | 23/12 (it is only eye and ear candy, increasing GPU requirements and DL times a lot )|
 | Largest Mod | DD, 2.9G | 
 | Environment Overhaul Mod | [Project Rainforest](https://www.nexusmods.com/skyrimspecialedition/mods/20636) (as public nudity is common, at least it should be <br> in tropics) | 
 | ENB | [PRT XII](https://www.nexusmods.com/skyrimspecialedition/mods/4743/?tab=files) |

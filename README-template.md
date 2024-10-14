@@ -34,7 +34,7 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | Including NSFW Mods (Nexus+LL+KTA) | %NSFWMODS% (%NSFWMODSNEXUS%+%NSFWMODSLL%+%NSFWMODSKTA%) |
 | Active Mod Plugins | %ESXS% |
 | Including NSFW Plugins | %NSFWESXS% |
-| OPTIONAL Mods / Plugins <br> (removed from KTA-Lite profile) | %OPTIONALMODS%/%OPTIONALESXS% (it is only eye and ear candy, increasing GPU requirements and DL times a lot )|
+| OPTIONAL Mods / Plugins <br> (disabled in KTA-Lite profile) | %OPTIONALMODS%/%OPTIONALESXS% (it is only eye and ear candy, increasing GPU requirements and DL times a lot )|
 | Largest Mod | DD, 2.9G | 
 | Environment Overhaul Mod | [Project Rainforest](https://www.nexusmods.com/skyrimspecialedition/mods/20636) (as public nudity is common, at least it should be <br> in tropics) | 
 | ENB | [PRT XII](https://www.nexusmods.com/skyrimspecialedition/mods/4743/?tab=files) |
