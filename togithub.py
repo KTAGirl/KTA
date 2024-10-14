@@ -113,6 +113,7 @@ section = ''
 optionalmods=0
 optionalesxs=0
 optionalesxs_dict={}
+optionalmods_dict={}
 for mod in modlist:
     if(mod.endswith('_separator')):
         section = mod[:len(mod)-len('_separator')]
@@ -122,6 +123,7 @@ for mod in modlist:
             mod = mod[1:]
             optionalmods += 1
             # print('OPTIONAL:'+mod)
+            optionalmods_dict[mod] = 1
             esxs=all_esxs(mod)
             for esx in esxs:
                 optionalesxs += 1
@@ -148,6 +150,27 @@ for key in optionalesxs_dict:
     assert(esx!=None)
     if not is_esl_flagged(esx):
        print('WARNING: OPTIONAL '+esx+' is not esl-flagged')    
+       
+# generate KTA-Lite
+shutil.copytree('../MO2/profiles/KTA-FULL', '../MO2/profiles/KTA-Lite', dirs_exist_ok=True)
+
+# print(modlist)
+modlist.reverse() # back to original
+with open('../MO2/profiles/KTA-Lite/modlist.txt','w') as wfile:
+    for mod0 in modlist:
+        if mod0[0]=='+':
+            mod = mod0[1:]
+            if optionalmods_dict.get(mod) or mod == 'KTA-eslify-optionals':
+                wfile.write('-'+mod+'\n')
+            else:
+                wfile.write(mod0+'\n')
+        else:
+            wfile.write(mod0+'\n')
+
+# with open('../MO2/profiles/KTA-FULL/loadorder','r') as rfile:
+#    loadorder = [line.rstrip() for line in rfile]
+
+# generate manualdl.md
 
 modlist = list(filter(lambda s: s.startswith('+'),modlist))
 stats['ACTIVEMODS'] = len(modlist)
