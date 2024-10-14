@@ -167,8 +167,7 @@ with open('../MO2/profiles/KTA-Lite/modlist.txt','w') as wfile:
         else:
             wfile.write(mod0+'\n')
 
-# with open('../MO2/profiles/KTA-FULL/loadorder','r') as rfile:
-#    loadorder = [line.rstrip() for line in rfile]
+# 
 
 # generate manualdl.md
 
@@ -209,20 +208,15 @@ with open('manualdl.md', 'w') as md:
                     modmetalines = [line.rstrip() for line in modmeta]
             except:
                 modmetalines = []
-            # installfiles = list(filter(lambda s: s.startswith('installationFile='),modmetalines))
             installfiles = list(filter(lambda s: re.search('^installationFile *= *',s),modmetalines))
         assert(len(installfiles)<=1)
         manualurl = ''
         if(len(installfiles)==1):
             installfile = installfiles[0]
-            # assert(installfile.startswith('installationFile='))
-            # installfile = installfile[len('installationFile='):]
             m = re.search('^installationFile *= *(.*)',installfile)
             installfile = m.group(1)
             if(installfile.startswith('C:/Modding/MO2/downloads/')):
                 installfile = installfile[len('C:/Modding/MO2/downloads/'):]
-            #if(installfile.startswith('../MO2/downloads/')):
-            #    installfile = installfile[len('../MO2/downloads/'):]
             # print('mod:'+mod+' if='+installfile)
             if(installfile!=''):
                 filemetaname = '../MO2/downloads/' + installfile + '.meta'
@@ -231,39 +225,29 @@ with open('manualdl.md', 'w') as md:
                         filemetalines = [line.rstrip() for line in filemeta]
                 except:
                         print('WARNING: file '+filemetaname+' NOT FOUND')
-                # print(filemetalines)
-                # manualurls = list(filter(lambda s: s.startswith('manualURL='),filemetalines))
                 manualurls = list(filter(lambda s: re.search('^manualURL *=',s),filemetalines))
                 assert(len(manualurls)<=1)
                 if(len(manualurls)==1):
                     manualurl=manualurls[0]
-                    # assert(manualurl.startswith('manualURL='))
-                    # manualurl = manualurl[len('manualURL='):]
                     m = re.search('^manualURL *= *(.*)',manualurl)
                     manualurl = m.group(1)
                     # print(manualurl)
-                    # prompts = list(filter(lambda s: s.startswith('prompt='),filemetalines))
                     prompts = list(filter(lambda s: re.search('^prompt *=',s),filemetalines))
                     assert(len(prompts)==1)
                     prompt=prompts[0]
                     m = re.search('^prompt *= *(.*)',prompt)
                     prompt = m.group(1)
-                    # assert(prompt.startswith('prompt='))
-                    # prompt = prompt[len('prompt='):]
-                    # print('manualUrl='+manualurl+' prompt='+prompt)
                     if manualurl not in todl:
                         todl[manualurl]=[]
                     todl[manualurl].append(prompt)
                 else:
                     assert(len(manualurls)==0)
-                    # urls=list(filter(lambda s: s.startswith('url='),filemetalines))
                     urls = list(filter(lambda s: re.search('^url *=',s),filemetalines))
                     if len(urls) == 0:
                         print('WARNING: neither manualURL nor url in '+filemetaname)
                     else:
                         assert(len(urls)==1)
                         url = urls[0]
-                        #if not url.startswith('url="https://cf-files.nexusmods.com/'):
                         if not re.search('^url *= *"https://cf-files.nexusmods.com/',url):
                             print('WARNING: non-Nexus url '+url[len('url='):]+'in '+filemetaname)
         
