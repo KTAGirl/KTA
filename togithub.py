@@ -321,7 +321,7 @@ with open('../KTA/Kick Their Ass.wabbajack.meta.json', 'r') as rfile:
 stats['WBSIZE'] = f"{kta_stats['Size']/1e9:.1f}G"
 stats['DLSIZE'] = f"{kta_stats['SizeOfArchives']/1e9:.0f}G"
 stats['INSTALLSIZE'] = f"{kta_stats['SizeOfInstalledFiles']/1e9:.0f}G"
-stats['TOTALSPACE'] = f"{round((kta_stats['Size']+kta_stats['SizeOfArchives']+kta_stats['SizeOfInstalledFiles'])/1e9+5,-1):.0f}G"
+stats['TOTALSPACE'] = f"{round(((kta_stats['Size']+kta_stats['SizeOfArchives']+kta_stats['SizeOfInstalledFiles'])/1e9+5)/5,0)*5:.0f}G"
 stats['BODYSLIDESZ'] = f"{dir_size('../MO2/mods/BodySlide Output')/1e9:.1f}G"
 stats['ESXS'] = str(esxs)
 stats['NSFWESXS'] = str(nsfw_esxs)
