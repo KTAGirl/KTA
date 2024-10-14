@@ -109,6 +109,10 @@
 +Sexlab Aroused NG
 +SexLabFrameworkAE_v166b - ORIG
 -SEXLAB_separator
++Whiterun roof tiles by infinition
++Solitude Roof Retexture With Variations
++Riften Roofs Violet or Green Recolored
++Windhelm Roofs Red or Blue Recolored
 +Project Rainforest SE - A Tropical Climate and Environment Overhaul - KTA-0.0.11
 +Dolomite Weathers - Natural Lighting Vivid Atmospherics II
 +True Storms Special Edition - Thunder Rain and Weather Redone
@@ -285,12 +289,7 @@
 +More Colorful Critters V 3.0
 +Edmond's Official Unique Flowers and Plants SSE
 +Moons And Stars - Sky Overhaul SKSE
-+Whiterun roof tiles by infinition
-+Solitude Roof Retexture With Variations
-+Riften Roofs Violet or Green Recolored
-+Windhelm Roofs Red or Blue Recolored
 +Realistic Grass Field
-+Green Grass in Whiterun
 -ENVIRONMENT_separator
 +Simple Item Spawner - ORIG
 +FormList Manipulator - FLM-74037-1-7-1-1690989877
