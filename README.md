@@ -21,7 +21,7 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | Requires <ins>**pristine**</ins> Skyrim folder | Yes, as all Wabbajack modlists; if you have AE Upgrade - <br> leaving its files should be fine |
 | Keeps Skyrim folder pristine | Yes, as all Wabbajack modlists |
 | Minimum RAM | 16G  |
-| Minimum VRAM <ins>**(hard requirement)**</ins> | 8G (you might be able to get away with 6G for KTA-Lite - still to be tested) |
+| Minimum VRAM <ins>**(hard requirement)**</ins> | 8G (you might be able to get away with 6G for KTA-Lite profile - still to be tested) |
 | Minimum Recommended GPU | Desktop: GTX 1080 Mobile: RTX 2070 |
 | Minimum Recommended CPU | i5 or Ryzen 5 |
 | Minimum Recommended Drive Type | SSD (no HDDs, please, except maybe for downloads folder) |
@@ -34,7 +34,7 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | Including NSFW Mods (Nexus+LL+KTA) | 145 (30+107+8) |
 | Active Mod Plugins | 232 |
 | Including NSFW Plugins | 122 |
-| OPTIONAL Mods / Plugins <br> (disabled in KTA-Lite profile) | 23/12 (it is only eye and ear candy, increasing GPU requirements and DL times a lot )|
+| OPTIONAL Mods / Plugins <br> (disabled in KTA-Lite profile) | 23/12 (it is only eye and ear candy, increasing GPU requirements a lot )|
 | Largest Mod | DD, 2.9G | 
 | Environment Overhaul Mod | [Project Rainforest](https://www.nexusmods.com/skyrimspecialedition/mods/20636) (as public nudity is common, at least it should be <br> in tropics) | 
 | ENB | [PRT XII](https://www.nexusmods.com/skyrimspecialedition/mods/4743/?tab=files) |
