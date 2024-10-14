@@ -3,6 +3,9 @@ import shutil
 import re
 import os
 import glob
+import hashlib
+
+# helpers
 
 def dir_size(start_path):
     total_size = 0
@@ -14,7 +17,55 @@ def dir_size(start_path):
                 total_size += os.path.getsize(fp)
     return total_size
 
-# stats
+def file_noncrypto_hash(filename):
+    bufsz = 1048576  # lets read stuff in 64kb chunks!
+
+    hash = hashlib.shake_256()
+
+    with open(filename, 'rb') as f:
+        while True:
+            buf = f.read(bufsz)
+            if not buf:
+                break
+            hash.update(buf)
+    return hash.hexdigest(16)
+    
+def is_esl_flagged(filename):
+    with open(filename, 'rb') as f:
+        buf = f.read(10)
+        return (buf[0x9] & 0x02) == 0x02
+
+def validate_eslfication(orig_mod,esp_name,orig_hash,eslified_hash):
+    old_esp = '../MO2/mods/' + orig_mod + '/' + esp_name
+    hash = file_noncrypto_hash(old_esp)
+    if(hash!=orig_hash):
+        print(hash)
+        assert(False)
+    assert(not is_esl_flagged(old_esp))
+    new_esp = '../MO2/mods/KTA-eslify-optionals/' + esp_name
+    hash = file_noncrypto_hash(new_esp)
+    if(hash!=eslified_hash):
+        print(hash)
+        assert(False)
+    assert(is_esl_flagged(new_esp))
+    
+def copy_mod(modname):
+    shutil.copytree('../MO2/mods/'+modname, modname, dirs_exist_ok=True)
+
+
+# validate that ESL-fication is still valid (that original ESPs are not changed)
+# if it fails - something has changed, ESP needs to be re-ESL-ified
+validate_eslfication('Blubbos Whiterun 2022','Blubbos_NewWhiterun_2022.esp','684bc59df513004ac3a12002afd5226f','4446c0bbb675380df9b0b1921fcf0f40')
+validate_eslfication('SFO Summer Edition II','Skyrim Flora Overhaul.esp','a0d1d3347beb4005564de87731a76fe7','dd7a35016b47faec7fc8e271b57d7d2a')
+validate_eslfication('Flower Fields SE','FlowerFields.esp','df76ff44b124b95e9dd55e5d01c684e8','a4e65f61d52559bf6fa35e6e25645207')
+validate_eslfication('Blubbo Trees Variations','Blubbo_Trees_Variations_Nexus.esp','4927d8f225db5f7c785162600861f19e','4b1fcee67fcf4950359288d17e3af37f')
+validate_eslfication('Blubbos Markarth 2022','Blubbos_Markarth_2022.esp','cedf99cbad27bde4f008dc1119933d24','08da2a823c3b15b67f45fd74e0e71d2b')
+validate_eslfication('Blubbos Riften Trees 2022','Blubbos_Riften_Trees_2022.esp','cd5cf20e10d5e71aef6f791ca1c116f5','9b324d0c2c835699ff2dd1bab18a93d3')
+validate_eslfication('Blubbos Riverwood 2023','Blubbos_Riverwood_2023.esp','271e671ad7a489c355eda870e968ef45','d2131b7bf21fd55051fa48278d310ad5')
+validate_eslfication('Blubbos Solitude','blubbos_trees_in_solitude.esp','6ee4b20866b5fd5da0b0df85440fe367','27cea0442a19470b9b41b3e245a482ff')
+
+
+# start collecting stats
 stats = dict()
 
 # copy files 
@@ -37,13 +88,23 @@ with open('modlist.txt','w') as wfile:
     for line in lines:
         wfile.write(line+'\n')
 
-shutil.copytree('../MO2/mods/KTA-MCM', 'KTA-MCM', dirs_exist_ok=True)
-shutil.copytree('../MO2/mods/KTA-firewood', 'KTA-firewood', dirs_exist_ok=True)
-shutil.copytree('../MO2/mods/KTA-Pacifist', 'KTA-Pacifist', dirs_exist_ok=True)
-shutil.copytree('../MO2/mods/KTA-FemaleOppression', 'KTA-FemaleOppression', dirs_exist_ok=True)
-shutil.copytree('../MO2/mods/KTA-Seduce', 'KTA-Seduce', dirs_exist_ok=True)
-shutil.copytree('../MO2/mods/KTA-LALPatch', 'KTA-LALPatch', dirs_exist_ok=True)
-shutil.copytree('../MO2/mods/KTA-DF-Patch', 'KTA-DF-Patch', dirs_exist_ok=True)
+# shutil.copytree('../MO2/mods/KTA-MCM', 'KTA-MCM', dirs_exist_ok=True)
+# shutil.copytree('../MO2/mods/KTA-firewood', 'KTA-firewood', dirs_exist_ok=True)
+# shutil.copytree('../MO2/mods/KTA-Pacifist', 'KTA-Pacifist', dirs_exist_ok=True)
+# shutil.copytree('../MO2/mods/KTA-FemaleOppression', 'KTA-FemaleOppression', dirs_exist_ok=True)
+# shutil.copytree('../MO2/mods/KTA-Seduce', 'KTA-Seduce', dirs_exist_ok=True)
+# shutil.copytree('../MO2/mods/KTA-LALPatch', 'KTA-LALPatch', dirs_exist_ok=True)
+# shutil.copytree('../MO2/mods/KTA-DF-Patch', 'KTA-DF-Patch', dirs_exist_ok=True)
+# shutil.copytree('../MO2/mods/KTA-eslify-optionals', 'KTA-eslify-optionals', dirs_exist_ok=True)
+
+copy_mod('KTA-MCM')
+copy_mod('KTA-firewood')
+copy_mod('KTA-Pacifist')
+copy_mod('KTA-FemaleOppression')
+copy_mod('KTA-Seduce')
+copy_mod('KTA-LALPatch')
+copy_mod('KTA-DF-Patch')
+copy_mod('KTA-eslify-optionals')
 
 # process KTA-FULL profile
     
