@@ -1,7 +1,8 @@
 ## Major
 - Castration integration to Simple Defeat
 - Book + Note
-- external compiler
+- external Papyrus compiler
+- Lite: versions with .dds
 
 ## Minor
 - DF-patch: mark other female followers as non-devious
