@@ -18,7 +18,7 @@ def dir_size(start_path):
     return total_size
 
 def file_noncrypto_hash(filename):
-    bufsz = 1048576  # lets read stuff in 64kb chunks!
+    bufsz = 1048576  # lets read stuff in 1M chunks!
 
     hash = hashlib.shake_256()
 
@@ -81,11 +81,11 @@ with open('Kick Their Ass.compiler_settings', 'w') as wfile:
 shutil.copyfile("../MO2/profiles/KTA-FULL/loadorder.txt","loadorder.txt")
 #shutil.copyfile("../MO2/profiles/KTA-FULL/modlist.txt","modlist.txt")
 with open('../MO2/profiles/KTA-FULL/modlist.txt','r') as rfile:
-    lines = [line.rstrip() for line in rfile]
-# print(lines)
-lines = list(filter(lambda s: s.endswith('_separator') or not s.startswith('-'),lines))
+    modlist = [line.rstrip() for line in rfile]
+# print(modlist)
+modlist = list(filter(lambda s: s.endswith('_separator') or not s.startswith('-'),modlist))
 with open('modlist.txt','w') as wfile:
-    for line in lines:
+    for line in modlist:
         wfile.write(line+'\n')
 
 # shutil.copytree('../MO2/mods/KTA-MCM', 'KTA-MCM', dirs_exist_ok=True)
@@ -107,14 +107,16 @@ copy_mod('KTA-DF-Patch')
 copy_mod('KTA-eslify-optionals')
 
 # process KTA-FULL profile
-    
-lines = list(filter(lambda s: s.startswith('+'),lines))
-stats['ACTIVEMODS'] = len(lines)
-lines.append('@loot_0.24.0-win64.7Z')
-lines.append('@SSEEdit 4.1.5f-164-4-1-5f-1714283656.7z')
-lines.append('@BAE v0.10-974-0-10.7z')
 
-# print(lines)
+modlist.reverse()
+    
+modlist = list(filter(lambda s: s.startswith('+'),modlist))
+stats['ACTIVEMODS'] = len(modlist)
+modlist.append('@loot_0.24.0-win64.7Z')
+modlist.append('@SSEEdit 4.1.5f-164-4-1-5f-1714283656.7z')
+modlist.append('@BAE v0.10-974-0-10.7z')
+
+# print(modlist)
 
 nsfw_nexus=0
 nsfw_ll=0
@@ -130,7 +132,7 @@ with open('manualdl.md', 'w') as md:
     md.write('|-----|-----|-----|\n')
     todl = {}
 
-    for mod0 in lines:
+    for mod0 in modlist:
         mod = mod0[1:]
         if(mod0[0]=='@'):
             installfiles=['installationFile='+mod]
