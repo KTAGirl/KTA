@@ -1,7 +1,6 @@
 ## Major
 - Castration integration to Simple Defeat
 - Book + Note
-- KTA-Lite
 - external compiler
 
 ## Minor
@@ -26,6 +25,7 @@
 - Slaverun/MeatFarm fix
 - find out why Alt Life Quest is not completed (or it is?)
 - Customize Markers + Hotkey map
+- KTA-Lite Wabbajack? (to reduce DL times)?
 
 ## Future
 - Apropos-like
