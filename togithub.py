@@ -52,6 +52,13 @@ def validate_eslfication(orig_mod,esp_name,orig_hash,eslified_hash):
 def copy_mod(modname):
     shutil.copytree('../MO2/mods/'+modname, modname, dirs_exist_ok=True)
 
+def all_esxs(mod):
+    esxs = glob.glob('../MO2/mods/' + mod + '/*.esl')
+    esxs = esxs + glob.glob('../MO2/mods/' + mod + '/*.esp')
+    esxs = esxs + glob.glob('../MO2/mods/' + mod + '/*.esm')
+    return esxs
+
+# helpers end
 
 # validate that ESL-fication is still valid (that original ESPs are not changed)
 # if it fails - something has changed, ESP needs to be re-ESL-ified
@@ -63,7 +70,6 @@ validate_eslfication('Blubbos Markarth 2022','Blubbos_Markarth_2022.esp','cedf99
 validate_eslfication('Blubbos Riften Trees 2022','Blubbos_Riften_Trees_2022.esp','cd5cf20e10d5e71aef6f791ca1c116f5','9b324d0c2c835699ff2dd1bab18a93d3')
 validate_eslfication('Blubbos Riverwood 2023','Blubbos_Riverwood_2023.esp','271e671ad7a489c355eda870e968ef45','d2131b7bf21fd55051fa48278d310ad5')
 validate_eslfication('Blubbos Solitude','blubbos_trees_in_solitude.esp','6ee4b20866b5fd5da0b0df85440fe367','27cea0442a19470b9b41b3e245a482ff')
-
 
 # start collecting stats
 stats = dict()
@@ -88,15 +94,6 @@ with open('modlist.txt','w') as wfile:
     for line in modlist:
         wfile.write(line+'\n')
 
-# shutil.copytree('../MO2/mods/KTA-MCM', 'KTA-MCM', dirs_exist_ok=True)
-# shutil.copytree('../MO2/mods/KTA-firewood', 'KTA-firewood', dirs_exist_ok=True)
-# shutil.copytree('../MO2/mods/KTA-Pacifist', 'KTA-Pacifist', dirs_exist_ok=True)
-# shutil.copytree('../MO2/mods/KTA-FemaleOppression', 'KTA-FemaleOppression', dirs_exist_ok=True)
-# shutil.copytree('../MO2/mods/KTA-Seduce', 'KTA-Seduce', dirs_exist_ok=True)
-# shutil.copytree('../MO2/mods/KTA-LALPatch', 'KTA-LALPatch', dirs_exist_ok=True)
-# shutil.copytree('../MO2/mods/KTA-DF-Patch', 'KTA-DF-Patch', dirs_exist_ok=True)
-# shutil.copytree('../MO2/mods/KTA-eslify-optionals', 'KTA-eslify-optionals', dirs_exist_ok=True)
-
 copy_mod('KTA-MCM')
 copy_mod('KTA-firewood')
 copy_mod('KTA-Pacifist')
@@ -108,8 +105,49 @@ copy_mod('KTA-eslify-optionals')
 
 # process KTA-FULL profile
 
-modlist.reverse()
-    
+modlist.reverse() #to get 'natural' order of mods - necessary for processing OPTIONALs
+
+# optionals
+section = ''
+optionalmods=0
+optionalesxs=0
+optionalesxs_dict={}
+for mod in modlist:
+    if(mod.endswith('_separator')):
+        section = mod[:len(mod)-len('_separator')]
+    else:
+        if re.search('OPTIONAL',section):
+            assert(mod[0]=='+')
+            mod = mod[1:]
+            optionalmods += 1
+            # print('OPTIONAL:'+mod)
+            esxs=all_esxs(mod)
+            for esx in esxs:
+                optionalesxs += 1
+                key = os.path.split(esx)[1]
+                assert(optionalesxs_dict.get(key)==None)
+                optionalesxs_dict[key] = esx
+        else:
+            if mod[0]=='+':
+                mod = mod[1:]
+                esxs=all_esxs(mod)
+                for esx in esxs:
+                    key = os.path.split(esx)[1]
+                    path = optionalesxs_dict.get(key)
+                    if path != None:
+                        # print(path + ' is overridden by '+ esx)
+                        optionalesxs_dict[key] = esx
+
+            
+stats['OPTIONALMODS']=optionalmods
+stats['OPTIONALESXS']=optionalesxs
+
+for key in optionalesxs_dict:
+    esx = optionalesxs_dict.get(key)
+    assert(esx!=None)
+    if not is_esl_flagged(esx):
+       print('WARNING: OPTIONAL '+esx+' is not esl-flagged')    
+
 modlist = list(filter(lambda s: s.startswith('+'),modlist))
 stats['ACTIVEMODS'] = len(modlist)
 modlist.append('@loot_0.24.0-win64.7Z')
@@ -137,9 +175,7 @@ with open('manualdl.md', 'w') as md:
         if(mod0[0]=='@'):
             installfiles=['installationFile='+mod]
         else:
-            local_esxs = len(glob.glob('../MO2/mods/' + mod + '/*.esl'))
-            local_esxs += len(glob.glob('../MO2/mods/' + mod + '/*.esp'))
-            local_esxs += len(glob.glob('../MO2/mods/' + mod + '/*.esm'))
+            local_esxs = len(all_esxs(mod))
             esxs += local_esxs
             # print(mod)
             modmetaname = '../MO2/mods/' + mod + '/meta.ini'
