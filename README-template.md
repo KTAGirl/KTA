@@ -55,7 +55,7 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | Defeat Mod | SimpleDefeat |
 | Prison Mod | Pamatronic's Prison Alternative |
 | Follower Mods | EFF+Devious Followers |
-| MCM Config | Fully automated MCM Recorder replay (27 stages, ~15-20 minutes) |
+| MCM Config | Fully automated MCM Recorder replay (25 stages, ~15-20 minutes) |
 | Game Start | Patched Live Another Life | 
 | Main Custom Mods | Pacifist, FemaleOppression, Seduction Combat Spell [WIP] | 
 | Development Tools Included | LOOT+FNIS+Nemesis+BodySlide+CK+xEdit |
