@@ -168,6 +168,7 @@ Brows.esp
 FMS_FemaleMakeupSuite.esp
 Lamenthia's Marks of Beauty.esp
 MikanEyes All in one SE.esp
+Project Rainforest-Dolomite Weathers Patch.esp
 Project Rainforest-Dolomite-True Storms Patch.esp
 SRREnforcerEnhanced.esp
 Skyrim Flora Overhaul.esp
@@ -219,4 +220,3 @@ KTA-Seduce.esp
 alternate start - live another life.esp
 KTA-DF-Patch.esp
 KTA-firewood1.esp
-Project Rainforest-Dolomite Weathers Patch.esp
