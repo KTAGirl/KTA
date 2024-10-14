@@ -159,6 +159,7 @@ modlist.append('@BAE v0.10-974-0-10.7z')
 
 nsfw_nexus=0
 nsfw_ll=0
+nsfw_kta=0
 nsfw_or_not=0
 esxs=0
 nsfw_esxs=0
@@ -263,17 +264,21 @@ with open('manualdl.md', 'w') as md:
                 print(url)
                 nsfw_or_not += 1
         else:
-            if manualurl != '':
+            if mod.startswith('KTA'):
+                nsfw_kta += 1
+                nsfw_esxs += local_esxs
+            elif manualurl != '':
                 if re.search('loverslab',manualurl):
                     nsfw_ll += 1
                     nsfw_esxs += local_esxs
 
     if nsfw_or_not:
         print('WARNING: NSFW_OR_NOT=' + str(nsfw_or_not))
-    stats['NSFWMODS'] = nsfw_nexus + nsfw_ll
+    stats['NSFWMODS'] = nsfw_nexus + nsfw_ll + nsfw_kta
     stats['NSFWMODSLL'] = nsfw_ll
     stats['NSFWMODSNEXUS'] = nsfw_nexus
-
+    stats['NSFWMODSKTA'] = nsfw_kta
+    
     rowidx = 1
     sorted_todl = dict(sorted(todl.items()))
     for manualurl in sorted_todl:
