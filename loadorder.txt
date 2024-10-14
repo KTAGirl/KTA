@@ -219,3 +219,4 @@ KTA-Seduce.esp
 alternate start - live another life.esp
 KTA-DF-Patch.esp
 KTA-firewood1.esp
+Project Rainforest-Dolomite Weathers Patch.esp

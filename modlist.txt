@@ -159,7 +159,6 @@
 -PRESETS_separator
 +Skin Feature Overlays SE - Freckles Scars Birthmarks Stretch Marks Moles and More for Face and Body RaceMenu Overlays
 +Lamenthia's Marks of Beauty
-+Sunstarved Race Menu Overlays - Slavetats conversion
 -OVERLAYS_separator
 +Yvonne Assets SE
 +Even More Makeup - 2k
@@ -248,6 +247,7 @@
 +Porny DB Window (new)
 +Porny DB door
 +622019006_PornyNordicMurals
++pornyloadScreens
 -PORNIFICATION - OPTIONAL-LL_separator
 +New Dibella Statues SE 2.0
 +New Mara Statue SE
@@ -272,7 +272,6 @@
 +Porny Mead bottle logos
 +Porny Signs
 +Porny Banners
-+pornyloadScreens
 -PORNIFICATION_separator
 +SFO Summer Edition II
 +Flower Fields SE

@@ -167,8 +167,14 @@ with open('../MO2/profiles/KTA-Lite/modlist.txt','w') as wfile:
         else:
             wfile.write(mod0+'\n')
 
-# 
-
+# mod sizes - DEBUG
+if False:
+    size_list=[]
+    for mod0 in modlist:
+        if mod0[0]=='+':
+            size_list.append([mod0[1:],round(dir_size('../MO2/mods/'+mod0[1:])/1000000,2)])
+    size_list.sort(key=lambda x: x[1])
+    print(size_list)
 # generate manualdl.md
 
 modlist = list(filter(lambda s: s.startswith('+'),modlist))
