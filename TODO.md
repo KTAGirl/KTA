@@ -1,7 +1,8 @@
 ## Major
 - Castration integration to Simple Defeat
 - Book + Note
-- external compiler
+- external Papyrus compiler
+- Lite: versions with .dds
 
 ## Minor
 - DF-patch: mark other female followers as non-devious
@@ -25,7 +26,7 @@
 - Slaverun/MeatFarm fix
 - find out why Alt Life Quest is not completed (or it is?)
 - Customize Markers + Hotkey map
-- KTA-Lite Wabbajack? (to reduce DL times)?
+- KTA-Lite Wabbajack? (to reduce DL times)? - with OPTIONAL section in manualdl.md
 - Make real patch for LAL
 
 ## Future
