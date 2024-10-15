@@ -13,6 +13,10 @@
 - DF-patch: mark other female followers as non-devious
 - Seduce: cleanup (rm Seduce1?)
 - Oppression: expand new location detection to other walled cities
+   + Markarth
+   + Riften
+   + Solitude
+   + Windhelm 
 - Oppression: crime per hold
 - Oppression: fix equipitem after changing outfit (next OnUpdate())
 - Oppression: when printing, print also name of Actor
@@ -25,6 +29,7 @@
 - Discord
 - LL page
 - LL: philosophy
+- KTA-Dev profile (as master, disabling Dev stuff such as SL Widget or Tweaks' OSD for KTA-Full)
 - LAL patch: compile Slaverun's part (using external compiler?)
 - LAL patch: rm Slaverun's Courier
 - LAL patch: better teleport location
@@ -39,10 +44,13 @@
 - DYNDOLOD
 - Research SexLab P+
 - Research New Gentleman/HIMBO
+- Research OBody NG
 
 ## Ongoing improvements
 - Visuals/Environment
 - Visuals/Female Body
+   + Especially face
+   + incl. presets
 - Visuals/Male Body (after HIMBO)
 - Idle Animations
 - SL Animations
