@@ -1,4 +1,9 @@
 ## Major
+- ❗collaborative WJ development:
+   + Python to generate beautified JSON description of MO2 folder (with hashes and refs from downloads)
+      * this is what to be pushed to github 
+   + Python to reconstruct MO2 folder from description (and downloads)
+   + TBD: how to produce github pull request
 - Castration integration to Simple Defeat
 - Book + Note
 - external Papyrus compiler
@@ -30,6 +35,14 @@
 - Make real patch for LAL
 
 ## Future
-- Apropos-like
+- Apropos-like mod
 - DYNDOLOD
 - Research SexLab P+
+- Research New Gentleman/HIMBO
+
+## Ongoing improvements
+- Visuals/Environment
+- Visuals/Female Body
+- Visuals/Male Body (after HIMBO)
+- Idle Animations
+- SL Animations
