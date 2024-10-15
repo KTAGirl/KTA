@@ -26,12 +26,12 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | Minimum Recommended CPU | i5 or Ryzen 5 |
 | Minimum Recommended Drive Type | SSD (no HDDs, please, except maybe for downloads folder) |
 | Modlist File Size | 2.5G |
-| Including Generated BodySlides | 1.8G |
+| Including Generated BodySlides | 1.7G |
 | To be downloaded by Wabbajack | 21G |
 | Installed File Size | 53G |
 | Total Space Needed | 80G (compare it to 350-500+G for a typical Wabbajack modlist) |
-| Active Mods | 318 |
-| Including NSFW Mods (Nexus+LL+KTA) | 144 (30+106+8) |
+| Active Mods | 317 |
+| Including NSFW Mods (Nexus+LL+KTA) | 143 (29+106+8) |
 | Active Mod Plugins | 233 |
 | Including NSFW Plugins | 122 |
 | OPTIONAL Mods / Plugins <br> (disabled in KTA-Lite profile) | 24/13 (it is only eye and ear candy, increasing GPU requirements a lot )|
