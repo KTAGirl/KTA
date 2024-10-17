@@ -36,13 +36,13 @@ def is_esl_flagged(filename):
         return (buf[0x9] & 0x02) == 0x02
 
 def validate_eslfication(orig_mod,esp_name,orig_hash,eslified_hash):
-    old_esp = '../MO2/mods/' + orig_mod + '/' + esp_name
+    old_esp = '../../MO2/mods/' + orig_mod + '/' + esp_name
     hash = file_noncrypto_hash(old_esp)
     if(hash!=orig_hash):
         print(hash)
         assert(False)
     assert(not is_esl_flagged(old_esp))
-    new_esp = '../MO2/mods/KTA-eslify-optionals/' + esp_name
+    new_esp = '../../MO2/mods/KTA-eslify-optionals/' + esp_name
     hash = file_noncrypto_hash(new_esp)
     if(hash!=eslified_hash):
         print(hash)
@@ -50,12 +50,12 @@ def validate_eslfication(orig_mod,esp_name,orig_hash,eslified_hash):
     assert(is_esl_flagged(new_esp))
     
 def copy_mod(modname):
-    shutil.copytree('../MO2/mods/'+modname, modname, dirs_exist_ok=True)
+    shutil.copytree('../../MO2/mods/'+modname, modname, dirs_exist_ok=True)
 
 def all_esxs(mod):
-    esxs = glob.glob('../MO2/mods/' + mod + '/*.esl')
-    esxs = esxs + glob.glob('../MO2/mods/' + mod + '/*.esp')
-    esxs = esxs + glob.glob('../MO2/mods/' + mod + '/*.esm')
+    esxs = glob.glob('../../MO2/mods/' + mod + '/*.esl')
+    esxs = esxs + glob.glob('../../MO2/mods/' + mod + '/*.esp')
+    esxs = esxs + glob.glob('../../MO2/mods/' + mod + '/*.esm')
     return esxs
 
 # helpers end
@@ -71,7 +71,7 @@ validate_eslfication('Blubbos Riften Trees 2022','Blubbos_Riften_Trees_2022.esp'
 validate_eslfication('Blubbos Riverwood 2023','Blubbos_Riverwood_2023.esp','271e671ad7a489c355eda870e968ef45','d2131b7bf21fd55051fa48278d310ad5')
 validate_eslfication('Blubbos Solitude','blubbos_trees_in_solitude.esp','6ee4b20866b5fd5da0b0df85440fe367','27cea0442a19470b9b41b3e245a482ff')
 validate_eslfication('02 Asmodeus Pornstars Pack 2 NPC replacer ESP','Asmodeus_PornStars_Pack2_Replacer.esp','642246b7c0cf93ec9513b867856d3109','cbeb978cdbbecbd756b1c417c3e12ce0')
-eslified = glob.glob('../MO2/mods/KTA-eslify-optionals/*')
+eslified = glob.glob('../../MO2/mods/KTA-eslify-optionals/*')
 assert(len(eslified)==9) #was any other eslified esp added to the folder without changing Python? Make sure to add validate_eslfication before changing the assert
 
 # start collecting stats
@@ -79,7 +79,7 @@ stats = dict()
 
 # copy files 
 
-with open('../MO2/Kick Their Ass.compiler_settings', 'r') as rfile:
+with open('../../MO2/Kick Their Ass.compiler_settings', 'r') as rfile:
     kta_cs = json.load(rfile)
     
 stats['VERSION']=kta_cs['Version']
@@ -87,9 +87,9 @@ stats['VERSION']=kta_cs['Version']
 with open('Kick Their Ass.compiler_settings', 'w') as wfile:
     json.dump(kta_cs, wfile, sort_keys=True, indent=4)
 
-shutil.copyfile("../MO2/profiles/KTA-FULL/loadorder.txt","loadorder.txt")
-#shutil.copyfile("../MO2/profiles/KTA-FULL/modlist.txt","modlist.txt")
-with open('../MO2/profiles/KTA-FULL/modlist.txt','r') as rfile:
+shutil.copyfile("../../MO2/profiles/KTA-FULL/loadorder.txt","loadorder.txt")
+#shutil.copyfile("../../MO2/profiles/KTA-FULL/modlist.txt","modlist.txt")
+with open('../../MO2/profiles/KTA-FULL/modlist.txt','r') as rfile:
     modlist = [line.rstrip() for line in rfile]
 # print(modlist)
 modlist = list(filter(lambda s: s.endswith('_separator') or not s.startswith('-'),modlist))
@@ -154,11 +154,11 @@ for key in optionalesxs_dict:
        print('WARNING: OPTIONAL '+esx+' is not esl-flagged')    
        
 # generate KTA-Lite
-shutil.copytree('../MO2/profiles/KTA-FULL', '../MO2/profiles/KTA-Lite', dirs_exist_ok=True)
+shutil.copytree('../../MO2/profiles/KTA-FULL', '../../MO2/profiles/KTA-Lite', dirs_exist_ok=True)
 
 # print(modlist)
 modlist.reverse() # back to original
-with open('../MO2/profiles/KTA-Lite/modlist.txt','w') as wfile:
+with open('../../MO2/profiles/KTA-Lite/modlist.txt','w') as wfile:
     for mod0 in modlist:
         if mod0[0]=='+':
             mod = mod0[1:]
@@ -174,7 +174,7 @@ if False:
     size_list=[]
     for mod0 in modlist:
         if mod0[0]=='+':
-            size_list.append([mod0[1:],round(dir_size('../MO2/mods/'+mod0[1:])/1000000,2)])
+            size_list.append([mod0[1:],round(dir_size('../../MO2/mods/'+mod0[1:])/1000000,2)])
     size_list.sort(key=lambda x: x[1])
     print(size_list)
 # generate manualdl.md
@@ -210,7 +210,7 @@ with open('manualdl.md', 'w') as md:
             local_esxs = len(all_esxs(mod))
             esxs += local_esxs
             # print(mod)
-            modmetaname = '../MO2/mods/' + mod + '/meta.ini'
+            modmetaname = '../../MO2/mods/' + mod + '/meta.ini'
             try:
                 with open(modmetaname) as modmeta:
                     modmetalines = [line.rstrip() for line in modmeta]
@@ -227,7 +227,7 @@ with open('manualdl.md', 'w') as md:
                 installfile = installfile[len('C:/Modding/MO2/downloads/'):]
             # print('mod:'+mod+' if='+installfile)
             if(installfile!=''):
-                filemetaname = '../MO2/downloads/' + installfile + '.meta'
+                filemetaname = '../../MO2/downloads/' + installfile + '.meta'
                 try:
                     with open(filemetaname) as filemeta:
                         filemetalines = [line.rstrip() for line in filemeta]
@@ -307,14 +307,14 @@ with open('manualdl.md', 'w') as md:
         md.write('|'+str(rowidx)+'|['+manualurl+']('+manualurl+')|'+xprompt+'|\n')
         rowidx = rowidx + 1
     
-# reading ../KTA/Kick Their Ass.wabbajack.meta.json
-with open('../KTA/Kick Their Ass.wabbajack.meta.json', 'r') as rfile:
+# reading ../../KTA/Kick Their Ass.wabbajack.meta.json
+with open('../../KTA/Kick Their Ass.wabbajack.meta.json', 'r') as rfile:
     kta_stats = json.load(rfile)
 stats['WBSIZE'] = f"{kta_stats['Size']/1e9:.1f}G"
 stats['DLSIZE'] = f"{kta_stats['SizeOfArchives']/1e9:.0f}G"
 stats['INSTALLSIZE'] = f"{kta_stats['SizeOfInstalledFiles']/1e9:.0f}G"
 stats['TOTALSPACE'] = f"{round(((kta_stats['Size']+kta_stats['SizeOfArchives']+kta_stats['SizeOfInstalledFiles'])/1e9+5)/5,0)*5:.0f}G"
-stats['BODYSLIDESZ'] = f"{dir_size('../MO2/mods/BodySlide Output')/1e9:.1f}G"
+stats['BODYSLIDESZ'] = f"{dir_size('../../MO2/mods/BodySlide Output')/1e9:.1f}G"
 stats['ESXS'] = str(esxs)
 stats['NSFWESXS'] = str(nsfw_esxs)
 
