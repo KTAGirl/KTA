@@ -5,6 +5,10 @@ import os
 import glob
 import hashlib
 
+import sys
+sys.path.append('../wj2git/')
+import wj2git
+
 # helpers
 
 def dir_size(start_path):
@@ -30,10 +34,6 @@ def file_noncrypto_hash(filename):
             hash.update(buf)
     return hash.hexdigest(16)
     
-def is_esl_flagged(filename):
-    with open(filename, 'rb') as f:
-        buf = f.read(10)
-        return (buf[0x9] & 0x02) == 0x02
 
 def validate_eslfication(orig_mod,esp_name,orig_hash,eslified_hash):
     old_esp = '../../MO2/mods/' + orig_mod + '/' + esp_name
@@ -41,13 +41,13 @@ def validate_eslfication(orig_mod,esp_name,orig_hash,eslified_hash):
     if(hash!=orig_hash):
         print(hash)
         assert(False)
-    assert(not is_esl_flagged(old_esp))
+    assert(not wj2git.isEslFlagged(old_esp))
     new_esp = '../../MO2/mods/KTA-eslify-optionals/' + esp_name
     hash = file_noncrypto_hash(new_esp)
     if(hash!=eslified_hash):
         print(hash)
         assert(False)
-    assert(is_esl_flagged(new_esp))
+    assert(wj2git.isEslFlagged(new_esp))
     
 def copy_mod(modname):
     shutil.copytree('../../MO2/mods/'+modname, modname, dirs_exist_ok=True)
@@ -150,7 +150,7 @@ stats['OPTIONALESXS']=optionalesxs
 for key in optionalesxs_dict:
     esx = optionalesxs_dict.get(key)
     assert(esx!=None)
-    if not is_esl_flagged(esx):
+    if not wj2git.isEslFlagged(esx):
        print('WARNING: OPTIONAL '+esx+' is not esl-flagged')    
        
 # generate KTA-Lite
