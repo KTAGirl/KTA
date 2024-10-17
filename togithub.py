@@ -10,6 +10,9 @@ sys.path.append('../wj2git/')
 import wj2git
 import dbg
 
+# config
+MO2='../../MO2/'
+
 # helpers
 
 def dir_size(start_path):
@@ -37,13 +40,13 @@ def file_noncrypto_hash(filename):
     
 
 def validate_eslfication(orig_mod,esp_name,orig_hash,eslified_hash):
-    old_esp = '../../MO2/mods/' + orig_mod + '/' + esp_name
+    old_esp = MO2+'mods/' + orig_mod + '/' + esp_name
     hash = file_noncrypto_hash(old_esp)
     if(hash!=orig_hash):
         print(hash)
         assert(False)
     assert(not wj2git.isEslFlagged(old_esp))
-    new_esp = '../../MO2/mods/KTA-eslify-optionals/' + esp_name
+    new_esp = MO2+'mods/KTA-eslify-optionals/' + esp_name
     hash = file_noncrypto_hash(new_esp)
     if(hash!=eslified_hash):
         print(hash)
@@ -51,13 +54,8 @@ def validate_eslfication(orig_mod,esp_name,orig_hash,eslified_hash):
     assert(wj2git.isEslFlagged(new_esp))
     
 def copy_mod(modname):
-    shutil.copytree('../../MO2/mods/'+modname, modname, dirs_exist_ok=True)
+    shutil.copytree(MO2+'mods/'+modname, modname, dirs_exist_ok=True)
 
-def all_esxs(mod):
-    esxs = glob.glob('../../MO2/mods/' + mod + '/*.esl')
-    esxs = esxs + glob.glob('../../MO2/mods/' + mod + '/*.esp')
-    esxs = esxs + glob.glob('../../MO2/mods/' + mod + '/*.esm')
-    return esxs
 
 # helpers end
 
@@ -72,7 +70,7 @@ validate_eslfication('Blubbos Riften Trees 2022','Blubbos_Riften_Trees_2022.esp'
 validate_eslfication('Blubbos Riverwood 2023','Blubbos_Riverwood_2023.esp','271e671ad7a489c355eda870e968ef45','d2131b7bf21fd55051fa48278d310ad5')
 validate_eslfication('Blubbos Solitude','blubbos_trees_in_solitude.esp','6ee4b20866b5fd5da0b0df85440fe367','27cea0442a19470b9b41b3e245a482ff')
 validate_eslfication('02 Asmodeus Pornstars Pack 2 NPC replacer ESP','Asmodeus_PornStars_Pack2_Replacer.esp','642246b7c0cf93ec9513b867856d3109','cbeb978cdbbecbd756b1c417c3e12ce0')
-eslified = glob.glob('../../MO2/mods/KTA-eslify-optionals/*')
+eslified = glob.glob(MO2+'mods/KTA-eslify-optionals/*')
 assert(len(eslified)==9) #was any other eslified esp added to the folder without changing Python? Make sure to add validate_eslfication before changing the assert
 
 # start collecting stats
@@ -80,7 +78,7 @@ stats = dict()
 
 # copy files 
 
-with wj2git.openModTxtFile('../../MO2/Kick Their Ass.compiler_settings') as rfile:
+with wj2git.openModTxtFile(MO2+'Kick Their Ass.compiler_settings') as rfile:
     kta_cs = json.load(rfile)
     
 stats['VERSION']=kta_cs['Version']
@@ -88,9 +86,9 @@ stats['VERSION']=kta_cs['Version']
 with wj2git.openModTxtFileW('Kick Their Ass.compiler_settings') as wfile:
     json.dump(kta_cs, wfile, sort_keys=True, indent=4)
 
-shutil.copyfile("../../MO2/profiles/KTA-FULL/loadorder.txt","loadorder.txt")
+shutil.copyfile(MO2+'profiles/KTA-FULL/loadorder.txt',"loadorder.txt")
 
-modlist = wj2git.ModList('../../MO2/profiles/KTA-FULL/')
+modlist = wj2git.ModList(MO2+'profiles/KTA-FULL/')
 modlist.write('') # to current dir
 
 copy_mod('KTA-MCM')
@@ -121,7 +119,7 @@ for mod in modlist.modlist:
             optionalmods += 1
             # print('OPTIONAL:'+mod)
             optionalmods_dict[mod] = 1
-            esxs=all_esxs(mod)
+            esxs=wj2git.allEsxs(mod,MO2)
             for esx in esxs:
                 optionalesxs += 1
                 key = os.path.split(esx)[1]
@@ -130,7 +128,7 @@ for mod in modlist.modlist:
         else:
             if mod[0]=='+':
                 mod = mod[1:]
-                esxs=all_esxs(mod)
+                esxs=wj2git.allEsxs(mod,MO2)
                 for esx in esxs:
                     key = os.path.split(esx)[1]
                     path = optionalesxs_dict.get(key)
@@ -149,19 +147,19 @@ for key in optionalesxs_dict:
        print('WARNING: OPTIONAL '+esx+' is not esl-flagged')    
        
 # generate KTA-Lite
-shutil.copytree('../../MO2/profiles/KTA-FULL', '../../MO2/profiles/KTA-Lite', dirs_exist_ok=True)
+shutil.copytree(MO2+'profiles/KTA-FULL', MO2+'profiles/KTA-Lite', dirs_exist_ok=True)
 
 # print(modlist)
-modlist.writeDisablingIf('../../MO2/profiles/KTA-Lite/', lambda mod: optionalmods_dict.get(mod) or mod == 'KTA-eslify-optionals')
+modlist.writeDisablingIf(MO2+'profiles/KTA-Lite/', lambda mod: optionalmods_dict.get(mod) or mod == 'KTA-eslify-optionals')
 
 # mod sizes - DEBUG
 if False:
     size_list=[]
     for mod in modlist.allEnabled():
-        size_list.append([mod,round(dir_size('../../MO2/mods/'+mod)/1000000,2)])
+        size_list.append([mod,round(dir_size(MO2+'mods/'+mod)/1000000,2)])
     #for mod0 in modlist:
     #    if mod0[0]=='+':
-    #        size_list.append([mod0[1:],round(dir_size('../../MO2/mods/'+mod0[1:])/1000000,2)])
+    #        size_list.append([mod0[1:],round(dir_size(MO2+'mods/'+mod0[1:])/1000000,2)])
     size_list.sort(key=lambda x: x[1])
     print(size_list)
     dbg.dbgWait()
@@ -199,16 +197,16 @@ with wj2git.openModTxtFileW('manualdl.md') as md:
         else:
             if mod0[0]!='+':
                 continue
-            local_esxs = len(all_esxs(mod))
+            local_esxs = len(wj2git.allEsxs(mod,MO2))
             esxs += local_esxs
             # print(mod)
-            installfile,modid = wj2git.installFileAndModid(mod,'../../MO2/')
+            installfile,modid = wj2git.installFileAndModid(mod,MO2)
 
         manualurl = None
         if not installfile:
             print('WARNING: no installedFiles= found for mod '+mod)
         else:
-            flag, manualurl, prompt = wj2git.howToDownload(installfile,'../../MO2/')
+            flag, manualurl, prompt = wj2git.howToDownload(installfile,MO2)
             match flag:
                 case wj2git.HowToDownloadReturn.NoMeta:
                     print("WARNING: no .meta file for "+installfile)
@@ -270,7 +268,7 @@ stats['WBSIZE'] = f"{kta_stats['Size']/1e9:.1f}G"
 stats['DLSIZE'] = f"{kta_stats['SizeOfArchives']/1e9:.0f}G"
 stats['INSTALLSIZE'] = f"{kta_stats['SizeOfInstalledFiles']/1e9:.0f}G"
 stats['TOTALSPACE'] = f"{round(((kta_stats['Size']+kta_stats['SizeOfArchives']+kta_stats['SizeOfInstalledFiles'])/1e9+5)/5,0)*5:.0f}G"
-stats['BODYSLIDESZ'] = f"{dir_size('../../MO2/mods/BodySlide Output')/1e9:.1f}G"
+stats['BODYSLIDESZ'] = f"{dir_size(MO2+'mods/BodySlide Output')/1e9:.1f}G"
 stats['ESXS'] = str(esxs)
 stats['NSFWESXS'] = str(nsfw_esxs)
 
