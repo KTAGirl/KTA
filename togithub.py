@@ -8,6 +8,7 @@ import hashlib
 import sys
 sys.path.append('../wj2git/')
 import wj2git
+import dbg
 
 # helpers
 
@@ -79,23 +80,18 @@ stats = dict()
 
 # copy files 
 
-with open('../../MO2/Kick Their Ass.compiler_settings', 'r') as rfile:
+with wj2git.openModTxtFile('../../MO2/Kick Their Ass.compiler_settings') as rfile:
     kta_cs = json.load(rfile)
     
 stats['VERSION']=kta_cs['Version']
 
-with open('Kick Their Ass.compiler_settings', 'w') as wfile:
+with wj2git.openModTxtFileW('Kick Their Ass.compiler_settings') as wfile:
     json.dump(kta_cs, wfile, sort_keys=True, indent=4)
 
 shutil.copyfile("../../MO2/profiles/KTA-FULL/loadorder.txt","loadorder.txt")
-#shutil.copyfile("../../MO2/profiles/KTA-FULL/modlist.txt","modlist.txt")
-with open('../../MO2/profiles/KTA-FULL/modlist.txt','r') as rfile:
-    modlist = [line.rstrip() for line in rfile]
-# print(modlist)
-modlist = list(filter(lambda s: s.endswith('_separator') or not s.startswith('-'),modlist))
-with open('modlist.txt','w') as wfile:
-    for line in modlist:
-        wfile.write(line+'\n')
+
+modlist = wj2git.ModList('../../MO2/profiles/KTA-FULL/')
+modlist.write('') # to current dir
 
 copy_mod('KTA-MCM')
 copy_mod('KTA-firewood')
@@ -108,17 +104,16 @@ copy_mod('KTA-eslify-optionals')
 
 # process KTA-FULL profile
 
-modlist.reverse() #to get 'natural' order of mods - necessary for processing OPTIONALs
-
 # optionals
 section = ''
 optionalmods=0
 optionalesxs=0
 optionalesxs_dict={}
 optionalmods_dict={}
-for mod in modlist:
-    if(mod.endswith('_separator')):
-        section = mod[:len(mod)-len('_separator')]
+for mod in modlist.modlist:
+    separ = wj2git.ModList.isSeparator(mod)
+    if separ:
+        section = separ
     else:
         if re.search('OPTIONAL',section):
             assert(mod[0]=='+')
@@ -157,33 +152,27 @@ for key in optionalesxs_dict:
 shutil.copytree('../../MO2/profiles/KTA-FULL', '../../MO2/profiles/KTA-Lite', dirs_exist_ok=True)
 
 # print(modlist)
-modlist.reverse() # back to original
-with open('../../MO2/profiles/KTA-Lite/modlist.txt','w') as wfile:
-    for mod0 in modlist:
-        if mod0[0]=='+':
-            mod = mod0[1:]
-            if optionalmods_dict.get(mod) or mod == 'KTA-eslify-optionals':
-                wfile.write('-'+mod+'\n')
-            else:
-                wfile.write(mod0+'\n')
-        else:
-            wfile.write(mod0+'\n')
+modlist.writeDisablingIf('../../MO2/profiles/KTA-Lite/', lambda mod: optionalmods_dict.get(mod) or mod == 'KTA-eslify-optionals')
 
 # mod sizes - DEBUG
 if False:
     size_list=[]
-    for mod0 in modlist:
-        if mod0[0]=='+':
-            size_list.append([mod0[1:],round(dir_size('../../MO2/mods/'+mod0[1:])/1000000,2)])
+    for mod in modlist.allEnabled():
+        size_list.append([mod,round(dir_size('../../MO2/mods/'+mod)/1000000,2)])
+    #for mod0 in modlist:
+    #    if mod0[0]=='+':
+    #        size_list.append([mod0[1:],round(dir_size('../../MO2/mods/'+mod0[1:])/1000000,2)])
     size_list.sort(key=lambda x: x[1])
     print(size_list)
+    dbg.dbgWait()
+
 # generate manualdl.md
 
-modlist = list(filter(lambda s: s.startswith('+'),modlist))
-stats['ACTIVEMODS'] = len(modlist)
-modlist.append('@loot_0.24.0-win64.7Z')
-modlist.append('@SSEEdit 4.1.5f-164-4-1-5f-1714283656.7z')
-modlist.append('@BAE v0.10-974-0-10.7z')
+# modlist = list(filter(lambda s: s.startswith('+'),modlist))
+stats['ACTIVEMODS'] = sum(1 for i in modlist.allEnabled())
+modlist.modlist.append('@loot_0.24.0-win64.7Z') # HACK!
+modlist.modlist.append('@SSEEdit 4.1.5f-164-4-1-5f-1714283656.7z')
+modlist.modlist.append('@BAE v0.10-974-0-10.7z')
 
 # print(modlist)
 
@@ -193,80 +182,46 @@ nsfw_kta=0
 nsfw_or_not=0
 esxs=0
 nsfw_esxs=0
-with open('nsfw-nexus.json', 'r') as rfile:
+with wj2git.openModTxtFile('nsfw-nexus.json') as rfile:
     nsfw_nexus_dict = json.load(rfile)
 
-with open('manualdl.md', 'w') as md:
+with wj2git.openModTxtFileW('manualdl.md') as md:
     md.write('## Kick Their Asses - Manual Downloads\n')
     md.write('|#| URL | Comment |\n')
     md.write('|-----|-----|-----|\n')
     todl = {}
 
-    for mod0 in modlist:
+    for mod0 in modlist.modlist:
         mod = mod0[1:]
         if(mod0[0]=='@'):
-            installfiles=['installationFile='+mod]
+            installfile=mod
+            modid=0
         else:
+            if mod0[0]!='+':
+                continue
             local_esxs = len(all_esxs(mod))
             esxs += local_esxs
             # print(mod)
-            modmetaname = '../../MO2/mods/' + mod + '/meta.ini'
-            try:
-                with open(modmetaname) as modmeta:
-                    modmetalines = [line.rstrip() for line in modmeta]
-            except:
-                modmetalines = []
-            installfiles = list(filter(lambda s: re.search('^installationFile *= *',s),modmetalines))
-        assert(len(installfiles)<=1)
-        manualurl = ''
-        if(len(installfiles)==1):
-            installfile = installfiles[0]
-            m = re.search('^installationFile *= *(.*)',installfile)
-            installfile = m.group(1)
-            if(installfile.startswith('C:/Modding/MO2/downloads/')):
-                installfile = installfile[len('C:/Modding/MO2/downloads/'):]
-            # print('mod:'+mod+' if='+installfile)
-            if(installfile!=''):
-                filemetaname = '../../MO2/downloads/' + installfile + '.meta'
-                try:
-                    with open(filemetaname) as filemeta:
-                        filemetalines = [line.rstrip() for line in filemeta]
-                except:
-                        print('WARNING: file '+filemetaname+' NOT FOUND')
-                manualurls = list(filter(lambda s: re.search('^manualURL *=',s),filemetalines))
-                assert(len(manualurls)<=1)
-                if(len(manualurls)==1):
-                    manualurl=manualurls[0]
-                    m = re.search('^manualURL *= *(.*)',manualurl)
-                    manualurl = m.group(1)
-                    # print(manualurl)
-                    prompts = list(filter(lambda s: re.search('^prompt *=',s),filemetalines))
-                    assert(len(prompts)==1)
-                    prompt=prompts[0]
-                    m = re.search('^prompt *= *(.*)',prompt)
-                    prompt = m.group(1)
+            installfile,modid = wj2git.installFileAndModid(mod,'../../MO2/')
+
+        manualurl = None
+        if not installfile:
+            print('WARNING: no installedFiles= found for mod '+mod)
+        else:
+            flag, manualurl, prompt = wj2git.howToDownload(installfile,'../../MO2/')
+            match flag:
+                case wj2git.HowToDownloadReturn.NoMeta:
+                    print("WARNING: no .meta file for "+installfile)
+                case wj2git.HowToDownloadReturn.ManualOk:
                     if manualurl not in todl:
                         todl[manualurl]=[]
-                    todl[manualurl].append(prompt)
-                else:
-                    assert(len(manualurls)==0)
-                    urls = list(filter(lambda s: re.search('^url *=',s),filemetalines))
-                    if len(urls) == 0:
-                        print('WARNING: neither manualURL nor url in '+filemetaname)
-                    else:
-                        assert(len(urls)==1)
-                        url = urls[0]
-                        if not re.search('^url *= *"https://cf-files.nexusmods.com/',url):
-                            print('WARNING: non-Nexus url '+url[len('url='):]+'in '+filemetaname)
+                    todl[manualurl].append(prompt)                    
+                case wj2git.HowToDownloadReturn.NexusOk:
+                    pass
+                case wj2git.HowToDownloadReturn.NonNexusNonManual:
+                    print("WARNING: neither manualURL no Nexus url in "+installfile+".meta")
         
-        modids = list(filter(lambda s: re.search('^modid *= *',s),modmetalines))
-        assert(len(modids)<=1)
-        modid = 0
-        if(len(modids)==1):
-            m = re.search('^modid *= *(.*)',modids[0])
-            if m:
-                modid = m.group(1)
-        if str(modid) != '0':
+        if modid and str(modid) != '0':
             # print(modid)
             ns = nsfw_nexus_dict.get(modid)
             if ns != None:
@@ -274,15 +229,16 @@ with open('manualdl.md', 'w') as md:
                 nsfw_nexus += ns
                 nsfw_esxs += local_esxs * ns
             else:
-                print(installfile)
+                # print(installfile)
+                print('WARNING: file '+installfile+' from Nexus modid='+str(modid)+' is not categorized as NSFW or not')
                 url = 'https://www.nexusmods.com/skyrimspecialedition/mods/' + str(modid)
-                print(url)
+                # print(url)
                 nsfw_or_not += 1
         else:
             if mod.startswith('KTA'):
                 nsfw_kta += 1
                 nsfw_esxs += local_esxs
-            elif manualurl != '':
+            elif manualurl and manualurl != '':
                 if re.search('loverslab',manualurl):
                     nsfw_ll += 1
                     nsfw_esxs += local_esxs
@@ -308,7 +264,7 @@ with open('manualdl.md', 'w') as md:
         rowidx = rowidx + 1
     
 # reading ../../KTA/Kick Their Ass.wabbajack.meta.json
-with open('../../KTA/Kick Their Ass.wabbajack.meta.json', 'r') as rfile:
+with wj2git.openModTxtFile('../../KTA/Kick Their Ass.wabbajack.meta.json') as rfile:
     kta_stats = json.load(rfile)
 stats['WBSIZE'] = f"{kta_stats['Size']/1e9:.1f}G"
 stats['DLSIZE'] = f"{kta_stats['SizeOfArchives']/1e9:.0f}G"
@@ -319,12 +275,12 @@ stats['ESXS'] = str(esxs)
 stats['NSFWESXS'] = str(nsfw_esxs)
 
 # generating README.md
-with open('README-template.md', 'r') as fr:
+with wj2git.openModTxtFile('README-template.md') as fr:
     readme = fr.read()
 for key in stats:
     key1 = '%'+key+'%'
     readme = readme.replace(key1,str(stats[key]))
-with open('README.md', 'w') as fw:
+with wj2git.openModTxtFileW('README.md') as fw:
     fw.write(readme)
     
 # print('|Active Mods|'+str(activemods)+'|')
