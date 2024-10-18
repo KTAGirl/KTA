@@ -168,9 +168,7 @@ if False:
 
 # modlist = list(filter(lambda s: s.startswith('+'),modlist))
 stats['ACTIVEMODS'] = sum(1 for i in modlist.allEnabled())
-modlist.modlist.append('@loot_0.24.0-win64.7Z') # HACK!
-modlist.modlist.append('@SSEEdit 4.1.5f-164-4-1-5f-1714283656.7z')
-modlist.modlist.append('@BAE v0.10-974-0-10.7z')
+toolinstallfiles = ['loot_0.24.0-win64.7Z','SSEEdit 4.1.5f-164-4-1-5f-1714283656.7z','BAE v0.10-974-0-10.7z']
 
 # print(modlist)
 
@@ -188,40 +186,22 @@ with wj2git.openModTxtFileW('manualdl.md') as md:
     md.write('|#| URL | Comment |\n')
     md.write('|-----|-----|-----|\n')
     todl = {}
+    for installfile in toolinstallfiles:
+        manualurl,prompt = wj2git.manualUrlAndPrompt(installfile,MO2)
+        if manualurl:
+            wj2git.addToDictOfLists(todl,manualurl,prompt)
 
-    for mod0 in modlist.modlist:
-        mod = mod0[1:]
-        if(mod0[0]=='@'):
-            installfile=mod
-            modid=0
-        else:
-            if mod0[0]!='+':
-                continue
-            local_esxs = len(wj2git.allEsxs(mod,MO2))
-            esxs += local_esxs
-            # print(mod)
-            installfile,modid = wj2git.installFileAndModid(mod,MO2)
+    for mod in modlist.allEnabled():
+        installfile,modid,manualurl,prompt = wj2git.installfileModidManualUrlAndPrompt(mod,MO2)
+        if manualurl:
+            wj2git.addToDictOfLists(todl,manualurl,prompt)
 
-        manualurl = None
-        if not installfile:
-            print('WARNING: no installedFiles= found for mod '+mod)
-        else:
-            flag, manualurl, prompt = wj2git.howToDownload(installfile,MO2)
-            match flag:
-                case wj2git.HowToDownloadReturn.NoMeta:
-                    print("WARNING: no .meta file for "+installfile)
-                case wj2git.HowToDownloadReturn.ManualOk:
-                    if manualurl not in todl:
-                        todl[manualurl]=[]
-                    todl[manualurl].append(prompt)                    
-                case wj2git.HowToDownloadReturn.NexusOk:
-                    pass
-                case wj2git.HowToDownloadReturn.NonNexusNonManual:
-                    print("WARNING: neither manualURL no Nexus url in "+installfile+".meta")
-        
-        if modid and str(modid) != '0':
+        local_esxs = len(wj2git.allEsxs(mod,MO2))
+        esxs += local_esxs
+
+        if modid:
             # print(modid)
-            ns = nsfw_nexus_dict.get(modid)
+            ns = nsfw_nexus_dict.get(str(modid))
             if ns != None:
                 assert(ns == 0 or ns == 1)
                 nsfw_nexus += ns
