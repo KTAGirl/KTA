@@ -169,8 +169,10 @@ if False:
 # modlist = list(filter(lambda s: s.startswith('+'),modlist))
 stats['ACTIVEMODS'] = sum(1 for i in modlist.allEnabled())
 toolinstallfiles = ['loot_0.24.0-win64.7Z','SSEEdit 4.1.5f-164-4-1-5f-1714283656.7z','BAE v0.10-974-0-10.7z']
+with wj2git.openModTxtFileW('manualdl.md') as md:
+    wj2git.writeManualDownloads(md,modlist,toolinstallfiles)
 
-# print(modlist)
+# NSFW stats
 
 nsfw_nexus=0
 nsfw_ll=0
@@ -181,65 +183,41 @@ nsfw_esxs=0
 with wj2git.openModTxtFile('nsfw-nexus.json') as rfile:
     nsfw_nexus_dict = json.load(rfile)
 
-with wj2git.openModTxtFileW('manualdl.md') as md:
-    md.write('## Kick Their Asses - Manual Downloads\n')
-    md.write('|#| URL | Comment |\n')
-    md.write('|-----|-----|-----|\n')
-    todl = {}
-    for installfile in toolinstallfiles:
-        manualurl,prompt = wj2git.manualUrlAndPrompt(installfile,MO2)
-        if manualurl:
-            wj2git.addToDictOfLists(todl,manualurl,prompt)
+for mod in modlist.allEnabled():
+    installfile,modid,manualurl,prompt = wj2git.installfileModidManualUrlAndPrompt(mod,MO2)
 
-    for mod in modlist.allEnabled():
-        installfile,modid,manualurl,prompt = wj2git.installfileModidManualUrlAndPrompt(mod,MO2)
-        if manualurl:
-            wj2git.addToDictOfLists(todl,manualurl,prompt)
+    local_esxs = len(wj2git.allEsxs(mod,MO2))
+    esxs += local_esxs
 
-        local_esxs = len(wj2git.allEsxs(mod,MO2))
-        esxs += local_esxs
-
-        if modid:
-            # print(modid)
-            ns = nsfw_nexus_dict.get(str(modid))
-            if ns != None:
-                assert(ns == 0 or ns == 1)
-                nsfw_nexus += ns
-                nsfw_esxs += local_esxs * ns
-            else:
-                # print(installfile)
-                print('WARNING: file '+installfile+' from Nexus modid='+str(modid)+' is not categorized as NSFW or not')
-                url = 'https://www.nexusmods.com/skyrimspecialedition/mods/' + str(modid)
-                # print(url)
-                nsfw_or_not += 1
+    if modid:
+        # print(modid)
+        ns = nsfw_nexus_dict.get(str(modid))
+        if ns != None:
+            assert(ns == 0 or ns == 1)
+            nsfw_nexus += ns
+            nsfw_esxs += local_esxs * ns
         else:
-            if mod.startswith('KTA'):
-                nsfw_kta += 1
+            # print(installfile)
+            print('WARNING: file '+installfile+' from Nexus modid='+str(modid)+' is not categorized as NSFW or not')
+            url = 'https://www.nexusmods.com/skyrimspecialedition/mods/' + str(modid)
+            # print(url)
+            nsfw_or_not += 1
+    else:
+        if mod.startswith('KTA'):
+            nsfw_kta += 1
+            nsfw_esxs += local_esxs
+        elif manualurl and manualurl != '':
+            if re.search('loverslab',manualurl):
+                nsfw_ll += 1
                 nsfw_esxs += local_esxs
-            elif manualurl and manualurl != '':
-                if re.search('loverslab',manualurl):
-                    nsfw_ll += 1
-                    nsfw_esxs += local_esxs
 
-    if nsfw_or_not:
-        print('WARNING: NSFW_OR_NOT=' + str(nsfw_or_not))
-    stats['NSFWMODS'] = nsfw_nexus + nsfw_ll + nsfw_kta
-    stats['NSFWMODSLL'] = nsfw_ll
-    stats['NSFWMODSNEXUS'] = nsfw_nexus
-    stats['NSFWMODSKTA'] = nsfw_kta
+if nsfw_or_not:
+    print('WARNING: NSFW_OR_NOT=' + str(nsfw_or_not))
+stats['NSFWMODS'] = nsfw_nexus + nsfw_ll + nsfw_kta
+stats['NSFWMODSLL'] = nsfw_ll
+stats['NSFWMODSNEXUS'] = nsfw_nexus
+stats['NSFWMODSKTA'] = nsfw_kta
     
-    rowidx = 1
-    sorted_todl = dict(sorted(todl.items()))
-    for manualurl in sorted_todl:
-        prompts = sorted_todl[manualurl]
-        # print(manualurl+' '+str(prompts))
-        xprompt = ''
-        for prompt in prompts:
-            if len(xprompt) > 0:
-                xprompt = xprompt + '<br>'
-            xprompt = xprompt + ':lips:' + prompt
-        md.write('|'+str(rowidx)+'|['+manualurl+']('+manualurl+')|'+xprompt+'|\n')
-        rowidx = rowidx + 1
     
 # reading ../../KTA/Kick Their Ass.wabbajack.meta.json
 with wj2git.openModTxtFile('../../KTA/Kick Their Ass.wabbajack.meta.json') as rfile:
