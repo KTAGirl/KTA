@@ -57,15 +57,14 @@ validate_eslfication('02 Asmodeus Pornstars Pack 2 NPC replacer ESP','Asmodeus_P
 eslified = glob.glob(MO2+'mods/KTA-eslify-optionals/*')
 assert(len(eslified)==9) #was any other eslified esp added to the folder without changing Python? Make sure to add validate_eslfication before changing the assert
 
-# start collecting stats
-stats = {}
-config = {}
-config['altprofiles'] = {'KTA-Lite':lambda section: re.search('OPTIONAL',section)}
+config = { 'mo2': MO2, 'compiler_settings':'Kick Their Ass.compiler_settings', 'targetgithub': '' }
 config['ownmods'] = ['KTA-MCM','KTA-firewood','KTA-Pacifist','KTA-FemaleOppression','KTA-Seduce',
                     'KTA-LALPatch','KTA-DF-Patch','KTA-eslify-optionals','KTA-ENB-Settings-for-PRT-XII']
+config['toolinstallfiles'] = ['loot_0.24.0-win64.7Z','SSEEdit 4.1.5f-164-4-1-5f-1714283656.7z','BAE v0.10-974-0-10.7z']
+config['altprofiles'] = {'KTA-Lite':lambda section: re.search('OPTIONAL',section)}
 
-kta_cs,modlist = wj2git.wj2git(MO2,'Kick Their Ass.compiler_settings','',config,stats)
-stats['VERSION']=kta_cs['Version']
+kta_cs,modlist,todl,stats= wj2git.wj2git(config)
+wj2git.loadFromCompilerSettings(config,stats,kta_cs)
 
 # mod sizes - DEBUG
 if False:
@@ -75,8 +74,7 @@ if False:
 
 stats['ACTIVEMODS'] = sum(1 for i in modlist.allEnabled())
 
-toolinstallfiles = ['loot_0.24.0-win64.7Z','SSEEdit 4.1.5f-164-4-1-5f-1714283656.7z','BAE v0.10-974-0-10.7z']
-wj2git.writeManualDownloads('manualdl.md','Kick Their Ass',modlist,MO2,config,toolinstallfiles)
+wj2git.writeManualDownloads('manualdl.md',modlist,todl,config)
 
 # NSFW stats
 
