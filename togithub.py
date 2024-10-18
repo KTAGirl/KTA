@@ -15,16 +15,6 @@ MO2='../../MO2/'
 
 # helpers
 
-def dir_size(start_path):
-    total_size = 0
-    for dirpath, dirnames, filenames in os.walk(start_path):
-        for f in filenames:
-            fp = os.path.join(dirpath, f)
-            # skip if it is symbolic link
-            if not os.path.islink(fp):
-                total_size += os.path.getsize(fp)
-    return total_size
-
 def file_noncrypto_hash(filename):
     bufsz = 1048576  # lets read stuff in 1M chunks!
 
@@ -154,23 +144,14 @@ modlist.writeDisablingIf(MO2+'profiles/KTA-Lite/', lambda mod: optionalmods_dict
 
 # mod sizes - DEBUG
 if False:
-    size_list=[]
-    for mod in modlist.allEnabled():
-        size_list.append([mod,round(dir_size(MO2+'mods/'+mod)/1000000,2)])
-    #for mod0 in modlist:
-    #    if mod0[0]=='+':
-    #        size_list.append([mod0[1:],round(dir_size(MO2+'mods/'+mod0[1:])/1000000,2)])
-    size_list.sort(key=lambda x: x[1])
-    print(size_list)
+    sizes = wj2git.enabledModSizes(modlist,MO2)
+    print(sizes)
     dbg.dbgWait()
 
-# generate manualdl.md
-
-# modlist = list(filter(lambda s: s.startswith('+'),modlist))
 stats['ACTIVEMODS'] = sum(1 for i in modlist.allEnabled())
+
 toolinstallfiles = ['loot_0.24.0-win64.7Z','SSEEdit 4.1.5f-164-4-1-5f-1714283656.7z','BAE v0.10-974-0-10.7z']
-with wj2git.openModTxtFileW('manualdl.md') as md:
-    wj2git.writeManualDownloads(md,'Kick Their Asses',modlist,MO2,toolinstallfiles)
+wj2git.writeManualDownloads('manualdl.md','Kick Their Asses',modlist,MO2,toolinstallfiles)
 
 # NSFW stats
 
@@ -220,13 +201,8 @@ stats['NSFWMODSKTA'] = nsfw_kta
     
     
 # reading ../../KTA/Kick Their Ass.wabbajack.meta.json
-with wj2git.openModTxtFile('../../KTA/Kick Their Ass.wabbajack.meta.json') as rfile:
-    kta_stats = json.load(rfile)
-stats['WBSIZE'] = f"{kta_stats['Size']/1e9:.1f}G"
-stats['DLSIZE'] = f"{kta_stats['SizeOfArchives']/1e9:.0f}G"
-stats['INSTALLSIZE'] = f"{kta_stats['SizeOfInstalledFiles']/1e9:.0f}G"
-stats['TOTALSPACE'] = f"{round(((kta_stats['Size']+kta_stats['SizeOfArchives']+kta_stats['SizeOfInstalledFiles'])/1e9+5)/5,0)*5:.0f}G"
-stats['BODYSLIDESZ'] = f"{dir_size(MO2+'mods/BodySlide Output')/1e9:.1f}G"
+wj2git.fillCompiledStats(stats,'../../KTA/Kick Their Ass.wabbajack.meta.json')
+stats['BODYSLIDESZ'] = wj2git.statsFolderSize(MO2+'mods/BodySlide Output')
 stats['ESXS'] = str(esxs)
 stats['NSFWESXS'] = str(nsfw_esxs)
 
