@@ -61,7 +61,7 @@ assert(len(eslified)==9) #was any other eslified esp added to the folder without
 stats = {}
 config = {}
 config['altprofiles'] = {'KTA-Lite':lambda section: re.search('OPTIONAL',section)}
-config['localmods'] = ['KTA-MCM','KTA-firewood','KTA-Pacifist','KTA-FemaleOppression','KTA-Seduce','KTA-LALPatch','KTA-DF-Patch','KTA-eslify-optionals']
+config['ownmods'] = ['KTA-MCM','KTA-firewood','KTA-Pacifist','KTA-FemaleOppression','KTA-Seduce','KTA-LALPatch','KTA-DF-Patch','KTA-eslify-optionals']
 
 kta_cs,modlist = wj2git.wj2git(MO2,'Kick Their Ass.compiler_settings','',config,stats)
 stats['VERSION']=kta_cs['Version']
@@ -89,7 +89,7 @@ with wj2git.openModTxtFile('nsfw-nexus.json') as rfile:
     nsfw_nexus_dict = json.load(rfile)
 
 for mod in modlist.allEnabled():
-    if mod in config['localmods']:
+    if mod in config['ownmods']:
         continue
     
     installfile,modid,manualurl,prompt = wj2git.installfileModidManualUrlAndPrompt(mod,MO2)
