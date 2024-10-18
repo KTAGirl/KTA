@@ -64,11 +64,14 @@ eslified = glob.glob(MO2+'mods/KTA-eslify-optionals/*')
 assert(len(eslified)==9) #was any other eslified esp added to the folder without changing Python? Make sure to add validate_eslfication before changing the assert
 
 # start collecting stats
-stats = dict()
+stats = {}
 
 # copy files 
 
-kta_cs,modlist = wj2git.wj2git(MO2,'Kick Their Ass.compiler_settings','')
+config = {}
+config['altprofiles'] = {'KTA-Lite':lambda section: re.search('OPTIONAL',section)}
+
+kta_cs,modlist = wj2git.wj2git(MO2,'Kick Their Ass.compiler_settings','',config,stats)
 stats['VERSION']=kta_cs['Version']
 
 copy_mod('KTA-MCM')
@@ -79,58 +82,8 @@ copy_mod('KTA-Seduce')
 copy_mod('KTA-LALPatch')
 copy_mod('KTA-DF-Patch')
 copy_mod('KTA-eslify-optionals')
-
-# process KTA-FULL profile
-
-# optionals
-section = ''
-optionalmods=0
-optionalesxs=0
-optionalesxs_dict={}
-optionalmods_dict={}
-for mod in modlist.modlist:
-    separ = wj2git.ModList.isSeparator(mod)
-    if separ:
-        section = separ
-    else:
-        if re.search('OPTIONAL',section):
-            assert(mod[0]=='+')
-            mod = mod[1:]
-            optionalmods += 1
-            # print('OPTIONAL:'+mod)
-            optionalmods_dict[mod] = 1
-            esxs=wj2git.allEsxs(mod,MO2)
-            for esx in esxs:
-                optionalesxs += 1
-                key = os.path.split(esx)[1]
-                assert(optionalesxs_dict.get(key)==None)
-                optionalesxs_dict[key] = esx
-        else:
-            if mod[0]=='+':
-                mod = mod[1:]
-                esxs=wj2git.allEsxs(mod,MO2)
-                for esx in esxs:
-                    key = os.path.split(esx)[1]
-                    path = optionalesxs_dict.get(key)
-                    if path != None:
-                        # print(path + ' is overridden by '+ esx)
-                        optionalesxs_dict[key] = esx
-
-            
-stats['OPTIONALMODS']=optionalmods
-stats['OPTIONALESXS']=optionalesxs
-
-for key in optionalesxs_dict:
-    esx = optionalesxs_dict.get(key)
-    assert(esx!=None)
-    if not wj2git.isEslFlagged(esx):
-       print('WARNING: OPTIONAL '+esx+' is not esl-flagged')    
        
-# generate KTA-Lite
-shutil.copytree(MO2+'profiles/KTA-FULL', MO2+'profiles/KTA-Lite', dirs_exist_ok=True)
-
-# print(modlist)
-modlist.writeDisablingIf(MO2+'profiles/KTA-Lite/', lambda mod: optionalmods_dict.get(mod) or mod == 'KTA-eslify-optionals')
+# shutil.copytree(MO2+'profiles/KTA-FULL', MO2+'profiles/KTA-Lite', dirs_exist_ok=True)
 
 # mod sizes - DEBUG
 if False:
