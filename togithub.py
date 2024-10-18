@@ -43,12 +43,6 @@ def validate_eslfication(orig_mod,esp_name,orig_hash,eslified_hash):
         assert(False)
     assert(wj2git.isEslFlagged(new_esp))
     
-def copy_mod(modname):
-    shutil.copytree(MO2+'mods/'+modname, modname, dirs_exist_ok=True)
-
-
-# helpers end
-
 # validate that ESL-fication is still valid (that original ESPs are not changed)
 # if it fails - something has changed, ESP needs to be re-ESL-ified
 validate_eslfication('Blubbos Whiterun 2022','Blubbos_NewWhiterun_2022.esp','684bc59df513004ac3a12002afd5226f','4446c0bbb675380df9b0b1921fcf0f40')
@@ -65,25 +59,12 @@ assert(len(eslified)==9) #was any other eslified esp added to the folder without
 
 # start collecting stats
 stats = {}
-
-# copy files 
-
 config = {}
 config['altprofiles'] = {'KTA-Lite':lambda section: re.search('OPTIONAL',section)}
+config['localmods'] = ['KTA-MCM','KTA-firewood','KTA-Pacifist','KTA-FemaleOppression','KTA-Seduce','KTA-LALPatch','KTA-DF-Patch','KTA-eslify-optionals']
 
 kta_cs,modlist = wj2git.wj2git(MO2,'Kick Their Ass.compiler_settings','',config,stats)
 stats['VERSION']=kta_cs['Version']
-
-copy_mod('KTA-MCM')
-copy_mod('KTA-firewood')
-copy_mod('KTA-Pacifist')
-copy_mod('KTA-FemaleOppression')
-copy_mod('KTA-Seduce')
-copy_mod('KTA-LALPatch')
-copy_mod('KTA-DF-Patch')
-copy_mod('KTA-eslify-optionals')
-       
-# shutil.copytree(MO2+'profiles/KTA-FULL', MO2+'profiles/KTA-Lite', dirs_exist_ok=True)
 
 # mod sizes - DEBUG
 if False:
@@ -94,7 +75,7 @@ if False:
 stats['ACTIVEMODS'] = sum(1 for i in modlist.allEnabled())
 
 toolinstallfiles = ['loot_0.24.0-win64.7Z','SSEEdit 4.1.5f-164-4-1-5f-1714283656.7z','BAE v0.10-974-0-10.7z']
-wj2git.writeManualDownloads('manualdl.md','Kick Their Ass',modlist,MO2,toolinstallfiles)
+wj2git.writeManualDownloads('manualdl.md','Kick Their Ass',modlist,MO2,config,toolinstallfiles)
 
 # NSFW stats
 
@@ -108,6 +89,9 @@ with wj2git.openModTxtFile('nsfw-nexus.json') as rfile:
     nsfw_nexus_dict = json.load(rfile)
 
 for mod in modlist.allEnabled():
+    if mod in config['localmods']:
+        continue
+    
     installfile,modid,manualurl,prompt = wj2git.installfileModidManualUrlAndPrompt(mod,MO2)
 
     local_esxs = len(wj2git.allEsxs(mod,MO2))
