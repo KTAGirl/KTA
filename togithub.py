@@ -170,7 +170,7 @@ if False:
 stats['ACTIVEMODS'] = sum(1 for i in modlist.allEnabled())
 toolinstallfiles = ['loot_0.24.0-win64.7Z','SSEEdit 4.1.5f-164-4-1-5f-1714283656.7z','BAE v0.10-974-0-10.7z']
 with wj2git.openModTxtFileW('manualdl.md') as md:
-    wj2git.writeManualDownloads(md,modlist,toolinstallfiles)
+    wj2git.writeManualDownloads(md,'Kick Their Asses',modlist,MO2,toolinstallfiles)
 
 # NSFW stats
 
@@ -240,5 +240,7 @@ with wj2git.openModTxtFileW('README.md') as fw:
     fw.write(readme)
     
 # print('|Active Mods|'+str(activemods)+'|')
+
+wj2git.wj2git(MO2,'')
 
 wait = input("Press Enter to continue.")
