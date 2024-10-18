@@ -151,7 +151,7 @@ if False:
 stats['ACTIVEMODS'] = sum(1 for i in modlist.allEnabled())
 
 toolinstallfiles = ['loot_0.24.0-win64.7Z','SSEEdit 4.1.5f-164-4-1-5f-1714283656.7z','BAE v0.10-974-0-10.7z']
-wj2git.writeManualDownloads('manualdl.md','Kick Their Asses',modlist,MO2,toolinstallfiles)
+wj2git.writeManualDownloads('manualdl.md','Kick Their Ass',modlist,MO2,toolinstallfiles)
 
 # NSFW stats
 
@@ -208,6 +208,6 @@ stats['NSFWESXS'] = str(nsfw_esxs)
 # generating README.md
 wj2git.writeTxtFromTemplate('README-template.md','README.md',stats)
 
-wj2git.wj2git(MO2,'')
+wj2git.wj2git(MO2,MO2+ 'Kick Their Ass.compiler_settings','')
 
 wait = input("Press Enter to continue.")

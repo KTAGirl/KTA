@@ -1,4 +1,4 @@
-## Kick Their Asses - Manual Downloads
+## Kick Their Ass - Manual Downloads
 |#| URL | Comment |
 |-----|-----|-----|
 |1|[http://enbdev.com/mod_tesskyrimse_v0502.htm](http://enbdev.com/mod_tesskyrimse_v0502.htm)|:lips:Download link at the page bottom, downloading "enbseries_skyrimse_v0502.zip"|
