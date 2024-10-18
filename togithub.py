@@ -61,7 +61,8 @@ assert(len(eslified)==9) #was any other eslified esp added to the folder without
 stats = {}
 config = {}
 config['altprofiles'] = {'KTA-Lite':lambda section: re.search('OPTIONAL',section)}
-config['ownmods'] = ['KTA-MCM','KTA-firewood','KTA-Pacifist','KTA-FemaleOppression','KTA-Seduce','KTA-LALPatch','KTA-DF-Patch','KTA-eslify-optionals']
+config['ownmods'] = ['KTA-MCM','KTA-firewood','KTA-Pacifist','KTA-FemaleOppression','KTA-Seduce',
+                    'KTA-LALPatch','KTA-DF-Patch','KTA-eslify-optionals','KTA-ENB-Settings-for-PRT-XII']
 
 kta_cs,modlist = wj2git.wj2git(MO2,'Kick Their Ass.compiler_settings','',config,stats)
 stats['VERSION']=kta_cs['Version']
