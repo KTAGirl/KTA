@@ -68,13 +68,8 @@ stats = dict()
 
 # copy files 
 
-with wj2git.openModTxtFile(MO2+'Kick Their Ass.compiler_settings') as rfile:
-    kta_cs = json.load(rfile)
-    
+kta_cs = wj2git.wj2git(MO2,'Kick Their Ass.compiler_settings','')
 stats['VERSION']=kta_cs['Version']
-
-with wj2git.openModTxtFileW('Kick Their Ass.compiler_settings') as wfile:
-    json.dump(kta_cs, wfile, sort_keys=True, indent=4)
 
 shutil.copyfile(MO2+'profiles/KTA-FULL/loadorder.txt',"loadorder.txt")
 
@@ -207,7 +202,5 @@ stats['NSFWESXS'] = str(nsfw_esxs)
 
 # generating README.md
 wj2git.writeTxtFromTemplate('README-template.md','README.md',stats)
-
-wj2git.wj2git(MO2,MO2+ 'Kick Their Ass.compiler_settings','')
 
 wait = input("Press Enter to continue.")
