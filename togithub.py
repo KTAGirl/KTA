@@ -68,13 +68,8 @@ stats = dict()
 
 # copy files 
 
-kta_cs = wj2git.wj2git(MO2,'Kick Their Ass.compiler_settings','')
+kta_cs,modlist = wj2git.wj2git(MO2,'Kick Their Ass.compiler_settings','')
 stats['VERSION']=kta_cs['Version']
-
-shutil.copyfile(MO2+'profiles/KTA-FULL/loadorder.txt',"loadorder.txt")
-
-modlist = wj2git.ModList(MO2+'profiles/KTA-FULL/')
-modlist.write('') # to current dir
 
 copy_mod('KTA-MCM')
 copy_mod('KTA-firewood')
