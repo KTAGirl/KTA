@@ -199,23 +199,14 @@ stats['NSFWMODSLL'] = nsfw_ll
 stats['NSFWMODSNEXUS'] = nsfw_nexus
 stats['NSFWMODSKTA'] = nsfw_kta
     
-    
-# reading ../../KTA/Kick Their Ass.wabbajack.meta.json
+# more stats
 wj2git.fillCompiledStats(stats,'../../KTA/Kick Their Ass.wabbajack.meta.json')
 stats['BODYSLIDESZ'] = wj2git.statsFolderSize(MO2+'mods/BodySlide Output')
 stats['ESXS'] = str(esxs)
 stats['NSFWESXS'] = str(nsfw_esxs)
 
 # generating README.md
-with wj2git.openModTxtFile('README-template.md') as fr:
-    readme = fr.read()
-for key in stats:
-    key1 = '%'+key+'%'
-    readme = readme.replace(key1,str(stats[key]))
-with wj2git.openModTxtFileW('README.md') as fw:
-    fw.write(readme)
-    
-# print('|Active Mods|'+str(activemods)+'|')
+wj2git.writeTxtFromTemplate('README-template.md','README.md',stats)
 
 wj2git.wj2git(MO2,'')
 
