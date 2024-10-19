@@ -12,6 +12,8 @@ import dbg
 
 # config
 MO2='../../MO2/'
+DBGDUMPDB=None
+# DBGDUMPDB='..\\'
 
 # helpers
 
@@ -62,6 +64,8 @@ config['ownmods'] = ['KTA-MCM','KTA-firewood','KTA-Pacifist','KTA-FemaleOppressi
                     'KTA-LALPatch','KTA-DF-Patch','KTA-eslify-optionals','KTA-ENB-Settings-for-PRT-XII']
 config['toolinstallfiles'] = ['loot_0.24.0-win64.7Z','SSEEdit 4.1.5f-164-4-1-5f-1714283656.7z','BAE v0.10-974-0-10.7z']
 config['altprofiles'] = {'KTA-Lite':lambda section: re.search('OPTIONAL',section)}
+if DBGDUMPDB:
+    config['dbgdumpdb']=DBGDUMPDB
 
 kta_cs,modlist,todl,stats= wj2git.wj2git(config)
 wj2git.loadFromCompilerSettings(config,stats,kta_cs)
