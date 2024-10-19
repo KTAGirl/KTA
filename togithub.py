@@ -138,4 +138,5 @@ stats['NSFWESXS'] = str(nsfw_esxs)
 # generating README.md
 wj2git.writeTxtFromTemplate('README-template.md','README.md',stats)
 
+print('togithub.py took '+str(wj2git.elapsedTime())+' sec')
 wait = input("Press Enter to continue.")
