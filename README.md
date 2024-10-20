@@ -62,12 +62,13 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 
 ### Install
 1. Install Wabbajack from https://www.wabbajack.org/
-2. Download [the following files](https://github.com/KTAGirl/KTA/blob/main/manualdl.md) manually into WJ downloads folder
-3. Install KTA modlist using Wabbajack
-4. Launch ModOrganizer.exe from the install folder
-5. Launch SKSE
-6. Load KTA save file, OR
-7. Start New Game, AND
+2. Install [Visual Studio Redistributables (2015-2022)](https://aka.ms/vs/17/release/vc_redist.x64.exe), if the link doesn't open, go to [MS Page](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170), and download X64 version 
+3. Download [the following files](https://github.com/KTAGirl/KTA/blob/main/manualdl.md) manually into WJ downloads folder
+4. Install KTA modlist using Wabbajack
+5. Launch ModOrganizer.exe from the install folder
+6. Launch SKSE
+7. Load KTA save file, OR
+8. Start New Game, AND
    1. Design your character (at minimum, set sex to 1, and choose one of the presets included; recommended skin tone is at least 2)
       + Don't forget to load Sculpt     
    3. (You're now in Live Another Life's Dungeon) Wait until all messages are gone, and plus 1 minute. While at it, click 'Ok' to any messages appearing.
