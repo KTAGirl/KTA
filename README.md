@@ -28,7 +28,7 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | Modlist File Size | 2.4G |
 | Including Generated BodySlides | 1.7G |
 | To be downloaded by Wabbajack | 21G |
-| Installed File Size | 52G |
+| Installed File Size | 50G |
 | Total Space Needed | 80G (compare it to 350-500+G for a typical Wabbajack modlist) |
 | Active Mods | 318 |
 | Including NSFW Mods (Nexus+LL+KTA) | 138 (32+106+0) |
@@ -66,9 +66,10 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 3. Download [the following files](https://github.com/KTAGirl/KTA/blob/main/manualdl.md) manually into WJ downloads folder
 4. Install KTA modlist using Wabbajack
 5. Launch ModOrganizer.exe from the install folder
-6. Launch SKSE
-7. Load KTA save file, OR
-8. Start New Game, AND
+6. Launch Skyrim Launcher once - to select graphics settings, do NOT launch the game from it.
+7. Launch SKSE
+8. Load KTA save file, OR
+9. Start New Game, AND
    1. Design your character (at minimum, set sex to 1, and choose one of the presets included; recommended skin tone is at least 2)
       + Don't forget to load Sculpt     
    3. (You're now in Live Another Life's Dungeon) Wait until all messages are gone, and plus 1 minute. While at it, click 'Ok' to any messages appearing.
