@@ -8,7 +8,8 @@ import hashlib
 import sys
 sys.path.append('../wj2git/')
 import wj2git
-import dbg
+from w2gdebug import DEBUG
+from w2gdebug import dbgWait
 
 # config
 MO2='../../MO2/'
@@ -74,7 +75,7 @@ wj2git.loadFromCompilerSettings(config,stats,kta_cs)
 if False:
     sizes = wj2git.enabledModSizes(modlist,MO2)
     print(sizes)
-    dbg.dbgWait()
+    dbgWait()
 
 stats['ACTIVEMODS'] = sum(1 for i in modlist.allEnabled())
 
