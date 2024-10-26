@@ -6,10 +6,10 @@ import glob
 import hashlib
 
 import sys
-sys.path.append('../wj2git/')
+sys.path.append('../')
 import wj2git
-from w2gdebug import DEBUG
-from w2gdebug import dbgWait
+from wj2git.debug import DEBUG
+from wj2git.debug import dbgWait
 
 # config
 MO2='../../MO2/'
