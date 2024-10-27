@@ -7,9 +7,9 @@ import hashlib
 
 import sys
 sys.path.append('../')
-import wj2git
-from wj2git.debug import DEBUG
-from wj2git.debug import dbgWait
+import mo2git
+from mo2git.debug import DEBUG
+from mo2git.debug import dbgWait
 
 # config
 MO2='../../MO2/'
@@ -38,13 +38,13 @@ def validate_eslfication(orig_mod,esp_name,orig_hash,eslified_hash):
     if(hash!=orig_hash):
         print(hash)
         assert(False)
-    assert(not wj2git.isEslFlagged(old_esp))
+    assert(not mo2git.isEslFlagged(old_esp))
     new_esp = MO2+'mods/KTA-eslify-optionals/' + esp_name
     hash = file_noncrypto_hash(new_esp)
     if(hash!=eslified_hash):
         print(hash)
         assert(False)
-    assert(wj2git.isEslFlagged(new_esp))
+    assert(mo2git.isEslFlagged(new_esp))
     
 # validate that ESL-fication is still valid (that original ESPs are not changed)
 # if it fails - something has changed, ESP needs to be re-ESL-ified
@@ -60,7 +60,7 @@ validate_eslfication('02 Asmodeus Pornstars Pack 2 NPC replacer ESP','Asmodeus_P
 eslified = glob.glob(MO2+'mods/KTA-eslify-optionals/*')
 assert(len(eslified)==9) #was any other eslified esp added to the folder without changing Python? Make sure to add validate_eslfication before changing the assert
 
-config = { 'mo2': MO2, 'compiler_settings':'Kick Their Ass.compiler_settings', 'downloads': MO2+'downloads\\', 'targetgithub': '', 'cache':'../../wj2git.cache/' }
+config = { 'mo2': MO2, 'compiler_settings':'Kick Their Ass.compiler_settings', 'downloads': MO2+'downloads\\', 'targetgithub': '', 'cache':'../../mo2git.cache/' }
 config['ownmods'] = ['KTA-MCM','KTA-firewood','KTA-Pacifist','KTA-FemaleOppression','KTA-Seduce',
                     'KTA-LALPatch','KTA-DF-Patch','KTA-eslify-optionals','KTA-ENB-Settings-for-PRT-XII']
 config['toolinstallfiles'] = ['loot_0.24.0-win64.7Z','SSEEdit 4.1.5f-164-4-1-5f-1714283656.7z','BAE v0.10-974-0-10.7z']
@@ -68,18 +68,18 @@ config['altprofiles'] = {'KTA-Lite':lambda section: re.search('OPTIONAL',section
 if DBGDUMPDB:
     config['dbgdumpdb']=DBGDUMPDB
 
-kta_cs,modlist,todl,stats= wj2git.wj2git(config)
-wj2git.loadFromCompilerSettings(config,stats,kta_cs)
+kta_cs,modlist,todl,stats= mo2git.mo2git(config)
+mo2git.loadFromCompilerSettings(config,stats,kta_cs)
 
 # mod sizes - DEBUG
 if False:
-    sizes = wj2git.enabledModSizes(modlist,MO2)
+    sizes = mo2git.enabledModSizes(modlist,MO2)
     print(sizes)
     dbgWait()
 
 stats['ACTIVEMODS'] = sum(1 for i in modlist.allEnabled())
 
-wj2git.writeManualDownloads('manualdl.md',modlist,todl,config)
+mo2git.writeManualDownloads('manualdl.md',modlist,todl,config)
 
 # NSFW stats
 
@@ -89,16 +89,16 @@ nsfw_kta=0
 nsfw_or_not=0
 esxs=0
 nsfw_esxs=0
-with wj2git.openModTxtFile('nsfw-nexus.json') as rfile:
+with mo2git.openModTxtFile('nsfw-nexus.json') as rfile:
     nsfw_nexus_dict = json.load(rfile)
 
 for mod in modlist.allEnabled():
     if mod in config['ownmods']:
         continue
     
-    installfile,modid,manualurl,prompt = wj2git.installfileModidManualUrlAndPrompt(mod,MO2)
+    installfile,modid,manualurl,prompt = mo2git.installfileModidManualUrlAndPrompt(mod,MO2)
 
-    local_esxs = len(wj2git.allEsxs(mod,MO2))
+    local_esxs = len(mo2git.allEsxs(mod,MO2))
     esxs += local_esxs
 
     if modid:
@@ -131,13 +131,13 @@ stats['NSFWMODSNEXUS'] = nsfw_nexus
 stats['NSFWMODSKTA'] = nsfw_kta
     
 # more stats
-wj2git.fillCompiledStats(stats,'../../KTA/Kick Their Ass.wabbajack.meta.json')
-stats['BODYSLIDESZ'] = wj2git.statsFolderSize(MO2+'mods/BodySlide Output')
+mo2git.fillCompiledStats(stats,'../../KTA/Kick Their Ass.wabbajack.meta.json')
+stats['BODYSLIDESZ'] = mo2git.statsFolderSize(MO2+'mods/BodySlide Output')
 stats['ESXS'] = str(esxs)
 stats['NSFWESXS'] = str(nsfw_esxs)
 
 # generating README.md
-wj2git.writeTxtFromTemplate('README-template.md','README.md',stats)
+mo2git.writeTxtFromTemplate('README-template.md','README.md',stats)
 
-print('togithub.py took '+str(wj2git.elapsedTime())+' sec')
+print('togithub.py took '+str(mo2git.elapsedTime())+' sec')
 wait = input("Press Enter to continue.")
