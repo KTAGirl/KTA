@@ -26,7 +26,7 @@ And we want KTA to be <ins>**open**</ins>. We hope to get a really wide communit
 | Minimum Recommended CPU | i5 or Ryzen 5 |
 | Minimum Recommended Drive Type | SSD (no HDDs, please, except maybe for downloads folder) |
 | Modlist File Size | %WBSIZE% |
-| Including Generated BodySlides | %BODYSLIDESZ% |
+| Including Generated BodySlides | %Bodyslide Output.SIZE% |
 | To be downloaded by Wabbajack | %DLSIZE% |
 | Installed File Size | %INSTALLSIZE% |
 | Total Space Needed | %TOTALSPACE% (compare it to 350-500+G for a typical Wabbajack modlist) |

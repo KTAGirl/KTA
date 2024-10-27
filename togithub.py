@@ -65,6 +65,8 @@ config['ownmods'] = ['KTA-MCM','KTA-firewood','KTA-Pacifist','KTA-FemaleOppressi
                     'KTA-LALPatch','KTA-DF-Patch','KTA-eslify-optionals','KTA-ENB-Settings-for-PRT-XII']
 config['toolinstallfiles'] = ['loot_0.24.0-win64.7Z','SSEEdit 4.1.5f-164-4-1-5f-1714283656.7z','BAE v0.10-974-0-10.7z']
 config['altprofiles'] = {'KTA-Lite':lambda section: re.search('OPTIONAL',section)}
+config['wjcompiled'] = '../../KTA/Kick Their Ass.wabbajack.meta.json'
+config['statsmods'] = ['Bodyslide Output']
 if DBGDUMPDB:
     config['dbgdumpdb']=DBGDUMPDB
 
