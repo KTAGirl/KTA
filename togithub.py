@@ -8,15 +8,9 @@ import hashlib
 import sys
 sys.path.append('../')
 import mo2git
-from mo2git.debug import DEBUG
-from mo2git.debug import dbgWait
 
 # config
 MO2='../../MO2/'
-DBGDUMPDB=None
-# DBGDUMPDB='..\\'
-
-# helpers
 
 def file_noncrypto_hash(filename):
     bufsz = 1048576  # lets read stuff in 1M chunks!
@@ -30,7 +24,6 @@ def file_noncrypto_hash(filename):
                 break
             hash.update(buf)
     return hash.hexdigest(16)
-    
 
 def validate_eslfication(orig_mod,esp_name,orig_hash,eslified_hash):
     old_esp = MO2+'mods/' + orig_mod + '/' + esp_name
@@ -60,6 +53,8 @@ validate_eslfication('02 Asmodeus Pornstars Pack 2 NPC replacer ESP','Asmodeus_P
 eslified = glob.glob(MO2+'mods/KTA-eslify-optionals/*')
 assert(len(eslified)==9) #was any other eslified esp added to the folder without changing Python? Make sure to add validate_eslfication before changing the assert
 
+###
+
 config = { 'mo2': MO2, 'compiler_settings':'Kick Their Ass.compiler_settings', 'downloads': MO2+'downloads\\', 'targetgithub': '', 'cache':'../../mo2git.cache/' }
 config['ownmods'] = ['KTA-MCM','KTA-firewood','KTA-Pacifist','KTA-FemaleOppression','KTA-Seduce',
                     'KTA-LALPatch','KTA-DF-Patch','KTA-eslify-optionals','KTA-ENB-Settings-for-PRT-XII']
@@ -67,8 +62,6 @@ config['toolinstallfiles'] = ['loot_0.24.0-win64.7Z','SSEEdit 4.1.5f-164-4-1-5f-
 config['altprofiles'] = {'KTA-Lite':lambda section: re.search('OPTIONAL',section)}
 config['wjcompiled'] = '../../KTA/Kick Their Ass.wabbajack.meta.json'
 config['statsmods'] = ['Bodyslide Output']
-if DBGDUMPDB:
-    config['dbgdumpdb']=DBGDUMPDB
 
 mo2git.run(config)
 
