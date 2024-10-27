@@ -9,9 +9,7 @@ import sys
 sys.path.append('../')
 import mo2git
 
-# config
-MO2='../../MO2/'
-
+'''
 def file_noncrypto_hash(filename):
     bufsz = 1048576  # lets read stuff in 1M chunks!
 
@@ -52,17 +50,17 @@ validate_eslfication('Blubbos Solitude','blubbos_trees_in_solitude.esp','6ee4b20
 validate_eslfication('02 Asmodeus Pornstars Pack 2 NPC replacer ESP','Asmodeus_PornStars_Pack2_Replacer.esp','642246b7c0cf93ec9513b867856d3109','cbeb978cdbbecbd756b1c417c3e12ce0')
 eslified = glob.glob(MO2+'mods/KTA-eslify-optionals/*')
 assert(len(eslified)==9) #was any other eslified esp added to the folder without changing Python? Make sure to add validate_eslfication before changing the assert
+'''
 
-###
-
-thiscriptdir = mo2git.scriptDirFrom__file__(__file__)
+thisscriptdir = mo2git.scriptDirFrom__file__(__file__)
+MO2=thisscriptdir+'../../MO2/'
 config = { 'mo2': MO2, 'compiler_settings':'Kick Their Ass.compiler_settings', 'downloads': MO2+'downloads\\', 
-           'targetgithub': thiscriptdir, 'cache':thiscriptdir+'../mo2git.cache/' }
+           'targetgithub': thisscriptdir, 'cache':thisscriptdir+'../mo2git.cache/' }
 config['ownmods'] = ['KTA-MCM','KTA-firewood','KTA-Pacifist','KTA-FemaleOppression','KTA-Seduce',
                     'KTA-LALPatch','KTA-DF-Patch','KTA-eslify-optionals','KTA-ENB-Settings-for-PRT-XII']
 config['toolinstallfiles'] = ['loot_0.24.0-win64.7Z','SSEEdit 4.1.5f-164-4-1-5f-1714283656.7z','BAE v0.10-974-0-10.7z']
 config['genprofiles'] = {'KTA-Lite':'OPTIONAL'}
-config['wjcompiled'] = '../../KTA/Kick Their Ass.wabbajack.meta.json'
+config['wjcompiled'] = thisscriptdir+'../../KTA/Kick Their Ass.wabbajack.meta.json'
 config['statsmods'] = ['Bodyslide Output']
 
 mo2git.run(config)
