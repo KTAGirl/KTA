@@ -68,5 +68,5 @@ def main():
 
     wait = input("Press Enter to continue.")
 
-if __name__ == '__main__':
+if __name__ == '__main__': #necessary to support multiprocessing within mo2git
     main()
