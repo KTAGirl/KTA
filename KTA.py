@@ -54,17 +54,7 @@ assert(len(eslified)==9) #was any other eslified esp added to the folder without
 
 def main():
     thisscriptdir = mo2git.scriptDirFrom__file__(__file__)
-    MO2=thisscriptdir+'../../MO2/'
-    config = { 'mo2': MO2, 'compiler_settings':'Kick Their Ass.compiler_settings', 'downloads': MO2+'downloads\\', 
-               'github': thisscriptdir, 'cache':thisscriptdir+'../mo2git.cache/' }
-    config['ownmods'] = ['KTA-MCM','KTA-firewood','KTA-Pacifist','KTA-FemaleOppression','KTA-Seduce',
-                        'KTA-LALPatch','KTA-DF-Patch','KTA-eslify-optionals','KTA-ENB-Settings-for-PRT-XII']
-    config['toolinstallfiles'] = ['loot_0.24.0-win64.7Z','SSEEdit 4.1.5f-164-4-1-5f-1714283656.7z','BAE v0.10-974-0-10.7z']
-    config['genprofiles'] = {'KTA-Lite':'OPTIONAL'}
-    config['wjcompiled'] = thisscriptdir+'../../KTA/Kick Their Ass.wabbajack.meta.json'
-    config['statsmods'] = ['Bodyslide Output']
-
-    mo2git.run(config)
+    mo2git.run(thisscriptdir+'kta.json')
 
 if __name__ == '__main__': #necessary to support multiprocessing within mo2git
     main()

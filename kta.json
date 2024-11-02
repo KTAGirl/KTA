@@ -1,0 +1,11 @@
+{
+    "mo2": "../../MO2/",
+    "compiler_settings":"Kick Their Ass.compiler_settings",
+	"downloads": ["{mo2}downloads\\"],
+    "ownmods": ["KTA-MCM","KTA-firewood","KTA-Pacifist","KTA-FemaleOppression","KTA-Seduce",
+                "KTA-LALPatch","KTA-DF-Patch","KTA-eslify-optionals","KTA-ENB-Settings-for-PRT-XII"],
+    "toolinstallfiles": ["loot_0.24.0-win64.7Z","SSEEdit 4.1.5f-164-4-1-5f-1714283656.7z","BAE v0.10-974-0-10.7z"],
+    "genprofiles": {"KTA-Lite":"OPTIONAL"},
+    "wjcompiled": "../../KTA/Kick Their Ass.wabbajack.meta.json",
+    "statsmods": ["Bodyslide Output"]
+}
