@@ -1,2 +1,2 @@
-KTA.py git2mo
+py KTA.py git2mo
 pause
