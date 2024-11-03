@@ -1,2 +1,2 @@
-KTA.py mo2git
+py KTA.py mo2git
 pause
