@@ -1,16 +1,17 @@
-{
-    "mo2": "../../MO2/",
-    "compiler_settings":"Kick Their Ass.compiler_settings",
-	"downloads": ["{mo2}downloads\\"],
-    "ownmods": ["KTA-MCM","KTA-firewood","KTA-Pacifist","KTA-FemaleOppression","KTA-Seduce",
+{ // This is a JSON5 config file; pure JSON is fine too
+    mo2: "../../MO2/",// both forward and backward slashes are supported in this config file
+    compiler_settings:'Kick Their Ass.compiler_settings',
+	downloads: ["{mo2}downloads\\"], //{mo2} is a substitution of a 'mo2:' parameter
+    ownmods: ["KTA-MCM","KTA-firewood","KTA-Pacifist","KTA-FemaleOppression","KTA-Seduce",
                 "KTA-LALPatch","KTA-DF-Patch","KTA-eslify-optionals","KTA-ENB-Settings-for-PRT-XII"],
-    "toolinstallfiles": [
+    toolinstallfiles: 	[
 						 "Mod Organizer 2-6194-2-5-2-1722760304.zip",
 						 "loot_0.24.0-win64.7Z",
 						 "SSEEdit 4.1.5f-164-4-1-5f-1714283656.7z",
 						 "BAE v0.10-974-0-10.7z"
 						],
-    "genprofiles": {"KTA-Lite":"OPTIONAL"},
-    "wjcompiled": "../../KTA/Kick Their Ass.wabbajack.meta.json",
-    "statsmods": ["Bodyslide Output"]
+    genprofiles: {"KTA-Lite":"OPTIONAL"},
+    wjcompiled: "../../KTA/Kick Their Ass.wabbajack.meta.json",
+    statsmods: ["Bodyslide Output"],
+	masterfile: { pcompression:1 } //1 is default, so can be omitted
 }
