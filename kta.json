@@ -13,5 +13,5 @@
     genprofiles: {"KTA-Lite":"OPTIONAL"},
     wjcompiled: "../../KTA/Kick Their Ass.wabbajack.meta.json",
     statsmods: ["Bodyslide Output"],
-	masterfile: { pcompression:1 } //1 is default, so can be omitted
+	masterfile: { pcompression:0 } //0 is default, so can be omitted
 }
