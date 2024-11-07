@@ -1,7 +1,7 @@
 { // This is a JSON5 config file; pure JSON is fine too
     mo2: "../../MO2/",// both forward and backward slashes are supported in this config file
     compiler_settings:'Kick Their Ass.compiler_settings',
-	downloads: ["{mo2}downloads\\"], //{mo2} is a substitution of a 'mo2:' parameter
+	downloads: ["{mo2}downloads\\"], //{mo2} is a substitution of a 'mo2:' parameter above. Default is ["{mo2}downloads\\"] 
     ownmods: ["KTA-MCM","KTA-firewood","KTA-Pacifist","KTA-FemaleOppression","KTA-Seduce",
                 "KTA-LALPatch","KTA-DF-Patch","KTA-eslify-optionals","KTA-ENB-Settings-for-PRT-XII"],
     toolinstallfiles: 	[
