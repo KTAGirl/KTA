@@ -1,15 +1,29 @@
 { // This is a JSON5 config file; pure JSON is fine too
     mo2: "../../MO2/",// both forward and backward slashes are supported in this config file
-    compiler_settings:'Kick Their Ass.compiler_settings',
 	downloads: ["{mo2}downloads\\"], //{mo2} is a substitution of a 'mo2:' parameter above. Default is ["{mo2}downloads\\"] 
     ownmods: ["KTA-MCM","KTA-firewood","KTA-Pacifist","KTA-FemaleOppression","KTA-Seduce",
                 "KTA-LALPatch","KTA-DF-Patch","KTA-eslify-optionals","KTA-ENB-Settings-for-PRT-XII"],
-    toolinstallfiles: 	[
-						 "Mod Organizer 2-6194-2-5-2-1722760304.zip",
-						 "loot_0.24.0-win64.7Z",
-						 "SSEEdit 4.1.5f-164-4-1-5f-1714283656.7z",
-						 "BAE v0.10-974-0-10.7z"
-						],
+    ignores: [ //relative to mo2; default: ['DEFAULT-IGNORES']
+		'{DEFAULT-IGNORES}',
+        "mods\\CreationKit",
+        "mods\\Creation Kit Platform Extended for Skyrim",
+        "mods\\622019006_PornyNordicMurals",
+        "mods\\Porny DB door",
+        "mods\\Porny DB Window (new)",
+        "mods\\Porny DB MysteriousNote",
+        "mods\\Porny Dunmer Shrines",
+        "mods\\Porny AstralSigns",
+        "mods\\Porny Calcelmo Stone",
+        "mods\\Porny WallofKings",
+        "mods\\Porny Kynareth Mosaic",
+        "mods\\Porny AlduinWall",
+        "mods\\Porny Dragonstone",
+        "mods\\Sexist Guards_Voice",
+        "mods\\xEdit Output\\SSEEdit Backups",
+        "mods\\xEdit Output\\SSEEdit Cache",
+        "overwrite",
+        "TOOLS\\Synthesis"
+    ],
     genprofiles: {"KTA-Lite":"OPTIONAL"},
     wjcompiled: "../../KTA/Kick Their Ass.wabbajack.meta.json",
     statsmods: ["Bodyslide Output"],
