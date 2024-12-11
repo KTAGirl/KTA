@@ -3,7 +3,7 @@
 	downloads: ["{mo2}downloads\\"], //{mo2} is a substitution of a 'mo2:' parameter above. Default is ["{mo2}downloads\\"] 
     ownmods: ["KTA-MCM","KTA-firewood","KTA-Pacifist","KTA-FemaleOppression","KTA-Seduce",
                 "KTA-LALPatch","KTA-DF-Patch","KTA-eslify-optionals","KTA-ENB-Settings-for-PRT-XII"],
-    ignores: [ //relative to mo2; default: ['DEFAULT-IGNORES']
+    ignores: [ //relative to mo2; default: ['{DEFAULT-IGNORES}']
 		'{DEFAULT-IGNORES}',
         "mods\\CreationKit",
         "mods\\Creation Kit Platform Extended for Skyrim",
@@ -24,6 +24,7 @@
         "overwrite",
         "TOOLS\\Synthesis"
     ],
+	masterprofile: 'KTA-FULL',
     genprofiles: {"KTA-Lite":"OPTIONAL"},
     wjcompiled: "../../KTA/Kick Their Ass.wabbajack.meta.json",
     statsmods: ["Bodyslide Output"],
