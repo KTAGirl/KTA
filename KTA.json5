@@ -1,7 +1,7 @@
 { // This is a JSON5 config file; pure JSON is fine too
 
 	modmanager: "mo2", // "mo2" or "vortex" or "none"
-	downloads: ["{mo2.mo2}downloads\\"], //{mo2.mo2} is a substitution of a 'mo2: mo2:' parameter below. Default for modmanager=mo2 is ["{mo2.mo2}downloads\\"] 
+	downloads: ["{mo2.mo2dir}downloads\\"], //{mo2.mo2} is a substitution of a 'mo2: mo2:' parameter below. Default for modmanager=mo2 is ["{mo2.mo2}downloads\\"] 
     ownmods: ["KTA-MCM","KTA-firewood","KTA-Pacifist","KTA-FemaleOppression","KTA-Seduce",
                 "KTA-LALPatch","KTA-DF-Patch","KTA-eslify-optionals","KTA-ENB-Settings-for-PRT-XII"],
 	mo2: { 
@@ -28,8 +28,8 @@
 			"TOOLS\\Synthesis"
 		],
 		masterprofile: 'KTA-FULL',
-		genprofiles: {"KTA-Lite":"OPTIONAL"},
+		generatedprofiles: {"KTA-Lite":"OPTIONAL"},
 		wjcompiled: "../../KTA/Kick Their Ass.wabbajack.meta.json",
-	} //mo2
+	}, //mo2
     statsmods: ["Bodyslide Output"],
 }
