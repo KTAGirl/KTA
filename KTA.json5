@@ -2,7 +2,9 @@
 
 	modmanager: "mo2", // "mo2" or "vortex" or "none"
 	downloads: ["{mo2.mo2dir}downloads\\"], //{mo2.mo2} is a substitution of a 'mo2: mo2:' parameter below. Default for modmanager=mo2 is ["{mo2.mo2}downloads\\"] 
-	githubroot: '../../modders-anonymous/sanguine-skyrim-root',
+	githubroot: '../..', // default is ..\..\
+	gameroot: 'modders-anonymous/sanguine-skyrim-root',
+	
 	ownmods: ["KTA-MCM","KTA-firewood","KTA-Pacifist","KTA-FemaleOppression","KTA-Seduce",
                 "KTA-LALPatch","KTA-DF-Patch","KTA-eslify-optionals","KTA-ENB-Settings-for-PRT-XII"],
 	mo2: { 
