@@ -1,0 +1,6 @@
+{ // This is a JSON5 config file; pure JSON is fine too
+
+	dependencies: ['modders-anonymous/sanguine-skyrim-root'],
+	ownmods: ["KTA-MCM","KTA-firewood","KTA-Pacifist","KTA-FemaleOppression","KTA-Seduce",
+                "KTA-LALPatch","KTA-DF-Patch","KTA-eslify-optionals","KTA-ENB-Settings-for-PRT-XII"],
+}
