@@ -29314,75 +29314,6 @@
   },
   {
    "name": "bodyslide and outfit studio - orig",
-   "zero": [
-    "calientetools\\bodyslide\\lang\\af\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\af\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\an\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\an\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\ar\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\ar\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\ca\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\ca\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\cs\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\cs\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\da\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\da\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\el\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\el\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\es\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\es\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\eu\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\eu\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\fi\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\fi\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\hi\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\hi\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\hu\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\hu\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\id\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\id\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\it\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\it\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\ja\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\ja\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\ko\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\ko\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\lt\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\lt\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\lv\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\lv\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\ms\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\ms\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\nb\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\nb\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\ne\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\ne\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\nl\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\nl\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\pl\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\pl\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\pt\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\pt\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\ro\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\ro\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\ru\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\ru\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\sk\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\sk\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\sl\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\sl\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\sq\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\sq\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\sv\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\sv\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\ta\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\ta\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\uk\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\uk\\bodyslide.po",
-    "calientetools\\bodyslide\\lang\\vi\\bodyslide.mo",
-    "calientetools\\bodyslide\\lang\\vi\\bodyslide.po",
-    "calientetools\\bodyslide\\log_os.txt"
-   ],
    "installers": [
     {
      "h": "+nJb4BFFZTouL5179O0Rwk8tCdgvMzVwf+BM88Dn3RE",
@@ -29394,74 +29325,7 @@
       "calientetools\\bodyslide\\bodyslide.xml",
       "calientetools\\bodyslide\\buildselection.xml",
       "calientetools\\bodyslide\\config.xml",
-      "calientetools\\bodyslide\\lang\\af\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\af\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\an\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\an\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\ar\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\ar\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\ca\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\ca\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\cs\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\cs\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\da\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\da\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\el\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\el\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\es\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\es\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\eu\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\eu\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\fi\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\fi\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\hi\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\hi\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\hu\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\hu\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\id\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\id\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\it\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\it\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\ja\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\ja\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\ko\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\ko\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\lt\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\lt\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\lv\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\lv\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\ms\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\ms\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\nb\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\nb\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\ne\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\ne\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\nl\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\nl\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\pl\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\pl\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\pt\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\pt\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\ro\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\ro\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\ru\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\ru\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\sk\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\sk\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\sl\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\sl\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\sq\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\sq\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\sv\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\sv\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\ta\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\ta\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\uk\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\uk\\bodyslide.po",
-      "calientetools\\bodyslide\\lang\\vi\\bodyslide.mo",
-      "calientetools\\bodyslide\\lang\\vi\\bodyslide.po",
-      "calientetools\\bodyslide\\log_bs.txt",
-      "calientetools\\bodyslide\\log_os.txt"
+      "calientetools\\bodyslide\\log_bs.txt"
      ]
     }
    ],
@@ -39438,59 +39302,13 @@
   },
   {
    "name": "evg animated traversal",
-   "zero": [
-    "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\deep walk\\evgat - deep walk.txt",
-    "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\duck\\evgat - duck.txt",
-    "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\failed ledge\\evgat - failed ledge.txt",
-    "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\ledge catch\\evgat - ledge catch.txt",
-    "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\ledge\\evgat - ledge.txt",
-    "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\medium ledge\\evgat - medium ledge.txt",
-    "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\raider drop\\evgat - raider drop.txt",
-    "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\raider roll\\evgat - raider roll.txt",
-    "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\short ladder - main\\evgat - short ladder.txt",
-    "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\short ladder - short\\evgat - short ladder (short character).txt",
-    "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\short ladder - tall\\evgat - short ladder (tall character).txt",
-    "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\squeeze\\evgat - squeeze.txt",
-    "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\tall ladder - main\\evgat - tall ladder.txt",
-    "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\tall ladder - short\\evgat - tall ladder.txt",
-    "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\tall ladder - tall\\evgat - tall ladder tall.txt",
-    "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\tall ladder slide - main\\evgat - tall ladder slide.txt",
-    "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\tall ladder slide - short\\evgat - tall ladder slide (short character).txt",
-    "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\tall ladder slide - tall\\evgat - tall ladder slide (tall character).txt",
-    "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\vault\\evgat - vault.txt",
-    "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\wall drop far\\evgat - wall drop far.txt",
-    "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\wall drop short\\evgat - wall drop short.txt"
-   ],
    "installers": [
     {
      "h": "ozAquXuwdXKvj/aoRzdWUxpxttKIjzT5VP+FWWzuRrk",
      "type": "SIMPLE",
      "params": {
       "root": "01 evgatcore\\"
-     },
-     "skip": [
-      "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\deep walk\\evgat - deep walk.txt",
-      "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\duck\\evgat - duck.txt",
-      "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\failed ledge\\evgat - failed ledge.txt",
-      "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\ledge catch\\evgat - ledge catch.txt",
-      "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\ledge\\evgat - ledge.txt",
-      "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\medium ledge\\evgat - medium ledge.txt",
-      "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\raider drop\\evgat - raider drop.txt",
-      "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\raider roll\\evgat - raider roll.txt",
-      "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\short ladder - main\\evgat - short ladder.txt",
-      "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\short ladder - short\\evgat - short ladder (short character).txt",
-      "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\short ladder - tall\\evgat - short ladder (tall character).txt",
-      "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\squeeze\\evgat - squeeze.txt",
-      "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\tall ladder - main\\evgat - tall ladder.txt",
-      "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\tall ladder - short\\evgat - tall ladder.txt",
-      "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\tall ladder - tall\\evgat - tall ladder tall.txt",
-      "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\tall ladder slide - main\\evgat - tall ladder slide.txt",
-      "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\tall ladder slide - short\\evgat - tall ladder slide (short character).txt",
-      "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\tall ladder slide - tall\\evgat - tall ladder slide (tall character).txt",
-      "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\vault\\evgat - vault.txt",
-      "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\wall drop far\\evgat - wall drop far.txt",
-      "meshes\\actors\\character\\animations\\openanimationreplacer\\evg animated traversal\\wall drop short\\evgat - wall drop short.txt"
-     ]
+     }
     }
    ],
    "xarchives": [
@@ -42184,21 +42002,13 @@
   },
   {
    "name": "jcontainers se",
-   "zero": [
-    "skse\\plugins\\jcdata\\domains\\.force-install",
-    "skse\\plugins\\jcdata\\lua\\testing\\test.lua"
-   ],
    "installers": [
     {
      "h": "pMTfg8Ye0wdYzaKK+K+fiYSlYiAbM8y//rw3R2mjX4M",
      "type": "SIMPLE",
      "params": {
       "root": "data\\"
-     },
-     "skip": [
-      "skse\\plugins\\jcdata\\domains\\.force-install",
-      "skse\\plugins\\jcdata\\lua\\testing\\test.lua"
-     ]
+     }
     }
    ]
   },
@@ -59322,21 +59132,6 @@
   },
   {
    "name": "project new reign - nemesis unlimited behavior engine",
-   "zero": [
-    "nemesis_engine\\lib\\email\\mime\\__init__.py",
-    "nemesis_engine\\lib\\lib2to3\\tests\\data\\fixers\\myfixes\\__init__.py",
-    "nemesis_engine\\lib\\pydoc_data\\__init__.py",
-    "nemesis_engine\\lib\\sqlite3\\test\\__init__.py",
-    "nemesis_engine\\lib\\test\\leakers\\__init__.py",
-    "nemesis_engine\\lib\\test\\nullcert.pem",
-    "nemesis_engine\\lib\\test\\test_import\\data\\package2\\submodule2.py",
-    "nemesis_engine\\lib\\test\\test_importlib\\namespace_pkgs\\module_and_namespace_package\\a_test\\empty",
-    "nemesis_engine\\lib\\test\\test_importlib\\namespace_pkgs\\not_a_namespace_pkg\\foo\\__init__.py",
-    "nemesis_engine\\lib\\tkinter\\test\\__init__.py",
-    "nemesis_engine\\lib\\tkinter\\test\\test_tkinter\\__init__.py",
-    "nemesis_engine\\lib\\tkinter\\test\\test_ttk\\__init__.py",
-    "nemesis_engine\\lib\\urllib\\__init__.py"
-   ],
    "installers": [
     {
      "h": "8aT9oCPftkREst+tL23CxODfUa++OQQoGajub/zA6r0",
@@ -59379,25 +59174,12 @@
       "nemesis_engine\\lib\\__pycache__\\weakref.cpython-35.pyc",
       "nemesis_engine\\lib\\collections\\__pycache__\\__init__.cpython-35.pyc",
       "nemesis_engine\\lib\\collections\\__pycache__\\abc.cpython-35.pyc",
-      "nemesis_engine\\lib\\email\\mime\\__init__.py",
       "nemesis_engine\\lib\\encodings\\__pycache__\\__init__.cpython-35.pyc",
       "nemesis_engine\\lib\\encodings\\__pycache__\\aliases.cpython-35.pyc",
       "nemesis_engine\\lib\\encodings\\__pycache__\\cp1252.cpython-35.pyc",
       "nemesis_engine\\lib\\encodings\\__pycache__\\latin_1.cpython-35.pyc",
       "nemesis_engine\\lib\\encodings\\__pycache__\\mbcs.cpython-35.pyc",
       "nemesis_engine\\lib\\encodings\\__pycache__\\utf_8.cpython-35.pyc",
-      "nemesis_engine\\lib\\lib2to3\\tests\\data\\fixers\\myfixes\\__init__.py",
-      "nemesis_engine\\lib\\pydoc_data\\__init__.py",
-      "nemesis_engine\\lib\\sqlite3\\test\\__init__.py",
-      "nemesis_engine\\lib\\test\\leakers\\__init__.py",
-      "nemesis_engine\\lib\\test\\nullcert.pem",
-      "nemesis_engine\\lib\\test\\test_import\\data\\package2\\submodule2.py",
-      "nemesis_engine\\lib\\test\\test_importlib\\namespace_pkgs\\module_and_namespace_package\\a_test\\empty",
-      "nemesis_engine\\lib\\test\\test_importlib\\namespace_pkgs\\not_a_namespace_pkg\\foo\\__init__.py",
-      "nemesis_engine\\lib\\tkinter\\test\\__init__.py",
-      "nemesis_engine\\lib\\tkinter\\test\\test_tkinter\\__init__.py",
-      "nemesis_engine\\lib\\tkinter\\test\\test_ttk\\__init__.py",
-      "nemesis_engine\\lib\\urllib\\__init__.py",
       "nemesis_engine\\lib\\urllib\\__pycache__\\__init__.cpython-35.pyc",
       "nemesis_engine\\lib\\urllib\\__pycache__\\parse.cpython-35.pyc",
       "nemesis_engine\\nemesis.ini",
@@ -60550,23 +60332,13 @@
   },
   {
    "name": "sexlab - cum overlays",
-   "zero": [
-    "textures\\sexlab - cum overlays\\anal\\random\\placeholder.txt",
-    "textures\\sexlab - cum overlays\\oral\\random\\placeholder.txt",
-    "textures\\sexlab - cum overlays\\vaginal\\random\\placeholder.txt"
-   ],
    "installers": [
     {
      "h": "8urr21B9VOwIryWiwUXsN4AbSHnb32Gx5FyNEnsl7S0",
      "type": "SIMPLE",
      "params": {
       "root": "sexlab cum overlays extended\\main\\"
-     },
-     "skip": [
-      "textures\\sexlab - cum overlays\\anal\\random\\placeholder.txt",
-      "textures\\sexlab - cum overlays\\oral\\random\\placeholder.txt",
-      "textures\\sexlab - cum overlays\\vaginal\\random\\placeholder.txt"
-     ]
+     }
     }
    ],
    "xarchives": [
@@ -66702,9 +66474,6 @@
   },
   {
    "name": "sse engine fixes (skse64 plugin)",
-   "zero": [
-    "skse\\plugins\\enginefixes_preload.txt"
-   ],
    "installers": [
     {
      "h": "Os2QRKKRALKkyXcKDSCEaWX69O0CPC3H1SeSFw2w5JQ",
@@ -66713,7 +66482,6 @@
       "root": "data\\"
      },
      "skip": [
-      "skse\\plugins\\enginefixes_preload.txt",
       "skse\\plugins\\enginefixes_snct.toml"
      ]
     }
@@ -73621,12 +73389,6 @@
   },
   {
    "name": "zaz animation pack+ cbbe hdt v.8.0+se2023",
-   "zero": [
-    "textures\\zaz\\002wood\\bedwood01_n.dds",
-    "textures\\zaz\\002wood\\noblebedwood01_n.dds",
-    "textures\\zaz\\018beds\\bedwood01_n.dds",
-    "textures\\zaz\\018beds\\noblebedwood01_n.dds"
-   ],
    "installers": [
     {
      "h": "UMvxxGKCCnlt733ZOdr2oT1MIpsff2n1Zdalxvxnsq4",
@@ -73670,11 +73432,7 @@
       "meshes\\zaz-ultimatedatapack\\zaz - accessories\\restraints\\08zaz - waistropewithbreastrope01\\waistropewithbreastrope01_1.nif",
       "meshes\\zaz-ultimatedatapack\\zaz - accessories\\restraints\\09zaz - waistropewithbreastrope02\\waistropewithbreastrope02.tri",
       "meshes\\zaz-ultimatedatapack\\zaz - accessories\\restraints\\09zaz - waistropewithbreastrope02\\waistropewithbreastrope02_0.nif",
-      "meshes\\zaz-ultimatedatapack\\zaz - accessories\\restraints\\09zaz - waistropewithbreastrope02\\waistropewithbreastrope02_1.nif",
-      "textures\\zaz\\002wood\\bedwood01_n.dds",
-      "textures\\zaz\\002wood\\noblebedwood01_n.dds",
-      "textures\\zaz\\018beds\\bedwood01_n.dds",
-      "textures\\zaz\\018beds\\noblebedwood01_n.dds"
+      "meshes\\zaz-ultimatedatapack\\zaz - accessories\\restraints\\09zaz - waistropewithbreastrope02\\waistropewithbreastrope02_1.nif"
      ]
     }
    ],
