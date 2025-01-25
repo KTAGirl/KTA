@@ -45,8 +45,7 @@
      },
      "skip": [
       "deviousfollowers - cutting room floor - patch.esp",
-      "df slacs patch.esp",
-      "meta.ini"
+      "df slacs patch.esp"
      ]
     }
    ],
@@ -259,10 +258,7 @@
      "type": "SIMPLE",
      "params": {
       "root": "anub c 3.2021\\"
-     },
-     "skip": [
-      "meta.ini"
-     ]
+     }
     }
    ]
   },
@@ -34830,7 +34826,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "arid": 1,
      "files": [
       {
        "t": "optional\\tiwa44_minidresses_cbbe.esp",
@@ -42033,10 +42029,7 @@
      "type": "SIMPLE",
      "params": {
       "root": "hydra_slavegirls_sse_v1.0\\"
-     },
-     "skip": [
-      "meta.ini"
-     ]
+     }
     }
    ]
   },
@@ -58938,10 +58931,7 @@
      "type": "SIMPLE",
      "params": {
       "root": "papyrus tweaks ng\\"
-     },
-     "skip": [
-      "meta.ini"
-     ]
+     }
     }
    ]
   },
@@ -60030,10 +60020,7 @@
      "type": "SIMPLE",
      "params": {
       "root": "ryamakeup1.1\\"
-     },
-     "skip": [
-      "meta.ini"
-     ]
+     }
     }
    ]
   },
@@ -60537,10 +60524,7 @@
      "type": "SIMPLE",
      "params": {
       "root": "sex lab - sexual fame framework se v0.99\\"
-     },
-     "skip": [
-      "meta.ini"
-     ]
+     }
     }
    ]
   },
@@ -60711,10 +60695,7 @@
      "type": "SIMPLE",
      "params": {
       "root": "sexlab solutions v3 - revisited se v1.1.6\\"
-     },
-     "skip": [
-      "meta.ini"
-     ]
+     }
     }
    ]
   },
@@ -61028,10 +61009,7 @@
      "type": "SIMPLE",
      "params": {
       "root": ""
-     },
-     "skip": [
-      "meta.ini"
-     ]
+     }
     }
    ]
   },
@@ -61150,10 +61128,7 @@
      "type": "SIMPLE",
      "params": {
       "root": "skooma whore se v1.01\\"
-     },
-     "skip": [
-      "meta.ini"
-     ]
+     }
     }
    ]
   },
@@ -66602,10 +66577,7 @@
      "type": "SIMPLE",
      "params": {
       "root": ""
-     },
-     "skip": [
-      "meta.ini"
-     ]
+     }
     }
    ]
   },

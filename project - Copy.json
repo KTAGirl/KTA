@@ -1,0 +1,27 @@
+{
+ "mods": [
+  {
+   "name": "a clear map of skyrim and other worlds",
+   "installers": [
+    {
+     "h": "CjelrXBwt3yqzApsB3TOnfd+wONZR5qsiUfFaTSlGm0",
+     "type": "SIMPLE",
+     "params": {
+      "root": "000 core files\\"
+     }
+    }
+   ],
+   "xarchives": [
+    {
+     "arid": 0,
+     "files": [
+      {
+       "t": "a clear map of skyrim.ini",
+       "h": "Hg00fq1X6qro"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
