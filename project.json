@@ -33672,11 +33672,9 @@
    "installers": [
     {
      "h": "zg9mC3la9z22P+Qr/Am2gV5WKUpX3WyHgdT014M20Zo",
-     "type": "BAIN",
+     "type": "SIMPLE",
      "params": {
-      "bain": [
-       "00 data\\"
-      ]
+      "root": "00 data\\"
      },
      "skip": [
       "120fps\\bounce10\\cbpconfig.txt",
@@ -40589,11 +40587,9 @@
    "installers": [
     {
      "h": "NMGrb4sWXuLR/3JYgbkLiYUEdlXpXGKxixbvG1rOduc",
-     "type": "BAIN",
+     "type": "SIMPLE",
      "params": {
-      "bain": [
-       "00 - main\\"
-      ]
+      "root": "00 - main\\"
      }
     }
    ]
@@ -40603,11 +40599,9 @@
    "installers": [
     {
      "h": "GS/xlT5ns8ihVDEC/yg9SSCg8Qe7YCrLKOOi+D8Mjrc",
-     "type": "BAIN",
+     "type": "SIMPLE",
      "params": {
-      "bain": [
-       "00 - main\\"
-      ]
+      "root": "00 - main\\"
      }
     }
    ]
