@@ -70,21 +70,13 @@
    "installers": [
     {
      "h": "CjelrXBwt3yqzApsB3TOnfd+wONZR5qsiUfFaTSlGm0",
-     "type": "SIMPLE",
+     "type": "BAIN",
      "params": {
-      "root": "000 core files\\"
+      "bain": [
+       "000 core files\\",
+       "100 default ini\\"
+      ]
      }
-    }
-   ],
-   "xarchives": [
-    {
-     "arid": 0,
-     "files": [
-      {
-       "t": "a clear map of skyrim.ini",
-       "h": "Hg00fq1X6qro"
-      }
-     ]
     }
    ]
   },
@@ -28769,9 +28761,11 @@
    "installers": [
     {
      "h": "TZBkMaIhmkeBm3+wUVf4V9zQIJ/CO/LIagd6qVsyPEQ",
-     "type": "SIMPLE",
+     "type": "BAIN",
      "params": {
-      "root": "02 really blended roads\\"
+      "bain": [
+       "02 really blended roads\\"
+      ]
      }
     }
    ]
@@ -29370,9 +29364,11 @@
     },
     {
      "h": "l+wCcV/2BGXm6IjMRJ34Vq1xJQjtta8xytLbCYmHohY",
-     "type": "SIMPLE",
+     "type": "BAIN",
      "params": {
-      "root": "28 morph files (outfits)\\"
+      "bain": [
+       "28 morph files (outfits)\\"
+      ]
      },
      "skip": [
       "meshes\\armor\\blades\\1stpersonbladesarmorf.tri",
@@ -30541,11 +30537,28 @@
    "installers": [
     {
      "h": "dvho/ydjgaP4U4lQA8/U3pXH1uccb4pOoKTMjDS6ew4",
-     "type": "SIMPLE",
+     "type": "BAIN",
      "params": {
-      "root": "00 base\\"
+      "bain": [
+       "00 base\\",
+       "15 racemenumorphs\\"
+      ]
      },
      "skip": [
+      "00 racemenumorphs - cbbe\\racemenumorphscbbe.esp",
+      "00 racemenumorphs - cbbe\\scripts\\racemenumorphscbbe.pex",
+      "00 racemenumorphs - cbbe\\scripts\\racemenumorphscbbeuiextensions.pex",
+      "00 racemenumorphs - cbbe\\scripts\\racemenumorphscbbeuilistmenu.pex",
+      "00 racemenumorphs - cbbe\\scripts\\racemenumorphscbbeuimenubase.pex",
+      "00 racemenumorphs - cbbe\\scripts\\racemenumorphscbbeuitextentrymenu.pex",
+      "00 racemenumorphs - cbbe\\scripts\\source\\racemenumorphscbbe.psc",
+      "00 racemenumorphs - cbbe\\scripts\\source\\racemenumorphscbbeuiextensions.psc",
+      "00 racemenumorphs - cbbe\\scripts\\source\\racemenumorphscbbeuilistmenu.psc",
+      "00 racemenumorphs - cbbe\\scripts\\source\\racemenumorphscbbeuimenubase.psc",
+      "00 racemenumorphs - cbbe\\scripts\\source\\racemenumorphscbbeuitextentrymenu.psc",
+      "90 old racemenumorphs - 3bbb\\3bbb-racemenumorphs.esp",
+      "90 old racemenumorphs - 3bbb\\scripts\\racemenumorphs3bbb.pex",
+      "90 old racemenumorphs - 3bbb\\scripts\\source\\racemenumorphs3bbb.psc",
       "calientetools\\bodyslide\\reftemplates\\cbbe 3ba unibody.xml",
       "calientetools\\bodyslide\\reftemplates\\cbbe 3ba.xml",
       "calientetools\\bodyslide\\reftemplates\\cbbe 3ba\\cbbe 3ba reference.osp",
@@ -30595,2098 +30608,468 @@
     },
     {
      "h": "l+wCcV/2BGXm6IjMRJ34Vq1xJQjtta8xytLbCYmHohY",
-     "type": "SIMPLE",
+     "type": "BAIN",
      "params": {
-      "root": "09 outfits bodyslide\\"
-     }
-    }
-   ],
-   "xarchives": [
-    {
-     "arid": 0,
-     "files": [
-      {
-       "t": "calientetools\\bodyslide\\conversionsets\\cbbe references.osp",
-       "h": "UUrVlawPTOlX"
-      },
-      {
-       "t": "calientetools\\bodyslide\\reftemplates\\cbbe.xml",
-       "h": "sE7XAPbN2Z2E"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe body 1st person.nif",
-       "h": "VL//s5cGofku"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe body 1st person.osd",
-       "h": "syF88qBtqg8I"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe body physics.nif",
-       "h": "QO2F6VLBbNVw"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe body special.nif",
-       "h": "xDeDkAeLwh7P"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe body special.osd",
-       "h": "NCTiy3tYJUqL"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe body.nif",
-       "h": "zwA8/YvOwEBA"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe body.osd",
-       "h": "nnLU8y6gnfmL"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe feet.nif",
-       "h": "Q5zYX6Pr2lVE"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe feet.osd",
-       "h": "znTbgTew8qpZ"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe hands 1st person.nif",
-       "h": "EL6yPNKR3MfP"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe hands 1st person.osd",
-       "h": "v8dQR7U4rhzx"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe hands beast 1st person.nif",
-       "h": "nHktBYQa83BV"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe hands beast 1st person.osd",
-       "h": "v8dQR7U4rhzx"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe hands beast.nif",
-       "h": "AmdNjfdNb2vf"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe hands beast.osd",
-       "h": "v8dQR7U4rhzx"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe hands.nif",
-       "h": "/N2vMxzHTg+N"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe hands.osd",
-       "h": "PFBByy6UJXnI"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe nevernude physics.nif",
-       "h": "ANDaesjssRzj"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe nevernude.nif",
-       "h": "adqdfzSxIO6X"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe nevernude.osd",
-       "h": "hANWSr3qN19b"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe underwear physics.nif",
-       "h": "77/N/Yg1tSxk"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe underwear.nif",
-       "h": "pdayLVe93NM/"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe underwear.osd",
-       "h": "8/KznVhXjLK6"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\references\\cbbe to cbbe uniboob.nif",
-       "h": "MpiZ8qkBKUGF"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\references\\cbbe to cbbe uniboob.osd",
-       "h": "KKE4sAHKF4eM"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\references\\cbbe uniboob physics.nif",
-       "h": "wKMz4lX/6F+O"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\references\\cbbe uniboob.nif",
-       "h": "MWOwGIa0mrKf"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\references\\cbbe uniboob.osd",
-       "h": "qQmxrjYdo4GB"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\references\\fo4 cbbe to sse cbbe.nif",
-       "h": "Z3ps30MT5Qg3"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\references\\fo4 cbbe to sse cbbe.osd",
-       "h": "sjbJWER9LW5+"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\references\\sk cbbe to sse cbbe uniboob.nif",
-       "h": "Q+8WK93Rx0Tj"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\references\\sk cbbe to sse cbbe uniboob.osd",
-       "h": "QqD/37NaJUD0"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\references\\sk cbbe to sse cbbe.nif",
-       "h": "4mB26lDFap0F"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\references\\sk cbbe to sse cbbe.osd",
-       "h": "0g4xnArJTILn"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\references\\unp high to cbbe.nif",
-       "h": "XgOt8UUPNJ+D"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\references\\unp high to cbbe.osd",
-       "h": "D/pAsXww1Ttm"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\references\\unp low to cbbe.nif",
-       "h": "ZPKuQhvzAJJE"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\references\\unp low to cbbe.osd",
-       "h": "JcI4gwM4GU3z"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\references\\unpb to cbbe.nif",
-       "h": "DG4uX6NFkKrB"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\references\\unpb to cbbe.osd",
-       "h": "9i4mhJ0Z4zq4"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\references\\vanilla to cbbe.nif",
-       "h": "QhXXFwOglrCY"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\references\\vanilla to cbbe.osd",
-       "h": "RMFzeMmy0hgi"
-      },
-      {
-       "t": "calientetools\\bodyslide\\slidercategories\\cbbe.xml",
-       "h": "TFYLsaiV1cNL"
-      },
-      {
-       "t": "calientetools\\bodyslide\\slidergroups\\cbbe.xml",
-       "h": "FjaFSq7LwNe6"
-      },
-      {
-       "t": "calientetools\\bodyslide\\sliderpresets\\cbbe.xml",
-       "h": "S2AVzRnTSaRi"
-      },
-      {
-       "t": "calientetools\\bodyslide\\slidersets\\cbbe.osp",
-       "h": "gFc8y8BPmdev"
-      },
-      {
-       "t": "cbbe.esp",
-       "h": "9kOrGXXPID9Y"
-      },
-      {
-       "t": "meshes\\actors\\character\\character assets\\1stpersonfemalebody_0.nif",
-       "h": "fWUjTOqt9YRB"
-      },
-      {
-       "t": "meshes\\actors\\character\\character assets\\1stpersonfemalebody_1.nif",
-       "h": "vj6AsUkZzZIG"
-      },
-      {
-       "t": "meshes\\actors\\character\\character assets\\1stpersonfemalehands_0.nif",
-       "h": "riCCpRwWkoMi"
-      },
-      {
-       "t": "meshes\\actors\\character\\character assets\\1stpersonfemalehands_1.nif",
-       "h": "YlDb11A1oA8M"
-      },
-      {
-       "t": "meshes\\actors\\character\\character assets\\femalebody_0.nif",
-       "h": "1oveIO9ka4ez"
-      },
-      {
-       "t": "meshes\\actors\\character\\character assets\\femalebody_1.nif",
-       "h": "PbsZV6Jvo9oG"
-      },
-      {
-       "t": "meshes\\armor\\amuletsandrings\\stendarr\\stendarramuletf_1.nif",
-       "h": "39l57KlyXC/P"
-      },
-      {
-       "t": "meshes\\armor\\bandit\\1stpersonbody1f_0.nif",
-       "h": "STcazukHklx1"
-      },
-      {
-       "t": "meshes\\armor\\bandit\\1stpersonbody2f_0.nif",
-       "h": "kPX6RQK2UxxR"
-      },
-      {
-       "t": "meshes\\armor\\bandit\\1stpersonbody3f_0.nif",
-       "h": "AERPQv70o0hB"
-      },
-      {
-       "t": "meshes\\armor\\bandit\\1stpersonbodyf_0.nif",
-       "h": "3y9OPmifKIRK"
-      },
-      {
-       "t": "meshes\\armor\\bandit\\1stpersonglovesf_0.nif",
-       "h": "rbRsJlUKt0Jz"
-      },
-      {
-       "t": "meshes\\armor\\bandit\\bootsf_0.nif",
-       "h": "YAUrtQB1B/KE"
-      },
-      {
-       "t": "meshes\\armor\\bandit\\bootsf_1.nif",
-       "h": "ArCwxR7Qr7QD"
-      },
-      {
-       "t": "meshes\\armor\\bandit\\glovesf_0.nif",
-       "h": "w8IgEEQL3oh2"
-      },
-      {
-       "t": "meshes\\armor\\daedric\\1stpersondaedrictorsof_0.nif",
-       "h": "c5jgcx+m8QXb"
-      },
-      {
-       "t": "meshes\\armor\\daedric\\daedricbootsf_0.nif",
-       "h": "aN3KNvayN9Jc"
-      },
-      {
-       "t": "meshes\\armor\\daedric\\daedricglovesf_0.nif",
-       "h": "cp2MoSxy4XOM"
-      },
-      {
-       "t": "meshes\\armor\\dbarmor\\1stpersondbarmorgauntlets_f_0.nif",
-       "h": "FL9NDerVytRJ"
-      },
-      {
-       "t": "meshes\\armor\\dbarmor\\1stpersondbarmortorso_f_0.nif",
-       "h": "+K8SoQZ8My0/"
-      },
-      {
-       "t": "meshes\\armor\\dbarmor\\dbarmorboots_f_0.nif",
-       "h": "zvHjGLDUe68B"
-      },
-      {
-       "t": "meshes\\armor\\dbarmor\\dbarmorgauntlets_f_0.nif",
-       "h": "Mzyu3SDbNQ5t"
-      },
-      {
-       "t": "meshes\\armor\\dragonscale\\1stpersondragonscalearmorf_0.nif",
-       "h": "dvfo+1O5byZP"
-      },
-      {
-       "t": "meshes\\armor\\dragonscale\\dragonscalebootsf_0.nif",
-       "h": "LE6ELBsKVvbk"
-      },
-      {
-       "t": "meshes\\armor\\dragonscale\\dragonscaleglovesf_0.nif",
-       "h": "skKlTBb957iP"
-      },
-      {
-       "t": "meshes\\armor\\draugr\\1stpersondraugrarmorfemale_0.nif",
-       "h": "u42E3XQpF/wW"
-      },
-      {
-       "t": "meshes\\armor\\draugr\\draugrbootsfemale_0.nif",
-       "h": "u43qT/SIpi/5"
-      },
-      {
-       "t": "meshes\\armor\\draugr\\draugrgauntletsfemale_0.nif",
-       "h": "umUxO+4nlJtY"
-      },
-      {
-       "t": "meshes\\armor\\ebonymail\\1stpersoncuirassf_0.nif",
-       "h": "iNVyIdjo8i3T"
-      },
-      {
-       "t": "meshes\\armor\\elven\\f\\1stpersoncuirass_0.nif",
-       "h": "nLKAUMU1KKgx"
-      },
-      {
-       "t": "meshes\\armor\\elven\\f\\1stpersoncuirasslight_0.nif",
-       "h": "B2TfQYvvQ/6C"
-      },
-      {
-       "t": "meshes\\armor\\elven\\f\\1stpersongauntlets_0.nif",
-       "h": "0NSM8oYjSvUg"
-      },
-      {
-       "t": "meshes\\armor\\elven\\f\\boots_0.nif",
-       "h": "nESYQA/Knuzb"
-      },
-      {
-       "t": "meshes\\armor\\elven\\f\\gauntlets_0.nif",
-       "h": "POip+Jpf0XCC"
-      },
-      {
-       "t": "meshes\\armor\\focusinggloves\\focusingglovesf_0.nif",
-       "h": "MCDcSaJw0s+c"
-      },
-      {
-       "t": "meshes\\armor\\focusinggloves\\focusingglovesf_1.nif",
-       "h": "i2pBntWEOI+h"
-      },
-      {
-       "t": "meshes\\armor\\generaltulius\\1stpersongeneraltuliusf_0.nif",
-       "h": "EHbQIHZzUGRD"
-      },
-      {
-       "t": "meshes\\armor\\glass\\f\\1stpersoncuirass_0.nif",
-       "h": "PZ3QzY8djZq3"
-      },
-      {
-       "t": "meshes\\armor\\glass\\f\\1stpersongauntlets_0.nif",
-       "h": "Kd7Q2zq5iFcB"
-      },
-      {
-       "t": "meshes\\armor\\glass\\f\\boots_0.nif",
-       "h": "/F4khRBofpxE"
-      },
-      {
-       "t": "meshes\\armor\\glass\\f\\gauntlets_0.nif",
-       "h": "sV6X3OJPof9E"
-      },
-      {
-       "t": "meshes\\armor\\hide\\f\\1stpersoncuirassheavy_0.nif",
-       "h": "VmDsbi2rb52y"
-      },
-      {
-       "t": "meshes\\armor\\hide\\f\\1stpersoncuirassheavychieftain_0.nif",
-       "h": "7pl83djyYWFW"
-      },
-      {
-       "t": "meshes\\armor\\hide\\f\\1stpersoncuirassmedium_0.nif",
-       "h": "JRSAZw+Ip7eL"
-      },
-      {
-       "t": "meshes\\armor\\hide\\f\\1stpersongauntletsheavy_0.nif",
-       "h": "ND4eS6D+4Giv"
-      },
-      {
-       "t": "meshes\\armor\\hide\\f\\1stpersongauntletsheavybeast_0.nif",
-       "h": "0TvnXkXllT0E"
-      },
-      {
-       "t": "meshes\\armor\\hide\\f\\1stpersongauntletslightbeast_0.nif",
-       "h": "N+ar2U/Bi8Zr"
-      },
-      {
-       "t": "meshes\\armor\\hide\\f\\bootsheavy_0.nif",
-       "h": "AMQpBgfEaYQ3"
-      },
-      {
-       "t": "meshes\\armor\\hide\\f\\gauntletsheavy_0.nif",
-       "h": "eVPRsCkDo2Ic"
-      },
-      {
-       "t": "meshes\\armor\\imperial\\f\\1stpersoncuirassheavy_0.nif",
-       "h": "52rj7aDRgdIF"
-      },
-      {
-       "t": "meshes\\armor\\imperial\\f\\1stpersoncuirasslight_0.nif",
-       "h": "pGA4ZFlAmW9x"
-      },
-      {
-       "t": "meshes\\armor\\imperial\\f\\1stpersoncuirassmedium_0.nif",
-       "h": "SJb6GP3h/tX0"
-      },
-      {
-       "t": "meshes\\armor\\imperial\\f\\1stpersongauntletsheavy_0.nif",
-       "h": "RYFU8o22/vGc"
-      },
-      {
-       "t": "meshes\\armor\\imperial\\f\\1stpersongauntletsheavybeast_0.nif",
-       "h": "AoVjcI6pTLoJ"
-      },
-      {
-       "t": "meshes\\armor\\imperial\\f\\1stpersongauntletslight_0.nif",
-       "h": "SLVSoj3uZIuA"
-      },
-      {
-       "t": "meshes\\armor\\imperial\\f\\1stpersongauntletslightbeast_0.nif",
-       "h": "DXNSIpHVi+1F"
-      },
-      {
-       "t": "meshes\\armor\\imperial\\f\\bootsheavy_0.nif",
-       "h": "nvQbTGr0HFnf"
-      },
-      {
-       "t": "meshes\\armor\\imperial\\f\\bootslight_0.nif",
-       "h": "oCGrYUyKlOvN"
-      },
-      {
-       "t": "meshes\\armor\\imperial\\f\\gauntletsheavy_0.nif",
-       "h": "qMITGVd31iLH"
-      },
-      {
-       "t": "meshes\\armor\\imperial\\f\\gauntletslight_0.nif",
-       "h": "MHgTNKwtu+CL"
-      },
-      {
-       "t": "meshes\\armor\\nightingale\\f\\1stpersongauntlets.nif_0.nif",
-       "h": "UMDKR2o73Hww"
-      },
-      {
-       "t": "meshes\\armor\\nightingale\\f\\1stpersontorso_0.nif",
-       "h": "2zbHDpxqx3qS"
-      },
-      {
-       "t": "meshes\\armor\\nightingale\\f\\boots_0.nif",
-       "h": "C/YrnFWuT3j7"
-      },
-      {
-       "t": "meshes\\armor\\nightingale\\f\\gauntlets_0.nif",
-       "h": "0y412tAR9B+/"
-      },
-      {
-       "t": "meshes\\armor\\orcish\\1stpersoncuirassf_0.nif",
-       "h": "PENHs2tRYlLs"
-      },
-      {
-       "t": "meshes\\armor\\orcish\\bootsf_0.nif",
-       "h": "4skI+kNVWrd1"
-      },
-      {
-       "t": "meshes\\armor\\orcish\\gauntletsf_0.nif",
-       "h": "lX5oZGJwRhwK"
-      },
-      {
-       "t": "meshes\\armor\\savior'shide\\1stpersonbodyf_0.nif",
-       "h": "dRsf/yfpsAKg"
-      },
-      {
-       "t": "meshes\\armor\\sons of talos\\1stpersonoutfitf_0.nif",
-       "h": "FhpofPi7quxK"
-      },
-      {
-       "t": "meshes\\armor\\sons of talos\\bootsf_0.nif",
-       "h": "7bBtNihGaDFJ"
-      },
-      {
-       "t": "meshes\\armor\\sons of talos\\glovesf_0.nif",
-       "h": "0jmrLU4lIbsd"
-      },
-      {
-       "t": "meshes\\armor\\steel\\f\\1stpersongauntletsarg_0.nif",
-       "h": "SfcTpqK0AaDi"
-      },
-      {
-       "t": "meshes\\armor\\steel\\f\\1stpersongauntletskha_0.nif",
-       "h": "nqNGwo+G24lU"
-      },
-      {
-       "t": "meshes\\armor\\stormcloaks\\1stpersoncuirassf_0.nif",
-       "h": "swYhiahdn9E/"
-      },
-      {
-       "t": "meshes\\armor\\stormcloaks\\1stpersoncuirassfsleeves_0.nif",
-       "h": "UKDIM97vENdG"
-      },
-      {
-       "t": "meshes\\armor\\stormcloaks\\glovesf_0.nif",
-       "h": "XQapLzKSQGeC"
-      },
-      {
-       "t": "meshes\\armor\\thievesguild\\f\\1stpersonbracers_0.nif",
-       "h": "/OLadcfGtV11"
-      },
-      {
-       "t": "meshes\\armor\\thievesguild\\f\\1stpersonbracersleader_0.nif",
-       "h": "y5JWaiGJTt5y"
-      },
-      {
-       "t": "meshes\\armor\\thievesguild\\f\\1stpersonbracersvariant_0.nif",
-       "h": "Z4SBckWvFmCK"
-      },
-      {
-       "t": "meshes\\armor\\thievesguild\\f\\1stpersontorso_0.nif",
-       "h": "Ty6fJMOZrBRc"
-      },
-      {
-       "t": "meshes\\armor\\thievesguild\\f\\1stpersontorsovariantgeneric_0.nif",
-       "h": "XVicgtsVgtl9"
-      },
-      {
-       "t": "meshes\\armor\\thievesguild\\f\\bootleader_0.nif",
-       "h": "W4VjLEeGu5mP"
-      },
-      {
-       "t": "meshes\\armor\\thievesguild\\f\\boots_0.nif",
-       "h": "+dD7c3CK/LgO"
-      },
-      {
-       "t": "meshes\\armor\\thievesguild\\f\\bootsvariantgeneric_0.nif",
-       "h": "ABm5LNyLC1z5"
-      },
-      {
-       "t": "meshes\\armor\\thievesguild\\f\\bracers_0.nif",
-       "h": "BobTZqLojbsh"
-      },
-      {
-       "t": "meshes\\armor\\thievesguild\\f\\bracersleader_0.nif",
-       "h": "+sNMKBB2Cvxm"
-      },
-      {
-       "t": "meshes\\armor\\thievesguild\\f\\bracersvariant_0.nif",
-       "h": "r+OnAdpXHJRc"
-      },
-      {
-       "t": "meshes\\armor\\thievesguild\\f\\gloveskarliah_0.nif",
-       "h": "qR+BSJ4H9v8J"
-      },
-      {
-       "t": "meshes\\armor\\thievesguild\\f\\gloveskarliah_1.nif",
-       "h": "vnmfy69GzG0Z"
-      },
-      {
-       "t": "meshes\\armor\\thievesguild\\f\\shoeskarliah_0.nif",
-       "h": "aDKkV2KhOn+q"
-      },
-      {
-       "t": "meshes\\clothes\\archmage\\f\\1stpersonarchmagerobesf_0.nif",
-       "h": "zBwrvUyo7wtm"
-      },
-      {
-       "t": "meshes\\clothes\\archmage\\f\\1stpersonarchmagerobesf_1.nif",
-       "h": "iLucM06rWaQT"
-      },
-      {
-       "t": "meshes\\clothes\\archmage\\f\\archmagebootsf_0.nif",
-       "h": "ykpo0g1svHTn"
-      },
-      {
-       "t": "meshes\\clothes\\archmage\\f\\archmagebootsf_1.nif",
-       "h": "0bWF0HwHf++u"
-      },
-      {
-       "t": "meshes\\clothes\\archmage\\f\\archmagehoodf_0.nif",
-       "h": "BZBuJ/txy8OV"
-      },
-      {
-       "t": "meshes\\clothes\\archmage\\f\\archmagehoodf_1.nif",
-       "h": "RrNbdt9VWFWN"
-      },
-      {
-       "t": "meshes\\clothes\\archmage\\f\\archmagehoodf_arg_0.nif",
-       "h": "nDY+omzn9m9N"
-      },
-      {
-       "t": "meshes\\clothes\\archmage\\f\\archmagehoodf_arg_1.nif",
-       "h": "B2g5bfMOY4bY"
-      },
-      {
-       "t": "meshes\\clothes\\archmage\\f\\archmagehoodf_kha_0.nif",
-       "h": "Xq6KiPKCkrBD"
-      },
-      {
-       "t": "meshes\\clothes\\archmage\\f\\archmagehoodf_kha_1.nif",
-       "h": "CzaqJoPWNr4w"
-      },
-      {
-       "t": "meshes\\clothes\\archmage\\f\\archmagerobesf_0.nif",
-       "h": "Dt5K8xeyDwiv"
-      },
-      {
-       "t": "meshes\\clothes\\archmage\\f\\archmagerobesf_1.nif",
-       "h": "IjGF2mSnAAtQ"
-      },
-      {
-       "t": "meshes\\clothes\\barkeeper\\f\\shoes_0.nif",
-       "h": "tIxfuw1nJLiw"
-      },
-      {
-       "t": "meshes\\clothes\\barkeeper\\f\\shoes_1.nif",
-       "h": "YdmAdOc8TzEV"
-      },
-      {
-       "t": "meshes\\clothes\\barkeeper\\f\\torso_0.nif",
-       "h": "e0OKyf3q+0O5"
-      },
-      {
-       "t": "meshes\\clothes\\barkeeper\\f\\torso_1.nif",
-       "h": "hGLtDuJFzIwS"
-      },
-      {
-       "t": "meshes\\clothes\\beggarclothes\\1stpersontorsof_0.nif",
-       "h": "IKifh7wTI3jy"
-      },
-      {
-       "t": "meshes\\clothes\\beggarclothes\\1stpersontorsof_1.nif",
-       "h": "6QMNVjCSqDhy"
-      },
-      {
-       "t": "meshes\\clothes\\beggarclothes\\bootsf_0.nif",
-       "h": "tZmbzV75MuWc"
-      },
-      {
-       "t": "meshes\\clothes\\beggarclothes\\bootsf_1.nif",
-       "h": "qbwxylh4gKGN"
-      },
-      {
-       "t": "meshes\\clothes\\beggarclothes\\torsof_0.nif",
-       "h": "GSVh06tanHMD"
-      },
-      {
-       "t": "meshes\\clothes\\beggarclothes\\torsof_1.nif",
-       "h": "+HuuIsCmhKU5"
-      },
-      {
-       "t": "meshes\\clothes\\blacksmith\\f\\1stpersontorso_0.nif",
-       "h": "WdGhGnDxzCfP"
-      },
-      {
-       "t": "meshes\\clothes\\blacksmith\\f\\1stpersontorso_1.nif",
-       "h": "rC4B+YxSw34I"
-      },
-      {
-       "t": "meshes\\clothes\\blacksmith\\f\\shoes_0.nif",
-       "h": "Oeh7YIr+T7nd"
-      },
-      {
-       "t": "meshes\\clothes\\blacksmith\\f\\shoes_1.nif",
-       "h": "gee2179wnzJE"
-      },
-      {
-       "t": "meshes\\clothes\\blacksmith\\f\\torso_0.nif",
-       "h": "y7l/uS7Rmfdj"
-      },
-      {
-       "t": "meshes\\clothes\\blacksmith\\f\\torso_1.nif",
-       "h": "FKPCWzjQZxkl"
-      },
-      {
-       "t": "meshes\\clothes\\chef\\f\\1stpersonchef_0.nif",
-       "h": "/+lTe6qd5zE0"
-      },
-      {
-       "t": "meshes\\clothes\\chef\\f\\1stpersonchef_1.nif",
-       "h": "dzurP45kc2bx"
-      },
-      {
-       "t": "meshes\\clothes\\chef\\f\\1stpersontorso_0.nif",
-       "h": "0JKAEjX7sN8a"
-      },
-      {
-       "t": "meshes\\clothes\\chef\\f\\chef_0.nif",
-       "h": "pckYta091Jat"
-      },
-      {
-       "t": "meshes\\clothes\\chef\\f\\chef_1.nif",
-       "h": "U68aRsh7UjyP"
-      },
-      {
-       "t": "meshes\\clothes\\emperor\\1stpersonemperoroutfitff_0.nif",
-       "h": "S4AnrqqQ2+fb"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes01\\1stpersontorsof_0.nif",
-       "h": "0epc3JooDBG6"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes01\\1stpersontorsof_1.nif",
-       "h": "qfEJ+BQAiJLY"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes01\\shoesf_0.nif",
-       "h": "mVCDX6taEFMV"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes01\\shoesf_1.nif",
-       "h": "aKGih3jO785B"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes01\\torsof_0.nif",
-       "h": "abd+E4TYu5hY"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes01\\torsof_1.nif",
-       "h": "VZT0xQCCCB5u"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes02\\f\\1stpersondress_0.nif",
-       "h": "AHCdPhUMhxoi"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes02\\f\\1stpersondress_1.nif",
-       "h": "4Ei5mmTN9TTH"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes02\\f\\dress_0.nif",
-       "h": "q2/5jCL0go9p"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes02\\f\\dress_1.nif",
-       "h": "EGrk+C7cyps6"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes02\\f\\shoes_0.nif",
-       "h": "j/ktGbLdoSkg"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes02\\f\\shoes_1.nif",
-       "h": "Q6HMM22N+BjD"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes03\\1stpersonfarmerrobef_0.nif",
-       "h": "a3iTbIkJSExk"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes03\\1stpersonfarmerrobef_1.nif",
-       "h": "nxkrnF99sFfB"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes03\\farmerglovesf_0.nif",
-       "h": "pELjKRAVVB7k"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes03\\farmerglovesf_1.nif",
-       "h": "KEudBW53sTZM"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes03\\farmerrobef_0.nif",
-       "h": "fN+h01hlVTdM"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes03\\farmerrobef_1.nif",
-       "h": "d1x6kwrBi2z4"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes03\\farmerrobefplus_0.nif",
-       "h": "biliM/tUiKaL"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes03\\farmerrobefplus_1.nif",
-       "h": "Kpf17aw476Dh"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes03\\farmershoesf_0.nif",
-       "h": "rKRZW5OoYNH/"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes03\\farmershoesf_1.nif",
-       "h": "ds/CFosRXcCk"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes04\\1stpersonrobef_0.nif",
-       "h": "t77/nAuQXwdC"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes04\\1stpersonrobef_1.nif",
-       "h": "dR9QHERyfv01"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes04\\bootsf_0.nif",
-       "h": "JgNU73xYW16J"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes04\\bootsf_1.nif",
-       "h": "wRZH6ngXGtv0"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes04\\robef_0.nif",
-       "h": "UILFwSVsiXu6"
-      },
-      {
-       "t": "meshes\\clothes\\farmclothes04\\robef_1.nif",
-       "h": "bS5mvZratDX1"
-      },
-      {
-       "t": "meshes\\clothes\\fineclothes01\\1stpersonoutfitf_0.nif",
-       "h": "XKvtPxXV/WbD"
-      },
-      {
-       "t": "meshes\\clothes\\fineclothes01\\bootsf_0.nif",
-       "h": "rw4sbUm4kmJJ"
-      },
-      {
-       "t": "meshes\\clothes\\fineclothes01\\bootsf_1.nif",
-       "h": "fKhGQp9ZrVh2"
-      },
-      {
-       "t": "meshes\\clothes\\fineclothes01\\outfitf_0.nif",
-       "h": "9FfptlPBdukr"
-      },
-      {
-       "t": "meshes\\clothes\\fineclothes01\\outfitf_1.nif",
-       "h": "CBEM4QOnW6Oz"
-      },
-      {
-       "t": "meshes\\clothes\\fineclothes02\\1stpersonoutfitf_0.nif",
-       "h": "MCShch+SEjWG"
-      },
-      {
-       "t": "meshes\\clothes\\fineclothes02\\bootsf_0.nif",
-       "h": "nygOEh/FWHTU"
-      },
-      {
-       "t": "meshes\\clothes\\fineclothes02\\bootsf_1.nif",
-       "h": "fiXq0oKAySxz"
-      },
-      {
-       "t": "meshes\\clothes\\fineclothes02\\outfitf_0.nif",
-       "h": "4uRDP8Pqm8/v"
-      },
-      {
-       "t": "meshes\\clothes\\fineclothes02\\outfitf_1.nif",
-       "h": "u+UwxDKc8N5W"
-      },
-      {
-       "t": "meshes\\clothes\\forswornarmor\\1stpersonforswornarmorf_0.nif",
-       "h": "JvzX5AIuB1LA"
-      },
-      {
-       "t": "meshes\\clothes\\forswornarmor\\1stpersonforsworngauntletsf_0.nif",
-       "h": "6zWEAUingDji"
-      },
-      {
-       "t": "meshes\\clothes\\forswornarmor\\forswornbootsf_0.nif",
-       "h": "vtrHnT9l6wkn"
-      },
-      {
-       "t": "meshes\\clothes\\graybeardrobe\\1stpersongreybeardrobef_0.nif",
-       "h": "cwxaQ3gnyHLA"
-      },
-      {
-       "t": "meshes\\clothes\\graybeardrobe\\1stpersongreybeardrobef_1.nif",
-       "h": "IxgvKo8nDvw9"
-      },
-      {
-       "t": "meshes\\clothes\\graybeardrobe\\greybeardbootsf_0.nif",
-       "h": "DrRWzXeu5Lmj"
-      },
-      {
-       "t": "meshes\\clothes\\graybeardrobe\\greybeardbootsf_1.nif",
-       "h": "adIahKFfiP8d"
-      },
-      {
-       "t": "meshes\\clothes\\graybeardrobe\\greybeardrobef_0.nif",
-       "h": "jz0gJwwIZvSv"
-      },
-      {
-       "t": "meshes\\clothes\\graybeardrobe\\greybeardrobef_1.nif",
-       "h": "L3zQGs6bJl+L"
-      },
-      {
-       "t": "meshes\\clothes\\jester\\1stpersonjesterf_0.nif",
-       "h": "awvodbYzl5Y9"
-      },
-      {
-       "t": "meshes\\clothes\\jester\\1stpersonjesterf_1.nif",
-       "h": "TrErvncT2nE6"
-      },
-      {
-       "t": "meshes\\clothes\\jester\\jesterbootsf_0.nif",
-       "h": "GYmDuPGJmq2L"
-      },
-      {
-       "t": "meshes\\clothes\\jester\\jesterbootsf_1.nif",
-       "h": "HKS4oRMS3O5j"
-      },
-      {
-       "t": "meshes\\clothes\\jester\\jesterf_0.nif",
-       "h": "si3857tf2mvn"
-      },
-      {
-       "t": "meshes\\clothes\\jester\\jesterf_1.nif",
-       "h": "rq9NSyymdEwM"
-      },
-      {
-       "t": "meshes\\clothes\\jester\\jesterglovesf_0.nif",
-       "h": "rY/KMLIPrdUN"
-      },
-      {
-       "t": "meshes\\clothes\\mageapprentice\\1stpersonmageapprenticerobesf_0.nif",
-       "h": "byXrQ0uZyEhm"
-      },
-      {
-       "t": "meshes\\clothes\\mageapprentice\\1stpersonmageapprenticerobesf_1.nif",
-       "h": "83naa1MM/A4X"
-      },
-      {
-       "t": "meshes\\clothes\\mageapprentice\\mageapprenticebootsf_0.nif",
-       "h": "MB7vLZFB2p7h"
-      },
-      {
-       "t": "meshes\\clothes\\mageapprentice\\mageapprenticebootsf_1.nif",
-       "h": "cjjqnncz8EHh"
-      },
-      {
-       "t": "meshes\\clothes\\mageapprentice\\mageapprenticerobesf_0.nif",
-       "h": "uRcebC+lLZj8"
-      },
-      {
-       "t": "meshes\\clothes\\mageapprentice\\mageapprenticerobesf_1.nif",
-       "h": "Qc9ajQFLmSMB"
-      },
-      {
-       "t": "meshes\\clothes\\magejourneyman\\1stpersonmagejourneymanrobesf_0.nif",
-       "h": "SOUPkBkjmrxh"
-      },
-      {
-       "t": "meshes\\clothes\\magejourneyman\\1stpersonmagejourneymanrobesf_1.nif",
-       "h": "6RjtWTEAr8sD"
-      },
-      {
-       "t": "meshes\\clothes\\magejourneyman\\magejourneymanrobesf_0.nif",
-       "h": "m6lbFbn5FCcM"
-      },
-      {
-       "t": "meshes\\clothes\\magejourneyman\\magejourneymanrobesf_1.nif",
-       "h": "4LfqAFYVwYvm"
-      },
-      {
-       "t": "meshes\\clothes\\merchantclothes\\1stpersontorsof_0.nif",
-       "h": "85Pt+hBMvNpy"
-      },
-      {
-       "t": "meshes\\clothes\\merchantclothes\\1stpersontorsof_1.nif",
-       "h": "3RntTg+q5J90"
-      },
-      {
-       "t": "meshes\\clothes\\merchantclothes\\bootsf_0.nif",
-       "h": "VERXZl3vno9F"
-      },
-      {
-       "t": "meshes\\clothes\\merchantclothes\\bootsf_1.nif",
-       "h": "RmD4IJ0pv0XU"
-      },
-      {
-       "t": "meshes\\clothes\\merchantclothes\\torsof_0.nif",
-       "h": "2C+qoIj1aLY2"
-      },
-      {
-       "t": "meshes\\clothes\\merchantclothes\\torsof_1.nif",
-       "h": "Ycw/SX+zA+Bp"
-      },
-      {
-       "t": "meshes\\clothes\\minerclothes\\1stpersonminerclothesf_0.nif",
-       "h": "L0/PruibWc1i"
-      },
-      {
-       "t": "meshes\\clothes\\minerclothes\\1stpersonminerclothesf_1.nif",
-       "h": "/Ss0xM4jTj7R"
-      },
-      {
-       "t": "meshes\\clothes\\minerclothes\\minerclothesf_0.nif",
-       "h": "lNGWtGPFXJ5q"
-      },
-      {
-       "t": "meshes\\clothes\\minerclothes\\minerclothesf_1.nif",
-       "h": "II0/Cv/eCXUp"
-      },
-      {
-       "t": "meshes\\clothes\\monk\\1stpersonmonkrobes_f_0.nif",
-       "h": "x/ywnb0IeEa1"
-      },
-      {
-       "t": "meshes\\clothes\\monk\\1stpersonmonkrobes_f_1.nif",
-       "h": "AMvuCG9fVhlv"
-      },
-      {
-       "t": "meshes\\clothes\\monk\\1stpersonmonkvariantoutfitf_0.nif",
-       "h": "cjjSxdIXUY/6"
-      },
-      {
-       "t": "meshes\\clothes\\monk\\1stpersonmonkvariantoutfitf_1.nif",
-       "h": "kxlNuDI8NfGJ"
-      },
-      {
-       "t": "meshes\\clothes\\monk\\1stpersonvaerminarobesf_0.nif",
-       "h": "06LFgKOXjQfU"
-      },
-      {
-       "t": "meshes\\clothes\\monk\\1stpersonvaerminarobesf_1.nif",
-       "h": "OeEi0ratTV1G"
-      },
-      {
-       "t": "meshes\\clothes\\monk\\monkboots_f_0.nif",
-       "h": "NZu/2x91FgDl"
-      },
-      {
-       "t": "meshes\\clothes\\monk\\monkboots_f_1.nif",
-       "h": "ubvAWCL0aPDq"
-      },
-      {
-       "t": "meshes\\clothes\\monk\\monkrobes_f_0.nif",
-       "h": "dn1OSmKG+nxl"
-      },
-      {
-       "t": "meshes\\clothes\\monk\\monkrobes_f_1.nif",
-       "h": "y1eda7ilDllH"
-      },
-      {
-       "t": "meshes\\clothes\\monk\\monkvariantoutfitf_0.nif",
-       "h": "jl5cWQdJ/hKN"
-      },
-      {
-       "t": "meshes\\clothes\\monk\\monkvariantoutfitf_1.nif",
-       "h": "cojl/31n33C9"
-      },
-      {
-       "t": "meshes\\clothes\\monk\\vaerminarobesf_0.nif",
-       "h": "OiDybavmEGuD"
-      },
-      {
-       "t": "meshes\\clothes\\monk\\vaerminarobesf_1.nif",
-       "h": "umGpFZiTPpgj"
-      },
-      {
-       "t": "meshes\\clothes\\necromancer\\1stpersonnecromancerrobes_f_0.nif",
-       "h": "NMB+WEGtoVAC"
-      },
-      {
-       "t": "meshes\\clothes\\necromancer\\1stpersonnecromancerrobes_f_1.nif",
-       "h": "JGiKHYSA4RIt"
-      },
-      {
-       "t": "meshes\\clothes\\necromancer\\necromancerboots_f_0.nif",
-       "h": "2e1+DMZbSqdJ"
-      },
-      {
-       "t": "meshes\\clothes\\necromancer\\necromancerboots_f_1.nif",
-       "h": "+IEkobCgG94j"
-      },
-      {
-       "t": "meshes\\clothes\\necromancer\\necromancerrobes_f_0.nif",
-       "h": "ozVSH2jELHQK"
-      },
-      {
-       "t": "meshes\\clothes\\necromancer\\necromancerrobes_f_1.nif",
-       "h": "jUyA62UIbsdA"
-      },
-      {
-       "t": "meshes\\clothes\\nocturnal\\outfitf_0.nif",
-       "h": "GDg1E6ZY92js"
-      },
-      {
-       "t": "meshes\\clothes\\nocturnal\\outfitf_1.nif",
-       "h": "9uQtnuH7qc9p"
-      },
-      {
-       "t": "meshes\\clothes\\prisoner\\1stpersonprisonerclothes_f_0.nif",
-       "h": "lvt4b+o3qKj6"
-      },
-      {
-       "t": "meshes\\clothes\\prisoner\\1stpersonprisonerclothes_f_1.nif",
-       "h": "wpXTbtJ7TFPj"
-      },
-      {
-       "t": "meshes\\clothes\\prisoner\\1stpersonprisonerrags_f_0.nif",
-       "h": "GlxRISm8BNwp"
-      },
-      {
-       "t": "meshes\\clothes\\prisoner\\1stpersonprisonerrags_f_1.nif",
-       "h": "OldQ2VFl1+Hc"
-      },
-      {
-       "t": "meshes\\clothes\\prisoner\\prisonerclothes_f_0.nif",
-       "h": "QXowVEmTtn5Q"
-      },
-      {
-       "t": "meshes\\clothes\\prisoner\\prisonerclothes_f_1.nif",
-       "h": "oj6s21C3GSul"
-      },
-      {
-       "t": "meshes\\clothes\\prisoner\\prisonercuffsf_0.nif",
-       "h": "qEp8YU7vJVmy"
-      },
-      {
-       "t": "meshes\\clothes\\prisoner\\prisonercuffsf_1.nif",
-       "h": "aRst4qLC0fEm"
-      },
-      {
-       "t": "meshes\\clothes\\prisoner\\prisonershoes_f_0.nif",
-       "h": "VbTUB3dCOxcT"
-      },
-      {
-       "t": "meshes\\clothes\\prisoner\\prisonershoes_f_1.nif",
-       "h": "YZrqUSmx6Xe1"
-      },
-      {
-       "t": "meshes\\clothes\\psiijic\\1stpersonpsiijicrobesf_0.nif",
-       "h": "T6D0s5BF+qA8"
-      },
-      {
-       "t": "meshes\\clothes\\psiijic\\1stpersonpsiijicrobesf_1.nif",
-       "h": "7FmnfqpWSooo"
-      },
-      {
-       "t": "meshes\\clothes\\psiijic\\psiijicglovesf_0.nif",
-       "h": "8ihsIuLOi3hV"
-      },
-      {
-       "t": "meshes\\clothes\\psiijic\\psiijicglovesf_1.nif",
-       "h": "42z7HNU10p6E"
-      },
-      {
-       "t": "meshes\\clothes\\psiijic\\psiijicrobesf_0.nif",
-       "h": "tsuYgd2kEcif"
-      },
-      {
-       "t": "meshes\\clothes\\psiijic\\psiijicrobesf_1.nif",
-       "h": "hJAyX8IJhqAa"
-      },
-      {
-       "t": "meshes\\clothes\\redguard\\1stpersonredguardoutfitf_0.nif",
-       "h": "g3Q9HZimvyYr"
-      },
-      {
-       "t": "meshes\\clothes\\redguard\\1stpersonredguardoutfitf_1.nif",
-       "h": "Laqzewoczi24"
-      },
-      {
-       "t": "meshes\\clothes\\redguard\\redguardoutfitf_0.nif",
-       "h": "G5owIeKIg4+n"
-      },
-      {
-       "t": "meshes\\clothes\\redguard\\redguardoutfitf_1.nif",
-       "h": "xZPlN/APBCeV"
-      },
-      {
-       "t": "meshes\\clothes\\robedarkbrotherhood\\female\\1stpersondbgloves_0.nif",
-       "h": "UGpeVtsaAoLx"
-      },
-      {
-       "t": "meshes\\clothes\\robedarkbrotherhood\\female\\1stpersondbgloves_1.nif",
-       "h": "XoTLTClYUEBB"
-      },
-      {
-       "t": "meshes\\clothes\\robedarkbrotherhood\\female\\1stpersondbglovesarg_0.nif",
-       "h": "+ksORpCXspD7"
-      },
-      {
-       "t": "meshes\\clothes\\robedarkbrotherhood\\female\\1stpersondbglovesarg_1.nif",
-       "h": "aWIL8pvjgxY2"
-      },
-      {
-       "t": "meshes\\clothes\\robedarkbrotherhood\\female\\1stpersondbtorso_0.nif",
-       "h": "cE8psxl7GSka"
-      },
-      {
-       "t": "meshes\\clothes\\robedarkbrotherhood\\female\\1stpersondbtorso_1.nif",
-       "h": "1GxvDXKsWUYa"
-      },
-      {
-       "t": "meshes\\clothes\\robedarkbrotherhood\\female\\dbboots_0.nif",
-       "h": "RoTPnV4OCHBV"
-      },
-      {
-       "t": "meshes\\clothes\\robedarkbrotherhood\\female\\dbboots_1.nif",
-       "h": "X+zEg3tntNU3"
-      },
-      {
-       "t": "meshes\\clothes\\robedarkbrotherhood\\female\\dbgloves_0.nif",
-       "h": "GQpQgcwWhrTy"
-      },
-      {
-       "t": "meshes\\clothes\\robedarkbrotherhood\\female\\dbgloves_1.nif",
-       "h": "R72INfk6HPRv"
-      },
-      {
-       "t": "meshes\\clothes\\robedarkbrotherhood\\female\\dbglovesarg_0.nif",
-       "h": "LScnniEFHxpF"
-      },
-      {
-       "t": "meshes\\clothes\\robedarkbrotherhood\\female\\dbglovesarg_1.nif",
-       "h": "gyaegSiNTv/f"
-      },
-      {
-       "t": "meshes\\clothes\\robedarkbrotherhood\\female\\dbtorso_0.nif",
-       "h": "RL23kFPaaJ4L"
-      },
-      {
-       "t": "meshes\\clothes\\robedarkbrotherhood\\female\\dbtorso_1.nif",
-       "h": "HvHNOcnHd/Pc"
-      },
-      {
-       "t": "meshes\\clothes\\robemythicdawn\\1stpersonmdrobe_f_0.nif",
-       "h": "++Tzpflq1UG+"
-      },
-      {
-       "t": "meshes\\clothes\\robemythicdawn\\1stpersonmdrobe_f_1.nif",
-       "h": "/WDDxbFWIXKv"
-      },
-      {
-       "t": "meshes\\clothes\\robemythicdawn\\mdrobe_f_0.nif",
-       "h": "6QJcyvmwUT8J"
-      },
-      {
-       "t": "meshes\\clothes\\robemythicdawn\\mdrobe_f_1.nif",
-       "h": "ZJN+aeHfzCmj"
-      },
-      {
-       "t": "meshes\\clothes\\robemythicdawn\\mdshoes_f_0.nif",
-       "h": "UGgBzutF4rEo"
-      },
-      {
-       "t": "meshes\\clothes\\robemythicdawn\\mdshoes_f_1.nif",
-       "h": "yXJwusGRelC6"
-      },
-      {
-       "t": "meshes\\clothes\\thalmor\\1stpersonthalmorglovesf_0.nif",
-       "h": "Ggt/JHWiP2wj"
-      },
-      {
-       "t": "meshes\\clothes\\thalmor\\1stpersonthalmorglovesf_1.nif",
-       "h": "tKvpk/Lw/Q47"
-      },
-      {
-       "t": "meshes\\clothes\\thalmor\\1stpersonthalmorrobesf_0.nif",
-       "h": "4Tv+FrBvPhx6"
-      },
-      {
-       "t": "meshes\\clothes\\thalmor\\1stpersonthalmorrobesf_1.nif",
-       "h": "/qzzN7tl+qP/"
-      },
-      {
-       "t": "meshes\\clothes\\thalmor\\thalmorglovesf_0.nif",
-       "h": "x5uDHV5spyNU"
-      },
-      {
-       "t": "meshes\\clothes\\thalmor\\thalmorglovesf_1.nif",
-       "h": "pXPtBBmDqAtk"
-      },
-      {
-       "t": "meshes\\clothes\\thalmor\\thalmorrobesf_0.nif",
-       "h": "rglDByIOXF7Y"
-      },
-      {
-       "t": "meshes\\clothes\\thalmor\\thalmorrobesf_1.nif",
-       "h": "OU56T+j5+U/f"
-      },
-      {
-       "t": "meshes\\clothes\\warlock\\1stpersonwarlockrobes_f_0.nif",
-       "h": "WoQs+USygehY"
-      },
-      {
-       "t": "meshes\\clothes\\warlock\\1stpersonwarlockrobes_f_1.nif",
-       "h": "nKdKR3mgxjap"
-      },
-      {
-       "t": "meshes\\clothes\\warlock\\warlockboots_f_0.nif",
-       "h": "mg8m4rl4ftX7"
-      },
-      {
-       "t": "meshes\\clothes\\warlock\\warlockboots_f_1.nif",
-       "h": "8OK63fbQK9C8"
-      },
-      {
-       "t": "meshes\\clothes\\warlock\\warlockrobes_f_0.nif",
-       "h": "xidZRyRDszTR"
-      },
-      {
-       "t": "meshes\\clothes\\warlock\\warlockrobes_f_1.nif",
-       "h": "QpfkH6wcxgoO"
-      },
-      {
-       "t": "meshes\\clothes\\weddingdress\\1stpersonoutfitf_0.nif",
-       "h": "ddP+wcl0t8aY"
-      },
-      {
-       "t": "meshes\\clothes\\weddingdress\\1stpersonoutfitf_1.nif",
-       "h": "DPanqLn8fNnB"
-      },
-      {
-       "t": "meshes\\clothes\\weddingdress\\outfitf_0.nif",
-       "h": "s2cLqRlZsjp/"
-      },
-      {
-       "t": "meshes\\clothes\\weddingdress\\outfitf_1.nif",
-       "h": "TYNzSLC9OQPC"
-      },
-      {
-       "t": "meshes\\clothes\\weddingdress\\sandalsf_0.nif",
-       "h": "OBJjXL4rSpvv"
-      },
-      {
-       "t": "meshes\\clothes\\weddingdress\\sandalsf_1.nif",
-       "h": "PQUaXHuI+VH6"
-      },
-      {
-       "t": "meshes\\clothes\\wench\\1stpersonwenchoutfitf_0.nif",
-       "h": "RElFuu/fLVwk"
-      },
-      {
-       "t": "meshes\\clothes\\wench\\1stpersonwenchoutfitf_1.nif",
-       "h": "RxKjvmEyyfA6"
-      },
-      {
-       "t": "meshes\\clothes\\wench\\wenchoutfitbootsf_0.nif",
-       "h": "u5KWROEex8Wu"
-      },
-      {
-       "t": "meshes\\clothes\\wench\\wenchoutfitbootsf_1.nif",
-       "h": "SrLw/gJPqbqT"
-      },
-      {
-       "t": "meshes\\clothes\\wench\\wenchoutfitf_0.nif",
-       "h": "9Zlb383CNN12"
-      },
-      {
-       "t": "meshes\\clothes\\wench\\wenchoutfitf_1.nif",
-       "h": "spWTvVQDKuq2"
-      },
-      {
-       "t": "meshes\\clothes\\yarlclothes02\\1stpersonoutfitf_0.nif",
-       "h": "BfpgEb4OgsNp"
-      },
-      {
-       "t": "meshes\\clothes\\yarlclothes02\\1stpersonoutfitf_1.nif",
-       "h": "JPCowZv6+DvW"
-      },
-      {
-       "t": "meshes\\clothes\\yarlclothes02\\bootsf_0.nif",
-       "h": "M9KIbMMs1nUt"
-      },
-      {
-       "t": "meshes\\clothes\\yarlclothes02\\bootsf_1.nif",
-       "h": "FRF5GlZ6pC8Y"
-      },
-      {
-       "t": "meshes\\clothes\\yarlclothes02\\glovesf_0.nif",
-       "h": "vBsZEsdLqWeV"
-      },
-      {
-       "t": "meshes\\clothes\\yarlclothes02\\glovesf_1.nif",
-       "h": "ei/L09w0zhCl"
-      },
-      {
-       "t": "meshes\\clothes\\yarlclothes02\\outfitf_0.nif",
-       "h": "r4pf0xpQCdn5"
-      },
-      {
-       "t": "meshes\\clothes\\yarlclothes02\\outfitf_1.nif",
-       "h": "PxJaulJZxts3"
-      },
-      {
-       "t": "meshes\\clothes\\yarlclothes03\\1stpersonoutfitf_0.nif",
-       "h": "g1aHXVQDxOL0"
-      },
-      {
-       "t": "meshes\\clothes\\yarlclothes03\\1stpersonoutfitf_var1_0.nif",
-       "h": "bdLygBNggfBQ"
-      },
-      {
-       "t": "meshes\\clothes\\yarlclothes03\\outfitf_0.nif",
-       "h": "mYIQMYf6ck6Q"
-      },
-      {
-       "t": "meshes\\clothes\\yarlclothes03\\outfitf_1.nif",
-       "h": "X3BYNzDfOhyl"
-      },
-      {
-       "t": "meshes\\clothes\\yarlclothes03\\outfitf_var1_0.nif",
-       "h": "og82idrf43j7"
-      },
-      {
-       "t": "meshes\\clothes\\yarlclothes03\\outfitf_var1_1.nif",
-       "h": "kdQxOtXSaH6L"
-      },
-      {
-       "t": "meshes\\clothes\\yarlclothes\\f\\1stpersongloves_0.nif",
-       "h": "o8jWgAojgMdi"
-      },
-      {
-       "t": "meshes\\clothes\\yarlclothes\\f\\boots_0.nif",
-       "h": "6FlkJUR7inUX"
-      },
-      {
-       "t": "meshes\\clothes\\yarlclothes\\f\\boots_1.nif",
-       "h": "ff6eKxKvkpL1"
-      },
-      {
-       "t": "meshes\\clothes\\yarlclothes\\f\\gloves_0.nif",
-       "h": "IxFeUeVV/02G"
-      },
-      {
-       "t": "meshes\\clothes\\yarlclothes\\f\\torso_0.nif",
-       "h": "X42givwBtLw1"
-      },
-      {
-       "t": "meshes\\clothes\\yarlclothes\\f\\torso_1.nif",
-       "h": "GIbxtRlCYKN7"
-      },
-      {
-       "t": "meshes\\clothes\\yarlclothes\\f\\torso_var1_0.nif",
-       "h": "vajbmDJ4dn0a"
-      },
-      {
-       "t": "meshes\\clothes\\yarlclothes\\f\\torso_var1_1.nif",
-       "h": "cwKxoknbK0aX"
-      },
-      {
-       "t": "meshes\\clothes\\yarlclothes\\f\\torso_var2_0.nif",
-       "h": "RdtOTRdvTof9"
-      },
-      {
-       "t": "meshes\\clothes\\yarlclothes\\f\\torso_var2_1.nif",
-       "h": "0URzFscBoPFc"
-      },
-      {
-       "t": "meshes\\dlc01\\armor\\dawnguard\\1stpersondawnguardbody1f_0.nif",
-       "h": "WUQLCLS0fhEb"
-      },
-      {
-       "t": "meshes\\dlc01\\armor\\dawnguard\\dawnguardboots1f_0.nif",
-       "h": "FpL7UbUtGbWw"
-      },
-      {
-       "t": "meshes\\dlc01\\armor\\dawnguard\\dawnguardgloves1f_0.nif",
-       "h": "1bJZLSzkC4Oe"
-      },
-      {
-       "t": "meshes\\dlc01\\armor\\dawnguard\\dawnguardgloves1f_1stperson_0.nif",
-       "h": "W/pACOQpwMHj"
-      },
-      {
-       "t": "meshes\\dlc01\\armor\\ivory\\f\\1stpersoncuirassivory_0.nif",
-       "h": "eaa3kkJ3rU9G"
-      },
-      {
-       "t": "meshes\\dlc01\\armor\\ivory\\f\\1stpersongauntletsivory_0.nif",
-       "h": "+QJtYD4Lr+di"
-      },
-      {
-       "t": "meshes\\dlc01\\armor\\ivory\\f\\bootsivory_0.nif",
-       "h": "ZceQm8ubVgAC"
-      },
-      {
-       "t": "meshes\\dlc01\\armor\\ivory\\f\\gauntletsivory_0.nif",
-       "h": "aV+Gi32t864h"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\blindmothpriest\\1stpersonblindmothpriestrobesf_0.nif",
-       "h": "bbLBDI9LvOYC"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\blindmothpriest\\1stpersonblindmothpriestrobesf_1.nif",
-       "h": "XF40s0AazA7I"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\blindmothpriest\\blindmothpriestrobesf_0.nif",
-       "h": "pfFrm5QxNFWF"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\blindmothpriest\\blindmothpriestrobesf_1.nif",
-       "h": "l1iGp4h+HZIR"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\blindmothpriest\\blindmothpriestsandalsf_0.nif",
-       "h": "LtOK64LgqelT"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\blindmothpriest\\blindmothpriestsandalsf_1.nif",
-       "h": "OefTxBwTdzx2"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\prisoner\\prisonerclothesbloody_f_0.nif",
-       "h": "PIUwLnkKnJB4"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\prisoner\\prisonerclothesbloody_f_1.nif",
-       "h": "Sp4MfL+JUwCl"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\prisoner\\prisonershoesbloody_f_0.nif",
-       "h": "pF2IDZpcKDcO"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\prisoner\\prisonershoesbloody_f_1.nif",
-       "h": "3RrL7pUcuuhp"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\vampclothes\\1stpersonvampclothesf_0.nif",
-       "h": "nEAJWJheLzBb"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\vampclothes\\1stpersonvampclothesf_1.nif",
-       "h": "IBFOJ3hBDM27"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\vampclothes\\vampbootsf_0.nif",
-       "h": "SJC88aUXqRFJ"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\vampclothes\\vampbootsf_1.nif",
-       "h": "ZabgrcCA4QXP"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\vampclothes\\vampclothesf_0.nif",
-       "h": "+hJGmvnuB9xF"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\vampclothes\\vampclothesf_1.nif",
-       "h": "XaWQnFG7Cdz4"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\vampclothes\\vampglovesf_0.nif",
-       "h": "uwbZRDvG8noo"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\vampclothes\\vampglovesf_1.nif",
-       "h": "WooolGIcddeb"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\vampire\\1stpersonvampireglovesf_0.nif",
-       "h": "qFzT4xzzyPHD"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\vampire\\1stpersonvampirerobesf_0.nif",
-       "h": "SZjRKlp7GBfa"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\vampire\\1stpersonvampirerobesf_1.nif",
-       "h": "ANAbRjZWKAmg"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\vampire\\1stpersonvampirerobesf_alt_0.nif",
-       "h": "KAbhpoyZ68go"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\vampire\\1stpersonvampirerobesf_alt_1.nif",
-       "h": "XSdggUWs50kU"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\vampire\\vampirebootsf_0.nif",
-       "h": "lY8Wnnsy8Do7"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\vampire\\vampirebootsf_1.nif",
-       "h": "9qA0XBveU/Et"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\vampire\\vampireglovesf_0.nif",
-       "h": "72Ci4Yhq53B9"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\vampire\\vampirerobesf_0.nif",
-       "h": "7cIlOVeYHhiG"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\vampire\\vampirerobesf_1.nif",
-       "h": "m5yz9sKjLhR/"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\vampire\\vampirerobesf_alt_0.nif",
-       "h": "kH2txGCXhSB+"
-      },
-      {
-       "t": "meshes\\dlc01\\clothes\\vampire\\vampirerobesf_alt_1.nif",
-       "h": "SBlgzkuMwkWO"
-      },
-      {
-       "t": "meshes\\dlc02\\armor\\bonemold\\f\\1stpersonbonemoldcuirass_0.nif",
-       "h": "KabJY+61XoBQ"
-      },
-      {
-       "t": "meshes\\dlc02\\armor\\bonemold\\f\\1stpersonbonemoldgauntlets_0.nif",
-       "h": "hlVHuOWCJtJe"
-      },
-      {
-       "t": "meshes\\dlc02\\armor\\bonemold\\f\\bonemoldboots_0.nif",
-       "h": "igHSH5FK6hAh"
-      },
-      {
-       "t": "meshes\\dlc02\\armor\\bonemold\\f\\bonemoldgauntlets_0.nif",
-       "h": "SiWw6m5C3ULg"
-      },
-      {
-       "t": "meshes\\dlc02\\armor\\chitinheavy\\f\\1stpersoncuirass_0.nif",
-       "h": "B77EQDs3CSC4"
-      },
-      {
-       "t": "meshes\\dlc02\\armor\\chitinheavy\\f\\boots_0.nif",
-       "h": "eZCdbcJAIBOH"
-      },
-      {
-       "t": "meshes\\dlc02\\armor\\chitinheavy\\f\\gauntlets_0.nif",
-       "h": "AlNYRkTMzT7f"
-      },
-      {
-       "t": "meshes\\dlc02\\armor\\chitinlight\\f\\1stpersoncuirass_0.nif",
-       "h": "gmINEsLMPoZ6"
-      },
-      {
-       "t": "meshes\\dlc02\\armor\\chitinlight\\f\\boots_0.nif",
-       "h": "JrHt4l8BucZE"
-      },
-      {
-       "t": "meshes\\dlc02\\armor\\chitinlight\\f\\gauntlets_0.nif",
-       "h": "BZ42yZqZPWAa"
-      },
-      {
-       "t": "meshes\\dlc02\\armor\\stahlrimheavy\\f\\1stpersoncuirass_0.nif",
-       "h": "QQ6U1Zi/SaBH"
-      },
-      {
-       "t": "meshes\\dlc02\\armor\\stahlrimheavy\\f\\boots_0.nif",
-       "h": "APrLQKD6W2FF"
-      },
-      {
-       "t": "meshes\\dlc02\\armor\\stahlrimheavy\\f\\gauntlets_0.nif",
-       "h": "DWx88viY6/j2"
-      },
-      {
-       "t": "meshes\\dlc02\\armor\\stahlrimheavy\\f\\gauntletsbeast_0.nif",
-       "h": "dSeXLvphF2cO"
-      },
-      {
-       "t": "meshes\\dlc02\\armor\\stahlrimlight\\f\\1stpersoncuirass_0.nif",
-       "h": "H8uQzKsANGdu"
-      },
-      {
-       "t": "meshes\\dlc02\\armor\\stahlrimlight\\f\\boots_0.nif",
-       "h": "ENTNqL43RZtz"
-      },
-      {
-       "t": "meshes\\dlc02\\armor\\stahlrimlight\\f\\gauntlets_0.nif",
-       "h": "I8X22AaYIBXt"
-      },
-      {
-       "t": "meshes\\dlc02\\armor\\stahlrimlight\\f\\gauntletsbeast_0.nif",
-       "h": "NUJlyd36aE0c"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\cultist\\f\\1stpersoncultistgauntlets_0.nif",
-       "h": "7BhP3ilDw5Y7"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\cultist\\f\\1stpersoncultisttorso_0.nif",
-       "h": "Z48sLoQ6lH+z"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\cultist\\f\\1stpersoncultisttorso_1.nif",
-       "h": "saeYkiLSkFBT"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\cultist\\f\\cultistboots_0.nif",
-       "h": "+Io1oIXrEzQx"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\cultist\\f\\cultistboots_1.nif",
-       "h": "MsjwA8Rds6tD"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\cultist\\f\\cultistgauntlets_0.nif",
-       "h": "/uXUinEot33T"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\cultist\\f\\cultisttorso_0.nif",
-       "h": "KBcTaTF1SnDO"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\cultist\\f\\cultisttorso_1.nif",
-       "h": "3H4W4c01QQ8O"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\darkelf\\f\\1stpersonoutfit_0.nif",
-       "h": "pw/yCguYIsnQ"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\darkelf\\f\\1stpersonoutfit_1.nif",
-       "h": "+Imyl1wLiZDc"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\darkelf\\f\\outfit_0.nif",
-       "h": "waC512ETvun7"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\darkelf\\f\\outfit_1.nif",
-       "h": "5P2YFt3mfO2W"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\miraakrobes\\1stpersonmiraakgloves_f_0.nif",
-       "h": "rfqkmw68kpA0"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\miraakrobes\\1stpersonmiraakgloves_f_1.nif",
-       "h": "fWUKT1rO/lY/"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\miraakrobes\\1stpersonmiraakrobes_f_0.nif",
-       "h": "YS8v5gCR6dUy"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\miraakrobes\\1stpersonmiraakrobes_f_1.nif",
-       "h": "ELv9ewJAFw9V"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\miraakrobes\\miraakboots_f_0.nif",
-       "h": "7Xre+YJtSqbx"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\miraakrobes\\miraakboots_f_1.nif",
-       "h": "PWKekq+Exsc0"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\miraakrobes\\miraakrobes_f_0.nif",
-       "h": "ZZ7PvqkHndLy"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\miraakrobes\\miraakrobes_f_1.nif",
-       "h": "tAmCf8YXQRKI"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\skaal\\f\\1stpersonskaalgauntlets_0.nif",
-       "h": "jbDydBHcCAEM"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\skaal\\f\\1stpersonskaaltorso_0.nif",
-       "h": "3d6jZRHLBoJd"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\skaal\\f\\1stpersonskaaltorso_1.nif",
-       "h": "eX5u45lnt8KM"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\skaal\\f\\skaalboots_0.nif",
-       "h": "ti9nsXCy9957"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\skaal\\f\\skaalboots_1.nif",
-       "h": "y2XflYZEZ1H9"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\skaal\\f\\skaalgauntlets_0.nif",
-       "h": "z3ghQUrZoMsy"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\skaal\\f\\skaaltorso_0.nif",
-       "h": "OIfQS9OEJFTE"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\skaal\\f\\skaaltorso_1.nif",
-       "h": "lw4XfL+tvSke"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\telvanni\\1stpersontelvannibodyf_1stp_0.nif",
-       "h": "3m496OqG4UTr"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\telvanni\\1stpersontelvannibodyf_1stp_1.nif",
-       "h": "k7G/Fa3GSEGA"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\telvanni\\telvannibodyf_0.nif",
-       "h": "HYBwTSjWjkmW"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\telvanni\\telvannibodyf_1.nif",
-       "h": "ZPaMtZL1d26y"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\temple\\1stpersontemplepriestf_0.nif",
-       "h": "AN7e/2IlL2cV"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\temple\\1stpersontemplepriestf_1.nif",
-       "h": "KTFr1PoHvLTS"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\temple\\templepriestf_0.nif",
-       "h": "DnkyE+3/63ou"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\temple\\templepriestf_1.nif",
-       "h": "lJJaWzEMWkXq"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\temple\\templepriestfboots_0.nif",
-       "h": "4utx5D6V1GJR"
-      },
-      {
-       "t": "meshes\\dlc02\\clothes\\temple\\templepriestfboots_1.nif",
-       "h": "5jbnmPDLRfxf"
-      },
-      {
-       "t": "meshes\\uskp\\clothes\\fineclothes02\\bootsf_0.nif",
-       "h": "zkV3mVc5PEQ8"
-      },
-      {
-       "t": "meshes\\uskp\\clothes\\fineclothes02\\bootsf_1.nif",
-       "h": "CKLm43pR95Ps"
-      },
-      {
-       "t": "meshes\\uskp\\clothes\\mages\\mageglovesf_0.nif",
-       "h": "eEmTOxNSvXxN"
-      },
-      {
-       "t": "meshes\\uskp\\clothes\\mages\\mageglovesf_1.nif",
-       "h": "3Pix4C7h90K2"
-      },
-      {
-       "t": "meshes\\usleep\\armor\\generaltulius\\1stpersonpenitustorsof_0.nif",
-       "h": "eYV+7V0dh2ZI"
-      },
-      {
-       "t": "meshes\\ussep\\clothes\\mournersclothes\\1stpersonmournoutfitf_0.nif",
-       "h": "UeIwMiztftJw"
-      },
-      {
-       "t": "racemenumorphscbbe.esp",
-       "h": "x9BivRPwgnGt"
-      },
-      {
-       "t": "scripts\\racemenumorphscbbe.pex",
-       "h": "PWpH3YmI3m2G"
-      },
-      {
-       "t": "source\\scripts\\racemenumorphscbbe.psc",
-       "h": "4IRHbqg9zrMA"
-      },
-      {
-       "t": "textures\\actors\\character\\bretonfemale\\femalehead_msn.dds",
-       "h": "eVglQJWJZuv6"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femalehead_cheeks.dds",
-       "h": "xGPbrnpP7v2H"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femalehead_cheeks2.dds",
-       "h": "ErrUFcfKesdy"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femalehead_frownlines.dds",
-       "h": "Fzv7gN5WX7av"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadbreton_lips.dds",
-       "h": "rVdL6ZHrf+D4"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadhighelf_lips.dds",
-       "h": "rVdL6ZHrf+D4"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_chin.dds",
-       "h": "L13FoW60ju7f"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_forehead.dds",
-       "h": "k8BK082jOxJD"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_neck.dds",
-       "h": "wWSyf5XlafWq"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_nose.dds",
-       "h": "bY6Fm1fwJkmQ"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadimperial_lips.dds",
-       "h": "rVdL6ZHrf+D4"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadnord_lips.dds",
-       "h": "rVdL6ZHrf+D4"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadredguard_lips.dds",
-       "h": "rVdL6ZHrf+D4"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femalelowereyesocket.dds",
-       "h": "4mrPM9cKuPxa"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femalenordeyelinerstyle_01.dds",
-       "h": "Wv5ls6my24aO"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleuppereyesocket.dds",
-       "h": "nH8y0qLzfvlq"
-      },
-      {
-       "t": "textures\\actors\\character\\darkelffemale\\femalehead_msn.dds",
-       "h": "eVglQJWJZuv6"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\astridbody.dds",
-       "h": "5mCiXWbNJNS0"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\astridbody_msn.dds",
-       "h": "vZNFkc2pJd/m"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalebody_1.dds",
-       "h": "UPwfgLP9zG7e"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalebody_1_msn.dds",
-       "h": "D8rvENubybjZ"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalebody_1_s.dds",
-       "h": "m7zRZF24Xi9N"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalebody_1_sk.dds",
-       "h": "FGN335NJGsJk"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalebodyafflicted.dds",
-       "h": "NTEu5oVZMGnl"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalehands_1.dds",
-       "h": "WApNRoBcbHsZ"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalehands_1_msn.dds",
-       "h": "tD+0QEOZ6Rzd"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalehands_1_s.dds",
-       "h": "CFHGBAlVxGyz"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalehands_1_sk.dds",
-       "h": "5ctrLuZb8ECc"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalehead.dds",
-       "h": "wGSDTpH3OV/F"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalehead_msn.dds",
-       "h": "eVglQJWJZuv6"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalehead_s.dds",
-       "h": "FBSszZaQSVf9"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalehead_sk.dds",
-       "h": "sFeMzYZVb/P1"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femaleheadvampire.dds",
-       "h": "wGSDTpH3OV/F"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femaleheadvampire_msn.dds",
-       "h": "eVglQJWJZuv6"
-      },
-      {
-       "t": "textures\\actors\\character\\femaleold\\femalebody_1_msn.dds",
-       "h": "oWZYTLLvFQSp"
-      },
-      {
-       "t": "textures\\actors\\character\\femaleold\\femalehead_msn.dds",
-       "h": "8VqssTYQA1FF"
-      },
-      {
-       "t": "textures\\actors\\character\\femaleorc\\femaleheadorc_msn.dds",
-       "h": "PBxLmYeA3cQv"
-      },
-      {
-       "t": "textures\\actors\\character\\highelffemale\\femalehead_msn.dds",
-       "h": "eVglQJWJZuv6"
-      },
-      {
-       "t": "textures\\actors\\character\\imperialfemale\\femalehead_msn.dds",
-       "h": "eVglQJWJZuv6"
-      },
-      {
-       "t": "textures\\actors\\character\\khajiitfemale\\femalebody.dds",
-       "h": "Cgx0RoyQ5JSP"
-      },
-      {
-       "t": "textures\\actors\\character\\khajiitfemale\\femalebody_msn.dds",
-       "h": "nAA8XuWtFWYX"
-      },
-      {
-       "t": "textures\\actors\\character\\khajiitfemale\\femalebody_s.dds",
-       "h": "i3fIyW/ONOV5"
-      },
-      {
-       "t": "textures\\actors\\character\\khajiitfemale\\femalehands.dds",
-       "h": "CnSZ1jcTlK5n"
-      },
-      {
-       "t": "textures\\actors\\character\\khajiitfemale\\femalehands_msn.dds",
-       "h": "ePiaXA6dQ2sW"
-      },
-      {
-       "t": "textures\\actors\\character\\khajiitfemale\\femalehands_s.dds",
-       "h": "uHxF9sSb6h2B"
-      },
-      {
-       "t": "textures\\actors\\character\\male\\blankdetailmap.dds",
-       "h": "I8nm+jtWiLaO"
-      },
-      {
-       "t": "textures\\actors\\character\\redguardfemale\\femalehead_msn.dds",
-       "h": "eVglQJWJZuv6"
-      }
-     ]
-    },
-    {
-     "arid": 1,
-     "files": [
-      {
-       "t": "scripts\\racemenumorphscbbeuiextensions.pex",
-       "h": "JUjuq83/ULoW"
-      },
-      {
-       "t": "scripts\\racemenumorphscbbeuilistmenu.pex",
-       "h": "QLZ8SGyH3qkm"
-      },
-      {
-       "t": "scripts\\racemenumorphscbbeuimenubase.pex",
-       "h": "g3nnHsa4Q2gM"
-      },
-      {
-       "t": "scripts\\racemenumorphscbbeuitextentrymenu.pex",
-       "h": "QKciiLXLgLp1"
-      },
-      {
-       "t": "source\\scripts\\racemenumorphscbbeuiextensions.psc",
-       "h": "Khgdi9Yfhjhg"
-      },
-      {
-       "t": "source\\scripts\\racemenumorphscbbeuilistmenu.psc",
-       "h": "xbiEAlsjb04Y"
-      },
-      {
-       "t": "source\\scripts\\racemenumorphscbbeuimenubase.psc",
-       "h": "k+OS98NbkoMW"
-      },
-      {
-       "t": "source\\scripts\\racemenumorphscbbeuitextentrymenu.psc",
-       "h": "lJArE82LeqhG"
-      }
+      "bain": [
+       "00 required (slim)\\",
+       "01 curvy\\",
+       "07 outfits curvy\\",
+       "09 outfits bodyslide\\",
+       "10 face pack\\",
+       "26 racemenu morphs\\",
+       "27 morph files (body)\\"
+      ]
+     },
+     "skip": [
+      "meshes\\actors\\character\\character assets\\1stpersonfemalebody.tri",
+      "meshes\\actors\\character\\character assets\\1stpersonfemalehandsargonian.tri",
+      "meshes\\actors\\character\\character assets\\1stpersonfemalehandsargonian_0.nif",
+      "meshes\\actors\\character\\character assets\\1stpersonfemalehandsargonian_1.nif",
+      "meshes\\actors\\character\\character assets\\femalebody.tri",
+      "meshes\\actors\\character\\character assets\\femalebodyastrid_0.nif",
+      "meshes\\actors\\character\\character assets\\femalebodyastrid_1.nif",
+      "meshes\\armor\\amuletsandrings\\akatosh\\akatoshamuletf_0.nif",
+      "meshes\\armor\\amuletsandrings\\akatosh\\akatoshamuletf_1.nif",
+      "meshes\\armor\\amuletsandrings\\ancientnord\\ancientnordamuletf_0.nif",
+      "meshes\\armor\\amuletsandrings\\ancientnord\\ancientnordamuletf_1.nif",
+      "meshes\\armor\\amuletsandrings\\ancientnord\\brokenamuletassembledf_0.nif",
+      "meshes\\armor\\amuletsandrings\\ancientnord\\brokenamuletassembledf_1.nif",
+      "meshes\\armor\\amuletsandrings\\ancientnord\\brokenamuletbottomf_0.nif",
+      "meshes\\armor\\amuletsandrings\\ancientnord\\brokenamuletbottomf_1.nif",
+      "meshes\\armor\\amuletsandrings\\ancientnord\\brokenamuletmiddlef_0.nif",
+      "meshes\\armor\\amuletsandrings\\ancientnord\\brokenamuletmiddlef_1.nif",
+      "meshes\\armor\\amuletsandrings\\ancientnord\\brokenamulettopf_0.nif",
+      "meshes\\armor\\amuletsandrings\\ancientnord\\brokenamulettopf_1.nif",
+      "meshes\\armor\\amuletsandrings\\arkay\\arkayamuletf_0.nif",
+      "meshes\\armor\\amuletsandrings\\arkay\\arkayamuletf_1.nif",
+      "meshes\\armor\\amuletsandrings\\dibella\\dibellaamuletf_0.nif",
+      "meshes\\armor\\amuletsandrings\\dibella\\dibellaamuletf_1.nif",
+      "meshes\\armor\\amuletsandrings\\elder council\\eldercouncil_amuletf_0.nif",
+      "meshes\\armor\\amuletsandrings\\elder council\\eldercouncil_amuletf_1.nif",
+      "meshes\\armor\\amuletsandrings\\goldamuletdiamondf_0.nif",
+      "meshes\\armor\\amuletsandrings\\goldamuletdiamondf_1.nif",
+      "meshes\\armor\\amuletsandrings\\goldamuletf_0.nif",
+      "meshes\\armor\\amuletsandrings\\goldamuletf_1.nif",
+      "meshes\\armor\\amuletsandrings\\goldamuletgemsf_0.nif",
+      "meshes\\armor\\amuletsandrings\\goldamuletgemsf_1.nif",
+      "meshes\\armor\\amuletsandrings\\goldamuletrubyf_0.nif",
+      "meshes\\armor\\amuletsandrings\\goldamuletrubyf_1.nif",
+      "meshes\\armor\\amuletsandrings\\goldamuletsapphiref_0.nif",
+      "meshes\\armor\\amuletsandrings\\goldamuletsapphiref_1.nif",
+      "meshes\\armor\\amuletsandrings\\julianos\\julianosamuletf_0.nif",
+      "meshes\\armor\\amuletsandrings\\julianos\\julianosamuletf_1.nif",
+      "meshes\\armor\\amuletsandrings\\kynareth\\kynarethamuletf_0.nif",
+      "meshes\\armor\\amuletsandrings\\kynareth\\kynarethamuletf_1.nif",
+      "meshes\\armor\\amuletsandrings\\mara\\maraamuletf_0.nif",
+      "meshes\\armor\\amuletsandrings\\mara\\maraamuletf_1.nif",
+      "meshes\\armor\\amuletsandrings\\necromancer\\necromancerf_0.nif",
+      "meshes\\armor\\amuletsandrings\\necromancer\\necromancerf_1.nif",
+      "meshes\\armor\\amuletsandrings\\silveramuletemeraldf_0.nif",
+      "meshes\\armor\\amuletsandrings\\silveramuletemeraldf_1.nif",
+      "meshes\\armor\\amuletsandrings\\silveramuletf_0.nif",
+      "meshes\\armor\\amuletsandrings\\silveramuletf_1.nif",
+      "meshes\\armor\\amuletsandrings\\silveramuletgemsf_0.nif",
+      "meshes\\armor\\amuletsandrings\\silveramuletgemsf_1.nif",
+      "meshes\\armor\\amuletsandrings\\silveramuletsapphiref_0.nif",
+      "meshes\\armor\\amuletsandrings\\silveramuletsapphiref_1.nif",
+      "meshes\\armor\\amuletsandrings\\stendarr\\stendarramuletf_0.nif",
+      "meshes\\armor\\amuletsandrings\\talismanoftreachery\\talismanoftreacheryf_0.nif",
+      "meshes\\armor\\amuletsandrings\\talismanoftreachery\\talismanoftreacheryf_1.nif",
+      "meshes\\armor\\amuletsandrings\\talos\\talosamuletf_0.nif",
+      "meshes\\armor\\amuletsandrings\\talos\\talosamuletf_1.nif",
+      "meshes\\armor\\amuletsandrings\\zenithar\\zenitharamuletf_0.nif",
+      "meshes\\armor\\amuletsandrings\\zenithar\\zenitharamuletf_1.nif",
+      "meshes\\armor\\bandit\\1stpersonbody1f_1.nif",
+      "meshes\\armor\\bandit\\1stpersonbody2f_1.nif",
+      "meshes\\armor\\bandit\\1stpersonbody3f_1.nif",
+      "meshes\\armor\\bandit\\1stpersonbodyf_1.nif",
+      "meshes\\armor\\bandit\\1stpersonglovesf_1.nif",
+      "meshes\\armor\\bandit\\body1f_0.nif",
+      "meshes\\armor\\bandit\\body1f_1.nif",
+      "meshes\\armor\\bandit\\body2f_0.nif",
+      "meshes\\armor\\bandit\\body2f_1.nif",
+      "meshes\\armor\\bandit\\body3f_0.nif",
+      "meshes\\armor\\bandit\\body3f_1.nif",
+      "meshes\\armor\\bandit\\bodyf_0.nif",
+      "meshes\\armor\\bandit\\bodyf_1.nif",
+      "meshes\\armor\\bandit\\glovesf_1.nif",
+      "meshes\\armor\\blades\\1stpersonbladesarmorf_0.nif",
+      "meshes\\armor\\blades\\1stpersonbladesarmorf_1.nif",
+      "meshes\\armor\\blades\\bladesarmorf_0.nif",
+      "meshes\\armor\\blades\\bladesarmorf_1.nif",
+      "meshes\\armor\\blades\\bladesbootsf_0.nif",
+      "meshes\\armor\\blades\\bladesbootsf_1.nif",
+      "meshes\\armor\\blades\\bladesgauntletsf_0.nif",
+      "meshes\\armor\\blades\\bladesgauntletsf_1.nif",
+      "meshes\\armor\\daedric\\1stpersondaedrictorsof_1.nif",
+      "meshes\\armor\\daedric\\daedricbootsf_1.nif",
+      "meshes\\armor\\daedric\\daedricglovesf_1.nif",
+      "meshes\\armor\\daedric\\daedrictorsof_0.nif",
+      "meshes\\armor\\daedric\\daedrictorsof_1.nif",
+      "meshes\\armor\\dbarmor\\1stpersondbarmorgauntlets_f_1.nif",
+      "meshes\\armor\\dbarmor\\1stpersondbarmortorso_f_1.nif",
+      "meshes\\armor\\dbarmor\\dbarmorboots_f_1.nif",
+      "meshes\\armor\\dbarmor\\dbarmorgauntlets_f_1.nif",
+      "meshes\\armor\\dbarmor\\dbarmortorso_f_0.nif",
+      "meshes\\armor\\dbarmor\\dbarmortorso_f_1.nif",
+      "meshes\\armor\\dragonbone\\1stpersondragonbonearmorf_0.nif",
+      "meshes\\armor\\dragonbone\\1stpersondragonbonearmorf_1.nif",
+      "meshes\\armor\\dragonbone\\dragonbonearmorf_0.nif",
+      "meshes\\armor\\dragonbone\\dragonbonearmorf_1.nif",
+      "meshes\\armor\\dragonbone\\dragonbonebootsf_0.nif",
+      "meshes\\armor\\dragonbone\\dragonbonebootsf_1.nif",
+      "meshes\\armor\\dragonbone\\dragonbonegauntletsf_0.nif",
+      "meshes\\armor\\dragonbone\\dragonbonegauntletsf_1.nif",
+      "meshes\\armor\\dragonscale\\1stpersondragonscalearmorf_1.nif",
+      "meshes\\armor\\dragonscale\\dragonscalearmorf_0.nif",
+      "meshes\\armor\\dragonscale\\dragonscalearmorf_1.nif",
+      "meshes\\armor\\dragonscale\\dragonscalebootsf_1.nif",
+      "meshes\\armor\\dragonscale\\dragonscaleglovesf_1.nif",
+      "meshes\\armor\\draugr\\1stpersondraugrarmorfemale_1.nif",
+      "meshes\\armor\\draugr\\draugrarmorfemale_0.nif",
+      "meshes\\armor\\draugr\\draugrarmorfemale_1.nif",
+      "meshes\\armor\\draugr\\draugrbootsfemale_1.nif",
+      "meshes\\armor\\draugr\\draugrgauntletsfemale_1.nif",
+      "meshes\\armor\\dwarven\\1stpersondwarvenarmorf_0.nif",
+      "meshes\\armor\\dwarven\\1stpersondwarvenarmorf_1.nif",
+      "meshes\\armor\\dwarven\\1stpersondwarvengauntletsf_0.nif",
+      "meshes\\armor\\dwarven\\1stpersondwarvengauntletsf_1.nif",
+      "meshes\\armor\\dwarven\\dwarvenarmorf_0.nif",
+      "meshes\\armor\\dwarven\\dwarvenarmorf_1.nif",
+      "meshes\\armor\\dwarven\\dwarvenbootsf_0.nif",
+      "meshes\\armor\\dwarven\\dwarvenbootsf_1.nif",
+      "meshes\\armor\\ebony\\f\\1stpersoncuirass_0.nif",
+      "meshes\\armor\\ebony\\f\\1stpersoncuirass_1.nif",
+      "meshes\\armor\\ebony\\f\\boots_0.nif",
+      "meshes\\armor\\ebony\\f\\boots_1.nif",
+      "meshes\\armor\\ebony\\f\\cuirass_0.nif",
+      "meshes\\armor\\ebony\\f\\cuirass_1.nif",
+      "meshes\\armor\\ebony\\f\\gauntlets_0.nif",
+      "meshes\\armor\\ebony\\f\\gauntlets_1.nif",
+      "meshes\\armor\\ebonymail\\1stpersoncuirassf_1.nif",
+      "meshes\\armor\\ebonymail\\cuirassf_0.nif",
+      "meshes\\armor\\ebonymail\\cuirassf_1.nif",
+      "meshes\\armor\\elven\\f\\1stpersoncuirass_1.nif",
+      "meshes\\armor\\elven\\f\\1stpersoncuirasslight_1.nif",
+      "meshes\\armor\\elven\\f\\1stpersongauntlets_1.nif",
+      "meshes\\armor\\elven\\f\\boots_1.nif",
+      "meshes\\armor\\elven\\f\\cuirass_0.nif",
+      "meshes\\armor\\elven\\f\\cuirass_1.nif",
+      "meshes\\armor\\elven\\f\\cuirasslight_0.nif",
+      "meshes\\armor\\elven\\f\\cuirasslight_1.nif",
+      "meshes\\armor\\elven\\f\\gauntlets_1.nif",
+      "meshes\\armor\\falmer\\1stpersonfalmerarmorf_0.nif",
+      "meshes\\armor\\falmer\\1stpersonfalmerarmorf_1.nif",
+      "meshes\\armor\\falmer\\falmerarmorf_0.nif",
+      "meshes\\armor\\falmer\\falmerarmorf_1.nif",
+      "meshes\\armor\\falmer\\falmerbootsf_0.nif",
+      "meshes\\armor\\falmer\\falmerbootsf_1.nif",
+      "meshes\\armor\\falmer\\falmergauntletsf_0.nif",
+      "meshes\\armor\\falmer\\falmergauntletsf_1.nif",
+      "meshes\\armor\\generaltulius\\1stpersongeneraltuliusf_1.nif",
+      "meshes\\armor\\generaltulius\\generaltuliusf_0.nif",
+      "meshes\\armor\\generaltulius\\generaltuliusf_1.nif",
+      "meshes\\armor\\glass\\f\\1stpersoncuirass_1.nif",
+      "meshes\\armor\\glass\\f\\1stpersongauntlets_1.nif",
+      "meshes\\armor\\glass\\f\\boots_1.nif",
+      "meshes\\armor\\glass\\f\\cuirass_0.nif",
+      "meshes\\armor\\glass\\f\\cuirass_1.nif",
+      "meshes\\armor\\glass\\f\\gauntlets_1.nif",
+      "meshes\\armor\\hide\\f\\1stpersoncuirassheavy_1.nif",
+      "meshes\\armor\\hide\\f\\1stpersoncuirassheavychieftain_1.nif",
+      "meshes\\armor\\hide\\f\\1stpersoncuirasslight_0.nif",
+      "meshes\\armor\\hide\\f\\1stpersoncuirasslight_1.nif",
+      "meshes\\armor\\hide\\f\\1stpersoncuirassmedium_1.nif",
+      "meshes\\armor\\hide\\f\\1stpersongauntletsheavy_1.nif",
+      "meshes\\armor\\hide\\f\\1stpersongauntletsheavybeast_1.nif",
+      "meshes\\armor\\hide\\f\\1stpersongauntletslight_0.nif",
+      "meshes\\armor\\hide\\f\\1stpersongauntletslight_1.nif",
+      "meshes\\armor\\hide\\f\\1stpersongauntletslightbeast_1.nif",
+      "meshes\\armor\\hide\\f\\bootsheavy_1.nif",
+      "meshes\\armor\\hide\\f\\bootslight_0.nif",
+      "meshes\\armor\\hide\\f\\bootslight_1.nif",
+      "meshes\\armor\\hide\\f\\cuirassheavy_0.nif",
+      "meshes\\armor\\hide\\f\\cuirassheavy_1.nif",
+      "meshes\\armor\\hide\\f\\cuirassheavychieftain_0.nif",
+      "meshes\\armor\\hide\\f\\cuirassheavychieftain_1.nif",
+      "meshes\\armor\\hide\\f\\cuirasslight_0.nif",
+      "meshes\\armor\\hide\\f\\cuirasslight_1.nif",
+      "meshes\\armor\\hide\\f\\cuirassmedium_0.nif",
+      "meshes\\armor\\hide\\f\\cuirassmedium_1.nif",
+      "meshes\\armor\\hide\\f\\gauntletsheavy_1.nif",
+      "meshes\\armor\\hide\\f\\gauntletslight_0.nif",
+      "meshes\\armor\\hide\\f\\gauntletslight_1.nif",
+      "meshes\\armor\\imperial\\f\\1stpersoncuirassheavy_1.nif",
+      "meshes\\armor\\imperial\\f\\1stpersoncuirasslight_1.nif",
+      "meshes\\armor\\imperial\\f\\1stpersoncuirassmedium_1.nif",
+      "meshes\\armor\\imperial\\f\\1stpersongauntletsheavy_1.nif",
+      "meshes\\armor\\imperial\\f\\1stpersongauntletsheavybeast_1.nif",
+      "meshes\\armor\\imperial\\f\\1stpersongauntletslight_1.nif",
+      "meshes\\armor\\imperial\\f\\1stpersongauntletslightbeast_1.nif",
+      "meshes\\armor\\imperial\\f\\bootsheavy_1.nif",
+      "meshes\\armor\\imperial\\f\\bootslight_1.nif",
+      "meshes\\armor\\imperial\\f\\cuirassheavy_0.nif",
+      "meshes\\armor\\imperial\\f\\cuirassheavy_1.nif",
+      "meshes\\armor\\imperial\\f\\cuirasslight_0.nif",
+      "meshes\\armor\\imperial\\f\\cuirasslight_1.nif",
+      "meshes\\armor\\imperial\\f\\cuirassmedium_0.nif",
+      "meshes\\armor\\imperial\\f\\cuirassmedium_1.nif",
+      "meshes\\armor\\imperial\\f\\gauntletsheavy_1.nif",
+      "meshes\\armor\\imperial\\f\\gauntletslight_1.nif",
+      "meshes\\armor\\iron\\f\\1stpersoncuirassheavy_0.nif",
+      "meshes\\armor\\iron\\f\\1stpersoncuirassheavy_1.nif",
+      "meshes\\armor\\iron\\f\\1stpersoncuirasslight_0.nif",
+      "meshes\\armor\\iron\\f\\1stpersoncuirasslight_1.nif",
+      "meshes\\armor\\iron\\f\\boots_0.nif",
+      "meshes\\armor\\iron\\f\\boots_1.nif",
+      "meshes\\armor\\iron\\f\\cuirassheavy_0.nif",
+      "meshes\\armor\\iron\\f\\cuirassheavy_1.nif",
+      "meshes\\armor\\iron\\f\\cuirasslight_0.nif",
+      "meshes\\armor\\iron\\f\\cuirasslight_1.nif",
+      "meshes\\armor\\iron\\f\\gauntlets_0.nif",
+      "meshes\\armor\\iron\\f\\gauntlets_1.nif",
+      "meshes\\armor\\nightingale\\f\\1stpersongauntlets.nif_1.nif",
+      "meshes\\armor\\nightingale\\f\\1stpersontorso_1.nif",
+      "meshes\\armor\\nightingale\\f\\boots_1.nif",
+      "meshes\\armor\\nightingale\\f\\gauntlets_1.nif",
+      "meshes\\armor\\nightingale\\f\\torso_0.nif",
+      "meshes\\armor\\nightingale\\f\\torso_1.nif",
+      "meshes\\armor\\nordplate\\1stpersonnordcuirassf_0.nif",
+      "meshes\\armor\\nordplate\\1stpersonnordcuirassf_1.nif",
+      "meshes\\armor\\nordplate\\nordbootsf_0.nif",
+      "meshes\\armor\\nordplate\\nordbootsf_1.nif",
+      "meshes\\armor\\nordplate\\nordcuirassf_0.nif",
+      "meshes\\armor\\nordplate\\nordcuirassf_1.nif",
+      "meshes\\armor\\nordplate\\nordgauntletsf_0.nif",
+      "meshes\\armor\\nordplate\\nordgauntletsf_1.nif",
+      "meshes\\armor\\orcish\\1stpersoncuirassf_1.nif",
+      "meshes\\armor\\orcish\\bootsf_1.nif",
+      "meshes\\armor\\orcish\\cuirassf_0.nif",
+      "meshes\\armor\\orcish\\cuirassf_1.nif",
+      "meshes\\armor\\orcish\\gauntletsf_1.nif",
+      "meshes\\armor\\savior'shide\\1stpersonbodyf_1.nif",
+      "meshes\\armor\\savior'shide\\bodyf_0.nif",
+      "meshes\\armor\\savior'shide\\bodyf_1.nif",
+      "meshes\\armor\\sons of talos\\1stpersonoutfitf_1.nif",
+      "meshes\\armor\\sons of talos\\bootsf_1.nif",
+      "meshes\\armor\\sons of talos\\glovesf_1.nif",
+      "meshes\\armor\\sons of talos\\outfitf_0.nif",
+      "meshes\\armor\\sons of talos\\outfitf_1.nif",
+      "meshes\\armor\\steel\\f\\1stpersoncuirass_0.nif",
+      "meshes\\armor\\steel\\f\\1stpersoncuirass_1.nif",
+      "meshes\\armor\\steel\\f\\1stpersoncuirasslight_0.nif",
+      "meshes\\armor\\steel\\f\\1stpersoncuirasslight_1.nif",
+      "meshes\\armor\\steel\\f\\1stpersongauntlets_0.nif",
+      "meshes\\armor\\steel\\f\\1stpersongauntlets_1.nif",
+      "meshes\\armor\\steel\\f\\1stpersongauntletsarg_1.nif",
+      "meshes\\armor\\steel\\f\\1stpersongauntletskha_1.nif",
+      "meshes\\armor\\steel\\f\\boots_0.nif",
+      "meshes\\armor\\steel\\f\\boots_1.nif",
+      "meshes\\armor\\steel\\f\\cuirass_0.nif",
+      "meshes\\armor\\steel\\f\\cuirass_1.nif",
+      "meshes\\armor\\steel\\f\\cuirasslight_0.nif",
+      "meshes\\armor\\steel\\f\\cuirasslight_1.nif",
+      "meshes\\armor\\steel\\f\\gauntlets_0.nif",
+      "meshes\\armor\\steel\\f\\gauntlets_1.nif",
+      "meshes\\armor\\stormcloaks\\1stpersoncuirassf_1.nif",
+      "meshes\\armor\\stormcloaks\\1stpersoncuirassfsleeves_1.nif",
+      "meshes\\armor\\stormcloaks\\cuirassf_0.nif",
+      "meshes\\armor\\stormcloaks\\cuirassf_1.nif",
+      "meshes\\armor\\stormcloaks\\cuirassfsleeves_0.nif",
+      "meshes\\armor\\stormcloaks\\cuirassfsleeves_1.nif",
+      "meshes\\armor\\stormcloaks\\glovesf_1.nif",
+      "meshes\\armor\\studded\\female\\1stpersonbody_0.nif",
+      "meshes\\armor\\studded\\female\\1stpersonbody_1.nif",
+      "meshes\\armor\\studded\\female\\1stpersongloves_0.nif",
+      "meshes\\armor\\studded\\female\\1stpersongloves_1.nif",
+      "meshes\\armor\\studded\\female\\body_0.nif",
+      "meshes\\armor\\studded\\female\\body_1.nif",
+      "meshes\\armor\\studded\\female\\boots_0.nif",
+      "meshes\\armor\\studded\\female\\boots_1.nif",
+      "meshes\\armor\\studded\\female\\gloves_0.nif",
+      "meshes\\armor\\studded\\female\\gloves_1.nif",
+      "meshes\\armor\\thievesguild\\f\\1stpersonbracers_1.nif",
+      "meshes\\armor\\thievesguild\\f\\1stpersonbracersleader_1.nif",
+      "meshes\\armor\\thievesguild\\f\\1stpersonbracersvariant_1.nif",
+      "meshes\\armor\\thievesguild\\f\\1stpersontorso_1.nif",
+      "meshes\\armor\\thievesguild\\f\\1stpersontorsovariantgeneric_1.nif",
+      "meshes\\armor\\thievesguild\\f\\bootleader_1.nif",
+      "meshes\\armor\\thievesguild\\f\\boots_1.nif",
+      "meshes\\armor\\thievesguild\\f\\bootsvariantgeneric_1.nif",
+      "meshes\\armor\\thievesguild\\f\\bracers_1.nif",
+      "meshes\\armor\\thievesguild\\f\\bracersleader_1.nif",
+      "meshes\\armor\\thievesguild\\f\\bracersvariant_1.nif",
+      "meshes\\armor\\thievesguild\\f\\shoeskarliah_1.nif",
+      "meshes\\armor\\thievesguild\\f\\torso_0.nif",
+      "meshes\\armor\\thievesguild\\f\\torso_1.nif",
+      "meshes\\armor\\thievesguild\\f\\torsokarliah_0.nif",
+      "meshes\\armor\\thievesguild\\f\\torsokarliah_1.nif",
+      "meshes\\armor\\thievesguild\\f\\torsoleader_0.nif",
+      "meshes\\armor\\thievesguild\\f\\torsoleader_1.nif",
+      "meshes\\armor\\thievesguild\\f\\torsovariantgeneric_0.nif",
+      "meshes\\armor\\thievesguild\\f\\torsovariantgeneric_1.nif",
+      "meshes\\armor\\wolf\\1stpersonbodyf_0.nif",
+      "meshes\\armor\\wolf\\1stpersonbodyf_1.nif",
+      "meshes\\armor\\wolf\\bodyf_0.nif",
+      "meshes\\armor\\wolf\\bodyf_1.nif",
+      "meshes\\clothes\\archmage\\f\\archmagehoodf_orc_0.nif",
+      "meshes\\clothes\\archmage\\f\\archmagehoodf_orc_1.nif",
+      "meshes\\clothes\\chef\\f\\1stpersontorso_1.nif",
+      "meshes\\clothes\\emperor\\1stpersonemperoroutfitff_1.nif",
+      "meshes\\clothes\\fineclothes01\\1stpersonoutfitf_1.nif",
+      "meshes\\clothes\\fineclothes02\\1stpersonoutfitf_1.nif",
+      "meshes\\clothes\\forswornarmor\\1stpersonforswornarmorf_1.nif",
+      "meshes\\clothes\\forswornarmor\\1stpersonforsworngauntletsf_1.nif",
+      "meshes\\clothes\\forswornarmor\\forswornarmorf_0.nif",
+      "meshes\\clothes\\forswornarmor\\forswornarmorf_1.nif",
+      "meshes\\clothes\\forswornarmor\\forswornbootsf_1.nif",
+      "meshes\\clothes\\jester\\jesterglovesf_1.nif",
+      "meshes\\clothes\\mageapprentice\\mageapprenticehoodf_0.nif",
+      "meshes\\clothes\\mageapprentice\\mageapprenticehoodf_1.nif",
+      "meshes\\clothes\\mageapprentice\\mageapprenticehoodf_arg_0.nif",
+      "meshes\\clothes\\mageapprentice\\mageapprenticehoodf_arg_1.nif",
+      "meshes\\clothes\\mageapprentice\\mageapprenticehoodf_orc_0.nif",
+      "meshes\\clothes\\mageapprentice\\mageapprenticehoodf_orc_1.nif",
+      "meshes\\clothes\\monk\\monkhood_f_0.nif",
+      "meshes\\clothes\\monk\\monkhood_f_1.nif",
+      "meshes\\clothes\\monk\\monkhood_f_arg_0.nif",
+      "meshes\\clothes\\monk\\monkhood_f_arg_1.nif",
+      "meshes\\clothes\\monk\\monkvarianthood_khaf_0.nif",
+      "meshes\\clothes\\monk\\monkvarianthood_khaf_1.nif",
+      "meshes\\clothes\\monk\\monkvarianthoodf_0.nif",
+      "meshes\\clothes\\monk\\monkvarianthoodf_1.nif",
+      "meshes\\clothes\\monk\\monkvarianthoodf_arg_0.nif",
+      "meshes\\clothes\\monk\\monkvarianthoodf_arg_1.nif",
+      "meshes\\clothes\\necromancer\\necromancerhood_f_0.nif",
+      "meshes\\clothes\\necromancer\\necromancerhood_f_1.nif",
+      "meshes\\clothes\\necromancer\\necromancerhood_f_arg_0.nif",
+      "meshes\\clothes\\necromancer\\necromancerhood_f_arg_1.nif",
+      "meshes\\clothes\\redguard\\redguardhoodf_0.nif",
+      "meshes\\clothes\\redguard\\redguardhoodf_1.nif",
+      "meshes\\clothes\\redguard\\redguardhoodfarg_0.nif",
+      "meshes\\clothes\\redguard\\redguardhoodfarg_1.nif",
+      "meshes\\clothes\\redguard\\redguardhoodfkha_0.nif",
+      "meshes\\clothes\\redguard\\redguardhoodfkha_1.nif",
+      "meshes\\clothes\\warlock\\warlockhood_f_0.nif",
+      "meshes\\clothes\\warlock\\warlockhood_f_1.nif",
+      "meshes\\clothes\\warlock\\warlockhood_f_arg_0.nif",
+      "meshes\\clothes\\warlock\\warlockhood_f_arg_1.nif",
+      "meshes\\clothes\\wounds\\woundsarivanya_0.nif",
+      "meshes\\clothes\\wounds\\woundsarivanya_1.nif",
+      "meshes\\clothes\\wounds\\woundsusanna_0.nif",
+      "meshes\\clothes\\wounds\\woundsusanna_1.nif",
+      "meshes\\clothes\\yarlclothes03\\1stpersonoutfitf_1.nif",
+      "meshes\\clothes\\yarlclothes03\\1stpersonoutfitf_var1_1.nif",
+      "meshes\\clothes\\yarlclothes\\f\\1stpersongloves_1.nif",
+      "meshes\\clothes\\yarlclothes\\f\\gloves_1.nif",
+      "meshes\\dlc01\\armor\\amuletsandrings\\vampireamulet01f_0.nif",
+      "meshes\\dlc01\\armor\\amuletsandrings\\vampireamulet01f_1.nif",
+      "meshes\\dlc01\\armor\\amuletsandrings\\vampireamulet02f_0.nif",
+      "meshes\\dlc01\\armor\\amuletsandrings\\vampireamulet02f_1.nif",
+      "meshes\\dlc01\\armor\\amuletsandrings\\vampireamulet03f_0.nif",
+      "meshes\\dlc01\\armor\\amuletsandrings\\vampireamulet03f_1.nif",
+      "meshes\\dlc01\\armor\\amuletsandrings\\vampireamulet04f_0.nif",
+      "meshes\\dlc01\\armor\\amuletsandrings\\vampireamulet04f_1.nif",
+      "meshes\\dlc01\\armor\\dawnguard\\1stpersondawnguardbody1f_1.nif",
+      "meshes\\dlc01\\armor\\dawnguard\\dawnguardbody1f_0.nif",
+      "meshes\\dlc01\\armor\\dawnguard\\dawnguardbody1f_1.nif",
+      "meshes\\dlc01\\armor\\dawnguard\\dawnguardbody2f_0.nif",
+      "meshes\\dlc01\\armor\\dawnguard\\dawnguardbody2f_1.nif",
+      "meshes\\dlc01\\armor\\dawnguard\\dawnguardbody3f_0.nif",
+      "meshes\\dlc01\\armor\\dawnguard\\dawnguardbody3f_1.nif",
+      "meshes\\dlc01\\armor\\dawnguard\\dawnguardbody4f_0.nif",
+      "meshes\\dlc01\\armor\\dawnguard\\dawnguardbody4f_1.nif",
+      "meshes\\dlc01\\armor\\dawnguard\\dawnguardbody5f_0.nif",
+      "meshes\\dlc01\\armor\\dawnguard\\dawnguardbody5f_1.nif",
+      "meshes\\dlc01\\armor\\dawnguard\\dawnguardboots1f_1.nif",
+      "meshes\\dlc01\\armor\\dawnguard\\dawnguardgloves1f_1.nif",
+      "meshes\\dlc01\\armor\\dawnguard\\dawnguardgloves1f_1stperson_1.nif",
+      "meshes\\dlc01\\armor\\dlc1hawkamuletf_0.nif",
+      "meshes\\dlc01\\armor\\dlc1hawkamuletf_1.nif",
+      "meshes\\dlc01\\armor\\falmerheavy\\1stpersonfalmerheavycuirassf_0.nif",
+      "meshes\\dlc01\\armor\\falmerheavy\\1stpersonfalmerheavycuirassf_1.nif",
+      "meshes\\dlc01\\armor\\falmerheavy\\falmerheavybootsf_0.nif",
+      "meshes\\dlc01\\armor\\falmerheavy\\falmerheavybootsf_1.nif",
+      "meshes\\dlc01\\armor\\falmerheavy\\falmerheavycuirassf_0.nif",
+      "meshes\\dlc01\\armor\\falmerheavy\\falmerheavycuirassf_1.nif",
+      "meshes\\dlc01\\armor\\falmerheavy\\falmerheavygauntletsf_0.nif",
+      "meshes\\dlc01\\armor\\falmerheavy\\falmerheavygauntletsf_1.nif",
+      "meshes\\dlc01\\armor\\ivory\\f\\1stpersoncuirassivory_1.nif",
+      "meshes\\dlc01\\armor\\ivory\\f\\1stpersongauntletsivory_1.nif",
+      "meshes\\dlc01\\armor\\ivory\\f\\bootsivory_1.nif",
+      "meshes\\dlc01\\armor\\ivory\\f\\cuirassivory_0.nif",
+      "meshes\\dlc01\\armor\\ivory\\f\\cuirassivory_1.nif",
+      "meshes\\dlc01\\armor\\ivory\\f\\gauntletsivory_1.nif",
+      "meshes\\dlc01\\clothes\\vampclothes\\vamphoodf_0.nif",
+      "meshes\\dlc01\\clothes\\vampclothes\\vamphoodf_1.nif",
+      "meshes\\dlc01\\clothes\\vampclothes\\vamphoodfa_0.nif",
+      "meshes\\dlc01\\clothes\\vampclothes\\vamphoodfa_1.nif",
+      "meshes\\dlc01\\clothes\\vampclothes\\vamphoodfk_0.nif",
+      "meshes\\dlc01\\clothes\\vampclothes\\vamphoodfk_1.nif",
+      "meshes\\dlc01\\clothes\\vampire\\1stpersonvampireglovesf_1.nif",
+      "meshes\\dlc01\\clothes\\vampire\\vampireglovesf_1.nif",
+      "meshes\\dlc02\\armor\\amulets\\eastempirecompany\\eecamuletf_0.nif",
+      "meshes\\dlc02\\armor\\amulets\\eastempirecompany\\eecamuletf_1.nif",
+      "meshes\\dlc02\\armor\\amulets\\skaal\\skaalamuletf_0.nif",
+      "meshes\\dlc02\\armor\\amulets\\skaal\\skaalamuletf_1.nif",
+      "meshes\\dlc02\\armor\\bonemold\\f\\1stpersonbonemoldcuirass_1.nif",
+      "meshes\\dlc02\\armor\\bonemold\\f\\1stpersonbonemoldgauntlets_1.nif",
+      "meshes\\dlc02\\armor\\bonemold\\f\\bonemoldboots_1.nif",
+      "meshes\\dlc02\\armor\\bonemold\\f\\bonemoldcuirass_0.nif",
+      "meshes\\dlc02\\armor\\bonemold\\f\\bonemoldcuirass_1.nif",
+      "meshes\\dlc02\\armor\\bonemold\\f\\bonemoldcuirasslight_0.nif",
+      "meshes\\dlc02\\armor\\bonemold\\f\\bonemoldcuirasslight_1.nif",
+      "meshes\\dlc02\\armor\\bonemold\\f\\bonemoldcuirassmedium_0.nif",
+      "meshes\\dlc02\\armor\\bonemold\\f\\bonemoldcuirassmedium_1.nif",
+      "meshes\\dlc02\\armor\\bonemold\\f\\bonemoldgauntlets_1.nif",
+      "meshes\\dlc02\\armor\\chitinheavy\\f\\1stpersoncuirass_1.nif",
+      "meshes\\dlc02\\armor\\chitinheavy\\f\\boots_1.nif",
+      "meshes\\dlc02\\armor\\chitinheavy\\f\\cuirass_0.nif",
+      "meshes\\dlc02\\armor\\chitinheavy\\f\\cuirass_1.nif",
+      "meshes\\dlc02\\armor\\chitinheavy\\f\\gauntlets_1.nif",
+      "meshes\\dlc02\\armor\\chitinlight\\f\\1stpersoncuirass_1.nif",
+      "meshes\\dlc02\\armor\\chitinlight\\f\\boots_1.nif",
+      "meshes\\dlc02\\armor\\chitinlight\\f\\cuirass_0.nif",
+      "meshes\\dlc02\\armor\\chitinlight\\f\\cuirass_1.nif",
+      "meshes\\dlc02\\armor\\chitinlight\\f\\gauntlets_1.nif",
+      "meshes\\dlc02\\armor\\nordiccarved\\1stpersonnordiccarvedcuirassf_0.nif",
+      "meshes\\dlc02\\armor\\nordiccarved\\1stpersonnordiccarvedcuirassf_1.nif",
+      "meshes\\dlc02\\armor\\nordiccarved\\nordiccarvedbootsf_0.nif",
+      "meshes\\dlc02\\armor\\nordiccarved\\nordiccarvedbootsf_1.nif",
+      "meshes\\dlc02\\armor\\nordiccarved\\nordiccarvedcuirassf_0.nif",
+      "meshes\\dlc02\\armor\\nordiccarved\\nordiccarvedcuirassf_1.nif",
+      "meshes\\dlc02\\armor\\nordiccarved\\nordiccarvedglovesf_0.nif",
+      "meshes\\dlc02\\armor\\nordiccarved\\nordiccarvedglovesf_1.nif",
+      "meshes\\dlc02\\armor\\stahlrimheavy\\f\\1stpersoncuirass_1.nif",
+      "meshes\\dlc02\\armor\\stahlrimheavy\\f\\boots_1.nif",
+      "meshes\\dlc02\\armor\\stahlrimheavy\\f\\cuirass_0.nif",
+      "meshes\\dlc02\\armor\\stahlrimheavy\\f\\cuirass_1.nif",
+      "meshes\\dlc02\\armor\\stahlrimheavy\\f\\gauntlets_1.nif",
+      "meshes\\dlc02\\armor\\stahlrimheavy\\f\\gauntletsbeast_1.nif",
+      "meshes\\dlc02\\armor\\stahlrimlight\\f\\1stpersoncuirass_1.nif",
+      "meshes\\dlc02\\armor\\stahlrimlight\\f\\boots_1.nif",
+      "meshes\\dlc02\\armor\\stahlrimlight\\f\\cuirass_0.nif",
+      "meshes\\dlc02\\armor\\stahlrimlight\\f\\cuirass_1.nif",
+      "meshes\\dlc02\\armor\\stahlrimlight\\f\\gauntlets_1.nif",
+      "meshes\\dlc02\\armor\\stahlrimlight\\f\\gauntletsbeast_1.nif",
+      "meshes\\dlc02\\clothes\\cultist\\f\\1stpersoncultistgauntlets_1.nif",
+      "meshes\\dlc02\\clothes\\cultist\\f\\cultistgauntlets_1.nif",
+      "meshes\\dlc02\\clothes\\skaal\\f\\1stpersonskaalgauntlets_1.nif",
+      "meshes\\dlc02\\clothes\\skaal\\f\\skaalgauntlets_1.nif",
+      "meshes\\dlc02\\clothes\\telvanni\\telvannibodyf_ildari_0.nif",
+      "meshes\\dlc02\\clothes\\telvanni\\telvannibodyf_ildari_1.nif",
+      "meshes\\dlc02\\effects\\dragonbornfxf01.nif",
+      "meshes\\dlc02\\effects\\dragonbornfxf02.nif",
+      "meshes\\dlc02\\effects\\dragonbornfxf03.nif",
+      "meshes\\usleep\\armor\\generaltulius\\1stpersonpenitustorsof_1.nif",
+      "meshes\\ussep\\clothes\\mournersclothes\\1stpersonmournoutfitf_1.nif"
      ]
     }
    ],
    "unknownbytools": [
-    "meshes\\actors\\character\\character assets\\femalebody.tri"
-   ],
-   "unknown": [
     "meshes\\actors\\character\\character assets\\1stpersonfemalehandsargonian_0.nif",
     "meshes\\actors\\character\\character assets\\1stpersonfemalehandsargonian_1.nif",
+    "meshes\\actors\\character\\character assets\\femalebody.tri",
     "meshes\\actors\\character\\character assets\\femalebodyastrid_0.nif",
     "meshes\\actors\\character\\character assets\\femalebodyastrid_1.nif",
     "meshes\\armor\\amuletsandrings\\akatosh\\akatoshamuletf_0.nif",
@@ -33131,11 +31514,335 @@
    "installers": [
     {
      "h": "dvho/ydjgaP4U4lQA8/U3pXH1uccb4pOoKTMjDS6ew4",
-     "type": "SIMPLE",
+     "type": "BAIN",
      "params": {
-      "root": "00 base\\"
+      "bain": [
+       "00 base\\",
+       "10 physics patch\\",
+       "15 racemenumorphs\\",
+       "20 compatible\\",
+       "30 vagina texture\\"
+      ]
      },
      "skip": [
+      "00 base - 1k\\textures\\actors\\character\\female\\femalebody_etc_1_msn.dds",
+      "00 base - 1k\\textures\\actors\\character\\female\\femalebody_etc_1_s.dds",
+      "00 base - 1k\\textures\\actors\\character\\female\\femalebody_etc_1_sk.dds",
+      "00 base - 1k\\textures\\actors\\character\\female\\femalebody_etc_v2_1_msn.dds",
+      "00 base - 1k\\textures\\actors\\character\\female\\femalebody_etc_v2_1_s.dds",
+      "00 base - 1k\\textures\\actors\\character\\female\\femalebody_etc_v2_1_sk.dds",
+      "00 base - 2k\\textures\\actors\\character\\female\\femalebody_etc_1_msn.dds",
+      "00 base - 2k\\textures\\actors\\character\\female\\femalebody_etc_1_s.dds",
+      "00 base - 2k\\textures\\actors\\character\\female\\femalebody_etc_1_sk.dds",
+      "00 base - 2k\\textures\\actors\\character\\female\\femalebody_etc_v2_1_msn.dds",
+      "00 base - 2k\\textures\\actors\\character\\female\\femalebody_etc_v2_1_s.dds",
+      "00 base - 2k\\textures\\actors\\character\\female\\femalebody_etc_v2_1_sk.dds",
+      "00 base\\textures\\actors\\character\\female\\femalebody_etc_1_msn.dds",
+      "00 base\\textures\\actors\\character\\female\\femalebody_etc_1_s.dds",
+      "00 base\\textures\\actors\\character\\female\\femalebody_etc_1_sk.dds",
+      "00 base\\textures\\actors\\character\\female\\femalebody_etc_v2_1_msn.dds",
+      "00 base\\textures\\actors\\character\\female\\femalebody_etc_v2_1_s.dds",
+      "00 base\\textures\\actors\\character\\female\\femalebody_etc_v2_1_sk.dds",
+      "00 cbpc base\\skse\\plugins\\cbpcmasterconfig_3ba.txt",
+      "00 cbpc base\\skse\\plugins\\cbpcmasterconfig_sosscroum.txt",
+      "00 cbpc base\\skse\\plugins\\cbpcollisionconfig.txt",
+      "00 cbpc base\\skse\\plugins\\cbpconfig_sosscroum.txt",
+      "00 racemenumorphs - cbbe\\racemenumorphscbbe.esp",
+      "00 racemenumorphs - cbbe\\scripts\\racemenumorphscbbe.pex",
+      "00 racemenumorphs - cbbe\\scripts\\racemenumorphscbbeuiextensions.pex",
+      "00 racemenumorphs - cbbe\\scripts\\racemenumorphscbbeuilistmenu.pex",
+      "00 racemenumorphs - cbbe\\scripts\\racemenumorphscbbeuimenubase.pex",
+      "00 racemenumorphs - cbbe\\scripts\\racemenumorphscbbeuitextentrymenu.pex",
+      "00 racemenumorphs - cbbe\\scripts\\source\\racemenumorphscbbe.psc",
+      "00 racemenumorphs - cbbe\\scripts\\source\\racemenumorphscbbeuiextensions.psc",
+      "00 racemenumorphs - cbbe\\scripts\\source\\racemenumorphscbbeuilistmenu.psc",
+      "00 racemenumorphs - cbbe\\scripts\\source\\racemenumorphscbbeuimenubase.psc",
+      "00 racemenumorphs - cbbe\\scripts\\source\\racemenumorphscbbeuitextentrymenu.psc",
+      "00 with mcm\\00 base\\interface\\translations\\3bbb_chinese.txt",
+      "00 with mcm\\00 base\\interface\\translations\\3bbb_czech.txt",
+      "00 with mcm\\00 base\\interface\\translations\\3bbb_english.txt",
+      "00 with mcm\\00 base\\interface\\translations\\3bbb_french.txt",
+      "00 with mcm\\00 base\\interface\\translations\\3bbb_german.txt",
+      "00 with mcm\\00 base\\interface\\translations\\3bbb_italian.txt",
+      "00 with mcm\\00 base\\interface\\translations\\3bbb_japanese.txt",
+      "00 with mcm\\00 base\\interface\\translations\\3bbb_polish.txt",
+      "00 with mcm\\00 base\\interface\\translations\\3bbb_russian.txt",
+      "00 with mcm\\00 base\\interface\\translations\\3bbb_spanish.txt",
+      "00 with mcm\\00 base\\scripts\\mus3baddon_playeralias.pex",
+      "00 with mcm\\00 base\\scripts\\mus3baddonmcm.pex",
+      "00 with mcm\\00 base\\scripts\\mus3bphysicsmanager.pex",
+      "00 with mcm\\00 base\\scripts\\musactorphysicsalias.pex",
+      "00 with mcm\\00 base\\scripts\\source\\mus3baddon_playeralias.psc",
+      "00 with mcm\\00 base\\scripts\\source\\mus3baddonmcm.psc",
+      "00 with mcm\\00 base\\scripts\\source\\mus3bphysicsmanager.psc",
+      "00 with mcm\\00 base\\scripts\\source\\musactorphysicsalias.psc",
+      "00 with mcm\\00 base\\scripts\\source\\togglespellnpc3bbb.psc",
+      "00 with mcm\\00 base\\scripts\\source\\togglespellnpc3bbbmultiple.psc",
+      "00 with mcm\\00 base\\scripts\\source\\togglespellp3bbb.psc",
+      "00 with mcm\\00 base\\scripts\\togglespellnpc3bbb.pex",
+      "00 with mcm\\00 base\\scripts\\togglespellnpc3bbbmultiple.pex",
+      "00 with mcm\\00 base\\scripts\\togglespellp3bbb.pex",
+      "00 with mcm\\10 no compatible\\3bbb.esp",
+      "00 with mcm\\11 fg\\3bbb.esp",
+      "00 with mcm\\20 physics - fullsmp\\skse\\plugins\\storageutildata\\cbbe 3ba\\physicsmanager.json",
+      "00 with mcm\\21 physics - heavy\\skse\\plugins\\storageutildata\\cbbe 3ba\\physicsmanager.json",
+      "00 with mcm\\22 physics - heavy2\\skse\\plugins\\storageutildata\\cbbe 3ba\\physicsmanager.json",
+      "00 with mcm\\23 physics - lite2\\skse\\plugins\\storageutildata\\cbbe 3ba\\physicsmanager.json",
+      "00 with mcm\\23 physics - lite\\skse\\plugins\\storageutildata\\cbbe 3ba\\physicsmanager.json",
+      "01 base - sk_black\\textures\\actors\\character\\female\\femalebody_etc_1_sk.dds",
+      "01 base - sk_black\\textures\\actors\\character\\female\\femalebody_etc_v2_1_sk.dds",
+      "01 smp base\\calientetools\\bodyslide\\shapedata\\3bbb collision armor\\3bbb collision armor amazing a.nif",
+      "01 smp base\\calientetools\\bodyslide\\shapedata\\3bbb collision armor\\3bbb collision armor amazing b.nif",
+      "01 smp base\\calientetools\\bodyslide\\shapedata\\3bbb collision armor\\3bbb collision armor amazing c.nif",
+      "01 smp base\\calientetools\\bodyslide\\shapedata\\3bbb collision armor\\3bbb collision armor amazing d.nif",
+      "01 smp base\\calientetools\\bodyslide\\shapedata\\3bbb collision armor\\3bbb collision armor amazing.nif",
+      "01 smp base\\calientetools\\bodyslide\\shapedata\\3bbb collision armor\\3bbb collision armor amazing.osd",
+      "01 smp base\\calientetools\\bodyslide\\slidersets\\3bbb collision armor amazing.osp",
+      "01 smp base\\meshes\\armor\\mu3b\\3bbbcollisionarmorf1.tri",
+      "01 smp base\\meshes\\armor\\mu3b\\3bbbcollisionarmorf1_0.nif",
+      "01 smp base\\meshes\\armor\\mu3b\\3bbbcollisionarmorf1_1.nif",
+      "01 smp base\\meshes\\armor\\mu3b\\3bbbcollisionarmorf2.tri",
+      "01 smp base\\meshes\\armor\\mu3b\\3bbbcollisionarmorf2_0.nif",
+      "01 smp base\\meshes\\armor\\mu3b\\3bbbcollisionarmorf2_1.nif",
+      "01 smp base\\meshes\\armor\\mu3b\\3bbbcollisionarmorf3.tri",
+      "01 smp base\\meshes\\armor\\mu3b\\3bbbcollisionarmorf3_0.nif",
+      "01 smp base\\meshes\\armor\\mu3b\\3bbbcollisionarmorf3_1.nif",
+      "01 smp base\\meshes\\armor\\mu3b\\3bbbcollisionarmorf4.tri",
+      "01 smp base\\meshes\\armor\\mu3b\\3bbbcollisionarmorf4_0.nif",
+      "01 smp base\\meshes\\armor\\mu3b\\3bbbcollisionarmorf4_1.nif",
+      "01 smp base\\meshes\\armor\\mu3b\\3bbbcollisionarmorp.tri",
+      "01 smp base\\meshes\\armor\\mu3b\\3bbbcollisionarmorp_0.nif",
+      "01 smp base\\meshes\\armor\\mu3b\\3bbbcollisionarmorp_1.nif",
+      "01 smp base\\skse\\plugins\\hdtskinnedmeshconfigs\\boner.xml",
+      "01 smp base\\skse\\plugins\\hdtskinnedmeshconfigs\\headmale.xml",
+      "01 smp base\\skse\\plugins\\hdtskinnedmeshconfigs\\malebody.xml",
+      "01 smp base\\skse\\plugins\\hdtskinnedmeshconfigs\\malegenitals.xml",
+      "01 smp base\\skse\\plugins\\hdtskinnedmeshconfigs\\malehands.xml",
+      "01 smp base\\skse\\plugins\\hdtskinnedmeshconfigs\\penis.xml",
+      "05 cbpcsystem01\\skse\\plugins\\cbpcsystem.ini",
+      "05 cbpcsystem02\\skse\\plugins\\cbpcsystem.ini",
+      "05 cbpcsystem03\\skse\\plugins\\cbpcsystem.ini",
+      "10 vrik beasts\\skse\\plugins\\cbpcollisionconfig_vrik_beasts.txt",
+      "11 pink - 1k\\textures\\actors\\character\\female\\femalebody_etc_1.dds",
+      "11 pink - 1k\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
+      "11 pink - 2k\\textures\\actors\\character\\female\\femalebody_etc_1.dds",
+      "11 pink - 2k\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
+      "11 pink\\textures\\actors\\character\\female\\femalebody_etc_1.dds",
+      "11 pink\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
+      "11 type b\\meshes\\actors\\character\\character assets\\custom cbbe smp.xml",
+      "11 type b\\skse\\plugins\\hdtskinnedmeshconfigs\\defaultbbps.xml",
+      "13 black and pink - 1k\\textures\\actors\\character\\female\\femalebody_etc_1.dds",
+      "13 black and pink - 1k\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
+      "13 black and pink - 2k\\textures\\actors\\character\\female\\femalebody_etc_1.dds",
+      "13 black and pink - 2k\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
+      "13 black and pink\\textures\\actors\\character\\female\\femalebody_etc_1.dds",
+      "13 black and pink\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
+      "15 pale pink - 1k\\textures\\actors\\character\\female\\femalebody_etc_1.dds",
+      "15 pale pink - 1k\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
+      "15 pale pink - 2k\\textures\\actors\\character\\female\\femalebody_etc_1.dds",
+      "15 pale pink - 2k\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
+      "15 pale pink\\textures\\actors\\character\\female\\femalebody_etc_1.dds",
+      "15 pale pink\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
+      "20 dcup full smp - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "20 dcup full smp - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "20 dcup full smp\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "20 red - 1k\\textures\\actors\\character\\female\\femalebody_etc_1.dds",
+      "20 red - 1k\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
+      "20 red - 2k\\textures\\actors\\character\\female\\femalebody_etc_1.dds",
+      "20 red - 2k\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
+      "20 red\\textures\\actors\\character\\female\\femalebody_etc_1.dds",
+      "20 red\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
+      "21 dcup smp and cbpc heavy - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "21 dcup smp and cbpc heavy - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "21 dcup smp and cbpc heavy2 - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "21 dcup smp and cbpc heavy2 - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "21 dcup smp and cbpc heavy2\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "21 dcup smp and cbpc heavy\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "21 deep pink - 1k\\textures\\actors\\character\\female\\femalebody_etc_1.dds",
+      "21 deep pink - 1k\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
+      "21 deep pink - 2k\\textures\\actors\\character\\female\\femalebody_etc_1.dds",
+      "21 deep pink - 2k\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
+      "21 deep pink\\textures\\actors\\character\\female\\femalebody_etc_1.dds",
+      "21 deep pink\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
+      "22 pale - 1k\\textures\\actors\\character\\female\\femalebody_etc_1.dds",
+      "22 pale - 1k\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
+      "22 pale - 2k\\textures\\actors\\character\\female\\femalebody_etc_1.dds",
+      "22 pale - 2k\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
+      "22 pale\\textures\\actors\\character\\female\\femalebody_etc_1.dds",
+      "22 pale\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
+      "23 dcup smp and cbpc lite - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "23 dcup smp and cbpc lite - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "23 dcup smp and cbpc lite\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "30 ccup full smp - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "30 ccup full smp - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "30 ccup full smp\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "31 ccup smp and cbpc heavy - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "31 ccup smp and cbpc heavy - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "31 ccup smp and cbpc heavy2 - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "31 ccup smp and cbpc heavy2 - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "31 ccup smp and cbpc heavy2\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "31 ccup smp and cbpc heavy\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "33 ccup smp and cbpc lite - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "33 ccup smp and cbpc lite - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "33 ccup smp and cbpc lite\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "40 bcup full smp - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "40 bcup full smp - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "40 bcup full smp\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "41 bcup smp and cbpc heavy - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "41 bcup smp and cbpc heavy - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "41 bcup smp and cbpc heavy2 - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "41 bcup smp and cbpc heavy2 - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "41 bcup smp and cbpc heavy2\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "41 bcup smp and cbpc heavy\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "43 bcup smp and cbpc lite - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "43 bcup smp and cbpc lite - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "43 bcup smp and cbpc lite\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "50 acup full smp - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "50 acup full smp - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "50 acup full smp\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "51 acup smp and cbpc heavy - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "51 acup smp and cbpc heavy - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "51 acup smp and cbpc heavy2 - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "51 acup smp and cbpc heavy2 - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "51 acup smp and cbpc heavy2\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "51 acup smp and cbpc heavy\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "53 acup smp and cbpc lite - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "53 acup smp and cbpc lite - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "53 acup smp and cbpc lite\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "60 3bca full smp - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-a-amazing.xml",
+      "60 3bca full smp - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-b-amazing.xml",
+      "60 3bca full smp - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-c-amazing.xml",
+      "60 3bca full smp - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-d-amazing.xml",
+      "60 3bca full smp - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-a-amazing.xml",
+      "60 3bca full smp - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-b-amazing.xml",
+      "60 3bca full smp - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-c-amazing.xml",
+      "60 3bca full smp - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-d-amazing.xml",
+      "60 3bca full smp\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-a-amazing.xml",
+      "60 3bca full smp\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-b-amazing.xml",
+      "60 3bca full smp\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-c-amazing.xml",
+      "60 3bca full smp\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-d-amazing.xml",
+      "62 3bca smp and cbpc heavy - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-a-amazing.xml",
+      "62 3bca smp and cbpc heavy - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-b-amazing.xml",
+      "62 3bca smp and cbpc heavy - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-c-amazing.xml",
+      "62 3bca smp and cbpc heavy - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-d-amazing.xml",
+      "62 3bca smp and cbpc heavy - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-a-amazing.xml",
+      "62 3bca smp and cbpc heavy - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-b-amazing.xml",
+      "62 3bca smp and cbpc heavy - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-c-amazing.xml",
+      "62 3bca smp and cbpc heavy - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-d-amazing.xml",
+      "62 3bca smp and cbpc heavy2 - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-a-amazing.xml",
+      "62 3bca smp and cbpc heavy2 - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-b-amazing.xml",
+      "62 3bca smp and cbpc heavy2 - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-c-amazing.xml",
+      "62 3bca smp and cbpc heavy2 - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-d-amazing.xml",
+      "62 3bca smp and cbpc heavy2 - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-a-amazing.xml",
+      "62 3bca smp and cbpc heavy2 - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-b-amazing.xml",
+      "62 3bca smp and cbpc heavy2 - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-c-amazing.xml",
+      "62 3bca smp and cbpc heavy2 - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-d-amazing.xml",
+      "62 3bca smp and cbpc heavy2\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-a-amazing.xml",
+      "62 3bca smp and cbpc heavy2\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-b-amazing.xml",
+      "62 3bca smp and cbpc heavy2\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-c-amazing.xml",
+      "62 3bca smp and cbpc heavy2\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-d-amazing.xml",
+      "62 3bca smp and cbpc heavy\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-a-amazing.xml",
+      "62 3bca smp and cbpc heavy\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-b-amazing.xml",
+      "62 3bca smp and cbpc heavy\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-c-amazing.xml",
+      "62 3bca smp and cbpc heavy\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-d-amazing.xml",
+      "62 3bca smp and cbpc lite - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-a-amazing.xml",
+      "62 3bca smp and cbpc lite - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-b-amazing.xml",
+      "62 3bca smp and cbpc lite - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-c-amazing.xml",
+      "62 3bca smp and cbpc lite - 2\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-d-amazing.xml",
+      "62 3bca smp and cbpc lite - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-a-amazing.xml",
+      "62 3bca smp and cbpc lite - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-b-amazing.xml",
+      "62 3bca smp and cbpc lite - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-c-amazing.xml",
+      "62 3bca smp and cbpc lite - 3\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-d-amazing.xml",
+      "62 3bca smp and cbpc lite\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-a-amazing.xml",
+      "62 3bca smp and cbpc lite\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-b-amazing.xml",
+      "62 3bca smp and cbpc lite\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-c-amazing.xml",
+      "62 3bca smp and cbpc lite\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-d-amazing.xml",
+      "65 allcup smp and cbpc lite2\\skse\\plugins\\hdtskinnedmeshconfigs\\3bbb-amazing.xml",
+      "66 3bca smp and cbpc lite2\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-a-amazing.xml",
+      "66 3bca smp and cbpc lite2\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-b-amazing.xml",
+      "66 3bca smp and cbpc lite2\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-c-amazing.xml",
+      "66 3bca smp and cbpc lite2\\skse\\plugins\\hdtskinnedmeshconfigs\\outfits\\3bca-d-amazing.xml",
+      "70 sos physics - base\\skse\\plugins\\cbpcmasterconfig_sos.txt",
+      "70 sos physics - base\\skse\\plugins\\cbpconfig_sos.txt",
+      "70 sos physics - cbpc nonfloppy\\scripts\\mussosmanagerglobal.pex",
+      "70 sos physics - cbpc nonfloppy\\scripts\\mussosmanagerostim.pex",
+      "70 sos physics - cbpc nonfloppy\\scripts\\mussosmanagersl.pex",
+      "70 sos physics - cbpc nonfloppy\\scripts\\source\\mussosmanagerglobal.psc",
+      "70 sos physics - cbpc nonfloppy\\scripts\\source\\mussosmanagerostim.psc",
+      "70 sos physics - cbpc nonfloppy\\scripts\\source\\mussosmanagersl.psc",
+      "70 sos physics - cbpc nonfloppy\\sosphysicsmanager.esp",
+      "75 cbpc separation\\skse\\plugins\\cbpconfig.txt",
+      "75 cbpc separation\\skse\\plugins\\cbpconfig_bbp.txt",
+      "76 cbpc s - bbl\\skse\\plugins\\cbpconfig_belly.txt",
+      "76 cbpc s - bbl\\skse\\plugins\\cbpconfig_butt.txt",
+      "76 cbpc s - bbl\\skse\\plugins\\cbpconfig_leg.txt",
+      "77 cbpc m - bbl\\skse\\plugins\\cbpconfig_belly.txt",
+      "77 cbpc m - bbl\\skse\\plugins\\cbpconfig_butt.txt",
+      "77 cbpc m - bbl\\skse\\plugins\\cbpconfig_leg.txt",
+      "78 cbpc bbl - normal\\skse\\plugins\\cbpconfig_bellyamplitude.txt",
+      "78 cbpc bbl - normal\\skse\\plugins\\cbpconfig_buttamplitude.txt",
+      "78 cbpc bbl - normal\\skse\\plugins\\cbpconfig_legamplitude.txt",
+      "79 cbpc bbl - less\\skse\\plugins\\cbpconfig_bellyamplitude.txt",
+      "79 cbpc bbl - less\\skse\\plugins\\cbpconfig_buttamplitude.txt",
+      "79 cbpc bbl - less\\skse\\plugins\\cbpconfig_legamplitude.txt",
+      "80 cbpc breast a-d\\skse\\plugins\\cbpconfig_breastamplitude.txt",
+      "80 cbpc breast b-d\\skse\\plugins\\cbpconfig_breastamplitude.txt",
+      "80 cbpc breast c-d\\skse\\plugins\\cbpconfig_breastamplitude.txt",
+      "80 cbpc breast d-d\\skse\\plugins\\cbpconfig_breastamplitude.txt",
+      "80 cbpc collision b-d\\skse\\plugins\\cbpcollisionconfig_female.txt",
+      "80 cbpc collision d-d\\skse\\plugins\\cbpcollisionconfig_female.txt",
+      "81 cbpc breast a-c\\skse\\plugins\\cbpconfig_breastamplitude.txt",
+      "81 cbpc breast b-c\\skse\\plugins\\cbpconfig_breastamplitude.txt",
+      "81 cbpc breast c-c\\skse\\plugins\\cbpconfig_breastamplitude.txt",
+      "81 cbpc breast d-c\\skse\\plugins\\cbpconfig_breastamplitude.txt",
+      "81 cbpc collision c-c\\skse\\plugins\\cbpcollisionconfig_female.txt",
+      "82 cbpc breast a-b\\skse\\plugins\\cbpconfig_breastamplitude.txt",
+      "82 cbpc breast b-b\\skse\\plugins\\cbpconfig_breastamplitude.txt",
+      "82 cbpc breast c-b\\skse\\plugins\\cbpconfig_breastamplitude.txt",
+      "82 cbpc breast d-b\\skse\\plugins\\cbpconfig_breastamplitude.txt",
+      "82 cbpc collision b-b\\skse\\plugins\\cbpcollisionconfig_female.txt",
+      "82 cbpc collision d-b\\skse\\plugins\\cbpcollisionconfig_female.txt",
+      "83 cbpc breast a-a\\skse\\plugins\\cbpconfig_breastamplitude.txt",
+      "83 cbpc breast b-a\\skse\\plugins\\cbpconfig_breastamplitude.txt",
+      "83 cbpc breast c-a\\skse\\plugins\\cbpconfig_breastamplitude.txt",
+      "83 cbpc breast d-a\\skse\\plugins\\cbpconfig_breastamplitude.txt",
+      "86 cbpc novagina\\skse\\plugins\\cbpcmasterconfig_vagina.txt",
+      "86 cbpc vagina\\skse\\plugins\\cbpcmasterconfig_vagina.txt",
+      "86 cbpc vagina\\skse\\plugins\\cbpconfig_vagina.txt",
+      "87 cbpc anal\\skse\\plugins\\cbpcmasterconfig_anal.txt",
+      "87 cbpc noanal\\skse\\plugins\\cbpcmasterconfig_anal.txt",
+      "90 cbpc real bounce - antigravity\\skse\\plugins\\cbpconfig_3b_gravity.txt",
+      "90 cbpc real bounce - gravity\\skse\\plugins\\cbpconfig_3b_gravity.txt",
+      "90 cbpc real bounce - moregravity\\skse\\plugins\\cbpconfig_3b_moregravity.txt",
+      "90 cbpc real bounce\\skse\\plugins\\cbpconfig_3b.txt",
+      "90 old racemenumorphs - 3bbb\\3bbb-racemenumorphs.esp",
+      "90 old racemenumorphs - 3bbb\\scripts\\racemenumorphs3bbb.pex",
+      "90 old racemenumorphs - 3bbb\\scripts\\source\\racemenumorphs3bbb.psc",
+      "91 cbpc very high elasticity - antigravity\\skse\\plugins\\cbpconfig_3b_gravity.txt",
+      "91 cbpc very high elasticity - gravity\\skse\\plugins\\cbpconfig_3b_gravity.txt",
+      "91 cbpc very high elasticity - moregravity\\skse\\plugins\\cbpconfig_3b_moregravity.txt",
+      "91 cbpc very high elasticity\\skse\\plugins\\cbpconfig_3b.txt",
+      "92 cbpc very softness - antigravity\\skse\\plugins\\cbpconfig_3b_gravity.txt",
+      "92 cbpc very softness - gravity\\skse\\plugins\\cbpconfig_3b_gravity.txt",
+      "92 cbpc very softness - moregravity\\skse\\plugins\\cbpconfig_3b_moregravity.txt",
+      "92 cbpc very softness\\skse\\plugins\\cbpconfig_3b.txt",
+      "93 cbpc rb n vs - antigravity\\skse\\plugins\\cbpconfig_3b_gravity.txt",
+      "93 cbpc rb n vs - gravity\\skse\\plugins\\cbpconfig_3b_gravity.txt",
+      "93 cbpc rb n vs - moregravity\\skse\\plugins\\cbpconfig_3b_moregravity.txt",
+      "93 cbpc rb n vs\\skse\\plugins\\cbpconfig_3b.txt",
+      "94 cbpc bbp - gravity\\skse\\plugins\\cbpconfig_bbp_gravity.txt",
+      "94 cbpc bbp - moregravity\\skse\\plugins\\cbpconfig_bbp_moregravity.txt",
+      "94 cbpc pushup\\skse\\plugins\\cbpconfig_3b_armor.txt",
+      "94 cbpc pushup\\skse\\plugins\\cbpconfig_bbp_armor.txt",
+      "95 cbpc preset\\skse\\plugins\\cbpconfig.txt",
+      "97 cbpc nogravity\\skse\\plugins\\cbpconfig_3b_gravity.txt",
+      "97 cbpc nogravity\\skse\\plugins\\cbpconfig_bbp_gravity.txt",
+      "97 cbpc nomoregravity\\skse\\plugins\\cbpconfig_3b_moregravity.txt",
+      "97 cbpc nomoregravity\\skse\\plugins\\cbpconfig_bbp_moregravity.txt",
+      "97 cbpc nopushup\\skse\\plugins\\cbpconfig_3b_armor.txt",
+      "97 cbpc nopushup\\skse\\plugins\\cbpconfig_bbp_armor.txt",
+      "99 only cbpc\\3bbb.esp",
+      "99 only cbpc\\skse\\plugins\\hdtskinnedmeshconfigs\\defaultbbps.xml",
       "meshes\\actors\\character\\character assets\\1stpersonfemalebody.tri",
       "meshes\\actors\\character\\character assets\\1stpersonfemalebody_0.nif",
       "meshes\\actors\\character\\character assets\\1stpersonfemalebody_1.nif",
@@ -33879,9 +32586,11 @@
     },
     {
      "h": "l+wCcV/2BGXm6IjMRJ34Vq1xJQjtta8xytLbCYmHohY",
-     "type": "SIMPLE",
+     "type": "BAIN",
      "params": {
-      "root": "07 outfits curvy\\"
+      "bain": [
+       "07 outfits curvy\\"
+      ]
      },
      "skip": [
       "meshes\\actors\\character\\character assets\\femalebodyastrid_0.nif",
@@ -34963,9 +33672,11 @@
    "installers": [
     {
      "h": "zg9mC3la9z22P+Qr/Am2gV5WKUpX3WyHgdT014M20Zo",
-     "type": "SIMPLE",
+     "type": "BAIN",
      "params": {
-      "root": "00 data\\"
+      "bain": [
+       "00 data\\"
+      ]
      },
      "skip": [
       "120fps\\bounce10\\cbpconfig.txt",
@@ -41657,25 +40368,14 @@
    "installers": [
     {
      "h": "5u0W+BJ09B/L+rGmfpL/e+uKYHSh0qMr3oujUt581Gw",
-     "type": "SIMPLE",
+     "type": "BAIN",
      "params": {
-      "root": "00 core\\"
+      "bain": [
+       "00 core\\",
+       "42 leather\\",
+       "43 soups and stews\\"
+      ]
      }
-    }
-   ],
-   "xarchives": [
-    {
-     "arid": 0,
-     "files": [
-      {
-       "t": "hunterborn - leather tanning.esp",
-       "h": "018BcoOHWKWp"
-      },
-      {
-       "t": "hunterborn - soups and stews.esp",
-       "h": "2qGBWzniqHG/"
-      }
-     ]
     }
    ]
   },
@@ -41684,29 +40384,15 @@
    "installers": [
     {
      "h": "id9XdhXQcBz2D+cqHsTHF57dxYZs43lvDSm2kO67Rmo",
-     "type": "SIMPLE",
+     "type": "BAIN",
      "params": {
-      "root": "00 core\\"
+      "bain": [
+       "00 core\\",
+       "11 replacer\\",
+       "45 leather esl\\",
+       "47 soups and stews frostfall\\"
+      ]
      }
-    }
-   ],
-   "xarchives": [
-    {
-     "arid": 0,
-     "files": [
-      {
-       "t": "hunterborn - leather tanning.esp",
-       "h": "sWMAPriLNtzb"
-      },
-      {
-       "t": "hunterborn - soups and stews.esp",
-       "h": "YlViVers0NP2"
-      },
-      {
-       "t": "hunterborn.esp",
-       "h": "ikEVboV6GfFa"
-      }
-     ]
     }
    ]
   },
@@ -41886,93 +40572,15 @@
    "installers": [
     {
      "h": "a8EU5geGbzhc90p0ANoFbtR7mNXGr/7MGckZChT1FfY",
-     "type": "SIMPLE",
+     "type": "BAIN",
      "params": {
-      "root": "00 core - default eyes - other races\\"
+      "bain": [
+       "00 core - default eyes - human races\\",
+       "00 core - default eyes - other races\\",
+       "00 core - new eyes\\",
+       "01 complete\\"
+      ]
      }
-    }
-   ],
-   "xarchives": [
-    {
-     "arid": 0,
-     "files": [
-      {
-       "t": "improved eyes skyrim.bsa",
-       "h": "4U5pEPnYjCir"
-      },
-      {
-       "t": "improved eyes skyrim.esp",
-       "h": "5+ZhkOTiBjSC"
-      },
-      {
-       "t": "meshes\\actors\\character\\eyes\\mjb_eyes\\eyeskhajiit.nif",
-       "h": "riw1SarHYY6W"
-      },
-      {
-       "t": "meshes\\actors\\character\\eyes\\mjb_eyes\\eyeskhajiitfemale.nif",
-       "h": "UDTv9ZXXHB0A"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyeamber.dds",
-       "h": "KANzN1hlSZA0"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyeblind.dds",
-       "h": "hY3fA1DyxSHo"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyeblue.dds",
-       "h": "NeBcvVFXVuxD"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyebluebloodshot.dds",
-       "h": "UQwAP/dFYd7/"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyebrown.dds",
-       "h": "+zOMoLhO61hF"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyebrownbloodshot.dds",
-       "h": "7glOARF3HvSG"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyegreen.dds",
-       "h": "d4OwJ9rC30LR"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyegreenbright.dds",
-       "h": "Y/kOBd30Vh/v"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyegrey.dds",
-       "h": "pRkovX2QooOL"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyehazel.dds",
-       "h": "rPn4MlP6Dho+"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyehazelbrown.dds",
-       "h": "EjZlfoTFcQD1"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyelightgrey.dds",
-       "h": "Ur3cyomKs8EH"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyesdarkblue.dds",
-       "h": "UMIhCegdqjuz"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyesiceblue.dds",
-       "h": "hXCKoqabJRUw"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyeyellow.dds",
-       "h": "8W2CC/Fg5mgt"
-      }
-     ]
     }
    ]
   },
@@ -41981,9 +40589,11 @@
    "installers": [
     {
      "h": "NMGrb4sWXuLR/3JYgbkLiYUEdlXpXGKxixbvG1rOduc",
-     "type": "SIMPLE",
+     "type": "BAIN",
      "params": {
-      "root": "00 - main\\"
+      "bain": [
+       "00 - main\\"
+      ]
      }
     }
    ]
@@ -41993,9 +40603,11 @@
    "installers": [
     {
      "h": "GS/xlT5ns8ihVDEC/yg9SSCg8Qe7YCrLKOOi+D8Mjrc",
-     "type": "SIMPLE",
+     "type": "BAIN",
      "params": {
-      "root": "00 - main\\"
+      "bain": [
+       "00 - main\\"
+      ]
      }
     }
    ]
@@ -42101,11 +40713,213 @@
    "installers": [
     {
      "h": "GcSalohB7tzggiuIzWGlPmZiMp3rFhE2qP8fCK/CHDg",
-     "type": "SIMPLE",
+     "type": "BAIN",
      "params": {
-      "root": "00 core\\"
+      "bain": [
+       "00 core\\",
+       "01 wigs\\",
+       "10 wigs bodyslide (cbbe)\\"
+      ]
      },
      "skip": [
+      "meshes\\armor\\kswigshdt\\f\\anchor_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\anchor_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\angels_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\angels_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\anna_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\anna_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\anto92_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\anto92_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\aroma_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\aroma_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\babydoll_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\babydoll_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\babydollband_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\babydollband_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\bluebird_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\bluebird_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\caress_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\caress_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\cliche_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\cliche_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\crazylove_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\crazylove_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\desirae_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\desirae_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\desperate_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\desperate_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\didar_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\didar_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\dollmaker_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\dollmaker_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\anchor_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\anchor_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\angels_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\angels_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\bluebird_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\bluebird_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\cliche_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\cliche_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\crazylove_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\crazylove_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\fontanaditrevi_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\fontanaditrevi_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\galaxy_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\galaxy_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\kaysa_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\kaysa_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\koala_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\koala_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\metropolis2_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\metropolis2_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\metropolis_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\metropolis_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\milliet_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\milliet_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\ominous_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\ominous_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\ominouslace_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\ominouslace_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\paraguay_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\paraguay_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\princess_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\princess_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\rosette_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\rosette_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\rosetteroses_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\rosetteroses_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\silentlips_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\silentlips_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\sky047_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\sky047_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\sky176_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\sky176_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\sky188_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\sky188_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\sky190_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\sky190_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\sky201_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\sky201_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\sky208_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\sky208_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\spring_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\spring_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\veneris_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\veneris_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\wine_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\elves\\wine_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\erena_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\erena_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\fontanaditrevi_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\fontanaditrevi_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\freesia_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\freesia_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\galaxy_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\galaxy_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\gecko_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\gecko_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\harvest_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\harvest_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\honey_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\honey_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\honeyed_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\honeyed_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\icarus_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\icarus_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\jackdaw_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\jackdaw_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\kaysa_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\kaysa_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\kikyo_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\kikyo_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\koala_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\koala_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\lotus_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\lotus_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\mellow_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\mellow_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\metropolis2_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\metropolis2_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\metropolis_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\metropolis_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\milliet_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\milliet_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\moonrise_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\moonrise_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\ominous_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\ominous_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\ominouslace_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\ominouslace_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\paraguay_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\paraguay_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\princess_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\princess_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\rosette_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\rosette_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\rosetteroses_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\rosetteroses_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\rosiecloud_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\rosiecloud_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\runaway_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\runaway_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\searching_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\searching_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\silentlips_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\silentlips_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky022_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky022_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky047_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky047_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky097_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky097_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky146_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky146_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky176_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky176_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky179_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky179_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky188_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky188_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky190_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky190_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky201_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky201_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky208_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky208_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky239_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky239_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky250_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky250_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky6063_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\sky6063_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\snow_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\snow_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\sparklers_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\sparklers_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\spring_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\spring_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\stayawake_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\stayawake_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\steammist_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\steammist_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\summerhaze_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\summerhaze_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\sweetvillain_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\sweetvillain_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\tellme_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\tellme_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\tonight_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\tonight_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\traveler_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\traveler_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\veneris_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\veneris_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\vicecity_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\vicecity_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\wine_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\wine_1.nif",
+      "meshes\\armor\\kswigshdt\\f\\youth_0.nif",
+      "meshes\\armor\\kswigshdt\\f\\youth_1.nif",
       "meshes\\ks hairdo's\\hdt\\virtualhaircollision_1.nif",
       "meshes\\ks hairdo's\\hdt\\virtualhaircollision_2.nif",
       "meshes\\ks hairdo's\\hdt\\virtualhaircollision_3.nif",
@@ -42113,587 +40927,7 @@
      ]
     }
    ],
-   "xarchives": [
-    {
-     "arid": 0,
-     "files": [
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\anchor.nif",
-       "h": "bmoualIKrF6S"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\angels.nif",
-       "h": "i3IxRAe3IWFP"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\bluebird.nif",
-       "h": "12eYzuxs9ltE"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\cliche.nif",
-       "h": "iVNN6rlYE/6r"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\crazylove.nif",
-       "h": "GYiU81srG/37"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\fontanaditrevi.nif",
-       "h": "BPiXf/EfINTw"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\galaxy.nif",
-       "h": "chcMM6sqqeeV"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\kaysa.nif",
-       "h": "ZYZfr50kw9Rd"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\koala.nif",
-       "h": "LHFBGhwE3SlT"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\metropolis.nif",
-       "h": "XHljuJ4bMNwz"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\metropolis2.nif",
-       "h": "uz7Oo98VB4Wh"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\milliet.nif",
-       "h": "aMQhmh8kpS7h"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\ominous.nif",
-       "h": "ZCpW8zwslnty"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\ominouslace.nif",
-       "h": "mHXAPtlVsNDk"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\paraguay.nif",
-       "h": "6Wy+lKc6EJCu"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\princess.nif",
-       "h": "InwRDKYIRIMf"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\rosette.nif",
-       "h": "40GyIqZEedj6"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\rosetteroses.nif",
-       "h": "VtTVybNvZwAv"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\silentlips.nif",
-       "h": "1l3a81aMG5n/"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\sky047.nif",
-       "h": "DjX7788ZZANv"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\sky176.nif",
-       "h": "qyaERdYE+ZEk"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\sky188.nif",
-       "h": "iX7RgBbPPAuB"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\sky190.nif",
-       "h": "qne35pT2N7jo"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\sky201.nif",
-       "h": "uPaIiL9YEzqA"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\sky208.nif",
-       "h": "MEzABRSOt8bR"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\spring.nif",
-       "h": "qLq2InEe5+vx"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\veneris.nif",
-       "h": "+Nl8b+JCNXnj"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\wine.nif",
-       "h": "FHXXLWBQPBAI"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\anchor.nif",
-       "h": "jRebxi2eK9zx"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\angels.nif",
-       "h": "AUjIHK7E2JPN"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\anna.nif",
-       "h": "TD7uGO+PVEC4"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\anto92.nif",
-       "h": "l9U3P5dwwHtz"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\aroma.nif",
-       "h": "G00/EQHCUwcp"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\babydoll.nif",
-       "h": "UDM20D+vBVcu"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\babydollband.nif",
-       "h": "fFeUyrZFTWm+"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\bluebird.nif",
-       "h": "KT8FJXmsjtaQ"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\caress.nif",
-       "h": "wFq9pIw2UCVE"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\cliche.nif",
-       "h": "xSnudwYRK0uK"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\collision shape 1.osd",
-       "h": "pnAANul+3v0Z"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\collision shape 2.osd",
-       "h": "QETYob1ZVeDE"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\collision shape 3.osd",
-       "h": "FWDH0EncPsZo"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\crazylove.nif",
-       "h": "84ahexbEJy2W"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\desirae.nif",
-       "h": "9Z0oznl9eJTb"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\desperate.nif",
-       "h": "+yzTII8J6W98"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\didar.nif",
-       "h": "ARQGi5Ji+9Rh"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\dollmaker.nif",
-       "h": "QNkqCm9OzXIV"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\erena.nif",
-       "h": "o62evPk8/BiR"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\fontanaditrevi.nif",
-       "h": "EUgCauIh3+Jd"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\freesia.nif",
-       "h": "QJ0tYGUhtaKC"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\galaxy.nif",
-       "h": "+UI2KArriKjq"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\gecko.nif",
-       "h": "t/DtcE4rMWHF"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\harvest.nif",
-       "h": "QUTPFfO7fHHb"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\honey.nif",
-       "h": "R6LUv5iEZlNz"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\honeyed.nif",
-       "h": "e8wwCqWIYXOx"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\icarus.nif",
-       "h": "i5mj3ETZBrKQ"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\jackdaw.nif",
-       "h": "5ZocfEIZtwFY"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\kaysa.nif",
-       "h": "emR9zBYv+xuA"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\kikyo.nif",
-       "h": "lBormOlOWzuD"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\koala.nif",
-       "h": "jkoJ9qgGvnEo"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\lime.nif",
-       "h": "Pq6beTnNk7lj"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\lotus.nif",
-       "h": "zUacu4XcBaOZ"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\mellow.nif",
-       "h": "K080MWQeX7OT"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\metropolis.nif",
-       "h": "ikRJ34iwr0a3"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\metropolis2.nif",
-       "h": "PLBVnZPOX+jc"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\milliet.nif",
-       "h": "kiHLJPfYTqDC"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\moonrise.nif",
-       "h": "7YRCqczXmTgN"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\ominous.nif",
-       "h": "tlKpB+txC8Ua"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\ominouslace.nif",
-       "h": "v43lLWDXhTAi"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\paraguay.nif",
-       "h": "yUBoJOt0MrGl"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\princess.nif",
-       "h": "5CgqgOz/Jw+C"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\rosette.nif",
-       "h": "7+RKmkFbcR1M"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\rosetteroses.nif",
-       "h": "Cp9Dtl4zMACx"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\rosiecloud.nif",
-       "h": "hOnfxGBb9Jk6"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\runaway.nif",
-       "h": "Qgoef4NH4TuN"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\searching.nif",
-       "h": "wvN+ormMCfrs"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\silentlips.nif",
-       "h": "rBWNBRHn2lrS"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky022.nif",
-       "h": "C8P/FvrIxDxJ"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky047.nif",
-       "h": "o9LUOxtz4ySV"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky097.nif",
-       "h": "AWVcqFAWYvLV"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky146.nif",
-       "h": "AfIaf9wqxVac"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky176.nif",
-       "h": "8vgjn4TbqUSX"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky179.nif",
-       "h": "xuqNprW8zKhl"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky188.nif",
-       "h": "ixRUbHDN9Hi7"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky190.nif",
-       "h": "a2sgnOcsmlF7"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky201.nif",
-       "h": "nbOE+DavUfGr"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky208.nif",
-       "h": "2vkdzvudk+lk"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky218.nif",
-       "h": "ivP0yS2pGVk2"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky239.nif",
-       "h": "yampTxOuGiYL"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky250.nif",
-       "h": "mOOoLYMk2ms1"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky6063.nif",
-       "h": "p4fCa1zyNdhO"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\snow.nif",
-       "h": "7t6nwTzgMEbh"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sparklers.nif",
-       "h": "CDfoKEFGHg5n"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\spring.nif",
-       "h": "rWJeBqlyXNyc"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\stayawake.nif",
-       "h": "ZJal/JDBlsqy"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\steammist.nif",
-       "h": "NtwfZW0ZUT2i"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\summerhaze.nif",
-       "h": "itMStcceagd5"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sweetvillain.nif",
-       "h": "qsfmbk1fTcR/"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\tellme.nif",
-       "h": "/VCHC7/3cIra"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\tonight.nif",
-       "h": "z7GjaLzr7dqM"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\traveler.nif",
-       "h": "6H8LEg7qH3Ep"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\veneris.nif",
-       "h": "6Wma0hl/ANDG"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\vicecity.nif",
-       "h": "Q4Yo2LwzZakS"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\wine.nif",
-       "h": "6ApYlfvNUFxO"
-      },
-      {
-       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\youth.nif",
-       "h": "t2G2nwXDizHX"
-      },
-      {
-       "t": "calientetools\\bodyslide\\slidergroups\\ks wigs smp (cbbe).xml",
-       "h": "Yn0FA1oFKKCm"
-      },
-      {
-       "t": "calientetools\\bodyslide\\slidergroups\\ks wigs smp elves (cbbe).xml",
-       "h": "d7M3rk3yXMkv"
-      },
-      {
-       "t": "calientetools\\bodyslide\\slidersets\\ks wigs smp (cbbe).osp",
-       "h": "rqK0kBa25SMw"
-      },
-      {
-       "t": "calientetools\\bodyslide\\slidersets\\ks wigs smp elves (cbbe).osp",
-       "h": "hIZMWRrDv8US"
-      },
-      {
-       "t": "kswigssmp.esp",
-       "h": "HY//9+WCLCOV"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\amor.nif",
-       "h": "Mog3AsrpO9al"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\angelic.nif",
-       "h": "Fbel5DCpGgsV"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\cambrian.nif",
-       "h": "mv9AbaNXxwaP"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\cassy.nif",
-       "h": "61z2E0oEXqwV"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\cerigo.nif",
-       "h": "3uiXxU5HruUX"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\cola.nif",
-       "h": "50jY8SybkHZu"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\crescent.nif",
-       "h": "FB2vOgcDLYqJ"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\elves\\cerigo.nif",
-       "h": "EdNsFzc4A1WG"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\elves\\highlife.nif",
-       "h": "+evIQ42Yf8ZJ"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\elves\\vivacity.nif",
-       "h": "muYpi3MJoCu/"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\elves\\zoella.nif",
-       "h": "ogZY/DYcTPPy"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\foamsummer.nif",
-       "h": "vMZfHFBohrIu"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\harvestfeathers.nif",
-       "h": "mCMkvy+9etha"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\highlife.nif",
-       "h": "bTjOO+ZS+bUg"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\himiko.nif",
-       "h": "kLNJiGoRdJSh"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\kerli.nif",
-       "h": "7M7hZvLStzUb"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\lavender.nif",
-       "h": "bTCjzghL+J5R"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\lime.nif",
-       "h": "Pq6beTnNk7lj"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\onlyyou.nif",
-       "h": "l7PtIaFRzvql"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\onlyyounolace.nif",
-       "h": "MdFaZrj3lvyJ"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\scarlet.nif",
-       "h": "tFUk9wbq7Kdd"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\sky218.nif",
-       "h": "ivP0yS2pGVk2"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\slowly.nif",
-       "h": "4cls3BDVuKIL"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\starlet.nif",
-       "h": "G5OY2HTShrgt"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\studio.nif",
-       "h": "XkEofia0sfub"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\sweetescape.nif",
-       "h": "KbNnPYmVTqw0"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\sweetscar.nif",
-       "h": "J7XQJUj67c1V"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\sweetscar2.nif",
-       "h": "ytZ8CDXYdYbn"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\topgorgeous.nif",
-       "h": "Pi9+20IUv7bI"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\vapor.nif",
-       "h": "EhcMz3AFdyqI"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\vivacity.nif",
-       "h": "L2PzRQ5vU6yD"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\xoxo.nif",
-       "h": "o5Bgj7/rxSUT"
-      },
-      {
-       "t": "meshes\\armor\\kswigshdt\\f\\zoella.nif",
-       "h": "MtNIcs6eJHwh"
-      }
-     ]
-    }
-   ],
    "unknownbytools": [
-    "meshes\\ks hairdo's\\hdt\\virtualhaircollision_2.nif",
-    "meshes\\ks hairdo's\\hdt\\virtualhaircollision_3.nif",
-    "meshes\\ks hairdo's\\hdt\\virtualhaircollision_4.nif"
-   ],
-   "unknown": [
     "meshes\\armor\\kswigshdt\\f\\anchor_0.nif",
     "meshes\\armor\\kswigshdt\\f\\anchor_1.nif",
     "meshes\\armor\\kswigshdt\\f\\angels_0.nif",
@@ -42892,6 +41126,11 @@
     "meshes\\armor\\kswigshdt\\f\\wine_1.nif",
     "meshes\\armor\\kswigshdt\\f\\youth_0.nif",
     "meshes\\armor\\kswigshdt\\f\\youth_1.nif",
+    "meshes\\ks hairdo's\\hdt\\virtualhaircollision_2.nif",
+    "meshes\\ks hairdo's\\hdt\\virtualhaircollision_3.nif",
+    "meshes\\ks hairdo's\\hdt\\virtualhaircollision_4.nif"
+   ],
+   "unknown": [
     "meshes\\ks hairdo's\\hdt\\virtualhaircollision_1.nif"
    ]
   },
@@ -44739,24 +42978,15 @@
    "installers": [
     {
      "h": "G/TkTOh31tcpZtuvZuzRZWCh3fOatTqehyROeb59780",
-     "type": "SIMPLE",
+     "type": "BAIN",
      "params": {
-      "root": "00 main files\\"
-     }
-    }
-   ],
-   "xarchives": [
-    {
-     "arid": 0,
-     "files": [
-      {
-       "t": "kyoe banginbrows - light - highpolyhead.esp",
-       "h": "6hlVVbEnZMnc"
-      },
-      {
-       "t": "kyoe banginbrows.esp",
-       "h": "phOTP+N6YijM"
-      }
+      "bain": [
+       "00 main files\\",
+       "01 esps\\"
+      ]
+     },
+     "skip": [
+      "kyoe banginbrows - light.esp"
      ]
     }
    ]
@@ -58068,9 +56298,11 @@
    "installers": [
     {
      "h": "OzgIc6A8BiPhbvP3hmLj02RGOXfILPqW4xYeNTckpfo",
-     "type": "SIMPLE",
+     "type": "BAIN",
      "params": {
-      "root": "01 no npc greetings - reduced distance (recommended)\\"
+      "bain": [
+       "01 no npc greetings - reduced distance (recommended)\\"
+      ]
      }
     }
    ],
@@ -59831,9 +58063,14 @@
    "installers": [
     {
      "h": "WMC/u8qWWY+xvmNo27GRq5rc/fnUIk3RKycu9t/EXnI",
-     "type": "SIMPLE",
+     "type": "BAIN",
      "params": {
-      "root": "00 common\\"
+      "bain": [
+       "00 common\\",
+       "11 common\\",
+       "12 common\\",
+       "13 common\\"
+      ]
      }
     }
    ],
@@ -59870,64 +58107,28 @@
        "h": "HeGBPQADG+da"
       },
       {
-       "t": "meshes\\actors\\character\\character assets\\sos\\smurf average\\malegenitals_0.nif",
-       "h": "h8zsGuos/0OK"
-      },
-      {
        "t": "meshes\\actors\\character\\character assets\\sos\\smurf average\\malegenitals_1.nif",
        "h": "PDAiyjJbeNXN"
-      },
-      {
-       "t": "meshes\\actors\\character\\character assets\\sos\\smurf average\\werewolfgenitals_0.nif",
-       "h": "US0F3X6CWe/V"
       },
       {
        "t": "meshes\\actors\\character\\character assets\\sos\\smurf average\\werewolfgenitals_1.nif",
        "h": "41CxNhy9DBk6"
       },
       {
-       "t": "meshes\\actors\\character\\character assets\\sos\\vectorplexus muscular\\malegenitals_0.nif",
-       "h": "suhWCumaaRzZ"
-      },
-      {
        "t": "meshes\\actors\\character\\character assets\\sos\\vectorplexus muscular\\malegenitals_1.nif",
        "h": "oepdsImViw5B"
-      },
-      {
-       "t": "meshes\\actors\\character\\character assets\\sos\\vectorplexus muscular\\werewolfgenitals_0.nif",
-       "h": "xLrL44TFDBFy"
       },
       {
        "t": "meshes\\actors\\character\\character assets\\sos\\vectorplexus muscular\\werewolfgenitals_1.nif",
        "h": "EQ4XfB/4HVQL"
       },
       {
-       "t": "meshes\\actors\\character\\character assets\\sos\\vectorplexus regular\\malegenitals_0.nif",
-       "h": "kkNozrsmXnFA"
-      },
-      {
        "t": "meshes\\actors\\character\\character assets\\sos\\vectorplexus regular\\malegenitals_1.nif",
        "h": "oQhHNsU8c/c/"
       },
       {
-       "t": "meshes\\actors\\character\\character assets\\sos\\vectorplexus regular\\werewolfgenitals_0.nif",
-       "h": "3DRrETl8Myat"
-      },
-      {
        "t": "meshes\\actors\\character\\character assets\\sos\\vectorplexus regular\\werewolfgenitals_1.nif",
        "h": "0jsFeG6q6Ksz"
-      },
-      {
-       "t": "sos - smurf average addon.esp",
-       "h": "B0ZuI/OdrJuj"
-      },
-      {
-       "t": "sos - vectorplexus muscular addon.esp",
-       "h": "Csug4GIyGNoq"
-      },
-      {
-       "t": "sos - vectorplexus regular addon.esp",
-       "h": "GNiFif9EOMN9"
       },
       {
        "t": "textures\\actors\\character\\male\\malebody_1.dds",
@@ -59942,116 +58143,8 @@
        "h": "9iKhDHDjyUOZ"
       },
       {
-       "t": "textures\\actors\\character\\sos\\smurf average\\malegenitals_1_msn.dds",
-       "h": "WfJNx35GMA6i"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\smurf average\\malegenitals_1_s.dds",
-       "h": "p5BoxfEUIf1C"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\smurf average\\malegenitals_1_sk.dds",
-       "h": "TgNeK5ez719j"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\smurf average\\malegenitals_argonian_1.dds",
-       "h": "IrVRESWK75p+"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\smurf average\\malegenitals_argonian_1_msn.dds",
-       "h": "23zmRXG2jLpt"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\smurf average\\malegenitals_khajiit_1.dds",
-       "h": "tlWyWW7rrpDM"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\smurf average\\malegenitals_khajiit_1_msn.dds",
-       "h": "Vr6kbs8oCttv"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\smurf average\\werewolfgenitals_1.dds",
-       "h": "b8ZEK56ar9Lu"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\smurf average\\werewolfgenitals_1_n.dds",
-       "h": "niUQkPWB3baj"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\vectorplexus muscular\\malegenitals_1_msn.dds",
-       "h": "3Kuk+ccgCKJA"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\vectorplexus muscular\\malegenitals_argonian_1_msn.dds",
-       "h": "p4JlD1IJ3AJp"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\vectorplexus muscular\\malegenitals_khajiit_1_msn.dds",
-       "h": "LX3iaK+aMp7k"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\vectorplexus muscular\\malegenitals_old_1_msn.dds",
-       "h": "3Kuk+ccgCKJA"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\vectorplexus muscular\\werewolfgenitals_1_n.dds",
-       "h": "9ymf+Nz/6bPz"
-      },
-      {
        "t": "textures\\actors\\character\\sos\\vectorplexus regular\\malegenitals_1.dds",
        "h": "XcPoK4ozY872"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\vectorplexus regular\\malegenitals_1_msn.dds",
-       "h": "QyK9WE4jwWnP"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\vectorplexus regular\\malegenitals_1_s.dds",
-       "h": "p5BoxfEUIf1C"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\vectorplexus regular\\malegenitals_1_sk.dds",
-       "h": "H6yP+lvitTBn"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\vectorplexus regular\\malegenitals_afflicted_1.dds",
-       "h": "cqGSiMPgpYzj"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\vectorplexus regular\\malegenitals_argonian_1.dds",
-       "h": "9SpbZZ7cnl0z"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\vectorplexus regular\\malegenitals_argonian_1_msn.dds",
-       "h": "nxHfwi+/uejb"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\vectorplexus regular\\malegenitals_argonian_1_s.dds",
-       "h": "gMIXYvLUDZAg"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\vectorplexus regular\\malegenitals_khajiit_1.dds",
-       "h": "Kp4OtdS9QSES"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\vectorplexus regular\\malegenitals_khajiit_1_msn.dds",
-       "h": "hoBM0ckUKo+5"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\vectorplexus regular\\malegenitals_khajiit_1_s.dds",
-       "h": "gMIXYvLUDZAg"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\vectorplexus regular\\malegenitals_old_1_msn.dds",
-       "h": "QyK9WE4jwWnP"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\vectorplexus regular\\werewolfgenitals_1.dds",
-       "h": "b8ZEK56ar9Lu"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\vectorplexus regular\\werewolfgenitals_1_n.dds",
-       "h": "niUQkPWB3baj"
       }
      ]
     }
