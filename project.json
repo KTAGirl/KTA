@@ -4,7 +4,7 @@
    "name": "(part 2) engine fixes - skse64 preloader and tbb lib",
    "xarchives": [
     {
-     "arid": "hOzkAnqTuZOJTOnjsDBA5CYjEK+/HBmdXFOR62BlIO4",
+     "arh": "hOzkAnqTuZOJTOnjsDBA5CYjEK+/HBmdXFOR62BlIO4",
      "files": [
       {
        "t": "root\\d3dx9_42.dll",
@@ -51,7 +51,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "optional\\deviousfollowers - cutting room floor - patch.esp",
@@ -117,7 +117,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "alchemyeffectrandomizer\\defaultblacklist.ini",
@@ -291,7 +291,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "apachiiskyhair.v.1.6.full.txt",
@@ -362,7 +362,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "apachii_skyhair__female_1.5.1.txt",
@@ -433,7 +433,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "meshes\\actors\\character\\animations\\babo bigguy\\babo_bgbackhugpressure_a1_s1.hkx",
@@ -3384,7 +3384,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "meshes\\actors\\ambient\\hare\\animations\\billyy_creaturemisc\\fnis_billyy_creaturemisc_hare_list.txt",
@@ -28834,14 +28834,14 @@
    "name": "blubbos tree replacer for reach",
    "installers": [
     {
-     "h": "Md/fTT06oCqUPhOSkg4kDWkuVlSj1f2Eof1qTL8VK6M",
+     "h": "laqsURxWM5bS5JUz9fPn0MuOtuJI+rCq4sO+EWxN/94",
      "type": "SIMPLE",
      "params": {
       "root": "data\\"
      }
     },
     {
-     "h": "laqsURxWM5bS5JUz9fPn0MuOtuJI+rCq4sO+EWxN/94",
+     "h": "Md/fTT06oCqUPhOSkg4kDWkuVlSj1f2Eof1qTL8VK6M",
      "type": "SIMPLE",
      "params": {
       "root": "data\\"
@@ -29136,7 +29136,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "textures\\actors\\character\\bretonfemale\\femalehead_msn.dds",
@@ -29334,35 +29334,6 @@
    "name": "bodyslide output",
    "installers": [
     {
-     "h": "iwhgN0VYOydz7Gdcp1fNJZpYcpqVRWsYGejjUB5V4qw",
-     "type": "SIMPLE",
-     "params": {
-      "root": "sos - futanari cbbe sse v1.1b\\data\\"
-     },
-     "skip": [
-      "calientetools\\bodyslide\\shapedata\\erf_futanari_cbbe\\erf_futanari_cbbe.nif",
-      "calientetools\\bodyslide\\shapedata\\erf_futanari_cbbe\\erf_futanari_cbbe.osd",
-      "calientetools\\bodyslide\\slidergroups\\erf futanari cbbe.xml",
-      "calientetools\\bodyslide\\slidersets\\erf_futanari_cbbe.osp",
-      "erf - futanari cbbe - equippable.esp",
-      "meshes\\erf_futanari\\futanari_schlong_cbbe_0.nif",
-      "meshes\\erf_futanari\\futanari_schlong_cbbe_1.nif",
-      "sos - erf - futanari cbbe - addon.esp",
-      "textures\\erf_futanari\\argoniancbbe\\futanari_schlong.dds",
-      "textures\\erf_futanari\\argoniancbbe\\futanari_schlong_msn.dds",
-      "textures\\erf_futanari\\argoniancbbe\\futanari_schlong_s.dds",
-      "textures\\erf_futanari\\argoniancbbe\\futanari_schlong_sk.dds",
-      "textures\\erf_futanari\\fairskincbbe\\futanari_schlong.dds",
-      "textures\\erf_futanari\\fairskincbbe\\futanari_schlong_msn.dds",
-      "textures\\erf_futanari\\fairskincbbe\\futanari_schlong_s.dds",
-      "textures\\erf_futanari\\fairskincbbe\\futanari_schlong_sk.dds",
-      "textures\\erf_futanari\\khajiitcbbe\\futanari_schlong.dds",
-      "textures\\erf_futanari\\khajiitcbbe\\futanari_schlong_msn.dds",
-      "textures\\erf_futanari\\khajiitcbbe\\futanari_schlong_s.dds",
-      "textures\\erf_futanari\\khajiitcbbe\\futanari_schlong_sk.dds"
-     ]
-    },
-    {
      "h": "l+wCcV/2BGXm6IjMRJ34Vq1xJQjtta8xytLbCYmHohY",
      "type": "BAIN",
      "params": {
@@ -29523,11 +29494,40 @@
       "meshes\\dlc02\\clothes\\temple\\templepriestf.tri",
       "meshes\\dlc02\\clothes\\temple\\templepriestfboots.tri"
      ]
+    },
+    {
+     "h": "iwhgN0VYOydz7Gdcp1fNJZpYcpqVRWsYGejjUB5V4qw",
+     "type": "SIMPLE",
+     "params": {
+      "root": "sos - futanari cbbe sse v1.1b\\data\\"
+     },
+     "skip": [
+      "calientetools\\bodyslide\\shapedata\\erf_futanari_cbbe\\erf_futanari_cbbe.nif",
+      "calientetools\\bodyslide\\shapedata\\erf_futanari_cbbe\\erf_futanari_cbbe.osd",
+      "calientetools\\bodyslide\\slidergroups\\erf futanari cbbe.xml",
+      "calientetools\\bodyslide\\slidersets\\erf_futanari_cbbe.osp",
+      "erf - futanari cbbe - equippable.esp",
+      "meshes\\erf_futanari\\futanari_schlong_cbbe_0.nif",
+      "meshes\\erf_futanari\\futanari_schlong_cbbe_1.nif",
+      "sos - erf - futanari cbbe - addon.esp",
+      "textures\\erf_futanari\\argoniancbbe\\futanari_schlong.dds",
+      "textures\\erf_futanari\\argoniancbbe\\futanari_schlong_msn.dds",
+      "textures\\erf_futanari\\argoniancbbe\\futanari_schlong_s.dds",
+      "textures\\erf_futanari\\argoniancbbe\\futanari_schlong_sk.dds",
+      "textures\\erf_futanari\\fairskincbbe\\futanari_schlong.dds",
+      "textures\\erf_futanari\\fairskincbbe\\futanari_schlong_msn.dds",
+      "textures\\erf_futanari\\fairskincbbe\\futanari_schlong_s.dds",
+      "textures\\erf_futanari\\fairskincbbe\\futanari_schlong_sk.dds",
+      "textures\\erf_futanari\\khajiitcbbe\\futanari_schlong.dds",
+      "textures\\erf_futanari\\khajiitcbbe\\futanari_schlong_msn.dds",
+      "textures\\erf_futanari\\khajiitcbbe\\futanari_schlong_s.dds",
+      "textures\\erf_futanari\\khajiitcbbe\\futanari_schlong_sk.dds"
+     ]
     }
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "meshes\\actors\\character\\character assets\\1stpersonfemalehandsargonian.tri",
@@ -29548,7 +29548,7 @@
      ]
     },
     {
-     "arid": "dvho/ydjgaP4U4lQA8/U3pXH1uccb4pOoKTMjDS6ew4",
+     "arh": "dvho/ydjgaP4U4lQA8/U3pXH1uccb4pOoKTMjDS6ew4",
      "files": [
       {
        "t": "meshes\\armor\\mu3b\\3bbbcollisionarmorf1.tri",
@@ -30536,77 +30536,6 @@
    "name": "caliente's beautiful bodies enhancer -cbbe- - orig",
    "installers": [
     {
-     "h": "dvho/ydjgaP4U4lQA8/U3pXH1uccb4pOoKTMjDS6ew4",
-     "type": "BAIN",
-     "params": {
-      "bain": [
-       "00 base\\",
-       "15 racemenumorphs\\"
-      ]
-     },
-     "skip": [
-      "00 racemenumorphs - cbbe\\racemenumorphscbbe.esp",
-      "00 racemenumorphs - cbbe\\scripts\\racemenumorphscbbe.pex",
-      "00 racemenumorphs - cbbe\\scripts\\racemenumorphscbbeuiextensions.pex",
-      "00 racemenumorphs - cbbe\\scripts\\racemenumorphscbbeuilistmenu.pex",
-      "00 racemenumorphs - cbbe\\scripts\\racemenumorphscbbeuimenubase.pex",
-      "00 racemenumorphs - cbbe\\scripts\\racemenumorphscbbeuitextentrymenu.pex",
-      "00 racemenumorphs - cbbe\\scripts\\source\\racemenumorphscbbe.psc",
-      "00 racemenumorphs - cbbe\\scripts\\source\\racemenumorphscbbeuiextensions.psc",
-      "00 racemenumorphs - cbbe\\scripts\\source\\racemenumorphscbbeuilistmenu.psc",
-      "00 racemenumorphs - cbbe\\scripts\\source\\racemenumorphscbbeuimenubase.psc",
-      "00 racemenumorphs - cbbe\\scripts\\source\\racemenumorphscbbeuitextentrymenu.psc",
-      "90 old racemenumorphs - 3bbb\\3bbb-racemenumorphs.esp",
-      "90 old racemenumorphs - 3bbb\\scripts\\racemenumorphs3bbb.pex",
-      "90 old racemenumorphs - 3bbb\\scripts\\source\\racemenumorphs3bbb.psc",
-      "calientetools\\bodyslide\\reftemplates\\cbbe 3ba unibody.xml",
-      "calientetools\\bodyslide\\reftemplates\\cbbe 3ba.xml",
-      "calientetools\\bodyslide\\reftemplates\\cbbe 3ba\\cbbe 3ba reference.osp",
-      "calientetools\\bodyslide\\reftemplates\\cbbe 3ba\\cbbe 3ba unibody ref.osp",
-      "calientetools\\bodyslide\\shapedata\\cbbe 3ba reference\\cbbe 3ba ref.nif",
-      "calientetools\\bodyslide\\shapedata\\cbbe 3ba reference\\cbbe 3ba ref.osd",
-      "calientetools\\bodyslide\\shapedata\\cbbe 3ba reference\\cbbe 3ba remove nip sliders.nif",
-      "calientetools\\bodyslide\\shapedata\\cbbe 3ba reference\\cbbe 3ba remove nip sliders.osd",
-      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba unibody ref.nif",
-      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba unibody ref.osd",
-      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba uniboob ref.nif",
-      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba uniboob ref.osd",
-      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba unibutt ref.nif",
-      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba unibutt ref.osd",
-      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba unilowercurtain ref.nif",
-      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba unilowercurtain ref.osd",
-      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba unistring1 ref.nif",
-      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba unistring1 ref.osd",
-      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba unistring2 ref.nif",
-      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba unistring2 ref.osd",
-      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba unistring3 ref.nif",
-      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba unistring3 ref.osd",
-      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba uniuppercurtain ref.nif",
-      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba uniuppercurtain ref.osd",
-      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba uniuppercurtain tight ref.nif",
-      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba uniuppercurtain tight ref.osd",
-      "calientetools\\bodyslide\\shapedata\\se 3bbb amazing\\cbbe 3ba 1st person arm.osd",
-      "calientetools\\bodyslide\\shapedata\\se 3bbb amazing\\se 3bbb body amazing v2.nif",
-      "calientetools\\bodyslide\\shapedata\\se 3bbb amazing\\se 3bbb body amazing v2.osd",
-      "calientetools\\bodyslide\\shapedata\\se 3bbb amazing\\se 3bbb body amazing.nif",
-      "calientetools\\bodyslide\\shapedata\\se 3bbb amazing\\se 3bbb body amazing.osd",
-      "calientetools\\bodyslide\\slidercategories\\cbbe 3ba.xml",
-      "calientetools\\bodyslide\\slidergroups\\cbbe 3ba.xml",
-      "calientetools\\bodyslide\\slidersets\\cbbe 3ba 1st person.osp",
-      "calientetools\\bodyslide\\slidersets\\se 3bbb amazing.osp",
-      "meshes\\actors\\character\\character assets\\1stpersonfemalebody_0.nif",
-      "meshes\\actors\\character\\character assets\\1stpersonfemalebody_1.nif",
-      "meshes\\actors\\character\\character assets\\1stpersonfemalehands_0.nif",
-      "meshes\\actors\\character\\character assets\\1stpersonfemalehands_1.nif",
-      "meshes\\actors\\character\\character assets\\femalebody.tri",
-      "meshes\\actors\\character\\character assets\\femalebody_0.nif",
-      "meshes\\actors\\character\\character assets\\femalebody_1.nif",
-      "textures\\unibody\\uni_d.dds",
-      "textures\\unibody\\uni_n.dds",
-      "textures\\unibody\\uni_s.dds"
-     ]
-    },
-    {
      "h": "l+wCcV/2BGXm6IjMRJ34Vq1xJQjtta8xytLbCYmHohY",
      "type": "BAIN",
      "params": {
@@ -31063,6 +30992,77 @@
       "meshes\\dlc02\\effects\\dragonbornfxf03.nif",
       "meshes\\usleep\\armor\\generaltulius\\1stpersonpenitustorsof_1.nif",
       "meshes\\ussep\\clothes\\mournersclothes\\1stpersonmournoutfitf_1.nif"
+     ]
+    },
+    {
+     "h": "dvho/ydjgaP4U4lQA8/U3pXH1uccb4pOoKTMjDS6ew4",
+     "type": "BAIN",
+     "params": {
+      "bain": [
+       "00 base\\",
+       "15 racemenumorphs\\"
+      ]
+     },
+     "skip": [
+      "00 racemenumorphs - cbbe\\racemenumorphscbbe.esp",
+      "00 racemenumorphs - cbbe\\scripts\\racemenumorphscbbe.pex",
+      "00 racemenumorphs - cbbe\\scripts\\racemenumorphscbbeuiextensions.pex",
+      "00 racemenumorphs - cbbe\\scripts\\racemenumorphscbbeuilistmenu.pex",
+      "00 racemenumorphs - cbbe\\scripts\\racemenumorphscbbeuimenubase.pex",
+      "00 racemenumorphs - cbbe\\scripts\\racemenumorphscbbeuitextentrymenu.pex",
+      "00 racemenumorphs - cbbe\\scripts\\source\\racemenumorphscbbe.psc",
+      "00 racemenumorphs - cbbe\\scripts\\source\\racemenumorphscbbeuiextensions.psc",
+      "00 racemenumorphs - cbbe\\scripts\\source\\racemenumorphscbbeuilistmenu.psc",
+      "00 racemenumorphs - cbbe\\scripts\\source\\racemenumorphscbbeuimenubase.psc",
+      "00 racemenumorphs - cbbe\\scripts\\source\\racemenumorphscbbeuitextentrymenu.psc",
+      "90 old racemenumorphs - 3bbb\\3bbb-racemenumorphs.esp",
+      "90 old racemenumorphs - 3bbb\\scripts\\racemenumorphs3bbb.pex",
+      "90 old racemenumorphs - 3bbb\\scripts\\source\\racemenumorphs3bbb.psc",
+      "calientetools\\bodyslide\\reftemplates\\cbbe 3ba unibody.xml",
+      "calientetools\\bodyslide\\reftemplates\\cbbe 3ba.xml",
+      "calientetools\\bodyslide\\reftemplates\\cbbe 3ba\\cbbe 3ba reference.osp",
+      "calientetools\\bodyslide\\reftemplates\\cbbe 3ba\\cbbe 3ba unibody ref.osp",
+      "calientetools\\bodyslide\\shapedata\\cbbe 3ba reference\\cbbe 3ba ref.nif",
+      "calientetools\\bodyslide\\shapedata\\cbbe 3ba reference\\cbbe 3ba ref.osd",
+      "calientetools\\bodyslide\\shapedata\\cbbe 3ba reference\\cbbe 3ba remove nip sliders.nif",
+      "calientetools\\bodyslide\\shapedata\\cbbe 3ba reference\\cbbe 3ba remove nip sliders.osd",
+      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba unibody ref.nif",
+      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba unibody ref.osd",
+      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba uniboob ref.nif",
+      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba uniboob ref.osd",
+      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba unibutt ref.nif",
+      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba unibutt ref.osd",
+      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba unilowercurtain ref.nif",
+      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba unilowercurtain ref.osd",
+      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba unistring1 ref.nif",
+      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba unistring1 ref.osd",
+      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba unistring2 ref.nif",
+      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba unistring2 ref.osd",
+      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba unistring3 ref.nif",
+      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba unistring3 ref.osd",
+      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba uniuppercurtain ref.nif",
+      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba uniuppercurtain ref.osd",
+      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba uniuppercurtain tight ref.nif",
+      "calientetools\\bodyslide\\shapedata\\cbbe 3ba unibody ref\\cbbe 3ba uniuppercurtain tight ref.osd",
+      "calientetools\\bodyslide\\shapedata\\se 3bbb amazing\\cbbe 3ba 1st person arm.osd",
+      "calientetools\\bodyslide\\shapedata\\se 3bbb amazing\\se 3bbb body amazing v2.nif",
+      "calientetools\\bodyslide\\shapedata\\se 3bbb amazing\\se 3bbb body amazing v2.osd",
+      "calientetools\\bodyslide\\shapedata\\se 3bbb amazing\\se 3bbb body amazing.nif",
+      "calientetools\\bodyslide\\shapedata\\se 3bbb amazing\\se 3bbb body amazing.osd",
+      "calientetools\\bodyslide\\slidercategories\\cbbe 3ba.xml",
+      "calientetools\\bodyslide\\slidergroups\\cbbe 3ba.xml",
+      "calientetools\\bodyslide\\slidersets\\cbbe 3ba 1st person.osp",
+      "calientetools\\bodyslide\\slidersets\\se 3bbb amazing.osp",
+      "meshes\\actors\\character\\character assets\\1stpersonfemalebody_0.nif",
+      "meshes\\actors\\character\\character assets\\1stpersonfemalebody_1.nif",
+      "meshes\\actors\\character\\character assets\\1stpersonfemalehands_0.nif",
+      "meshes\\actors\\character\\character assets\\1stpersonfemalehands_1.nif",
+      "meshes\\actors\\character\\character assets\\femalebody.tri",
+      "meshes\\actors\\character\\character assets\\femalebody_0.nif",
+      "meshes\\actors\\character\\character assets\\femalebody_1.nif",
+      "textures\\unibody\\uni_d.dds",
+      "textures\\unibody\\uni_n.dds",
+      "textures\\unibody\\uni_s.dds"
      ]
     }
    ],
@@ -31861,7 +31861,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "3bbb.esp",
@@ -32280,310 +32280,6 @@
   {
    "name": "cbbe minidresses collection se w bodyslide",
    "installers": [
-    {
-     "h": "Pk/XA0A/O7YLhzPQTXF3EjFUi6XomqQhLacP1Pw1pA0",
-     "type": "SIMPLE",
-     "params": {
-      "root": ""
-     }
-    },
-    {
-     "h": "Yx5YSzCYK16j/NLVfh9N5BKkt1sFSxp8ZtkXLbIBDfA",
-     "type": "SIMPLE",
-     "params": {
-      "root": ""
-     },
-     "skip": [
-      "meshes\\clothes\\archmage\\f\\1stpersonarchmagerobesf_0.nif",
-      "meshes\\clothes\\archmage\\f\\1stpersonarchmagerobesf_1.nif",
-      "meshes\\clothes\\archmage\\f\\archmagebootsf_0.nif",
-      "meshes\\clothes\\archmage\\f\\archmagebootsf_1.nif",
-      "meshes\\clothes\\archmage\\f\\archmagehoodf_0.nif",
-      "meshes\\clothes\\archmage\\f\\archmagehoodf_1.nif",
-      "meshes\\clothes\\archmage\\f\\archmagehoodf_arg_0.nif",
-      "meshes\\clothes\\archmage\\f\\archmagehoodf_arg_1.nif",
-      "meshes\\clothes\\archmage\\f\\archmagehoodf_kha_0.nif",
-      "meshes\\clothes\\archmage\\f\\archmagehoodf_kha_1.nif",
-      "meshes\\clothes\\archmage\\f\\archmagerobesf_0.nif",
-      "meshes\\clothes\\archmage\\f\\archmagerobesf_1.nif",
-      "meshes\\clothes\\barkeeper\\f\\shoes_0.nif",
-      "meshes\\clothes\\barkeeper\\f\\shoes_1.nif",
-      "meshes\\clothes\\barkeeper\\f\\torso_0.nif",
-      "meshes\\clothes\\barkeeper\\f\\torso_1.nif",
-      "meshes\\clothes\\beggarclothes\\1stpersontorsof_0.nif",
-      "meshes\\clothes\\beggarclothes\\1stpersontorsof_1.nif",
-      "meshes\\clothes\\beggarclothes\\bootsf_0.nif",
-      "meshes\\clothes\\beggarclothes\\bootsf_1.nif",
-      "meshes\\clothes\\beggarclothes\\torsof_0.nif",
-      "meshes\\clothes\\beggarclothes\\torsof_1.nif",
-      "meshes\\clothes\\blacksmith\\f\\1stpersontorso_0.nif",
-      "meshes\\clothes\\blacksmith\\f\\1stpersontorso_1.nif",
-      "meshes\\clothes\\blacksmith\\f\\shoes_0.nif",
-      "meshes\\clothes\\blacksmith\\f\\shoes_1.nif",
-      "meshes\\clothes\\blacksmith\\f\\torso_0.nif",
-      "meshes\\clothes\\blacksmith\\f\\torso_1.nif",
-      "meshes\\clothes\\chef\\f\\1stpersonchef_0.nif",
-      "meshes\\clothes\\chef\\f\\1stpersonchef_1.nif",
-      "meshes\\clothes\\chef\\f\\chef_0.nif",
-      "meshes\\clothes\\chef\\f\\chef_1.nif",
-      "meshes\\clothes\\farmclothes01\\1stpersontorsof_0.nif",
-      "meshes\\clothes\\farmclothes01\\1stpersontorsof_1.nif",
-      "meshes\\clothes\\farmclothes01\\shoesf_0.nif",
-      "meshes\\clothes\\farmclothes01\\shoesf_1.nif",
-      "meshes\\clothes\\farmclothes01\\torsof_0.nif",
-      "meshes\\clothes\\farmclothes01\\torsof_1.nif",
-      "meshes\\clothes\\farmclothes02\\f\\1stpersondress_0.nif",
-      "meshes\\clothes\\farmclothes02\\f\\1stpersondress_1.nif",
-      "meshes\\clothes\\farmclothes02\\f\\dress_0.nif",
-      "meshes\\clothes\\farmclothes02\\f\\dress_1.nif",
-      "meshes\\clothes\\farmclothes02\\f\\shoes_0.nif",
-      "meshes\\clothes\\farmclothes02\\f\\shoes_1.nif",
-      "meshes\\clothes\\farmclothes03\\1stpersonfarmerrobef_0.nif",
-      "meshes\\clothes\\farmclothes03\\1stpersonfarmerrobef_1.nif",
-      "meshes\\clothes\\farmclothes03\\farmerhatf_0.nif",
-      "meshes\\clothes\\farmclothes03\\farmerhatf_1.nif",
-      "meshes\\clothes\\farmclothes03\\farmerrobef_0.nif",
-      "meshes\\clothes\\farmclothes03\\farmerrobef_1.nif",
-      "meshes\\clothes\\farmclothes03\\farmerrobefplus_0.nif",
-      "meshes\\clothes\\farmclothes03\\farmerrobefplus_1.nif",
-      "meshes\\clothes\\farmclothes03\\farmershoesf_0.nif",
-      "meshes\\clothes\\farmclothes03\\farmershoesf_1.nif",
-      "meshes\\clothes\\farmclothes04\\1stpersonrobef_0.nif",
-      "meshes\\clothes\\farmclothes04\\1stpersonrobef_1.nif",
-      "meshes\\clothes\\farmclothes04\\bootsf_0.nif",
-      "meshes\\clothes\\farmclothes04\\bootsf_1.nif",
-      "meshes\\clothes\\farmclothes04\\robef_0.nif",
-      "meshes\\clothes\\farmclothes04\\robef_1.nif",
-      "meshes\\clothes\\fineclothes01\\bootsf_0.nif",
-      "meshes\\clothes\\fineclothes01\\bootsf_1.nif",
-      "meshes\\clothes\\fineclothes01\\outfitf_0.nif",
-      "meshes\\clothes\\fineclothes01\\outfitf_1.nif",
-      "meshes\\clothes\\fineclothes02\\bootsf_0.nif",
-      "meshes\\clothes\\fineclothes02\\bootsf_1.nif",
-      "meshes\\clothes\\fineclothes02\\outfitf_0.nif",
-      "meshes\\clothes\\fineclothes02\\outfitf_1.nif",
-      "meshes\\clothes\\graybeardrobe\\1stpersongreybeardrobef_0.nif",
-      "meshes\\clothes\\graybeardrobe\\1stpersongreybeardrobef_1.nif",
-      "meshes\\clothes\\graybeardrobe\\greybeardbootsf_0.nif",
-      "meshes\\clothes\\graybeardrobe\\greybeardbootsf_1.nif",
-      "meshes\\clothes\\graybeardrobe\\greybeardrobef_0.nif",
-      "meshes\\clothes\\graybeardrobe\\greybeardrobef_1.nif",
-      "meshes\\clothes\\jester\\1stpersonjesterf_0.nif",
-      "meshes\\clothes\\jester\\1stpersonjesterf_1.nif",
-      "meshes\\clothes\\jester\\jesterbootsf_0.nif",
-      "meshes\\clothes\\jester\\jesterbootsf_1.nif",
-      "meshes\\clothes\\jester\\jesterf_0.nif",
-      "meshes\\clothes\\jester\\jesterf_1.nif",
-      "meshes\\clothes\\mageapprentice\\1stpersonmageapprenticerobesf_0.nif",
-      "meshes\\clothes\\mageapprentice\\1stpersonmageapprenticerobesf_1.nif",
-      "meshes\\clothes\\mageapprentice\\mageapprenticebootsf_0.nif",
-      "meshes\\clothes\\mageapprentice\\mageapprenticebootsf_1.nif",
-      "meshes\\clothes\\mageapprentice\\mageapprenticerobesf_0.nif",
-      "meshes\\clothes\\mageapprentice\\mageapprenticerobesf_1.nif",
-      "meshes\\clothes\\magejourneyman\\1stpersonmagejourneymanrobesf_0.nif",
-      "meshes\\clothes\\magejourneyman\\1stpersonmagejourneymanrobesf_1.nif",
-      "meshes\\clothes\\magejourneyman\\magejourneymanrobesf_0.nif",
-      "meshes\\clothes\\magejourneyman\\magejourneymanrobesf_1.nif",
-      "meshes\\clothes\\merchantclothes\\1stpersontorsof_0.nif",
-      "meshes\\clothes\\merchantclothes\\1stpersontorsof_1.nif",
-      "meshes\\clothes\\merchantclothes\\bootsf_0.nif",
-      "meshes\\clothes\\merchantclothes\\bootsf_1.nif",
-      "meshes\\clothes\\merchantclothes\\torsof_0.nif",
-      "meshes\\clothes\\merchantclothes\\torsof_1.nif",
-      "meshes\\clothes\\minerclothes\\1stpersonminerclothesf_0.nif",
-      "meshes\\clothes\\minerclothes\\1stpersonminerclothesf_1.nif",
-      "meshes\\clothes\\minerclothes\\minerboots_f_0.nif",
-      "meshes\\clothes\\minerclothes\\minerboots_f_1.nif",
-      "meshes\\clothes\\minerclothes\\minerclothesf_0.nif",
-      "meshes\\clothes\\minerclothes\\minerclothesf_1.nif",
-      "meshes\\clothes\\monk\\1stpersonmonkrobes_f_0.nif",
-      "meshes\\clothes\\monk\\1stpersonmonkrobes_f_1.nif",
-      "meshes\\clothes\\monk\\1stpersonmonkvariantoutfitf_0.nif",
-      "meshes\\clothes\\monk\\1stpersonmonkvariantoutfitf_1.nif",
-      "meshes\\clothes\\monk\\1stpersonvaerminarobesf_0.nif",
-      "meshes\\clothes\\monk\\1stpersonvaerminarobesf_1.nif",
-      "meshes\\clothes\\monk\\monkboots_f_0.nif",
-      "meshes\\clothes\\monk\\monkboots_f_1.nif",
-      "meshes\\clothes\\monk\\monkrobes_f_0.nif",
-      "meshes\\clothes\\monk\\monkrobes_f_1.nif",
-      "meshes\\clothes\\monk\\monkvariantoutfitf_0.nif",
-      "meshes\\clothes\\monk\\monkvariantoutfitf_1.nif",
-      "meshes\\clothes\\monk\\vaerminarobesf_0.nif",
-      "meshes\\clothes\\monk\\vaerminarobesf_1.nif",
-      "meshes\\clothes\\necromancer\\1stpersonnecromancerrobes_f_0.nif",
-      "meshes\\clothes\\necromancer\\1stpersonnecromancerrobes_f_1.nif",
-      "meshes\\clothes\\necromancer\\necromancerboots_f_0.nif",
-      "meshes\\clothes\\necromancer\\necromancerboots_f_1.nif",
-      "meshes\\clothes\\necromancer\\necromancerrobes_f_0.nif",
-      "meshes\\clothes\\necromancer\\necromancerrobes_f_1.nif",
-      "meshes\\clothes\\nocturnal\\outfitf_0.nif",
-      "meshes\\clothes\\nocturnal\\outfitf_1.nif",
-      "meshes\\clothes\\prisoner\\1stpersonprisonerclothes_f_0.nif",
-      "meshes\\clothes\\prisoner\\1stpersonprisonerclothes_f_1.nif",
-      "meshes\\clothes\\prisoner\\1stpersonprisonerrags_f_0.nif",
-      "meshes\\clothes\\prisoner\\1stpersonprisonerrags_f_1.nif",
-      "meshes\\clothes\\prisoner\\prisonerclothes_f_0.nif",
-      "meshes\\clothes\\prisoner\\prisonerclothes_f_1.nif",
-      "meshes\\clothes\\prisoner\\prisonerrags_f_0.nif",
-      "meshes\\clothes\\prisoner\\prisonerrags_f_1.nif",
-      "meshes\\clothes\\prisoner\\prisonershoes_f_0.nif",
-      "meshes\\clothes\\prisoner\\prisonershoes_f_1.nif",
-      "meshes\\clothes\\psiijic\\1stpersonpsiijicrobesf_0.nif",
-      "meshes\\clothes\\psiijic\\1stpersonpsiijicrobesf_1.nif",
-      "meshes\\clothes\\psiijic\\psiijicglovesf_0.nif",
-      "meshes\\clothes\\psiijic\\psiijicglovesf_1.nif",
-      "meshes\\clothes\\psiijic\\psiijicrobesf_0.nif",
-      "meshes\\clothes\\psiijic\\psiijicrobesf_1.nif",
-      "meshes\\clothes\\redguard\\1stpersonredguardoutfitf_0.nif",
-      "meshes\\clothes\\redguard\\1stpersonredguardoutfitf_1.nif",
-      "meshes\\clothes\\redguard\\redguardbootsf_0.nif",
-      "meshes\\clothes\\redguard\\redguardbootsf_1.nif",
-      "meshes\\clothes\\redguard\\redguardoutfitf_0.nif",
-      "meshes\\clothes\\redguard\\redguardoutfitf_1.nif",
-      "meshes\\clothes\\robedarkbrotherhood\\female\\1stpersondbtorso_0.nif",
-      "meshes\\clothes\\robedarkbrotherhood\\female\\1stpersondbtorso_1.nif",
-      "meshes\\clothes\\robedarkbrotherhood\\female\\dbboots_0.nif",
-      "meshes\\clothes\\robedarkbrotherhood\\female\\dbboots_1.nif",
-      "meshes\\clothes\\robedarkbrotherhood\\female\\dbtorso_0.nif",
-      "meshes\\clothes\\robedarkbrotherhood\\female\\dbtorso_1.nif",
-      "meshes\\clothes\\robemythicdawn\\1stpersonmdrobe_f_0.nif",
-      "meshes\\clothes\\robemythicdawn\\1stpersonmdrobe_f_1.nif",
-      "meshes\\clothes\\robemythicdawn\\mdhood_f_0.nif",
-      "meshes\\clothes\\robemythicdawn\\mdhood_f_1.nif",
-      "meshes\\clothes\\robemythicdawn\\mdhood_f_arg_0.nif",
-      "meshes\\clothes\\robemythicdawn\\mdhood_f_arg_1.nif",
-      "meshes\\clothes\\robemythicdawn\\mdrobe_f_0.nif",
-      "meshes\\clothes\\robemythicdawn\\mdrobe_f_1.nif",
-      "meshes\\clothes\\robemythicdawn\\mdshoes_f_0.nif",
-      "meshes\\clothes\\robemythicdawn\\mdshoes_f_1.nif",
-      "meshes\\clothes\\thalmor\\1stpersonthalmorglovesf_0.nif",
-      "meshes\\clothes\\thalmor\\1stpersonthalmorglovesf_1.nif",
-      "meshes\\clothes\\thalmor\\1stpersonthalmorrobesf_0.nif",
-      "meshes\\clothes\\thalmor\\1stpersonthalmorrobesf_1.nif",
-      "meshes\\clothes\\thalmor\\thalmorbootsf_0.nif",
-      "meshes\\clothes\\thalmor\\thalmorbootsf_1.nif",
-      "meshes\\clothes\\thalmor\\thalmorglovesf_0.nif",
-      "meshes\\clothes\\thalmor\\thalmorglovesf_1.nif",
-      "meshes\\clothes\\thalmor\\thalmorhoodf_0.nif",
-      "meshes\\clothes\\thalmor\\thalmorhoodf_1.nif",
-      "meshes\\clothes\\thalmor\\thalmorhoodf_arg_0.nif",
-      "meshes\\clothes\\thalmor\\thalmorhoodf_arg_1.nif",
-      "meshes\\clothes\\thalmor\\thalmorhoodf_khaj_0.nif",
-      "meshes\\clothes\\thalmor\\thalmorhoodf_khaj_1.nif",
-      "meshes\\clothes\\thalmor\\thalmorrobesf_0.nif",
-      "meshes\\clothes\\thalmor\\thalmorrobesf_1.nif",
-      "meshes\\clothes\\warlock\\1stpersonwarlockrobes_f_0.nif",
-      "meshes\\clothes\\warlock\\1stpersonwarlockrobes_f_1.nif",
-      "meshes\\clothes\\warlock\\warlockboots_f_0.nif",
-      "meshes\\clothes\\warlock\\warlockboots_f_1.nif",
-      "meshes\\clothes\\warlock\\warlockrobes_f_0.nif",
-      "meshes\\clothes\\warlock\\warlockrobes_f_1.nif",
-      "meshes\\clothes\\weddingdress\\1stpersonoutfitf_0.nif",
-      "meshes\\clothes\\weddingdress\\1stpersonoutfitf_1.nif",
-      "meshes\\clothes\\weddingdress\\outfitf_0.nif",
-      "meshes\\clothes\\weddingdress\\outfitf_1.nif",
-      "meshes\\clothes\\weddingdress\\sandalsf_0.nif",
-      "meshes\\clothes\\weddingdress\\sandalsf_1.nif",
-      "meshes\\clothes\\wench\\1stpersonwenchoutfitf_0.nif",
-      "meshes\\clothes\\wench\\1stpersonwenchoutfitf_1.nif",
-      "meshes\\clothes\\wench\\wenchoutfitbootsf_0.nif",
-      "meshes\\clothes\\wench\\wenchoutfitbootsf_1.nif",
-      "meshes\\clothes\\wench\\wenchoutfitf_0.nif",
-      "meshes\\clothes\\wench\\wenchoutfitf_1.nif",
-      "meshes\\clothes\\yarlclothes02\\1stpersonoutfitf_0.nif",
-      "meshes\\clothes\\yarlclothes02\\1stpersonoutfitf_1.nif",
-      "meshes\\clothes\\yarlclothes02\\bootsf_0.nif",
-      "meshes\\clothes\\yarlclothes02\\bootsf_1.nif",
-      "meshes\\clothes\\yarlclothes02\\glovesf_0.nif",
-      "meshes\\clothes\\yarlclothes02\\glovesf_1.nif",
-      "meshes\\clothes\\yarlclothes02\\outfitf_0.nif",
-      "meshes\\clothes\\yarlclothes02\\outfitf_1.nif",
-      "meshes\\clothes\\yarlclothes03\\boots_f_0.nif",
-      "meshes\\clothes\\yarlclothes03\\boots_f_1.nif",
-      "meshes\\clothes\\yarlclothes03\\outfitf_0.nif",
-      "meshes\\clothes\\yarlclothes03\\outfitf_1.nif",
-      "meshes\\clothes\\yarlclothes03\\outfitf_var1_0.nif",
-      "meshes\\clothes\\yarlclothes03\\outfitf_var1_1.nif",
-      "meshes\\clothes\\yarlclothes\\f\\boots_0.nif",
-      "meshes\\clothes\\yarlclothes\\f\\boots_1.nif",
-      "meshes\\clothes\\yarlclothes\\f\\torso_0.nif",
-      "meshes\\clothes\\yarlclothes\\f\\torso_1.nif",
-      "meshes\\clothes\\yarlclothes\\f\\torso_var1_0.nif",
-      "meshes\\clothes\\yarlclothes\\f\\torso_var1_1.nif",
-      "meshes\\clothes\\yarlclothes\\f\\torso_var2_0.nif",
-      "meshes\\clothes\\yarlclothes\\f\\torso_var2_1.nif",
-      "meshes\\dlc01\\clothes\\blindmothpriest\\1stpersonblindmothpriestrobesf_0.nif",
-      "meshes\\dlc01\\clothes\\blindmothpriest\\1stpersonblindmothpriestrobesf_1.nif",
-      "meshes\\dlc01\\clothes\\blindmothpriest\\blindmothpriestrobesf_0.nif",
-      "meshes\\dlc01\\clothes\\blindmothpriest\\blindmothpriestrobesf_1.nif",
-      "meshes\\dlc01\\clothes\\blindmothpriest\\blindmothpriestsandalsf_0.nif",
-      "meshes\\dlc01\\clothes\\blindmothpriest\\blindmothpriestsandalsf_1.nif",
-      "meshes\\dlc01\\clothes\\prisoner\\prisonerclothesbloody_f_0.nif",
-      "meshes\\dlc01\\clothes\\prisoner\\prisonerclothesbloody_f_1.nif",
-      "meshes\\dlc01\\clothes\\prisoner\\prisonershoesbloody_f_0.nif",
-      "meshes\\dlc01\\clothes\\prisoner\\prisonershoesbloody_f_1.nif",
-      "meshes\\dlc01\\clothes\\vampclothes\\1stpersonvampclothesf_0.nif",
-      "meshes\\dlc01\\clothes\\vampclothes\\1stpersonvampclothesf_1.nif",
-      "meshes\\dlc01\\clothes\\vampclothes\\vampbootsf_0.nif",
-      "meshes\\dlc01\\clothes\\vampclothes\\vampbootsf_1.nif",
-      "meshes\\dlc01\\clothes\\vampclothes\\vampclothesf_0.nif",
-      "meshes\\dlc01\\clothes\\vampclothes\\vampclothesf_1.nif",
-      "meshes\\dlc01\\clothes\\vampire\\1stpersonvampirerobesf_0.nif",
-      "meshes\\dlc01\\clothes\\vampire\\1stpersonvampirerobesf_1.nif",
-      "meshes\\dlc01\\clothes\\vampire\\1stpersonvampirerobesf_alt_0.nif",
-      "meshes\\dlc01\\clothes\\vampire\\1stpersonvampirerobesf_alt_1.nif",
-      "meshes\\dlc01\\clothes\\vampire\\vampirebootsf_0.nif",
-      "meshes\\dlc01\\clothes\\vampire\\vampirebootsf_1.nif",
-      "meshes\\dlc01\\clothes\\vampire\\vampirerobesf_0.nif",
-      "meshes\\dlc01\\clothes\\vampire\\vampirerobesf_1.nif",
-      "meshes\\dlc01\\clothes\\vampire\\vampirerobesf_alt_0.nif",
-      "meshes\\dlc01\\clothes\\vampire\\vampirerobesf_alt_1.nif",
-      "meshes\\dlc02\\clothes\\cultist\\f\\1stpersoncultisttorso_0.nif",
-      "meshes\\dlc02\\clothes\\cultist\\f\\1stpersoncultisttorso_1.nif",
-      "meshes\\dlc02\\clothes\\cultist\\f\\cultistboots_0.nif",
-      "meshes\\dlc02\\clothes\\cultist\\f\\cultistboots_1.nif",
-      "meshes\\dlc02\\clothes\\cultist\\f\\cultisttorso_0.nif",
-      "meshes\\dlc02\\clothes\\cultist\\f\\cultisttorso_1.nif",
-      "meshes\\dlc02\\clothes\\darkelf\\f\\1stpersonoutfit_0.nif",
-      "meshes\\dlc02\\clothes\\darkelf\\f\\1stpersonoutfit_1.nif",
-      "meshes\\dlc02\\clothes\\darkelf\\f\\outfit_0.nif",
-      "meshes\\dlc02\\clothes\\darkelf\\f\\outfit_1.nif",
-      "meshes\\dlc02\\clothes\\darkelf\\f\\shoes_0.nif",
-      "meshes\\dlc02\\clothes\\darkelf\\f\\shoes_1.nif",
-      "meshes\\dlc02\\clothes\\miraakrobes\\1stpersonmiraakgloves_f_0.nif",
-      "meshes\\dlc02\\clothes\\miraakrobes\\1stpersonmiraakgloves_f_1.nif",
-      "meshes\\dlc02\\clothes\\miraakrobes\\1stpersonmiraakrobes_f_0.nif",
-      "meshes\\dlc02\\clothes\\miraakrobes\\1stpersonmiraakrobes_f_1.nif",
-      "meshes\\dlc02\\clothes\\miraakrobes\\miraakboots_f_0.nif",
-      "meshes\\dlc02\\clothes\\miraakrobes\\miraakboots_f_1.nif",
-      "meshes\\dlc02\\clothes\\miraakrobes\\miraakgloves_f_0.nif",
-      "meshes\\dlc02\\clothes\\miraakrobes\\miraakgloves_f_1.nif",
-      "meshes\\dlc02\\clothes\\miraakrobes\\miraakrobes_f_0.nif",
-      "meshes\\dlc02\\clothes\\miraakrobes\\miraakrobes_f_1.nif",
-      "meshes\\dlc02\\clothes\\skaal\\f\\1stpersonskaaltorso_0.nif",
-      "meshes\\dlc02\\clothes\\skaal\\f\\1stpersonskaaltorso_1.nif",
-      "meshes\\dlc02\\clothes\\skaal\\f\\skaalboots_0.nif",
-      "meshes\\dlc02\\clothes\\skaal\\f\\skaalboots_1.nif",
-      "meshes\\dlc02\\clothes\\skaal\\f\\skaaltorso_0.nif",
-      "meshes\\dlc02\\clothes\\skaal\\f\\skaaltorso_1.nif",
-      "meshes\\dlc02\\clothes\\telvanni\\1stpersontelvannibodyf_1stp_0.nif",
-      "meshes\\dlc02\\clothes\\telvanni\\1stpersontelvannibodyf_1stp_1.nif",
-      "meshes\\dlc02\\clothes\\telvanni\\telvannibodyf_0.nif",
-      "meshes\\dlc02\\clothes\\telvanni\\telvannibodyf_1.nif",
-      "meshes\\dlc02\\clothes\\telvanni\\telvannibootsf_0.nif",
-      "meshes\\dlc02\\clothes\\telvanni\\telvannibootsf_1.nif",
-      "meshes\\dlc02\\clothes\\temple\\1stpersontemplepriestf_0.nif",
-      "meshes\\dlc02\\clothes\\temple\\1stpersontemplepriestf_1.nif",
-      "meshes\\dlc02\\clothes\\temple\\templepriestf_0.nif",
-      "meshes\\dlc02\\clothes\\temple\\templepriestf_1.nif",
-      "meshes\\dlc02\\clothes\\temple\\templepriestfboots_0.nif",
-      "meshes\\dlc02\\clothes\\temple\\templepriestfboots_1.nif",
-      "textures\\clothes\\tiwa44_unpmdc\\unpmdc_panties_d.dds",
-      "textures\\clothes\\tiwa44_unpmdc\\unpmdc_panties_n.dds",
-      "tiwa44_minidresses_cbbe.esp",
-      "tiwa44_minidresses_dragonborn_cbbe.esp"
-     ]
-    },
     {
      "h": "l+wCcV/2BGXm6IjMRJ34Vq1xJQjtta8xytLbCYmHohY",
      "type": "BAIN",
@@ -33396,7 +33092,311 @@
      ]
     },
     {
+     "h": "Yx5YSzCYK16j/NLVfh9N5BKkt1sFSxp8ZtkXLbIBDfA",
+     "type": "SIMPLE",
+     "params": {
+      "root": ""
+     },
+     "skip": [
+      "meshes\\clothes\\archmage\\f\\1stpersonarchmagerobesf_0.nif",
+      "meshes\\clothes\\archmage\\f\\1stpersonarchmagerobesf_1.nif",
+      "meshes\\clothes\\archmage\\f\\archmagebootsf_0.nif",
+      "meshes\\clothes\\archmage\\f\\archmagebootsf_1.nif",
+      "meshes\\clothes\\archmage\\f\\archmagehoodf_0.nif",
+      "meshes\\clothes\\archmage\\f\\archmagehoodf_1.nif",
+      "meshes\\clothes\\archmage\\f\\archmagehoodf_arg_0.nif",
+      "meshes\\clothes\\archmage\\f\\archmagehoodf_arg_1.nif",
+      "meshes\\clothes\\archmage\\f\\archmagehoodf_kha_0.nif",
+      "meshes\\clothes\\archmage\\f\\archmagehoodf_kha_1.nif",
+      "meshes\\clothes\\archmage\\f\\archmagerobesf_0.nif",
+      "meshes\\clothes\\archmage\\f\\archmagerobesf_1.nif",
+      "meshes\\clothes\\barkeeper\\f\\shoes_0.nif",
+      "meshes\\clothes\\barkeeper\\f\\shoes_1.nif",
+      "meshes\\clothes\\barkeeper\\f\\torso_0.nif",
+      "meshes\\clothes\\barkeeper\\f\\torso_1.nif",
+      "meshes\\clothes\\beggarclothes\\1stpersontorsof_0.nif",
+      "meshes\\clothes\\beggarclothes\\1stpersontorsof_1.nif",
+      "meshes\\clothes\\beggarclothes\\bootsf_0.nif",
+      "meshes\\clothes\\beggarclothes\\bootsf_1.nif",
+      "meshes\\clothes\\beggarclothes\\torsof_0.nif",
+      "meshes\\clothes\\beggarclothes\\torsof_1.nif",
+      "meshes\\clothes\\blacksmith\\f\\1stpersontorso_0.nif",
+      "meshes\\clothes\\blacksmith\\f\\1stpersontorso_1.nif",
+      "meshes\\clothes\\blacksmith\\f\\shoes_0.nif",
+      "meshes\\clothes\\blacksmith\\f\\shoes_1.nif",
+      "meshes\\clothes\\blacksmith\\f\\torso_0.nif",
+      "meshes\\clothes\\blacksmith\\f\\torso_1.nif",
+      "meshes\\clothes\\chef\\f\\1stpersonchef_0.nif",
+      "meshes\\clothes\\chef\\f\\1stpersonchef_1.nif",
+      "meshes\\clothes\\chef\\f\\chef_0.nif",
+      "meshes\\clothes\\chef\\f\\chef_1.nif",
+      "meshes\\clothes\\farmclothes01\\1stpersontorsof_0.nif",
+      "meshes\\clothes\\farmclothes01\\1stpersontorsof_1.nif",
+      "meshes\\clothes\\farmclothes01\\shoesf_0.nif",
+      "meshes\\clothes\\farmclothes01\\shoesf_1.nif",
+      "meshes\\clothes\\farmclothes01\\torsof_0.nif",
+      "meshes\\clothes\\farmclothes01\\torsof_1.nif",
+      "meshes\\clothes\\farmclothes02\\f\\1stpersondress_0.nif",
+      "meshes\\clothes\\farmclothes02\\f\\1stpersondress_1.nif",
+      "meshes\\clothes\\farmclothes02\\f\\dress_0.nif",
+      "meshes\\clothes\\farmclothes02\\f\\dress_1.nif",
+      "meshes\\clothes\\farmclothes02\\f\\shoes_0.nif",
+      "meshes\\clothes\\farmclothes02\\f\\shoes_1.nif",
+      "meshes\\clothes\\farmclothes03\\1stpersonfarmerrobef_0.nif",
+      "meshes\\clothes\\farmclothes03\\1stpersonfarmerrobef_1.nif",
+      "meshes\\clothes\\farmclothes03\\farmerhatf_0.nif",
+      "meshes\\clothes\\farmclothes03\\farmerhatf_1.nif",
+      "meshes\\clothes\\farmclothes03\\farmerrobef_0.nif",
+      "meshes\\clothes\\farmclothes03\\farmerrobef_1.nif",
+      "meshes\\clothes\\farmclothes03\\farmerrobefplus_0.nif",
+      "meshes\\clothes\\farmclothes03\\farmerrobefplus_1.nif",
+      "meshes\\clothes\\farmclothes03\\farmershoesf_0.nif",
+      "meshes\\clothes\\farmclothes03\\farmershoesf_1.nif",
+      "meshes\\clothes\\farmclothes04\\1stpersonrobef_0.nif",
+      "meshes\\clothes\\farmclothes04\\1stpersonrobef_1.nif",
+      "meshes\\clothes\\farmclothes04\\bootsf_0.nif",
+      "meshes\\clothes\\farmclothes04\\bootsf_1.nif",
+      "meshes\\clothes\\farmclothes04\\robef_0.nif",
+      "meshes\\clothes\\farmclothes04\\robef_1.nif",
+      "meshes\\clothes\\fineclothes01\\bootsf_0.nif",
+      "meshes\\clothes\\fineclothes01\\bootsf_1.nif",
+      "meshes\\clothes\\fineclothes01\\outfitf_0.nif",
+      "meshes\\clothes\\fineclothes01\\outfitf_1.nif",
+      "meshes\\clothes\\fineclothes02\\bootsf_0.nif",
+      "meshes\\clothes\\fineclothes02\\bootsf_1.nif",
+      "meshes\\clothes\\fineclothes02\\outfitf_0.nif",
+      "meshes\\clothes\\fineclothes02\\outfitf_1.nif",
+      "meshes\\clothes\\graybeardrobe\\1stpersongreybeardrobef_0.nif",
+      "meshes\\clothes\\graybeardrobe\\1stpersongreybeardrobef_1.nif",
+      "meshes\\clothes\\graybeardrobe\\greybeardbootsf_0.nif",
+      "meshes\\clothes\\graybeardrobe\\greybeardbootsf_1.nif",
+      "meshes\\clothes\\graybeardrobe\\greybeardrobef_0.nif",
+      "meshes\\clothes\\graybeardrobe\\greybeardrobef_1.nif",
+      "meshes\\clothes\\jester\\1stpersonjesterf_0.nif",
+      "meshes\\clothes\\jester\\1stpersonjesterf_1.nif",
+      "meshes\\clothes\\jester\\jesterbootsf_0.nif",
+      "meshes\\clothes\\jester\\jesterbootsf_1.nif",
+      "meshes\\clothes\\jester\\jesterf_0.nif",
+      "meshes\\clothes\\jester\\jesterf_1.nif",
+      "meshes\\clothes\\mageapprentice\\1stpersonmageapprenticerobesf_0.nif",
+      "meshes\\clothes\\mageapprentice\\1stpersonmageapprenticerobesf_1.nif",
+      "meshes\\clothes\\mageapprentice\\mageapprenticebootsf_0.nif",
+      "meshes\\clothes\\mageapprentice\\mageapprenticebootsf_1.nif",
+      "meshes\\clothes\\mageapprentice\\mageapprenticerobesf_0.nif",
+      "meshes\\clothes\\mageapprentice\\mageapprenticerobesf_1.nif",
+      "meshes\\clothes\\magejourneyman\\1stpersonmagejourneymanrobesf_0.nif",
+      "meshes\\clothes\\magejourneyman\\1stpersonmagejourneymanrobesf_1.nif",
+      "meshes\\clothes\\magejourneyman\\magejourneymanrobesf_0.nif",
+      "meshes\\clothes\\magejourneyman\\magejourneymanrobesf_1.nif",
+      "meshes\\clothes\\merchantclothes\\1stpersontorsof_0.nif",
+      "meshes\\clothes\\merchantclothes\\1stpersontorsof_1.nif",
+      "meshes\\clothes\\merchantclothes\\bootsf_0.nif",
+      "meshes\\clothes\\merchantclothes\\bootsf_1.nif",
+      "meshes\\clothes\\merchantclothes\\torsof_0.nif",
+      "meshes\\clothes\\merchantclothes\\torsof_1.nif",
+      "meshes\\clothes\\minerclothes\\1stpersonminerclothesf_0.nif",
+      "meshes\\clothes\\minerclothes\\1stpersonminerclothesf_1.nif",
+      "meshes\\clothes\\minerclothes\\minerboots_f_0.nif",
+      "meshes\\clothes\\minerclothes\\minerboots_f_1.nif",
+      "meshes\\clothes\\minerclothes\\minerclothesf_0.nif",
+      "meshes\\clothes\\minerclothes\\minerclothesf_1.nif",
+      "meshes\\clothes\\monk\\1stpersonmonkrobes_f_0.nif",
+      "meshes\\clothes\\monk\\1stpersonmonkrobes_f_1.nif",
+      "meshes\\clothes\\monk\\1stpersonmonkvariantoutfitf_0.nif",
+      "meshes\\clothes\\monk\\1stpersonmonkvariantoutfitf_1.nif",
+      "meshes\\clothes\\monk\\1stpersonvaerminarobesf_0.nif",
+      "meshes\\clothes\\monk\\1stpersonvaerminarobesf_1.nif",
+      "meshes\\clothes\\monk\\monkboots_f_0.nif",
+      "meshes\\clothes\\monk\\monkboots_f_1.nif",
+      "meshes\\clothes\\monk\\monkrobes_f_0.nif",
+      "meshes\\clothes\\monk\\monkrobes_f_1.nif",
+      "meshes\\clothes\\monk\\monkvariantoutfitf_0.nif",
+      "meshes\\clothes\\monk\\monkvariantoutfitf_1.nif",
+      "meshes\\clothes\\monk\\vaerminarobesf_0.nif",
+      "meshes\\clothes\\monk\\vaerminarobesf_1.nif",
+      "meshes\\clothes\\necromancer\\1stpersonnecromancerrobes_f_0.nif",
+      "meshes\\clothes\\necromancer\\1stpersonnecromancerrobes_f_1.nif",
+      "meshes\\clothes\\necromancer\\necromancerboots_f_0.nif",
+      "meshes\\clothes\\necromancer\\necromancerboots_f_1.nif",
+      "meshes\\clothes\\necromancer\\necromancerrobes_f_0.nif",
+      "meshes\\clothes\\necromancer\\necromancerrobes_f_1.nif",
+      "meshes\\clothes\\nocturnal\\outfitf_0.nif",
+      "meshes\\clothes\\nocturnal\\outfitf_1.nif",
+      "meshes\\clothes\\prisoner\\1stpersonprisonerclothes_f_0.nif",
+      "meshes\\clothes\\prisoner\\1stpersonprisonerclothes_f_1.nif",
+      "meshes\\clothes\\prisoner\\1stpersonprisonerrags_f_0.nif",
+      "meshes\\clothes\\prisoner\\1stpersonprisonerrags_f_1.nif",
+      "meshes\\clothes\\prisoner\\prisonerclothes_f_0.nif",
+      "meshes\\clothes\\prisoner\\prisonerclothes_f_1.nif",
+      "meshes\\clothes\\prisoner\\prisonerrags_f_0.nif",
+      "meshes\\clothes\\prisoner\\prisonerrags_f_1.nif",
+      "meshes\\clothes\\prisoner\\prisonershoes_f_0.nif",
+      "meshes\\clothes\\prisoner\\prisonershoes_f_1.nif",
+      "meshes\\clothes\\psiijic\\1stpersonpsiijicrobesf_0.nif",
+      "meshes\\clothes\\psiijic\\1stpersonpsiijicrobesf_1.nif",
+      "meshes\\clothes\\psiijic\\psiijicglovesf_0.nif",
+      "meshes\\clothes\\psiijic\\psiijicglovesf_1.nif",
+      "meshes\\clothes\\psiijic\\psiijicrobesf_0.nif",
+      "meshes\\clothes\\psiijic\\psiijicrobesf_1.nif",
+      "meshes\\clothes\\redguard\\1stpersonredguardoutfitf_0.nif",
+      "meshes\\clothes\\redguard\\1stpersonredguardoutfitf_1.nif",
+      "meshes\\clothes\\redguard\\redguardbootsf_0.nif",
+      "meshes\\clothes\\redguard\\redguardbootsf_1.nif",
+      "meshes\\clothes\\redguard\\redguardoutfitf_0.nif",
+      "meshes\\clothes\\redguard\\redguardoutfitf_1.nif",
+      "meshes\\clothes\\robedarkbrotherhood\\female\\1stpersondbtorso_0.nif",
+      "meshes\\clothes\\robedarkbrotherhood\\female\\1stpersondbtorso_1.nif",
+      "meshes\\clothes\\robedarkbrotherhood\\female\\dbboots_0.nif",
+      "meshes\\clothes\\robedarkbrotherhood\\female\\dbboots_1.nif",
+      "meshes\\clothes\\robedarkbrotherhood\\female\\dbtorso_0.nif",
+      "meshes\\clothes\\robedarkbrotherhood\\female\\dbtorso_1.nif",
+      "meshes\\clothes\\robemythicdawn\\1stpersonmdrobe_f_0.nif",
+      "meshes\\clothes\\robemythicdawn\\1stpersonmdrobe_f_1.nif",
+      "meshes\\clothes\\robemythicdawn\\mdhood_f_0.nif",
+      "meshes\\clothes\\robemythicdawn\\mdhood_f_1.nif",
+      "meshes\\clothes\\robemythicdawn\\mdhood_f_arg_0.nif",
+      "meshes\\clothes\\robemythicdawn\\mdhood_f_arg_1.nif",
+      "meshes\\clothes\\robemythicdawn\\mdrobe_f_0.nif",
+      "meshes\\clothes\\robemythicdawn\\mdrobe_f_1.nif",
+      "meshes\\clothes\\robemythicdawn\\mdshoes_f_0.nif",
+      "meshes\\clothes\\robemythicdawn\\mdshoes_f_1.nif",
+      "meshes\\clothes\\thalmor\\1stpersonthalmorglovesf_0.nif",
+      "meshes\\clothes\\thalmor\\1stpersonthalmorglovesf_1.nif",
+      "meshes\\clothes\\thalmor\\1stpersonthalmorrobesf_0.nif",
+      "meshes\\clothes\\thalmor\\1stpersonthalmorrobesf_1.nif",
+      "meshes\\clothes\\thalmor\\thalmorbootsf_0.nif",
+      "meshes\\clothes\\thalmor\\thalmorbootsf_1.nif",
+      "meshes\\clothes\\thalmor\\thalmorglovesf_0.nif",
+      "meshes\\clothes\\thalmor\\thalmorglovesf_1.nif",
+      "meshes\\clothes\\thalmor\\thalmorhoodf_0.nif",
+      "meshes\\clothes\\thalmor\\thalmorhoodf_1.nif",
+      "meshes\\clothes\\thalmor\\thalmorhoodf_arg_0.nif",
+      "meshes\\clothes\\thalmor\\thalmorhoodf_arg_1.nif",
+      "meshes\\clothes\\thalmor\\thalmorhoodf_khaj_0.nif",
+      "meshes\\clothes\\thalmor\\thalmorhoodf_khaj_1.nif",
+      "meshes\\clothes\\thalmor\\thalmorrobesf_0.nif",
+      "meshes\\clothes\\thalmor\\thalmorrobesf_1.nif",
+      "meshes\\clothes\\warlock\\1stpersonwarlockrobes_f_0.nif",
+      "meshes\\clothes\\warlock\\1stpersonwarlockrobes_f_1.nif",
+      "meshes\\clothes\\warlock\\warlockboots_f_0.nif",
+      "meshes\\clothes\\warlock\\warlockboots_f_1.nif",
+      "meshes\\clothes\\warlock\\warlockrobes_f_0.nif",
+      "meshes\\clothes\\warlock\\warlockrobes_f_1.nif",
+      "meshes\\clothes\\weddingdress\\1stpersonoutfitf_0.nif",
+      "meshes\\clothes\\weddingdress\\1stpersonoutfitf_1.nif",
+      "meshes\\clothes\\weddingdress\\outfitf_0.nif",
+      "meshes\\clothes\\weddingdress\\outfitf_1.nif",
+      "meshes\\clothes\\weddingdress\\sandalsf_0.nif",
+      "meshes\\clothes\\weddingdress\\sandalsf_1.nif",
+      "meshes\\clothes\\wench\\1stpersonwenchoutfitf_0.nif",
+      "meshes\\clothes\\wench\\1stpersonwenchoutfitf_1.nif",
+      "meshes\\clothes\\wench\\wenchoutfitbootsf_0.nif",
+      "meshes\\clothes\\wench\\wenchoutfitbootsf_1.nif",
+      "meshes\\clothes\\wench\\wenchoutfitf_0.nif",
+      "meshes\\clothes\\wench\\wenchoutfitf_1.nif",
+      "meshes\\clothes\\yarlclothes02\\1stpersonoutfitf_0.nif",
+      "meshes\\clothes\\yarlclothes02\\1stpersonoutfitf_1.nif",
+      "meshes\\clothes\\yarlclothes02\\bootsf_0.nif",
+      "meshes\\clothes\\yarlclothes02\\bootsf_1.nif",
+      "meshes\\clothes\\yarlclothes02\\glovesf_0.nif",
+      "meshes\\clothes\\yarlclothes02\\glovesf_1.nif",
+      "meshes\\clothes\\yarlclothes02\\outfitf_0.nif",
+      "meshes\\clothes\\yarlclothes02\\outfitf_1.nif",
+      "meshes\\clothes\\yarlclothes03\\boots_f_0.nif",
+      "meshes\\clothes\\yarlclothes03\\boots_f_1.nif",
+      "meshes\\clothes\\yarlclothes03\\outfitf_0.nif",
+      "meshes\\clothes\\yarlclothes03\\outfitf_1.nif",
+      "meshes\\clothes\\yarlclothes03\\outfitf_var1_0.nif",
+      "meshes\\clothes\\yarlclothes03\\outfitf_var1_1.nif",
+      "meshes\\clothes\\yarlclothes\\f\\boots_0.nif",
+      "meshes\\clothes\\yarlclothes\\f\\boots_1.nif",
+      "meshes\\clothes\\yarlclothes\\f\\torso_0.nif",
+      "meshes\\clothes\\yarlclothes\\f\\torso_1.nif",
+      "meshes\\clothes\\yarlclothes\\f\\torso_var1_0.nif",
+      "meshes\\clothes\\yarlclothes\\f\\torso_var1_1.nif",
+      "meshes\\clothes\\yarlclothes\\f\\torso_var2_0.nif",
+      "meshes\\clothes\\yarlclothes\\f\\torso_var2_1.nif",
+      "meshes\\dlc01\\clothes\\blindmothpriest\\1stpersonblindmothpriestrobesf_0.nif",
+      "meshes\\dlc01\\clothes\\blindmothpriest\\1stpersonblindmothpriestrobesf_1.nif",
+      "meshes\\dlc01\\clothes\\blindmothpriest\\blindmothpriestrobesf_0.nif",
+      "meshes\\dlc01\\clothes\\blindmothpriest\\blindmothpriestrobesf_1.nif",
+      "meshes\\dlc01\\clothes\\blindmothpriest\\blindmothpriestsandalsf_0.nif",
+      "meshes\\dlc01\\clothes\\blindmothpriest\\blindmothpriestsandalsf_1.nif",
+      "meshes\\dlc01\\clothes\\prisoner\\prisonerclothesbloody_f_0.nif",
+      "meshes\\dlc01\\clothes\\prisoner\\prisonerclothesbloody_f_1.nif",
+      "meshes\\dlc01\\clothes\\prisoner\\prisonershoesbloody_f_0.nif",
+      "meshes\\dlc01\\clothes\\prisoner\\prisonershoesbloody_f_1.nif",
+      "meshes\\dlc01\\clothes\\vampclothes\\1stpersonvampclothesf_0.nif",
+      "meshes\\dlc01\\clothes\\vampclothes\\1stpersonvampclothesf_1.nif",
+      "meshes\\dlc01\\clothes\\vampclothes\\vampbootsf_0.nif",
+      "meshes\\dlc01\\clothes\\vampclothes\\vampbootsf_1.nif",
+      "meshes\\dlc01\\clothes\\vampclothes\\vampclothesf_0.nif",
+      "meshes\\dlc01\\clothes\\vampclothes\\vampclothesf_1.nif",
+      "meshes\\dlc01\\clothes\\vampire\\1stpersonvampirerobesf_0.nif",
+      "meshes\\dlc01\\clothes\\vampire\\1stpersonvampirerobesf_1.nif",
+      "meshes\\dlc01\\clothes\\vampire\\1stpersonvampirerobesf_alt_0.nif",
+      "meshes\\dlc01\\clothes\\vampire\\1stpersonvampirerobesf_alt_1.nif",
+      "meshes\\dlc01\\clothes\\vampire\\vampirebootsf_0.nif",
+      "meshes\\dlc01\\clothes\\vampire\\vampirebootsf_1.nif",
+      "meshes\\dlc01\\clothes\\vampire\\vampirerobesf_0.nif",
+      "meshes\\dlc01\\clothes\\vampire\\vampirerobesf_1.nif",
+      "meshes\\dlc01\\clothes\\vampire\\vampirerobesf_alt_0.nif",
+      "meshes\\dlc01\\clothes\\vampire\\vampirerobesf_alt_1.nif",
+      "meshes\\dlc02\\clothes\\cultist\\f\\1stpersoncultisttorso_0.nif",
+      "meshes\\dlc02\\clothes\\cultist\\f\\1stpersoncultisttorso_1.nif",
+      "meshes\\dlc02\\clothes\\cultist\\f\\cultistboots_0.nif",
+      "meshes\\dlc02\\clothes\\cultist\\f\\cultistboots_1.nif",
+      "meshes\\dlc02\\clothes\\cultist\\f\\cultisttorso_0.nif",
+      "meshes\\dlc02\\clothes\\cultist\\f\\cultisttorso_1.nif",
+      "meshes\\dlc02\\clothes\\darkelf\\f\\1stpersonoutfit_0.nif",
+      "meshes\\dlc02\\clothes\\darkelf\\f\\1stpersonoutfit_1.nif",
+      "meshes\\dlc02\\clothes\\darkelf\\f\\outfit_0.nif",
+      "meshes\\dlc02\\clothes\\darkelf\\f\\outfit_1.nif",
+      "meshes\\dlc02\\clothes\\darkelf\\f\\shoes_0.nif",
+      "meshes\\dlc02\\clothes\\darkelf\\f\\shoes_1.nif",
+      "meshes\\dlc02\\clothes\\miraakrobes\\1stpersonmiraakgloves_f_0.nif",
+      "meshes\\dlc02\\clothes\\miraakrobes\\1stpersonmiraakgloves_f_1.nif",
+      "meshes\\dlc02\\clothes\\miraakrobes\\1stpersonmiraakrobes_f_0.nif",
+      "meshes\\dlc02\\clothes\\miraakrobes\\1stpersonmiraakrobes_f_1.nif",
+      "meshes\\dlc02\\clothes\\miraakrobes\\miraakboots_f_0.nif",
+      "meshes\\dlc02\\clothes\\miraakrobes\\miraakboots_f_1.nif",
+      "meshes\\dlc02\\clothes\\miraakrobes\\miraakgloves_f_0.nif",
+      "meshes\\dlc02\\clothes\\miraakrobes\\miraakgloves_f_1.nif",
+      "meshes\\dlc02\\clothes\\miraakrobes\\miraakrobes_f_0.nif",
+      "meshes\\dlc02\\clothes\\miraakrobes\\miraakrobes_f_1.nif",
+      "meshes\\dlc02\\clothes\\skaal\\f\\1stpersonskaaltorso_0.nif",
+      "meshes\\dlc02\\clothes\\skaal\\f\\1stpersonskaaltorso_1.nif",
+      "meshes\\dlc02\\clothes\\skaal\\f\\skaalboots_0.nif",
+      "meshes\\dlc02\\clothes\\skaal\\f\\skaalboots_1.nif",
+      "meshes\\dlc02\\clothes\\skaal\\f\\skaaltorso_0.nif",
+      "meshes\\dlc02\\clothes\\skaal\\f\\skaaltorso_1.nif",
+      "meshes\\dlc02\\clothes\\telvanni\\1stpersontelvannibodyf_1stp_0.nif",
+      "meshes\\dlc02\\clothes\\telvanni\\1stpersontelvannibodyf_1stp_1.nif",
+      "meshes\\dlc02\\clothes\\telvanni\\telvannibodyf_0.nif",
+      "meshes\\dlc02\\clothes\\telvanni\\telvannibodyf_1.nif",
+      "meshes\\dlc02\\clothes\\telvanni\\telvannibootsf_0.nif",
+      "meshes\\dlc02\\clothes\\telvanni\\telvannibootsf_1.nif",
+      "meshes\\dlc02\\clothes\\temple\\1stpersontemplepriestf_0.nif",
+      "meshes\\dlc02\\clothes\\temple\\1stpersontemplepriestf_1.nif",
+      "meshes\\dlc02\\clothes\\temple\\templepriestf_0.nif",
+      "meshes\\dlc02\\clothes\\temple\\templepriestf_1.nif",
+      "meshes\\dlc02\\clothes\\temple\\templepriestfboots_0.nif",
+      "meshes\\dlc02\\clothes\\temple\\templepriestfboots_1.nif",
+      "textures\\clothes\\tiwa44_unpmdc\\unpmdc_panties_d.dds",
+      "textures\\clothes\\tiwa44_unpmdc\\unpmdc_panties_n.dds",
+      "tiwa44_minidresses_cbbe.esp",
+      "tiwa44_minidresses_dragonborn_cbbe.esp"
+     ]
+    },
+    {
      "h": "oHGBuOzkp7cPBOx51OVt1jX9kJWRyBQCHQRRE9d6Sbc",
+     "type": "SIMPLE",
+     "params": {
+      "root": ""
+     }
+    },
+    {
+     "h": "Pk/XA0A/O7YLhzPQTXF3EjFUi6XomqQhLacP1Pw1pA0",
      "type": "SIMPLE",
      "params": {
       "root": ""
@@ -33405,7 +33405,7 @@
    ],
    "xarchives": [
     {
-     "arid": 1,
+     "ar": 1,
      "files": [
       {
        "t": "optional\\tiwa44_minidresses_cbbe.esp",
@@ -33793,7 +33793,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "skse\\plugins\\cbp.dll",
@@ -33876,7 +33876,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "comap - hearthfire settlements.esp",
@@ -34092,7 +34092,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "optional\\deadlymutilation.esp",
@@ -34251,7 +34251,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "calientetools\\bodyslide\\shapedata\\deviousdevices - 3ba\\1stperson\\catsuit_body_blue.nif",
@@ -36868,7 +36868,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "optional\\devfollowersvoicemore.esp",
@@ -36910,23 +36910,23 @@
    "name": "diamond skin - cbbe and unp female textures",
    "installers": [
     {
-     "h": "U4U1f2ydBUpaCHl6Sf0K7jjwScySOaOGO01K5bPdwW8",
-     "type": "SIMPLE",
-     "params": {
-      "root": "diamond 3ba puffy pussy normal maps\\head_n\\default\\"
-     }
-    },
-    {
      "h": "xvgSIs0w7boDtRCEmJonKCFtksId2+YtH4v+WzKZj9w",
      "type": "SIMPLE",
      "params": {
       "root": "diamond female textures cbbe v2.4b\\makeup1\\tintmasks\\"
      }
+    },
+    {
+     "h": "U4U1f2ydBUpaCHl6Sf0K7jjwScySOaOGO01K5bPdwW8",
+     "type": "SIMPLE",
+     "params": {
+      "root": "diamond 3ba puffy pussy normal maps\\head_n\\default\\"
+     }
     }
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "meshes\\actors\\character\\character assets\\mouth\\mouthhumanf.nif",
@@ -36995,7 +36995,7 @@
      ]
     },
     {
-     "arid": 1,
+     "ar": 1,
      "files": [
       {
        "t": "textures\\actors\\character\\female\\femalebody_1_msn.dds",
@@ -37058,7 +37058,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "edhildils vaermina effigy readme.txt",
@@ -37081,7 +37081,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "edhildils winterhol mage statue readme.txt",
@@ -37147,7 +37147,7 @@
    "name": "enbseries_sdk",
    "xarchives": [
     {
-     "arid": "zTYRL/FNhw0wmE7sAmr9PVicvlpJ5Zy2ts+pWu81S4M",
+     "arh": "zTYRL/FNhw0wmE7sAmr9PVicvlpJ5Zy2ts+pWu81S4M",
      "files": [
       {
        "t": "root\\d3d11.dll",
@@ -37174,7 +37174,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "skse\\plugins\\po3_enhancedinvisibility.ini",
@@ -37197,7 +37197,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "elfx - exteriors.esp",
@@ -37987,7 +37987,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "optional\\zzestrus.esp",
@@ -38022,7 +38022,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "meshes\\evgat\\markers\\atindicatorbright.nif",
@@ -38125,7 +38125,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "12femalebrows.esp",
@@ -38384,7 +38384,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "licence.txt",
@@ -38470,7 +38470,7 @@
    "name": "fnis output",
    "xarchives": [
     {
-     "arid": "PJvR4CNxLny7KPssZA1Dcv43aDJN2kbKFfzeIvyrj7Q",
+     "arh": "PJvR4CNxLny7KPssZA1Dcv43aDJN2kbKFfzeIvyrj7Q",
      "files": [
       {
        "t": "scripts\\fnisversiongenerated.pex",
@@ -38701,6 +38701,13 @@
    "name": "fores new idles in skyrim se - fnis se",
    "installers": [
     {
+     "h": "wPuQ3X5D8LwLtrb9Bpq9uIYbXgOTdp/rIPxr4YA3TVw",
+     "type": "SIMPLE",
+     "params": {
+      "root": "fnis creature pack se 7.6\\data\\"
+     }
+    },
+    {
      "h": "PJvR4CNxLny7KPssZA1Dcv43aDJN2kbKFfzeIvyrj7Q",
      "type": "SIMPLE",
      "params": {
@@ -38728,18 +38735,11 @@
       "meshes\\animationsetdatasinglefile.txt",
       "scripts\\fnis_aa.pex"
      ]
-    },
-    {
-     "h": "wPuQ3X5D8LwLtrb9Bpq9uIYbXgOTdp/rIPxr4YA3TVw",
-     "type": "SIMPLE",
-     "params": {
-      "root": "fnis creature pack se 7.6\\data\\"
-     }
     }
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "readme_fnis_creaturepack_se_7.6.txt",
@@ -38805,7 +38805,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "meshes\\clutter\\coin01.nif",
@@ -39164,7 +39164,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "heatandhunger.esp",
@@ -39205,7 +39205,7 @@
    "name": "high poly head se",
    "xarchives": [
     {
-     "arid": "/wS91+uY85n/Jvjwu8PLWJusin0JiUr2agzDYZoYTjM",
+     "arh": "/wS91+uY85n/Jvjwu8PLWJusin0JiUr2agzDYZoYTjM",
      "files": [
       {
        "t": "meshes\\kl\\high poly head\\faceparts\\femalebrows.nif",
@@ -39238,7 +39238,7 @@
      ]
     },
     {
-     "arid": "kr05EP9sy3p5naw3c3DSpdpCt+MFjSK3FERg8C+Jxko",
+     "arh": "kr05EP9sy3p5naw3c3DSpdpCt+MFjSK3FERg8C+Jxko",
      "files": [
       {
        "t": "meshes\\kl\\high poly head\\beards\\humanbeardshort03.tri",
@@ -40419,7 +40419,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "brows.esp",
@@ -40663,17 +40663,17 @@
    "name": "kiasotori - milf - cbbe 3ba racemenu preset and bodyslide",
    "installers": [
     {
-     "h": "jpIrm0T8IEog8q7srByJE5FCOUPtppOL60rqSOI6KaY",
-     "type": "SIMPLE",
-     "params": {
-      "root": ""
-     }
-    },
-    {
      "h": "zSVIvMVH+wNybarVe7Uq78kvECX4NBMNnOPxviWRa+0",
      "type": "SIMPLE",
      "params": {
       "root": "data\\"
+     }
+    },
+    {
+     "h": "jpIrm0T8IEog8q7srByJE5FCOUPtppOL60rqSOI6KaY",
+     "type": "SIMPLE",
+     "params": {
+      "root": ""
      }
     }
    ]
@@ -43034,7 +43034,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "mcmhelper.bsa",
@@ -43153,7 +43153,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "moonsandstars.esp",
@@ -43228,7 +43228,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "mnc change log.txt",
@@ -43255,7 +43255,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "meshes\\actors\\bear\\animations\\funnybizfc\\femalebeardoggya2_s1.hkx",
@@ -55806,7 +55806,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "natural waterfalls - dawnguard.esp",
@@ -55959,7 +55959,7 @@
    ],
    "xarchives": [
     {
-     "arid": "8aT9oCPftkREst+tL23CxODfUa++OQQoGajub/zA6r0",
+     "arh": "8aT9oCPftkREst+tL23CxODfUa++OQQoGajub/zA6r0",
      "files": [
       {
        "t": "fnis.esp",
@@ -56302,7 +56302,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "readme no npc greetings for skyrim se.txt",
@@ -56388,14 +56388,14 @@
    "name": "paired animation improvements - orig",
    "installers": [
     {
-     "h": "QyHwq4KvTc7GKvn+tRPf4NNuIh5WMI+YMN6Y5iWuWfI",
+     "h": "x0YQRElCTaL3PFX6obitLxWN9StqOxT+npWA7sqw9HU",
      "type": "SIMPLE",
      "params": {
       "root": ""
      }
     },
     {
-     "h": "x0YQRElCTaL3PFX6obitLxWN9StqOxT+npWA7sqw9HU",
+     "h": "QyHwq4KvTc7GKvn+tRPf4NNuIh5WMI+YMN6Y5iWuWfI",
      "type": "SIMPLE",
      "params": {
       "root": ""
@@ -56422,7 +56422,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "meshes\\actors\\character\\animations\\aoexecutioneechop.hkx",
@@ -56753,7 +56753,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "meshes\\actors\\character\\animations\\prisonalternative\\fnis_prisonalternative_list.txt",
@@ -57168,7 +57168,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "particle patch for enb.bsa",
@@ -57303,7 +57303,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "skse\\plugins\\po3_papyrusextender.dll",
@@ -57330,7 +57330,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "scripts\\po3_tweaks.pex",
@@ -57415,7 +57415,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "nemesis_engine\\papyrus compiler\\scripts\\tesv_papyrus_flags.flg",
@@ -57487,7 +57487,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "project rainforest-dolomite weathers patch.esp",
@@ -57514,7 +57514,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "root\\enbseries\\_locationweather.ini",
@@ -57901,7 +57901,7 @@
    "name": "prtxii - golden age",
    "xarchives": [
     {
-     "arid": "vESvlAHWUj4puoqxflWO3vA7q+Acls9JcRANK+Wqzao",
+     "arh": "vESvlAHWUj4puoqxflWO3vA7q+Acls9JcRANK+Wqzao",
      "files": [
       {
        "t": "root\\enbseries\\enbdepthoffield.fx.ini",
@@ -58070,7 +58070,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "meshes\\actors\\character\\character assets\\malebody_1.nif",
@@ -58234,7 +58234,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "textures\\interface\\objects\\lockpicking\\sos\\lock_ayleid_d.dds",
@@ -58320,7 +58320,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "lockvariations_lid.ini",
@@ -58383,7 +58383,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "dibellastatue readme.txt",
@@ -58430,7 +58430,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "scripts\\source\\sslactorlibrary.psc",
@@ -58457,7 +58457,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "meshes\\actors\\character\\animations\\openanimationreplacer\\slang idles\\config.json",
@@ -58504,7 +58504,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "scripts\\slif_sexlab_script.pex",
@@ -58594,7 +58594,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "meshes\\sexlab\\lingas\\argonians\\linga1.nif",
@@ -58905,7 +58905,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "sexy mara statue readme.txt",
@@ -59076,7 +59076,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "root\\skse64_1_6_1170.dll",
@@ -59260,7 +59260,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "meshes\\actors\\character\\animations\\animationsbyleito_aggressive\\fnis_animationsbyleito_aggressive_list.txt",
@@ -62075,7 +62075,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "meshes\\actors\\bear\\animations\\nibblesanims_creature\\bearblowjob_a2_s1.hkx",
@@ -64317,7 +64317,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "non-devious devices - masterlist.esp",
@@ -64406,7 +64406,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "seq\\slaverun_reloaded_comments.seq",
@@ -64671,7 +64671,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "interface\\skyui\\bottombar.swf",
@@ -64750,7 +64750,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "optional\\pahe-tdf-patch.esp",
@@ -64897,7 +64897,7 @@
    ],
    "xarchives": [
     {
-     "arid": "8aT9oCPftkREst+tL23CxODfUa++OQQoGajub/zA6r0",
+     "arh": "8aT9oCPftkREst+tL23CxODfUa++OQQoGajub/zA6r0",
      "files": [
       {
        "t": "meshes\\actors\\character\\behaviors\\1hm_behavior.hkx",
@@ -70823,7 +70823,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "meshes\\clutter\\largerainbarrelwater01.nif",
@@ -71088,7 +71088,7 @@
    ],
    "xarchives": [
     {
-     "arid": 0,
+     "ar": 0,
      "files": [
       {
        "t": "interface\\translations\\xpmse_chinese.txt",
