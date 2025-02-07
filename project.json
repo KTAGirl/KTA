@@ -49,7 +49,7 @@
     {
      "name": "OPTIONAL",
      "param": {
-      "mv": [
+      "opt": [
        "deviousfollowers - cutting room floor - patch.esp",
        "df slacs patch.esp"
       ]
@@ -12462,7 +12462,7 @@
     {
      "name": "OPTIONAL",
      "param": {
-      "mv": [
+      "opt": [
        "tiwa44_minidresses_cbbe.esp",
        "tiwa44_minidresses_dragonborn_cbbe.esp"
       ]
@@ -12832,7 +12832,7 @@
     {
      "name": "OPTIONAL",
      "param": {
-      "mv": [
+      "opt": [
        "deadlymutilation.esp"
       ]
      }
@@ -15559,7 +15559,7 @@
     {
      "name": "OPTIONAL",
      "param": {
-      "mv": [
+      "opt": [
        "devious devices se patch.esp"
       ]
      }
@@ -15605,7 +15605,7 @@
     {
      "name": "OPTIONAL",
      "param": {
-      "mv": [
+      "opt": [
        "devfollowersvoicemore.esp",
        "deviousfollowers - ai overhaul - patch.esp",
        "deviousfollowers - cutting room floor - patch.esp",
@@ -16708,7 +16708,7 @@
     {
      "name": "OPTIONAL",
      "param": {
-      "mv": [
+      "opt": [
        "zzestrus.esp"
       ]
      }
@@ -17126,7 +17126,7 @@
     {
      "name": "OPTIONAL",
      "param": {
-      "mv": [
+      "opt": [
        "fsmpm - the fsmp mcm.esp"
       ]
      }
@@ -24093,26 +24093,18 @@
      "type": "SIMPLE",
      "params": {
       "root": ""
-     },
-     "skip": [
-      "optional\\project rainforest-dolomite weathers patch.esp",
-      "optional\\project rainforest-dolomite-true storms patch.esp"
-     ]
+     }
     }
    ],
-   "xarchives": [
+   "tools": [
     {
-     "ar": 0,
-     "files": [
-      {
-       "t": "project rainforest-dolomite weathers patch.esp",
-       "h": "wTzJcxH1TRYY"
-      },
-      {
-       "t": "project rainforest-dolomite-true storms patch.esp",
-       "h": "pvqs+o+w5eCf"
-      }
-     ]
+     "name": "OPTIONAL",
+     "param": {
+      "unopt": [
+       "project rainforest-dolomite weathers patch.esp",
+       "project rainforest-dolomite-true storms patch.esp"
+      ]
+     }
     }
    ]
   },
@@ -26119,7 +26111,7 @@
     {
      "name": "OPTIONAL",
      "param": {
-      "mv": [
+      "opt": [
        "pahe-tdf-patch.esp",
        "sexlab tdf aggressive prostitution.esp"
       ]
