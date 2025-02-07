@@ -119,24 +119,19 @@
    "installers": [
     {
      "h": "0fWliKLVEIPmRmEg1jzQL5v3zxx6O96hke1X9LZfrRg",
-     "type": "SIMPLE",
+     "type": "FOMOD",
      "params": {
-      "root": "alchemy effect randomizer skse fomod installer\\ae\\"
-     }
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "alchemyeffectrandomizer\\defaultblacklist.ini",
-       "h": "GZAaZZuBciQe"
-      },
-      {
-       "t": "skse\\plugins\\po3_alchemyeffectrandomizer.ini",
-       "h": "wtWedRfrozX0"
-      }
+      "root": "alchemy effect randomizer skse fomod installer",
+      "sel": [
+       {
+        "step": "Main",
+        "grp": "DLL",
+        "plugin": "SSE v1.6+ (\"Anniversary Edition\")"
+       }
+      ]
+     },
+     "skip": [
+      "alchemyeffectrandomizer\\ingredientknowneffects.json"
      ]
     }
    ],
@@ -15571,9 +15566,9 @@
    "installers": [
     {
      "h": "Nq7ZiXmWLP8V5QsyOLQEzU8xZptI9avcCn6SCVsm8ys",
-     "type": "SIMPLE",
+     "type": "FOMOD",
      "params": {
-      "root": "devious devices ng v0.3.7\\00 base\\"
+      "root": "devious devices ng v0.3.7"
      },
      "skip": [
       "meshes\\devious\\heretic\\restraints\\collarchain01.nif",
@@ -15640,9 +15635,26 @@
     },
     {
      "h": "U4U1f2ydBUpaCHl6Sf0K7jjwScySOaOGO01K5bPdwW8",
-     "type": "SIMPLE",
+     "type": "FOMOD",
      "params": {
-      "root": "diamond 3ba puffy pussy normal maps\\head_n\\default\\"
+      "root": "diamond 3ba puffy pussy normal maps",
+      "sel": [
+       {
+        "step": "Step1",
+        "grp": "Diamond 3BA Puffy Pussy",
+        "plugin": "Main Files"
+       },
+       {
+        "step": "Step1",
+        "grp": "Head Normal Map Options",
+        "plugin": "Normal Map(default)"
+       },
+       {
+        "step": "Step1",
+        "grp": "Body Normal Map Options",
+        "plugin": "Puffy Smooth map"
+       }
+      ]
      }
     }
    ],
@@ -15713,19 +15725,6 @@
       {
        "t": "textures\\actors\\character\\mouth\\mouthhuman_n.dds",
        "h": "pZQyHb9O/w3s"
-      }
-     ]
-    },
-    {
-     "ar": 1,
-     "files": [
-      {
-       "t": "textures\\actors\\character\\female\\femalebody_1_msn.dds",
-       "h": "FbR1qdfRIHZ6"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalehands_1_msn.dds",
-       "h": "a4cyah/YEUdR"
       }
      ]
     }
@@ -15888,21 +15887,17 @@
    "installers": [
     {
      "h": "KjQOJ+oxtB8R/G2C5LCxzQAWaNeDZwNXqvm4/IEBOAI",
-     "type": "SIMPLE",
+     "type": "FOMOD",
      "params": {
-      "root": "enhanced invisibility fomod installer\\ae\\"
+      "root": "enhanced invisibility fomod installer",
+      "sel": [
+       {
+        "step": "Main",
+        "grp": "DLL",
+        "plugin": "SSE v1.6.629+ (\"Anniversary Edition\")"
+       }
+      ]
      }
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "skse\\plugins\\po3_enhancedinvisibility.ini",
-       "h": "mK+OrkB2bk7/"
-      }
-     ]
     }
    ]
   },
@@ -15911,9 +15906,21 @@
    "installers": [
     {
      "h": "2xHIJuvAo11TUGDUI9ABozmp/Eo2UWOYa2846wMyhXk",
-     "type": "SIMPLE",
+     "type": "FOMOD",
      "params": {
-      "root": "enhancedlightsandfx 3.06\\00 core files\\"
+      "root": "enhancedlightsandfx 3.06",
+      "sel": [
+       {
+        "step": "Main",
+        "grp": "Main",
+        "plugin": "Enhanced Lights and FX"
+       },
+       {
+        "step": "Main",
+        "grp": "Main - Ambience",
+        "plugin": "ELFX Enhancer"
+       }
+      ]
      }
     }
    ],
@@ -15924,10 +15931,6 @@
       {
        "t": "elfx - exteriors.esp",
        "h": "eHFieL4N3QIl"
-      },
-      {
-       "t": "elfxenhancer.esp",
-       "h": "8k9VGx2FxXkZ"
       },
       {
        "t": "meshes\\architecture\\elfx\\elfxsthalmorbarracks.nif",
@@ -16827,9 +16830,31 @@
    "installers": [
     {
      "h": "AwqSwsYYNZyzffmvd8KfTt/sePrnTnGTZ06gqfbejGA",
-     "type": "SIMPLE",
+     "type": "FOMOD",
      "params": {
-      "root": "fair skin complexion for cbbe v12.0 se\\eyes\\"
+      "root": "fair skin complexion for cbbe v12.0 se",
+      "sel": [
+       {
+        "step": "Install Options",
+        "grp": "Diffuse Maps",
+        "plugin": "Shaved (Default)"
+       },
+       {
+        "step": "Install Options",
+        "grp": "Normal Maps",
+        "plugin": "Curvy (Default)"
+       },
+       {
+        "step": "Install Options",
+        "grp": "Specular Maps",
+        "plugin": "Silky (Default)"
+       },
+       {
+        "step": "Install Options",
+        "grp": "Subsurface Scattering",
+        "plugin": "Subsurface Textures (Default)"
+       }
+      ]
      }
     }
    ],
@@ -16842,8 +16867,20 @@
        "h": "V8G2RiETTfLZ"
       },
       {
-       "t": "textures\\actors\\character\\bretonfemale\\femalehead_msn.dds",
-       "h": "vZD/oBFgcIjL"
+       "t": "meshes\\actors\\character\\character assets\\eyesfemale.nif",
+       "h": "sXzRBxe9ZVhl"
+      },
+      {
+       "t": "meshes\\actors\\character\\character assets\\eyesfemalevampire.nif",
+       "h": "5fwk+QIcmWC/"
+      },
+      {
+       "t": "meshes\\actors\\character\\character assets\\faceparts\\eyefemaleleft.nif",
+       "h": "3RIxeyup5c3v"
+      },
+      {
+       "t": "meshes\\actors\\character\\character assets\\faceparts\\eyefemaleright.nif",
+       "h": "LzBOohmksR4j"
       },
       {
        "t": "textures\\actors\\character\\character assets\\tintmasks\\femalehead_cheeks.dds",
@@ -16906,72 +16943,84 @@
        "h": "myi4Q3ztMbR3"
       },
       {
-       "t": "textures\\actors\\character\\darkelffemale\\femalehead_msn.dds",
-       "h": "FHNpZ3UU/qos"
+       "t": "textures\\actors\\character\\eyes\\eyeamber.dds",
+       "h": "WOKysZ/8n9si"
       },
       {
-       "t": "textures\\actors\\character\\female\\femalebody_1.dds",
-       "h": "jERo1/VPRrKX"
+       "t": "textures\\actors\\character\\eyes\\eyeblind.dds",
+       "h": "9W8Xpr0mGS1V"
       },
       {
-       "t": "textures\\actors\\character\\female\\femalebody_1_msn.dds",
-       "h": "NbsI1kfIajL8"
+       "t": "textures\\actors\\character\\eyes\\eyeblue.dds",
+       "h": "3XpaR2nvtrg/"
       },
       {
-       "t": "textures\\actors\\character\\female\\femalebody_1_s.dds",
-       "h": "G3zpQNO6cK9/"
+       "t": "textures\\actors\\character\\eyes\\eyebluebloodshot.dds",
+       "h": "ueycom78ABD7"
       },
       {
-       "t": "textures\\actors\\character\\female\\femalebody_1_sk.dds",
-       "h": "VkCDep4vxinE"
+       "t": "textures\\actors\\character\\eyes\\eyebrown.dds",
+       "h": "kz/M2Td92uLw"
       },
       {
-       "t": "textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
-       "h": "+mzbuBmZ8VKD"
+       "t": "textures\\actors\\character\\eyes\\eyebrown_n.dds",
+       "h": "/WCqQY+f2h/J"
       },
       {
-       "t": "textures\\actors\\character\\female\\femalebody_etc_v2_1_msn.dds",
-       "h": "P3Tt/3Wcxujf"
+       "t": "textures\\actors\\character\\eyes\\eyebrown_sk.dds",
+       "h": "e571lp68n8Yc"
       },
       {
-       "t": "textures\\actors\\character\\female\\femalebody_etc_v2_1_s.dds",
-       "h": "5bd0VxZKL2Fp"
+       "t": "textures\\actors\\character\\eyes\\eyebrownbloodshot.dds",
+       "h": "FpTm7/HdDcIA"
       },
       {
-       "t": "textures\\actors\\character\\female\\femalebody_etc_v2_1_sk.dds",
-       "h": "Fphh+R74TWPo"
+       "t": "textures\\actors\\character\\eyes\\eyedemon.dds",
+       "h": "tatjzKJNc2EX"
       },
       {
-       "t": "textures\\actors\\character\\female\\femalehands_1.dds",
-       "h": "io/OHGCkUNT3"
+       "t": "textures\\actors\\character\\eyes\\eyeenvironmentmask_m.dds",
+       "h": "z8VDqulD+NXb"
       },
       {
-       "t": "textures\\actors\\character\\female\\femalehands_1_msn.dds",
-       "h": "YDHHmO4ZT6U0"
+       "t": "textures\\actors\\character\\eyes\\eyegreen.dds",
+       "h": "y6S1TB7yKtx9"
       },
       {
-       "t": "textures\\actors\\character\\female\\femalehands_1_s.dds",
-       "h": "tnei84+QpVSm"
+       "t": "textures\\actors\\character\\eyes\\eyegrey.dds",
+       "h": "+KOnwpqD2+JS"
       },
       {
-       "t": "textures\\actors\\character\\female\\femalehands_1_sk.dds",
-       "h": "6FNiGqyUC4J1"
+       "t": "textures\\actors\\character\\eyes\\eyehazel.dds",
+       "h": "lZ3UdzR6XaLb"
       },
       {
-       "t": "textures\\actors\\character\\female\\femalehead.dds",
-       "h": "HSBGdLTYd0F1"
+       "t": "textures\\actors\\character\\eyes\\eyehazelbrown.dds",
+       "h": "fZDcyXmopiUQ"
       },
       {
-       "t": "textures\\actors\\character\\female\\femalehead_msn.dds",
-       "h": "vZD/oBFgcIjL"
+       "t": "textures\\actors\\character\\eyes\\eyelightgrey.dds",
+       "h": "EtK2vyL0CPQv"
       },
       {
-       "t": "textures\\actors\\character\\female\\femalehead_s.dds",
-       "h": "N7iajWDeIPPC"
+       "t": "textures\\actors\\character\\eyes\\eyesdarkblue.dds",
+       "h": "acsSukS83Lob"
       },
       {
-       "t": "textures\\actors\\character\\female\\femalehead_sk.dds",
-       "h": "jnXZFAH+QVx9"
+       "t": "textures\\actors\\character\\eyes\\eyesiceblue.dds",
+       "h": "uyWY3XGRVdBu"
+      },
+      {
+       "t": "textures\\actors\\character\\eyes\\eyevampire_01.dds",
+       "h": "oWpb08d9i1ra"
+      },
+      {
+       "t": "textures\\actors\\character\\eyes\\eyevampire_02.dds",
+       "h": "1Qv+JPHCGVYC"
+      },
+      {
+       "t": "textures\\actors\\character\\eyes\\eyeyellow.dds",
+       "h": "cDCBvn5Hdx/u"
       },
       {
        "t": "textures\\actors\\character\\female\\femaleheaddetail_frekles.dds",
@@ -16980,14 +17029,6 @@
       {
        "t": "textures\\actors\\character\\female\\femaleheaddetail_rough.dds",
        "h": "1SRepiXq3C6z"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femaleheadvampire.dds",
-       "h": "HSBGdLTYd0F1"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femaleheadvampire_msn.dds",
-       "h": "BXVLb2oENag/"
       },
       {
        "t": "textures\\actors\\character\\femalebrows\\cubrow_01.dds",
@@ -17046,18 +17087,6 @@
        "h": "WQELeRljt+0t"
       },
       {
-       "t": "textures\\actors\\character\\femaleorc\\femaleheadorc_msn.dds",
-       "h": "ihCh7IA2eoYa"
-      },
-      {
-       "t": "textures\\actors\\character\\highelffemale\\femalehead_msn.dds",
-       "h": "edhMxuW5f9qu"
-      },
-      {
-       "t": "textures\\actors\\character\\imperialfemale\\femalehead_msn.dds",
-       "h": "vZD/oBFgcIjL"
-      },
-      {
        "t": "textures\\actors\\character\\male\\blankdetailmap.dds",
        "h": "pK3usfh6TO0a"
       },
@@ -17070,8 +17099,8 @@
        "h": "pZQyHb9O/w3s"
       },
       {
-       "t": "textures\\actors\\character\\redguardfemale\\femalehead_msn.dds",
-       "h": "PMOd59BV2vFn"
+       "t": "textures\\cubemaps\\eyecubemap.dds",
+       "h": "LnMen6NFqXFN"
       }
      ]
     }
@@ -17082,12 +17111,29 @@
    "installers": [
     {
      "h": "9ovvy6CpoGsPRiPp3m2/xdjbpe53r6Qn3Tu0DzuwQ7g",
-     "type": "SIMPLE",
+     "type": "FOMOD",
      "params": {
-      "root": "faster hdt-smp\\fsmpm\\"
+      "root": "faster hdt-smp",
+      "sel": [
+       {
+        "step": "",
+        "grp": "Configuration",
+        "plugin": "Install FSMPM - The FSMP MCM (recommended)"
+       },
+       {
+        "step": "User guide and validator",
+        "grp": "FSMPU - The FSMP User guide",
+        "plugin": "FSMPU - The FSMP User Guide.pdf"
+       },
+       {
+        "step": "User guide and validator",
+        "grp": "FSMPV - The FSMP Validator",
+        "plugin": "hdtSMP64.xsd"
+       }
+      ]
      },
      "skip": [
-      "licence.txt"
+      ".\\fsmpm - the fsmp mcm.esp"
      ]
     }
    ],
@@ -17096,20 +17142,8 @@
      "ar": 0,
      "files": [
       {
-       "t": "licence.txt",
-       "h": "qSqE+VoQ14/T"
-      },
-      {
-       "t": "readme.txt",
-       "h": "rOIWfsCbr1oC"
-      },
-      {
-       "t": "skse\\plugins\\hdtskinnedmeshconfigs\\fsmpu - the fsmp user guide v1.6.0.pdf",
-       "h": "K/d8yfxPfL1J"
-      },
-      {
-       "t": "skse\\plugins\\hdtskinnedmeshconfigs\\hdtsmp64.xsd",
-       "h": "xSU2+SJRadI8"
+       "t": "optional\\fsmpm - the fsmp mcm.esp",
+       "h": "vTEN0ttQ1DHQ"
       },
       {
        "t": "skse\\plugins\\hdtsmp64.dll",
@@ -17120,16 +17154,6 @@
        "h": "E5eauu9NN/wW"
       }
      ]
-    }
-   ],
-   "tools": [
-    {
-     "name": "OPTIONAL",
-     "param": {
-      "opt": [
-       "fsmpm - the fsmp mcm.esp"
-      ]
-     }
     }
    ]
   },
@@ -17512,10 +17536,113 @@
    "installers": [
     {
      "h": "0vZx/39jvWg+0PHvWgKI/YS/vtcxxPGAbwrG7fV0/JA",
-     "type": "SIMPLE",
+     "type": "FOMOD",
      "params": {
-      "root": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexybannersv2\\"
-     }
+      "root": "glevsexyskyrim_2016-2-4\\glevssexyskyrim",
+      "sel": [
+       {
+        "step": "Glevs Sexy Banners",
+        "grp": "Glevs Sexy Banners Versions",
+        "plugin": "Glev Sexy Banners V2"
+       },
+       {
+        "step": "Glevs Sexy Adventure Tent",
+        "grp": "Glevs Sexy Adventure Tent Version",
+        "plugin": "Futa Adventure Tent"
+       }
+      ]
+     },
+     "skip": [
+      "glevadventuretent.esp",
+      "meshes\\ax\\paintings\\paintinglc0108.nif",
+      "meshes\\ax\\paintings\\paintinglc0208.nif",
+      "meshes\\ax\\paintings\\paintingmc0308.nif",
+      "textures\\clutter\\glevadventuretent\\framevt.dds",
+      "textures\\clutter\\glevadventuretent\\framevt_n.dds",
+      "textures\\clutter\\glevadventuretent\\framewd.dds",
+      "textures\\clutter\\glevadventuretent\\framewd_n.dds",
+      "textures\\clutter\\glevadventuretent\\genericbanner01_n.dds",
+      "textures\\clutter\\glevadventuretent\\inside-textures\\glevsexybanner1.dds",
+      "textures\\clutter\\glevadventuretent\\inside-textures\\glevsexybanner2.dds",
+      "textures\\clutter\\glevadventuretent\\inside-textures\\glevsexybanner3.dds",
+      "textures\\clutter\\glevadventuretent\\inside-textures\\glevsexybanner4.dds",
+      "textures\\clutter\\glevadventuretent\\inside-textures\\glevsexybanner5.dds",
+      "textures\\clutter\\glevadventuretent\\inside-textures\\glevsexybanner6.dds",
+      "textures\\clutter\\glevadventuretent\\inside-textures\\glevsexybanner7.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner1.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner10.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner11.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner12.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner13.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner14.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner15.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner16.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner17.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner18.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner19.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner2.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner20.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner3.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner4.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner5.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner6.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner7.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner8.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner9.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq1.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq10.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq11.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq12.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq13.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq14.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq15.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq16.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq17.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq18.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq19.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq2.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq20.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq3.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq4.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq5.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq6.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq7.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq8.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq9.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq_n.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt1.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt10.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt11.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt12.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt13.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt14.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt15.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt16.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt17.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt18.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt19.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt2.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt20.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt3.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt4.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt5.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt6.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt7.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt8.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt9.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt_n.dds",
+      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd1.dds",
+      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd10.dds",
+      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd2.dds",
+      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd3.dds",
+      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd4.dds",
+      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd5.dds",
+      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd6.dds",
+      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd7.dds",
+      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd8.dds",
+      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd9.dds",
+      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd_n.dds"
+     ]
     }
    ],
    "xarchives": [
@@ -19303,59 +19430,15 @@
    "installers": [
     {
      "h": "a8EU5geGbzhc90p0ANoFbtR7mNXGr/7MGckZChT1FfY",
-     "type": "FOMOD",
+     "type": "BAIN",
      "params": {
-      "sel": [
-       {
-        "step": "Complete",
-        "grp": "Choose Version",
-        "plugin": "Complete - Full"
-       },
-       {
-        "step": "Human",
-        "grp": "Choose Version",
-        "plugin": "Human - Full"
-       },
-       {
-        "step": "Add-Ons",
-        "grp": "Werewolf Eyes",
-        "plugin": "Werewolf"
-       },
-       {
-        "step": "Add-Ons",
-        "grp": "Dawnguard Eyes",
-        "plugin": "Dawnguard"
-       },
-       {
-        "step": "Vampire Eyes",
-        "grp": "Textures",
-        "plugin": "Vampire - Default"
-       },
-       {
-        "step": "Vampire Eyes",
-        "grp": "Serana Vamp Eyes",
-        "plugin": "Serana NPC"
-       }
+      "bain": [
+       "00 core - default eyes - human races\\",
+       "00 core - default eyes - other races\\",
+       "00 core - new eyes\\",
+       "01 complete\\"
       ]
-     },
-     "skip": [
-      "improved eyes skyrim - serana.esp",
-      "improved eyes skyrim - vamp.esp",
-      "meshes\\actors\\character\\character assets\\eyesfemalevampire_serana.nif",
-      "meshes\\actors\\character\\character assets\\eyesmalevampire_serana.nif",
-      "meshes\\actors\\character\\facegendata\\facegeom\\dawnguard.esm\\00002b6c.nif",
-      "textures\\actors\\character\\eyes\\eyeargonianvampirefemale.dds",
-      "textures\\actors\\character\\eyes\\eyeargonianvampiremale.dds",
-      "textures\\actors\\character\\eyes\\eyekhajiitvampire.dds",
-      "textures\\actors\\character\\eyes\\eyesnowelf.dds",
-      "textures\\actors\\character\\eyes\\eyevampire_01.dds",
-      "textures\\actors\\character\\eyes\\eyevampire_02.dds",
-      "textures\\actors\\character\\eyes\\eyevampire_serana.dds",
-      "textures\\actors\\character\\eyes\\eyewerewolfbeastbrown.dds",
-      "textures\\actors\\character\\eyes\\eyewolfenvironmentmask_m.dds",
-      "textures\\actors\\character\\facegendata\\facetint\\dawnguard.esm\\00002b6c.dds",
-      "textures\\character\\eyes\\eyevampire_serana.dds"
-     ]
+     }
     }
    ]
   },
@@ -22304,25 +22387,17 @@
    "installers": [
     {
      "h": "rDPT3LFFPwto8mLJN+WPL+eXLMkWq1eulmf6jwKh5N0",
-     "type": "SIMPLE",
+     "type": "FOMOD",
      "params": {
-      "root": "moons and stars - sky overhaul skse fomod installer\\ae\\"
+      "root": "moons and stars - sky overhaul skse fomod installer",
+      "sel": [
+       {
+        "step": "Main",
+        "grp": "DLL",
+        "plugin": "SSE v1.6+ (\"Anniversary Edition\")"
+       }
+      ]
      }
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "moonsandstars.esp",
-       "h": "pqMa4qkdWIoZ"
-      },
-      {
-       "t": "skse\\plugins\\po3_moonmod.ini",
-       "h": "E5BKSS+d4bNB"
-      }
-     ]
     }
    ]
   },
@@ -22561,9 +22636,16 @@
    "installers": [
     {
      "h": "8QO7sRtze8aJQHycj+Y63YcWJSnqPlyQ6p2BC5YHXdU",
-     "type": "SIMPLE",
+     "type": "FOMOD",
      "params": {
-      "root": "nem creatures + uc\\corefiles\\data\\"
+      "root": "nem creatures + uc",
+      "sel": [
+       {
+        "step": "Main Install",
+        "grp": "Required",
+        "plugin": "Required Files"
+       }
+      ]
      }
     }
    ]
@@ -23910,25 +23992,17 @@
    "installers": [
     {
      "h": "bH7VmhMPXLEKdRRDPqscSDHYg3bwS3oBH6kFoOjoljo",
-     "type": "SIMPLE",
+     "type": "FOMOD",
      "params": {
-      "root": "powerofthree's papyrus extender fomod installer\\required\\"
+      "root": "powerofthree's papyrus extender fomod installer",
+      "sel": [
+       {
+        "step": "Main",
+        "grp": "DLL",
+        "plugin": "SSE v1.6.1130+ (\"Anniversary Edition\")"
+       }
+      ]
      }
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "skse\\plugins\\po3_papyrusextender.dll",
-       "h": "A0wlsfdHGYhh"
-      },
-      {
-       "t": "skse\\plugins\\po3_papyrusextender.pdb",
-       "h": "tAh2il70p1MD"
-      }
-     ]
     }
    ]
   },
@@ -23937,25 +24011,17 @@
    "installers": [
     {
      "h": "jkRMiPJhoMP6ijkhN+8jlxV1vbq9OZQtFcZ72Um8z2s",
-     "type": "SIMPLE",
+     "type": "FOMOD",
      "params": {
-      "root": "powerofthree's tweaks fomod installer\\ae\\"
+      "root": "powerofthree's tweaks fomod installer",
+      "sel": [
+       {
+        "step": "Main",
+        "grp": "DLL",
+        "plugin": "SSE v1.6.629+ (\"Anniversary Edition\")"
+       }
+      ]
      }
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "scripts\\po3_tweaks.pex",
-       "h": "+MImAiTl0CRS"
-      },
-      {
-       "t": "source\\scripts\\po3_tweaks.psc",
-       "h": "aRAmBBoniUx+"
-      }
-     ]
     }
    ]
   },
@@ -24804,49 +24870,22 @@
    "installers": [
     {
      "h": "sgzOdmRXZqm6Rn1rBYLN39LFMDInpVsw1cYbuvpgPtQ",
-     "type": "SIMPLE",
+     "type": "FOMOD",
      "params": {
-      "root": "security overhaul skse - lock variations\\2k\\"
+      "root": "security overhaul skse - lock variations",
+      "sel": [
+       {
+        "step": "Main",
+        "grp": "Textures",
+        "plugin": "2K Textures"
+       },
+       {
+        "step": "Main",
+        "grp": "DLL",
+        "plugin": "SSE v1.6+ (\"AE\")"
+       }
+      ]
      }
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "lockvariations_lid.ini",
-       "h": "KNHeYqdJCHOg"
-      },
-      {
-       "t": "meshes\\interface\\lockpicking\\sos\\lockpick_apocryphalock01.nif",
-       "h": "mT4cawr5q4eN"
-      },
-      {
-       "t": "meshes\\interface\\lockpicking\\sos\\lockpick_dwemerlock02.nif",
-       "h": "FusIfy4RL5JN"
-      },
-      {
-       "t": "meshes\\interface\\lockpicking\\sos\\lockpick_falmerlock01.nif",
-       "h": "wvFAGjAxDzOz"
-      },
-      {
-       "t": "meshes\\interface\\lockpicking\\sos\\lockpick_snowelflock02.nif",
-       "h": "i7n+vj+b1AaH"
-      },
-      {
-       "t": "meshes\\interface\\lockpicking\\sos\\lockpickshiv01_snow.nif",
-       "h": "yHOvW+6mZltl"
-      },
-      {
-       "t": "skse\\plugins\\po3_lockvariations.dll",
-       "h": "JuVnBs7VZxd5"
-      },
-      {
-       "t": "skse\\plugins\\po3_lockvariations.pdb",
-       "h": "4FJmthgVc5dw"
-      }
-     ]
     }
    ]
   },
@@ -24914,25 +24953,17 @@
    "installers": [
     {
      "h": "8urr21B9VOwIryWiwUXsN4AbSHnb32Gx5FyNEnsl7S0",
-     "type": "SIMPLE",
+     "type": "FOMOD",
      "params": {
-      "root": "sexlab cum overlays extended\\main\\"
+      "root": "sexlab cum overlays extended",
+      "sel": [
+       {
+        "step": "Install Patches",
+        "grp": "Patches",
+        "plugin": "Sexlab v1.65"
+       }
+      ]
      }
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "scripts\\source\\sslactorlibrary.psc",
-       "h": "329I4IdliS+G"
-      },
-      {
-       "t": "scripts\\sslactorlibrary.pex",
-       "h": "Brws10wD7QFw"
-      }
-     ]
     }
    ]
   },
@@ -24941,45 +24972,17 @@
    "installers": [
     {
      "h": "KfhyLFWrmc7S60h5aU1+YWzYclWfV7gzK3qNBwmUcMI",
-     "type": "SIMPLE",
+     "type": "FOMOD",
      "params": {
-      "root": "sexlab aroused ng\\core\\"
+      "root": "sexlab aroused ng",
+      "sel": [
+       {
+        "step": "Integrations",
+        "grp": "Animation System",
+        "plugin": "Open Animation Replacer"
+       }
+      ]
      }
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "meshes\\actors\\character\\animations\\openanimationreplacer\\slang idles\\config.json",
-       "h": "kVpWhyBHOUA3"
-      },
-      {
-       "t": "meshes\\actors\\character\\animations\\openanimationreplacer\\slang idles\\females\\config.json",
-       "h": "J6qUSSvth0v0"
-      },
-      {
-       "t": "meshes\\actors\\character\\animations\\openanimationreplacer\\slang idles\\females\\female\\_variants_mt_idle\\leito_aroused_f_1.hkx",
-       "h": "RzhTINf4RuqU"
-      },
-      {
-       "t": "meshes\\actors\\character\\animations\\openanimationreplacer\\slang idles\\females\\female\\_variants_mt_idle\\leito_aroused_f_2.hkx",
-       "h": "hso818zVLZJc"
-      },
-      {
-       "t": "meshes\\actors\\character\\animations\\openanimationreplacer\\slang idles\\males\\config.json",
-       "h": "fpbjzBlW+uFt"
-      },
-      {
-       "t": "meshes\\actors\\character\\animations\\openanimationreplacer\\slang idles\\males\\male\\_variants_mt_idle\\leito_aroused_m_1.hkx",
-       "h": "IemsGNkUPqmU"
-      },
-      {
-       "t": "meshes\\actors\\character\\animations\\openanimationreplacer\\slang idles\\males\\male\\_variants_mt_idle\\leito_aroused_m_2.hkx",
-       "h": "ra2wtIfQfkdi"
-      }
-     ]
     }
    ]
   },
@@ -25908,9 +25911,16 @@
    "installers": [
     {
      "h": "xwR6fwlryi+zc30TET0lKTYGFomssaW8uPu1qR2rGpA",
-     "type": "SIMPLE",
+     "type": "FOMOD",
      "params": {
-      "root": "spell perk item distributor fomod installer\\ae\\"
+      "root": "spell perk item distributor fomod installer",
+      "sel": [
+       {
+        "step": "Main",
+        "grp": "DLL",
+        "plugin": "SSE v1.6.629+ (\"Anniversary Edition\")"
+       }
+      ]
      }
     }
    ]
@@ -26026,25 +26036,22 @@
    "installers": [
     {
      "h": "m3ZLXaeZe5XRkjYYzUV92/en+8mAldJYFzEWKz/Uiw8",
-     "type": "SIMPLE",
+     "type": "FOMOD",
      "params": {
-      "root": "sunhelmsurvival\\sunhelm\\"
+      "root": "sunhelmsurvival",
+      "sel": [
+       {
+        "step": "SunHelm",
+        "grp": "SunHelm",
+        "plugin": "SunHelm"
+       },
+       {
+        "step": "Extra Options",
+        "grp": "Platform",
+        "plugin": "SkyrimSE"
+       }
+      ]
      }
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "interface\\skyui\\bottombar.swf",
-       "h": "mtl+4IB7O/qp"
-      },
-      {
-       "t": "interface\\skyui\\itemcard.swf",
-       "h": "NnyWZ2CkaSKu"
-      }
-     ]
     }
    ]
   },
