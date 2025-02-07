@@ -443,6 +443,36 @@
         "step": "BakaFactory SLAL Pack",
         "grp": "BakaFactory SLAL Pack LE / SE",
         "plugin": "Start Install"
+       },
+       {
+        "step": "BakaFactory SLAL Pack",
+        "grp": "LE / SE",
+        "plugin": "SLAL LE"
+       },
+       {
+        "step": "BakaFactory SLAL Pack",
+        "grp": "Packs",
+        "plugin": "Human Pack"
+       },
+       {
+        "step": "BakaFactory SLAL Pack",
+        "grp": "Packs",
+        "plugin": "Human Big Guy Pack"
+       },
+       {
+        "step": "BakaFactory SLAL Pack",
+        "grp": "Packs",
+        "plugin": "Human Zaz Replacer"
+       },
+       {
+        "step": "BakaFactory SLAL Pack",
+        "grp": "Packs",
+        "plugin": "Human Zaz Standalone"
+       },
+       {
+        "step": "BakaFactory SLAL Pack",
+        "grp": "Packs",
+        "plugin": "Creature Pack"
        }
       ]
      }
@@ -12683,6 +12713,11 @@
         "plugin": "CoMAP Config Pack"
        },
        {
+        "step": "Undiscovered Marker Options",
+        "grp": "Obscured Undiscovered Options",
+        "plugin": "Obscured Undiscovered Markers - Question Mark"
+       },
+       {
         "step": "Addons",
         "grp": "Khajiit Caravan Markers",
         "plugin": "Hidden Until Discovered"
@@ -15568,7 +15603,49 @@
      "h": "Nq7ZiXmWLP8V5QsyOLQEzU8xZptI9avcCn6SCVsm8ys",
      "type": "FOMOD",
      "params": {
-      "root": "devious devices ng v0.3.7"
+      "root": "devious devices ng v0.3.7",
+      "sel": [
+       {
+        "step": "Animations",
+        "grp": "Standard Animations:",
+        "plugin": "Default"
+       },
+       {
+        "step": "Animations",
+        "grp": "Hobble Skirt Animations:",
+        "plugin": "Small steps"
+       },
+       {
+        "step": "Animations",
+        "grp": "MCO patch",
+        "plugin": "No MCO"
+       },
+       {
+        "step": "Animations",
+        "grp": "TK Dodge patch",
+        "plugin": "No TK Dodge"
+       },
+       {
+        "step": "For Him and BRRF",
+        "grp": "DD For Him",
+        "plugin": "No FH"
+       },
+       {
+        "step": "For Him and BRRF",
+        "grp": "DD BRRF",
+        "plugin": "No BRRF"
+       },
+       {
+        "step": "Dynamic Armor Variants",
+        "grp": "Armbinder replacer",
+        "plugin": "No"
+       },
+       {
+        "step": "Dynamic Armor Variants",
+        "grp": "Nipple Piercing replacer",
+        "plugin": "No"
+       }
+      ]
      },
      "skip": [
       "meshes\\devious\\heretic\\restraints\\collarchain01.nif",
@@ -15653,6 +15730,11 @@
         "step": "Step1",
         "grp": "Body Normal Map Options",
         "plugin": "Puffy Smooth map"
+       },
+       {
+        "step": "Step2",
+        "grp": "End",
+        "plugin": "End"
        }
       ]
      }
@@ -16742,6 +16824,11 @@
         "step": "Install Type",
         "grp": "Options",
         "plugin": "Subtle Marker (Recommended)"
+       },
+       {
+        "step": "Thank you for installing",
+        "grp": "Thank you",
+        "plugin": "please make sure you have the right requirements!"
        }
       ]
      }
@@ -17111,6 +17198,26 @@
       "root": "faster hdt-smp",
       "sel": [
        {
+        "step": "Introduction",
+        "grp": "Introduction",
+        "plugin": "Introduction"
+       },
+       {
+        "step": "",
+        "grp": "Skyrim version",
+        "plugin": "VR"
+       },
+       {
+        "step": "",
+        "grp": "CUDA or not",
+        "plugin": "CUDA"
+       },
+       {
+        "step": "",
+        "grp": "AVX",
+        "plugin": "No AVX"
+       },
+       {
         "step": "",
         "grp": "Configuration",
         "plugin": "Install FSMPM - The FSMP MCM (recommended)"
@@ -17124,6 +17231,11 @@
         "step": "User guide and validator",
         "grp": "FSMPV - The FSMP Validator",
         "plugin": "hdtSMP64.xsd"
+       },
+       {
+        "step": "Thanks",
+        "grp": "",
+        "plugin": "Thanks"
        }
       ]
      },
@@ -17535,6 +17647,16 @@
      "params": {
       "root": "glevsexyskyrim_2016-2-4\\glevssexyskyrim",
       "sel": [
+       {
+        "step": "Main Install",
+        "grp": "Glevs Sexy Skyrim Mods",
+        "plugin": "Glevs Sexy Adventure Tent"
+       },
+       {
+        "step": "Main Install",
+        "grp": "Glevs Sexy Skyrim Mods",
+        "plugin": "Glevs Sexy Banners"
+       },
        {
         "step": "Glevs Sexy Banners",
         "grp": "Glevs Sexy Banners Versions",
@@ -18006,6 +18128,11 @@
         "step": "What are you using?",
         "grp": "Framework",
         "plugin": "SexLab"
+       },
+       {
+        "step": "What are you using?",
+        "grp": "Translations",
+        "plugin": "EN"
        }
       ]
      },
@@ -19429,6 +19556,11 @@
      "params": {
       "sel": [
        {
+        "step": "Options",
+        "grp": "Choose Version",
+        "plugin": "Complete"
+       },
+       {
         "step": "Complete",
         "grp": "Choose Version",
         "plugin": "Complete - Full"
@@ -19537,6 +19669,11 @@
         "step": "Step1",
         "grp": "Meshes",
         "plugin": "Meshes Glow"
+       },
+       {
+        "step": "Thanks",
+        "grp": "Thanks",
+        "plugin": "Thanks"
        }
       ]
      }
@@ -23150,7 +23287,30 @@
     {
      "h": "HJxlCdNJrZqsULm8LXbDAjJkDnSv8aE8Acd1JLYpjLo",
      "type": "FOMOD",
-     "params": {}
+     "params": {
+      "sel": [
+       {
+        "step": "Introduction",
+        "grp": "Introduction",
+        "plugin": "Introduction"
+       },
+       {
+        "step": "Game Version ",
+        "grp": "Which version of Skyrim do you play? / \u60a8\u904a\u73a9\u5929\u969b\u7684\u54ea\u4e00\u500b\u7248\u672c\uff1f",
+        "plugin": "Standard/Legendary Edition / \u50b3\u5947\u7248\uff08\u666e\u901a\u7248\uff09"
+       },
+       {
+        "step": "Extras",
+        "grp": "Extra Options",
+        "plugin": "Replace Victims Animation"
+       },
+       {
+        "step": "Finishing",
+        "grp": "Thanks for Installing!",
+        "plugin": "Finish"
+       }
+      ]
+     }
     }
    ],
    "xarchives": [
@@ -23479,7 +23639,20 @@
     {
      "h": "OwNe/6YQzlWWYLI4Gna3MyB/JHZ+WfaN/VYX46mYYxo",
      "type": "FOMOD",
-     "params": {}
+     "params": {
+      "sel": [
+       {
+        "step": "Version",
+        "grp": "Game Version",
+        "plugin": "Special/Anniversary Edition"
+       },
+       {
+        "step": "Version",
+        "grp": "Zaz compatibility",
+        "plugin": "Install Zaz-compatible version"
+       }
+      ]
+     }
     }
    ],
    "xarchives": [
@@ -24986,6 +25159,11 @@
       "sel": [
        {
         "step": "Options",
+        "grp": "SexLab",
+        "plugin": "SexLab compatibility script"
+       },
+       {
+        "step": "Options",
         "grp": "SexLab Inflation Framework",
         "plugin": "Files"
        }
@@ -25087,6 +25265,11 @@
         "step": "Core Setup",
         "grp": "CORE Commond",
         "plugin": "CORE"
+       },
+       {
+        "step": "Core Setup",
+        "grp": "Race Skeletons",
+        "plugin": "None"
        },
        {
         "step": "Core Setup",
@@ -25674,6 +25857,11 @@
       "sel": [
        {
         "step": "Outfit Themes",
+        "grp": "Install Outfit Themes",
+        "plugin": "Required"
+       },
+       {
+        "step": "Outfit Themes",
         "grp": "Free Women outfit theme",
         "plugin": "SWR - Strong-Willed and Rich (Default)"
        },
@@ -25998,7 +26186,15 @@
     {
      "h": "b8mfUXRJYzpVRAprbuVlQFTJuTKg53OvfYnr8T7I/T8",
      "type": "FOMOD",
-     "params": {}
+     "params": {
+      "sel": [
+       {
+        "step": "Introduction",
+        "grp": "Introduction",
+        "plugin": "Introduction"
+       }
+      ]
+     }
     }
    ]
   },
