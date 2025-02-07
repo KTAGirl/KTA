@@ -42,26 +42,18 @@
      "type": "SIMPLE",
      "params": {
       "root": "devious followers - continued se v 2.14.5\\"
-     },
-     "skip": [
-      "deviousfollowers - cutting room floor - patch.esp",
-      "df slacs patch.esp"
-     ]
+     }
     }
    ],
-   "xarchives": [
+   "tools": [
     {
-     "ar": 0,
-     "files": [
-      {
-       "t": "optional\\deviousfollowers - cutting room floor - patch.esp",
-       "h": "OWsHzy8IEY8B"
-      },
-      {
-       "t": "optional\\df slacs patch.esp",
-       "h": "KINDwnQKcxSq"
-      }
-     ]
+     "name": "OPTIONAL",
+     "param": {
+      "mv": [
+       "deviousfollowers - cutting room floor - patch.esp",
+       "df slacs patch.esp"
+      ]
+     }
     }
    ]
   },
@@ -12203,9 +12195,7 @@
       "meshes\\dlc02\\clothes\\temple\\templepriestfboots_0.nif",
       "meshes\\dlc02\\clothes\\temple\\templepriestfboots_1.nif",
       "textures\\clothes\\tiwa44_unpmdc\\unpmdc_panties_d.dds",
-      "textures\\clothes\\tiwa44_unpmdc\\unpmdc_panties_n.dds",
-      "tiwa44_minidresses_cbbe.esp",
-      "tiwa44_minidresses_dragonborn_cbbe.esp"
+      "textures\\clothes\\tiwa44_unpmdc\\unpmdc_panties_n.dds"
      ]
     },
     {
@@ -12221,21 +12211,6 @@
      "params": {
       "root": ""
      }
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 1,
-     "files": [
-      {
-       "t": "optional\\tiwa44_minidresses_cbbe.esp",
-       "h": "RhjgZ1zXqWC3"
-      },
-      {
-       "t": "optional\\tiwa44_minidresses_dragonborn_cbbe.esp",
-       "h": "0GvUdM/f+0s7"
-      }
-     ]
     }
    ],
    "unknownbytools": [
@@ -12482,6 +12457,17 @@
     "meshes\\dlc02\\clothes\\temple\\templepriestf_1.nif",
     "meshes\\dlc02\\clothes\\temple\\templepriestfboots_0.nif",
     "meshes\\dlc02\\clothes\\temple\\templepriestfboots_1.nif"
+   ],
+   "tools": [
+    {
+     "name": "OPTIONAL",
+     "param": {
+      "mv": [
+       "tiwa44_minidresses_cbbe.esp",
+       "tiwa44_minidresses_dragonborn_cbbe.esp"
+      ]
+     }
+    }
    ]
   },
   {
@@ -12839,21 +12825,17 @@
      "type": "SIMPLE",
      "params": {
       "root": "deadly mutilation v1.3.3 core\\"
-     },
-     "skip": [
-      "deadlymutilation.esp"
-     ]
+     }
     }
    ],
-   "xarchives": [
+   "tools": [
     {
-     "ar": 0,
-     "files": [
-      {
-       "t": "optional\\deadlymutilation.esp",
-       "h": "NnPypvKaUnw2"
-      }
-     ]
+     "name": "OPTIONAL",
+     "param": {
+      "mv": [
+       "deadlymutilation.esp"
+      ]
+     }
     }
    ]
   },
@@ -12879,7 +12861,6 @@
       "root": "devious devices [se][ae][vr] 5.2\\00 base\\"
      },
      "skip": [
-      "devious devices se patch.esp",
       "meshes\\devious\\devices\\armbinder01_0.nif",
       "meshes\\devious\\devices\\armbinder01_1.nif",
       "meshes\\devious\\devices\\kimydress_eb_transparent_0.nif",
@@ -15445,10 +15426,6 @@
        "h": "Nsk+REgnZf50"
       },
       {
-       "t": "optional\\devious devices se patch.esp",
-       "h": "paqe/D3AlLZ7"
-      },
-      {
        "t": "skse\\plugins\\deviousdevices.dll",
        "h": "hakpM+iVQXzQ"
       }
@@ -15577,6 +15554,16 @@
     "meshes\\devious\\mxw_catsuit\\long_gloves_trans_1.nif",
     "meshes\\devious\\zipsuit\\feet_0.nif",
     "meshes\\devious\\zipsuit\\feet_1.nif"
+   ],
+   "tools": [
+    {
+     "name": "OPTIONAL",
+     "param": {
+      "mv": [
+       "devious devices se patch.esp"
+      ]
+     }
+    }
    ]
   },
   {
@@ -15611,41 +15598,21 @@
      "type": "SIMPLE",
      "params": {
       "root": "devious follower - updated esps for v1.6.1170 v2.14.6\\"
-     },
-     "skip": [
-      "devfollowersvoicemore.esp",
-      "deviousfollowers - ai overhaul - patch.esp",
-      "deviousfollowers - cutting room floor - patch.esp",
-      "deviousfollowers - unofficially patched.esp",
-      "df slacs patch.esp"
-     ]
+     }
     }
    ],
-   "xarchives": [
+   "tools": [
     {
-     "ar": 0,
-     "files": [
-      {
-       "t": "optional\\devfollowersvoicemore.esp",
-       "h": "DfdYHAFrntNv"
-      },
-      {
-       "t": "optional\\deviousfollowers - ai overhaul - patch.esp",
-       "h": "1njaF7UsGXYz"
-      },
-      {
-       "t": "optional\\deviousfollowers - cutting room floor - patch.esp",
-       "h": "DQ2j1Dk8NnGh"
-      },
-      {
-       "t": "optional\\deviousfollowers - unofficially patched.esp",
-       "h": "q2wmRViQI56+"
-      },
-      {
-       "t": "optional\\df slacs patch.esp",
-       "h": "2WU4i1DGzvt+"
-      }
-     ]
+     "name": "OPTIONAL",
+     "param": {
+      "mv": [
+       "devfollowersvoicemore.esp",
+       "deviousfollowers - ai overhaul - patch.esp",
+       "deviousfollowers - cutting room floor - patch.esp",
+       "deviousfollowers - unofficially patched.esp",
+       "df slacs patch.esp"
+      ]
+     }
     }
    ]
   },
@@ -16734,21 +16701,17 @@
      "type": "SIMPLE",
      "params": {
       "root": "data\\"
-     },
-     "skip": [
-      "zzestrus.esp"
-     ]
+     }
     }
    ],
-   "xarchives": [
+   "tools": [
     {
-     "ar": 0,
-     "files": [
-      {
-       "t": "optional\\zzestrus.esp",
-       "h": "8ytLyAo0Mg1y"
-      }
-     ]
+     "name": "OPTIONAL",
+     "param": {
+      "mv": [
+       "zzestrus.esp"
+      ]
+     }
     }
    ]
   },
@@ -17124,7 +17087,6 @@
       "root": "faster hdt-smp\\fsmpm\\"
      },
      "skip": [
-      "fsmpm - the fsmp mcm.esp",
       "licence.txt"
      ]
     }
@@ -17136,10 +17098,6 @@
       {
        "t": "licence.txt",
        "h": "qSqE+VoQ14/T"
-      },
-      {
-       "t": "optional\\fsmpm - the fsmp mcm.esp",
-       "h": "vTEN0ttQ1DHQ"
       },
       {
        "t": "readme.txt",
@@ -17162,6 +17120,16 @@
        "h": "E5eauu9NN/wW"
       }
      ]
+    }
+   ],
+   "tools": [
+    {
+     "name": "OPTIONAL",
+     "param": {
+      "mv": [
+       "fsmpm - the fsmp mcm.esp"
+      ]
+     }
     }
    ]
   },
@@ -26144,26 +26112,18 @@
      "type": "SIMPLE",
      "params": {
       "root": ""
-     },
-     "skip": [
-      "pahe-tdf-patch.esp",
-      "sexlab tdf aggressive prostitution.esp"
-     ]
+     }
     }
    ],
-   "xarchives": [
+   "tools": [
     {
-     "ar": 0,
-     "files": [
-      {
-       "t": "optional\\pahe-tdf-patch.esp",
-       "h": "F9Qgc3Q/J/XS"
-      },
-      {
-       "t": "optional\\sexlab tdf aggressive prostitution.esp",
-       "h": "ih1ghvFmuAPL"
-      }
-     ]
+     "name": "OPTIONAL",
+     "param": {
+      "mv": [
+       "pahe-tdf-patch.esp",
+       "sexlab tdf aggressive prostitution.esp"
+      ]
+     }
     }
    ]
   },
