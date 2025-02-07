@@ -1277,13 +1277,126 @@
    "installers": [
     {
      "h": "l+wCcV/2BGXm6IjMRJ34Vq1xJQjtta8xytLbCYmHohY",
-     "type": "BAIN",
+     "type": "FOMOD",
      "params": {
-      "bain": [
-       "28 morph files (outfits)\\"
+      "sel": [
+       {
+        "step": "Base Options",
+        "grp": "Body Shape",
+        "plugin": "Slim"
+       },
+       {
+        "step": "Base Options",
+        "grp": "Underwear Options",
+        "plugin": "Underwear"
+       },
+       {
+        "step": "Base Options",
+        "grp": "Face Options",
+        "plugin": "Dirt to Beauty Marks"
+       },
+       {
+        "step": "Base Options",
+        "grp": "Eyebrow Options",
+        "plugin": "Thin + Trimmed Brows"
+       },
+       {
+        "step": "Base Options",
+        "grp": "Miscellaneous",
+        "plugin": "Pubic Hair"
+       },
+       {
+        "step": "Underwear Options",
+        "grp": "Mesh",
+        "plugin": "Normal"
+       },
+       {
+        "step": "Underwear Options",
+        "grp": "Color",
+        "plugin": "Black"
+       },
+       {
+        "step": "Optional Features",
+        "grp": "Morph Files",
+        "plugin": "Morph Files (Body)"
+       },
+       {
+        "step": "Optional Features",
+        "grp": "Morph Files",
+        "plugin": "Morph Files (Outfits)"
+       }
       ]
      },
      "skip": [
+      "calientetools\\bodyslide\\conversionsets\\cbbe references.osp",
+      "calientetools\\bodyslide\\reftemplates\\cbbe.xml",
+      "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe body 1st person.nif",
+      "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe body 1st person.osd",
+      "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe body physics.nif",
+      "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe body special.nif",
+      "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe body special.osd",
+      "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe body.nif",
+      "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe body.osd",
+      "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe feet.nif",
+      "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe feet.osd",
+      "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe hands 1st person.nif",
+      "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe hands 1st person.osd",
+      "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe hands beast 1st person.nif",
+      "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe hands beast 1st person.osd",
+      "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe hands beast.nif",
+      "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe hands beast.osd",
+      "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe hands.nif",
+      "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe hands.osd",
+      "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe nevernude physics.nif",
+      "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe nevernude.nif",
+      "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe nevernude.osd",
+      "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe underwear physics.nif",
+      "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe underwear.nif",
+      "calientetools\\bodyslide\\shapedata\\cbbe\\cbbe underwear.osd",
+      "calientetools\\bodyslide\\shapedata\\references\\cbbe to cbbe uniboob.nif",
+      "calientetools\\bodyslide\\shapedata\\references\\cbbe to cbbe uniboob.osd",
+      "calientetools\\bodyslide\\shapedata\\references\\cbbe uniboob physics.nif",
+      "calientetools\\bodyslide\\shapedata\\references\\cbbe uniboob.nif",
+      "calientetools\\bodyslide\\shapedata\\references\\cbbe uniboob.osd",
+      "calientetools\\bodyslide\\shapedata\\references\\fo4 cbbe to sse cbbe.nif",
+      "calientetools\\bodyslide\\shapedata\\references\\fo4 cbbe to sse cbbe.osd",
+      "calientetools\\bodyslide\\shapedata\\references\\sk cbbe to sse cbbe uniboob.nif",
+      "calientetools\\bodyslide\\shapedata\\references\\sk cbbe to sse cbbe uniboob.osd",
+      "calientetools\\bodyslide\\shapedata\\references\\sk cbbe to sse cbbe.nif",
+      "calientetools\\bodyslide\\shapedata\\references\\sk cbbe to sse cbbe.osd",
+      "calientetools\\bodyslide\\shapedata\\references\\unp high to cbbe.nif",
+      "calientetools\\bodyslide\\shapedata\\references\\unp high to cbbe.osd",
+      "calientetools\\bodyslide\\shapedata\\references\\unp low to cbbe.nif",
+      "calientetools\\bodyslide\\shapedata\\references\\unp low to cbbe.osd",
+      "calientetools\\bodyslide\\shapedata\\references\\unpb to cbbe.nif",
+      "calientetools\\bodyslide\\shapedata\\references\\unpb to cbbe.osd",
+      "calientetools\\bodyslide\\shapedata\\references\\vanilla to cbbe.nif",
+      "calientetools\\bodyslide\\shapedata\\references\\vanilla to cbbe.osd",
+      "calientetools\\bodyslide\\slidercategories\\cbbe.xml",
+      "calientetools\\bodyslide\\slidergroups\\cbbe.xml",
+      "calientetools\\bodyslide\\sliderpresets\\cbbe.xml",
+      "calientetools\\bodyslide\\slidersets\\cbbe.osp",
+      "cbbe.esp",
+      "meshes\\actors\\character\\character assets\\1stpersonfemalebody.tri",
+      "meshes\\actors\\character\\character assets\\1stpersonfemalebody_0.nif",
+      "meshes\\actors\\character\\character assets\\1stpersonfemalebody_1.nif",
+      "meshes\\actors\\character\\character assets\\1stpersonfemalehands.tri",
+      "meshes\\actors\\character\\character assets\\1stpersonfemalehands_0.nif",
+      "meshes\\actors\\character\\character assets\\1stpersonfemalehands_1.nif",
+      "meshes\\actors\\character\\character assets\\1stpersonfemalehandsargonian_0.nif",
+      "meshes\\actors\\character\\character assets\\1stpersonfemalehandsargonian_1.nif",
+      "meshes\\actors\\character\\character assets\\femalebody.tri",
+      "meshes\\actors\\character\\character assets\\femalebody_0.nif",
+      "meshes\\actors\\character\\character assets\\femalebody_1.nif",
+      "meshes\\actors\\character\\character assets\\femalefeet.tri",
+      "meshes\\actors\\character\\character assets\\femalefeet_0.nif",
+      "meshes\\actors\\character\\character assets\\femalefeet_1.nif",
+      "meshes\\actors\\character\\character assets\\femalehands.tri",
+      "meshes\\actors\\character\\character assets\\femalehands_0.nif",
+      "meshes\\actors\\character\\character assets\\femalehands_1.nif",
+      "meshes\\actors\\character\\character assets\\femalehandsargonian.tri",
+      "meshes\\actors\\character\\character assets\\femalehandsargonian_0.nif",
+      "meshes\\actors\\character\\character assets\\femalehandsargonian_1.nif",
       "meshes\\armor\\blades\\1stpersonbladesarmorf.tri",
       "meshes\\armor\\blades\\bladesarmorf.tri",
       "meshes\\armor\\blades\\bladesbootsf.tri",
@@ -1434,7 +1547,46 @@
       "meshes\\dlc02\\clothes\\skaal\\f\\skaaltorso.tri",
       "meshes\\dlc02\\clothes\\telvanni\\telvannibodyf.tri",
       "meshes\\dlc02\\clothes\\temple\\templepriestf.tri",
-      "meshes\\dlc02\\clothes\\temple\\templepriestfboots.tri"
+      "meshes\\dlc02\\clothes\\temple\\templepriestfboots.tri",
+      "textures\\actors\\character\\character assets\\tintmasks\\femaleheaddirt_01.dds",
+      "textures\\actors\\character\\character assets\\tintmasks\\femaleheaddirt_02.dds",
+      "textures\\actors\\character\\character assets\\tintmasks\\femaleheaddirt_03.dds",
+      "textures\\actors\\character\\female\\astridbody.dds",
+      "textures\\actors\\character\\female\\astridbody_msn.dds",
+      "textures\\actors\\character\\female\\femalebody_1.dds",
+      "textures\\actors\\character\\female\\femalebody_1_msn.dds",
+      "textures\\actors\\character\\female\\femalebody_1_s.dds",
+      "textures\\actors\\character\\female\\femalebody_1_sk.dds",
+      "textures\\actors\\character\\female\\femalebodyafflicted.dds",
+      "textures\\actors\\character\\female\\femalehands_1.dds",
+      "textures\\actors\\character\\female\\femalehands_1_msn.dds",
+      "textures\\actors\\character\\female\\femalehands_1_s.dds",
+      "textures\\actors\\character\\female\\femalehands_1_sk.dds",
+      "textures\\actors\\character\\femalebrows\\femalebrow_01.dds",
+      "textures\\actors\\character\\femalebrows\\femalebrow_02.dds",
+      "textures\\actors\\character\\femalebrows\\femalebrow_03.dds",
+      "textures\\actors\\character\\femalebrows\\femalebrow_04.dds",
+      "textures\\actors\\character\\femalebrows\\femalebrow_05.dds",
+      "textures\\actors\\character\\femalebrows\\femalebrow_06.dds",
+      "textures\\actors\\character\\femalebrows\\femalebrow_07.dds",
+      "textures\\actors\\character\\femalebrows\\femalebrow_08.dds",
+      "textures\\actors\\character\\femalebrows\\femalebrow_09.dds",
+      "textures\\actors\\character\\femalebrows\\femalebrow_10.dds",
+      "textures\\actors\\character\\femalebrows\\femalebrow_11.dds",
+      "textures\\actors\\character\\femaleold\\femalebody_1_msn.dds",
+      "textures\\actors\\character\\femaleold\\femalehead_msn.dds",
+      "textures\\actors\\character\\khajiitfemale\\femalebody.dds",
+      "textures\\actors\\character\\khajiitfemale\\femalebody_msn.dds",
+      "textures\\actors\\character\\khajiitfemale\\femalebody_s.dds",
+      "textures\\actors\\character\\khajiitfemale\\femalehands.dds",
+      "textures\\actors\\character\\khajiitfemale\\femalehands_msn.dds",
+      "textures\\actors\\character\\khajiitfemale\\femalehands_s.dds",
+      "textures\\cbbe underwear\\bowtie_d.dds",
+      "textures\\cbbe underwear\\bowtie_n.dds",
+      "textures\\cbbe underwear\\bra_d.dds",
+      "textures\\cbbe underwear\\bra_n.dds",
+      "textures\\cbbe underwear\\panty_d.dds",
+      "textures\\cbbe underwear\\panty_n.dds"
      ]
     },
     {
@@ -1471,10 +1623,6 @@
     {
      "ar": 0,
      "files": [
-      {
-       "t": "meshes\\actors\\character\\character assets\\1stpersonfemalehandsargonian.tri",
-       "h": "3tfAgr6s+R0D"
-      },
       {
        "t": "meshes\\clothes\\monk\\monkvarianthoodf.tri",
        "h": "lROaFaeuG5/t"
@@ -2479,16 +2627,64 @@
    "installers": [
     {
      "h": "l+wCcV/2BGXm6IjMRJ34Vq1xJQjtta8xytLbCYmHohY",
-     "type": "BAIN",
+     "type": "FOMOD",
      "params": {
-      "bain": [
-       "00 required (slim)\\",
-       "01 curvy\\",
-       "07 outfits curvy\\",
-       "09 outfits bodyslide\\",
-       "10 face pack\\",
-       "26 racemenu morphs\\",
-       "27 morph files (body)\\"
+      "sel": [
+       {
+        "step": "Base Options",
+        "grp": "Body Shape",
+        "plugin": "Curvy"
+       },
+       {
+        "step": "Base Options",
+        "grp": "Underwear Options",
+        "plugin": "Underwear"
+       },
+       {
+        "step": "Base Options",
+        "grp": "Outfit Options",
+        "plugin": "Vanilla Outfits"
+       },
+       {
+        "step": "Base Options",
+        "grp": "Face Options",
+        "plugin": "Face Pack"
+       },
+       {
+        "step": "Base Options",
+        "grp": "Face Options",
+        "plugin": "Dirt to Beauty Marks"
+       },
+       {
+        "step": "Base Options",
+        "grp": "Eyebrow Options",
+        "plugin": "Thin + Trimmed Brows"
+       },
+       {
+        "step": "Base Options",
+        "grp": "Miscellaneous",
+        "plugin": "Pubic Hair"
+       },
+       {
+        "step": "Underwear Options",
+        "grp": "Mesh",
+        "plugin": "Normal"
+       },
+       {
+        "step": "Underwear Options",
+        "grp": "Color",
+        "plugin": "Black"
+       },
+       {
+        "step": "Optional Features",
+        "grp": "SKEE (RaceMenu)",
+        "plugin": "RaceMenu Morphs (BodyMorph)"
+       },
+       {
+        "step": "Optional Features",
+        "grp": "Morph Files",
+        "plugin": "Morph Files (Body)"
+       }
       ]
      },
      "skip": [
@@ -2933,7 +3129,27 @@
       "meshes\\dlc02\\effects\\dragonbornfxf02.nif",
       "meshes\\dlc02\\effects\\dragonbornfxf03.nif",
       "meshes\\usleep\\armor\\generaltulius\\1stpersonpenitustorsof_1.nif",
-      "meshes\\ussep\\clothes\\mournersclothes\\1stpersonmournoutfitf_1.nif"
+      "meshes\\ussep\\clothes\\mournersclothes\\1stpersonmournoutfitf_1.nif",
+      "textures\\actors\\character\\character assets\\tintmasks\\femaleheaddirt_01.dds",
+      "textures\\actors\\character\\character assets\\tintmasks\\femaleheaddirt_02.dds",
+      "textures\\actors\\character\\character assets\\tintmasks\\femaleheaddirt_03.dds",
+      "textures\\actors\\character\\femalebrows\\femalebrow_01.dds",
+      "textures\\actors\\character\\femalebrows\\femalebrow_02.dds",
+      "textures\\actors\\character\\femalebrows\\femalebrow_03.dds",
+      "textures\\actors\\character\\femalebrows\\femalebrow_04.dds",
+      "textures\\actors\\character\\femalebrows\\femalebrow_05.dds",
+      "textures\\actors\\character\\femalebrows\\femalebrow_06.dds",
+      "textures\\actors\\character\\femalebrows\\femalebrow_07.dds",
+      "textures\\actors\\character\\femalebrows\\femalebrow_08.dds",
+      "textures\\actors\\character\\femalebrows\\femalebrow_09.dds",
+      "textures\\actors\\character\\femalebrows\\femalebrow_10.dds",
+      "textures\\actors\\character\\femalebrows\\femalebrow_11.dds",
+      "textures\\cbbe underwear\\bowtie_d.dds",
+      "textures\\cbbe underwear\\bowtie_n.dds",
+      "textures\\cbbe underwear\\bra_d.dds",
+      "textures\\cbbe underwear\\bra_n.dds",
+      "textures\\cbbe underwear\\panty_d.dds",
+      "textures\\cbbe underwear\\panty_n.dds"
      ]
     },
     {
@@ -9044,9 +9260,35 @@
    "installers": [
     {
      "h": "WNPMhjV2EcFLTEDdmm7MbKlwrLWqJxAVWfTjY/g7xzg",
-     "type": "SIMPLE",
+     "type": "FOMOD",
      "params": {
-      "root": "01 - minimal\\"
+      "sel": [
+       {
+        "step": "ENB Light Main",
+        "grp": "Select your install type",
+        "plugin": "Candlelight, Magelight, Carry Torch only"
+       },
+       {
+        "step": "ENB Light Main",
+        "grp": "Additional options - customize your install based on how much fps you can spare",
+        "plugin": "Extra light"
+       },
+       {
+        "step": "ENB Light Main",
+        "grp": "Dawnbreaker",
+        "plugin": "NO ENB Light Dawnbreaker"
+       },
+       {
+        "step": "ENB Light Main",
+        "grp": "Dawnbreaker - DSR (Left hand)",
+        "plugin": "NO Dawnbreaker DSR option"
+       },
+       {
+        "step": "Mod Patches for Minimal install with Extra Light",
+        "grp": "Patches for mods. Only select mods you already have installed!",
+        "plugin": "NONE"
+       }
+      ]
      }
     }
    ]
@@ -10747,116 +10989,15 @@
        {
         "step": "Main Install",
         "grp": "Glevs Sexy Skyrim Mods",
-        "plugin": "Glevs Sexy Adventure Tent"
-       },
-       {
-        "step": "Main Install",
-        "grp": "Glevs Sexy Skyrim Mods",
         "plugin": "Glevs Sexy Banners"
        },
        {
         "step": "Glevs Sexy Banners",
         "grp": "Glevs Sexy Banners Versions",
         "plugin": "Glev Sexy Banners V2"
-       },
-       {
-        "step": "Glevs Sexy Adventure Tent",
-        "grp": "Glevs Sexy Adventure Tent Version",
-        "plugin": "Futa Adventure Tent"
        }
       ]
-     },
-     "skip": [
-      "glevadventuretent.esp",
-      "meshes\\ax\\paintings\\paintinglc0108.nif",
-      "meshes\\ax\\paintings\\paintinglc0208.nif",
-      "meshes\\ax\\paintings\\paintingmc0308.nif",
-      "textures\\clutter\\glevadventuretent\\framevt.dds",
-      "textures\\clutter\\glevadventuretent\\framevt_n.dds",
-      "textures\\clutter\\glevadventuretent\\framewd.dds",
-      "textures\\clutter\\glevadventuretent\\framewd_n.dds",
-      "textures\\clutter\\glevadventuretent\\genericbanner01_n.dds",
-      "textures\\clutter\\glevadventuretent\\inside-textures\\glevsexybanner1.dds",
-      "textures\\clutter\\glevadventuretent\\inside-textures\\glevsexybanner2.dds",
-      "textures\\clutter\\glevadventuretent\\inside-textures\\glevsexybanner3.dds",
-      "textures\\clutter\\glevadventuretent\\inside-textures\\glevsexybanner4.dds",
-      "textures\\clutter\\glevadventuretent\\inside-textures\\glevsexybanner5.dds",
-      "textures\\clutter\\glevadventuretent\\inside-textures\\glevsexybanner6.dds",
-      "textures\\clutter\\glevadventuretent\\inside-textures\\glevsexybanner7.dds",
-      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner1.dds",
-      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner10.dds",
-      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner11.dds",
-      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner12.dds",
-      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner13.dds",
-      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner14.dds",
-      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner15.dds",
-      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner16.dds",
-      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner17.dds",
-      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner18.dds",
-      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner19.dds",
-      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner2.dds",
-      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner20.dds",
-      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner3.dds",
-      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner4.dds",
-      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner5.dds",
-      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner6.dds",
-      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner7.dds",
-      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner8.dds",
-      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner9.dds",
-      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq1.dds",
-      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq10.dds",
-      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq11.dds",
-      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq12.dds",
-      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq13.dds",
-      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq14.dds",
-      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq15.dds",
-      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq16.dds",
-      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq17.dds",
-      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq18.dds",
-      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq19.dds",
-      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq2.dds",
-      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq20.dds",
-      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq3.dds",
-      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq4.dds",
-      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq5.dds",
-      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq6.dds",
-      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq7.dds",
-      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq8.dds",
-      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq9.dds",
-      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq_n.dds",
-      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt1.dds",
-      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt10.dds",
-      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt11.dds",
-      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt12.dds",
-      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt13.dds",
-      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt14.dds",
-      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt15.dds",
-      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt16.dds",
-      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt17.dds",
-      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt18.dds",
-      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt19.dds",
-      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt2.dds",
-      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt20.dds",
-      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt3.dds",
-      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt4.dds",
-      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt5.dds",
-      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt6.dds",
-      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt7.dds",
-      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt8.dds",
-      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt9.dds",
-      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt_n.dds",
-      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd1.dds",
-      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd10.dds",
-      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd2.dds",
-      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd3.dds",
-      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd4.dds",
-      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd5.dds",
-      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd6.dds",
-      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd7.dds",
-      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd8.dds",
-      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd9.dds",
-      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd_n.dds"
-     ]
+     }
     }
    ],
    "xarchives": [
