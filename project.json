@@ -17918,7 +17918,10 @@
         "plugin": "SexLab"
        }
       ]
-     }
+     },
+     "skip": [
+      "skse\\plugins\\storageutildata\\slheat&hunger\\config.json"
+     ]
     }
    ],
    "xarchives": [
@@ -17928,82 +17931,6 @@
       {
        "t": "heatandhunger.esp",
        "h": "oFSNO6rrUBMZ"
-      },
-      {
-       "t": "interface\\translations\\heatandhunger_chinese.txt",
-       "h": "SJf1Azt10H2T"
-      },
-      {
-       "t": "interface\\translations\\heatandhunger_czech.txt",
-       "h": "SJf1Azt10H2T"
-      },
-      {
-       "t": "interface\\translations\\heatandhunger_english.txt",
-       "h": "T1PGA/eAU4xn"
-      },
-      {
-       "t": "interface\\translations\\heatandhunger_french.txt",
-       "h": "SJf1Azt10H2T"
-      },
-      {
-       "t": "interface\\translations\\heatandhunger_german.txt",
-       "h": "SJf1Azt10H2T"
-      },
-      {
-       "t": "interface\\translations\\heatandhunger_italian.txt",
-       "h": "SJf1Azt10H2T"
-      },
-      {
-       "t": "interface\\translations\\heatandhunger_japanese.txt",
-       "h": "SJf1Azt10H2T"
-      },
-      {
-       "t": "interface\\translations\\heatandhunger_polish.txt",
-       "h": "SJf1Azt10H2T"
-      },
-      {
-       "t": "interface\\translations\\heatandhunger_russian.txt",
-       "h": "T1PGA/eAU4xn"
-      },
-      {
-       "t": "interface\\translations\\heatandhunger_spanish.txt",
-       "h": "SJf1Azt10H2T"
-      },
-      {
-       "t": "scripts\\source\\wmactoralias.psc",
-       "h": "dZXews02XT0s"
-      },
-      {
-       "t": "scripts\\source\\wmdecrease.psc",
-       "h": "+bndpE4ySomJ"
-      },
-      {
-       "t": "scripts\\source\\wmdecreaseorgasm.psc",
-       "h": "2R2o9mXx5V1T"
-      },
-      {
-       "t": "scripts\\source\\wmenjoymenteffect.psc",
-       "h": "60z6KQq368JV"
-      },
-      {
-       "t": "scripts\\wmactoralias.pex",
-       "h": "3kBPAsoK7u/A"
-      },
-      {
-       "t": "scripts\\wmdecrease.pex",
-       "h": "jkgHb6Y5TNRS"
-      },
-      {
-       "t": "scripts\\wmdecreaseorgasm.pex",
-       "h": "qzTrw83PPJ9M"
-      },
-      {
-       "t": "scripts\\wmenjoymenteffect.pex",
-       "h": "+nIDq35y5pgH"
-      },
-      {
-       "t": "skse\\plugins\\storageutildata\\slheat&hunger\\hungerconfig.json",
-       "h": "G4ykQEWq91Il"
       }
      ]
     }
@@ -19193,1721 +19120,6 @@
       ]
      }
     }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "hunterborn readme.txt",
-       "h": "bmPIFTCRhI8b"
-      },
-      {
-       "t": "hunterborn tips and spoilers.txt",
-       "h": "njAw72Xus/G/"
-      },
-      {
-       "t": "hunterborn.esp",
-       "h": "5F7TN2khydX6"
-      },
-      {
-       "t": "meshes\\clutter\\ingredients\\sabrecateye.nif",
-       "h": "Mo9CcZAL9HdM"
-      },
-      {
-       "t": "meshes\\hunterborn\\amberluce.nif",
-       "h": "6PdgZD18c28L"
-      },
-      {
-       "t": "meshes\\hunterborn\\armor\\giantcloth\\bodyf_0.nif",
-       "h": "as0MgQTP36tR"
-      },
-      {
-       "t": "meshes\\hunterborn\\armor\\giantcloth\\bodyf_1.nif",
-       "h": "C0o8lyBoh7mx"
-      },
-      {
-       "t": "meshes\\hunterborn\\armor\\giantcloth\\boots_0.nif",
-       "h": "ruPoaaXTr65/"
-      },
-      {
-       "t": "meshes\\hunterborn\\armor\\giantcloth\\boots_1.nif",
-       "h": "3k07y979G4zW"
-      },
-      {
-       "t": "meshes\\hunterborn\\armor\\giantcloth\\bootsf_0.nif",
-       "h": "YPGzQxm2U1zs"
-      },
-      {
-       "t": "meshes\\hunterborn\\armor\\giantcloth\\bootsf_1.nif",
-       "h": "SXVg7GMkYvDM"
-      },
-      {
-       "t": "meshes\\hunterborn\\armor\\giantcloth\\bootsgnd.nif",
-       "h": "g+odFOXP7IBI"
-      },
-      {
-       "t": "meshes\\hunterborn\\armor\\giantcloth\\cuirassgnd.nif",
-       "h": "GzkxMUmV8Ai+"
-      },
-      {
-       "t": "meshes\\hunterborn\\armor\\giantcloth\\cuirasslight_0.nif",
-       "h": "ipj9YjsV7uz+"
-      },
-      {
-       "t": "meshes\\hunterborn\\armor\\giantcloth\\cuirasslight_1.nif",
-       "h": "jwypsKbVXW/3"
-      },
-      {
-       "t": "meshes\\hunterborn\\armor\\giantcloth\\gauntlets_0.nif",
-       "h": "mw0T9H5pUqBa"
-      },
-      {
-       "t": "meshes\\hunterborn\\armor\\giantcloth\\gauntlets_1.nif",
-       "h": "H6QhgDrrbHnL"
-      },
-      {
-       "t": "meshes\\hunterborn\\armor\\giantcloth\\gauntletsbeast_0.nif",
-       "h": "9nBYM6S5svca"
-      },
-      {
-       "t": "meshes\\hunterborn\\armor\\giantcloth\\gauntletsbeast_1.nif",
-       "h": "9APQLIsQluxN"
-      },
-      {
-       "t": "meshes\\hunterborn\\armor\\giantcloth\\gauntletsbeastf_0.nif",
-       "h": "MiW86KSZXrtz"
-      },
-      {
-       "t": "meshes\\hunterborn\\armor\\giantcloth\\gauntletsbeastf_1.nif",
-       "h": "LY5HUeR1tQ/E"
-      },
-      {
-       "t": "meshes\\hunterborn\\armor\\giantcloth\\gauntletsf_0.nif",
-       "h": "gEOpOBtCfxTN"
-      },
-      {
-       "t": "meshes\\hunterborn\\armor\\giantcloth\\gauntletsf_1.nif",
-       "h": "brOVq/6j9VS1"
-      },
-      {
-       "t": "meshes\\hunterborn\\armor\\giantcloth\\gauntletsgnd.nif",
-       "h": "yhsPmzdC153Q"
-      },
-      {
-       "t": "meshes\\hunterborn\\bigbloodybone.nif",
-       "h": "B+wvuXHYx1tA"
-      },
-      {
-       "t": "meshes\\hunterborn\\bones\\bloodyarm.nif",
-       "h": "mfMLgbf0ghW1"
-      },
-      {
-       "t": "meshes\\hunterborn\\bones\\bloodybone.nif",
-       "h": "0HH0OFlKYb7Z"
-      },
-      {
-       "t": "meshes\\hunterborn\\bones\\bloodyleg.nif",
-       "h": "Nk7/as48Mgvi"
-      },
-      {
-       "t": "meshes\\hunterborn\\bones\\bloodyshoulder.nif",
-       "h": "5qfLiuqEQAG6"
-      },
-      {
-       "t": "meshes\\hunterborn\\bones\\engravedbone.nif",
-       "h": "fkYknlTsTnj7"
-      },
-      {
-       "t": "meshes\\hunterborn\\bristlebackpelt.nif",
-       "h": "dKBlqh5ljQVn"
-      },
-      {
-       "t": "meshes\\hunterborn\\containers\\move_satchel.nif",
-       "h": "iu+DsdG6mWhS"
-      },
-      {
-       "t": "meshes\\hunterborn\\containers\\move_strongbox01.nif",
-       "h": "mpydlZqgBAM4"
-      },
-      {
-       "t": "meshes\\hunterborn\\greatmammothtusk.nif",
-       "h": "eMnMU6xVXT0T"
-      },
-      {
-       "t": "meshes\\hunterborn\\hb_ls_scrimshaw.nif",
-       "h": "VNsKVFZAfuko"
-      },
-      {
-       "t": "meshes\\hunterborn\\heartwood.nif",
-       "h": "cYqO4bfoTbCB"
-      },
-      {
-       "t": "meshes\\hunterborn\\hugebloodybone.nif",
-       "h": "74Na2mvUZ0ZA"
-      },
-      {
-       "t": "meshes\\hunterborn\\ingredients\\hb_eyebear.nif",
-       "h": "GdRauj/CaYBp"
-      },
-      {
-       "t": "meshes\\hunterborn\\ingredients\\hb_poleyebear.nif",
-       "h": "24Qr6//nltM+"
-      },
-      {
-       "t": "meshes\\hunterborn\\ingredients\\rwscoweye.nif",
-       "h": "ZF2hmX5ir6xe"
-      },
-      {
-       "t": "meshes\\hunterborn\\ingredients\\rwscoweyepolished.nif",
-       "h": "ZF2hmX5ir6xe"
-      },
-      {
-       "t": "meshes\\hunterborn\\ingredients\\rwsdeereye.nif",
-       "h": "FfrpX+TzuHKK"
-      },
-      {
-       "t": "meshes\\hunterborn\\ingredients\\rwselkeye.nif",
-       "h": "lmvxp0FZSHBb"
-      },
-      {
-       "t": "meshes\\hunterborn\\ingredients\\rwsgianteye.nif",
-       "h": "PwzRnD4lhCNs"
-      },
-      {
-       "t": "meshes\\hunterborn\\ingredients\\rwshorkereye.nif",
-       "h": "QDhkL93GnZaL"
-      },
-      {
-       "t": "meshes\\hunterborn\\ingredients\\rwshorseeye.nif",
-       "h": "izsFV1E96y5m"
-      },
-      {
-       "t": "meshes\\hunterborn\\ingredients\\rwsmammotheye.nif",
-       "h": "WloAgC7JtNZ/"
-      },
-      {
-       "t": "meshes\\hunterborn\\ingredients\\rwstrolleye.nif",
-       "h": "eJ5BQxFShdrB"
-      },
-      {
-       "t": "meshes\\hunterborn\\ingredients\\rwswolfeye.nif",
-       "h": "JK56ZuST0/y+"
-      },
-      {
-       "t": "meshes\\hunterborn\\jewellery\\totemhircine.nif",
-       "h": "/7wNzkwiX0jl"
-      },
-      {
-       "t": "meshes\\hunterborn\\jewellery\\totemjulianos.nif",
-       "h": "OAl3Nz15XQaE"
-      },
-      {
-       "t": "meshes\\hunterborn\\jewellery\\totemkynareth.nif",
-       "h": "n6WdAJC5yCHf"
-      },
-      {
-       "t": "meshes\\hunterborn\\knucklebones.nif",
-       "h": "mxj/8n7UnKof"
-      },
-      {
-       "t": "meshes\\hunterborn\\moonbutter.nif",
-       "h": "wQxNX/drh11K"
-      },
-      {
-       "t": "meshes\\hunterborn\\soups\\applecabbagestew.nif",
-       "h": "I63AQiMjbH/Q"
-      },
-      {
-       "t": "meshes\\hunterborn\\soups\\beefstew.nif",
-       "h": "WF70Hd3N9WAp"
-      },
-      {
-       "t": "meshes\\hunterborn\\soups\\cabbagepotatosoup.nif",
-       "h": "MApS5cvxb3V8"
-      },
-      {
-       "t": "meshes\\hunterborn\\soups\\cabbagesoup.nif",
-       "h": "PC9t5+eHaEn6"
-      },
-      {
-       "t": "meshes\\hunterborn\\soups\\chickensoup.nif",
-       "h": "vrBzEbai1P90"
-      },
-      {
-       "t": "meshes\\hunterborn\\soups\\clamchowder.nif",
-       "h": "aeKNS1VWeAIg"
-      },
-      {
-       "t": "meshes\\hunterborn\\soups\\dogmeatstew.nif",
-       "h": "jmXdoGu8F4sj"
-      },
-      {
-       "t": "meshes\\hunterborn\\soups\\elsweyrfondue.nif",
-       "h": "VIGhGSBgKJix"
-      },
-      {
-       "t": "meshes\\hunterborn\\soups\\fishsoup.nif",
-       "h": "FzXWQF5fqBlR"
-      },
-      {
-       "t": "meshes\\hunterborn\\soups\\horkerstew.nif",
-       "h": "qFACJjBgMrgF"
-      },
-      {
-       "t": "meshes\\hunterborn\\soups\\horkeryamstew.nif",
-       "h": "zkkT6jwhvSOW"
-      },
-      {
-       "t": "meshes\\hunterborn\\soups\\hunterstew.nif",
-       "h": "qXuJVMhuO1t0"
-      },
-      {
-       "t": "meshes\\hunterborn\\soups\\leekpotatosoup.nif",
-       "h": "RU2jHHKKXaxh"
-      },
-      {
-       "t": "meshes\\hunterborn\\soups\\mushroomsoup.nif",
-       "h": "nGCU1aLjn05e"
-      },
-      {
-       "t": "meshes\\hunterborn\\soups\\pheasantstew.nif",
-       "h": "bBaMDR/Fcb95"
-      },
-      {
-       "t": "meshes\\hunterborn\\soups\\potatosoup.nif",
-       "h": "s+ml/RulzMm3"
-      },
-      {
-       "t": "meshes\\hunterborn\\soups\\rabbitstew.nif",
-       "h": "2INi8WlQMoBd"
-      },
-      {
-       "t": "meshes\\hunterborn\\soups\\salmonchowder.nif",
-       "h": "oC0zPdTBSJP4"
-      },
-      {
-       "t": "meshes\\hunterborn\\soups\\stew.nif",
-       "h": "MVGHF5a1nmoX"
-      },
-      {
-       "t": "meshes\\hunterborn\\soups\\tomatosoup.nif",
-       "h": "vgytXdgAzm6N"
-      },
-      {
-       "t": "meshes\\hunterborn\\soups\\vegetablesoup.nif",
-       "h": "Dij9UDgR8YT0"
-      },
-      {
-       "t": "meshes\\hunterborn\\soups\\venisonstew.nif",
-       "h": "AE6sXNNPny/H"
-      },
-      {
-       "t": "meshes\\hunterborn\\stickcookpot.nif",
-       "h": "P6Sfpj9ELTH5"
-      },
-      {
-       "t": "meshes\\hunterborn\\watermelonsoup.nif",
-       "h": "Gfv1MDwiLjak"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\clebonyweapons\\1stpersonebonydagger.nif",
-       "h": "+EfOzP7VUpxG"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\clebonyweapons\\ebonydagger.nif",
-       "h": "QMdAbrGYYU/t"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\clorcish\\clorcishdagger.nif",
-       "h": "XB8e14skvJEV"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\dagothballs\\dragonbonedagger.nif",
-       "h": "WFxaJl0f08zC"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\ghosu - hobbit\\hobbitknife.nif",
-       "h": "i/EFpLOw3tPU"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\ghosu - horker\\arrow.nif",
-       "h": "bit3o7/Smt8G"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\ghosu - horker\\arrowflight.nif",
-       "h": "CI9w9+RyReAn"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\ghosu - horker\\axe1h.nif",
-       "h": "HlXZNsEO/pUB"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\ghosu - horker\\axe2h.nif",
-       "h": "hA3NKNZQtSDh"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\ghosu - horker\\bolt.nif",
-       "h": "QvNr8kHxYsQd"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\ghosu - horker\\boltflight.nif",
-       "h": "J8NG3y3nmYei"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\ghosu - horker\\bow.nif",
-       "h": "zUP0bTnIUWA3"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\ghosu - horker\\bowgnd.nif",
-       "h": "ICEA4JWDzHmN"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\ghosu - horker\\claymore.nif",
-       "h": "cUKvlWHrOXqW"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\ghosu - horker\\crossbow.nif",
-       "h": "xEBIqhZnAfxr"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\ghosu - horker\\dagger.nif",
-       "h": "YQcjtPUU0Z/+"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\ghosu - horker\\dagger2.nif",
-       "h": "Rq3M0zoKU9lv"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\ghosu - horker\\greatsword.nif",
-       "h": "qokmhY8DWxe5"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\ghosu - horker\\mace.nif",
-       "h": "Zz00ZIHTRr8e"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\ghosu - horker\\shield.nif",
-       "h": "GjYFvW8fVlMn"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\ghosu - horker\\stonedagger.nif",
-       "h": "ORjlHxyk+SMx"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\ghosu - horker\\sword.nif",
-       "h": "fFK8l4yNHMLY"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\ghosu - horker\\warhammer.nif",
-       "h": "e5uOpihMhCY8"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\ghosu - wp1\\oakheartdagger1h.nif",
-       "h": "HkalW248FhQk"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\hb_stonedagger.nif",
-       "h": "YLMEn9LZJO3Y"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\insanity fang\\1stpersonkahvozeinfang.nif",
-       "h": "Syvm1p+jgDRN"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\insanity fang\\kahvozeinfang.nif",
-       "h": "lYsyH3PZR1FC"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\witchbattleweapon\\1st_witchlightsword.nif",
-       "h": "M5kBcIrObgws"
-      },
-      {
-       "t": "meshes\\hunterborn\\weapons\\witchbattleweapon\\witchlightsword.nif",
-       "h": "M5kBcIrObgws"
-      },
-      {
-       "t": "scripts\\_ds_hb_actions.pex",
-       "h": "4Y0KosjJpVzd"
-      },
-      {
-       "t": "scripts\\_ds_hb_animals.pex",
-       "h": "nepQrlAQ/dT+"
-      },
-      {
-       "t": "scripts\\_ds_hb_carcassarray.pex",
-       "h": "25ic5csWpSwO"
-      },
-      {
-       "t": "scripts\\_ds_hb_globals.pex",
-       "h": "ri+uVtFBpP7H"
-      },
-      {
-       "t": "scripts\\_ds_hb_items.pex",
-       "h": "4Q3wirUqQr+4"
-      },
-      {
-       "t": "scripts\\_ds_hb_knives.pex",
-       "h": "X4xesKxrvkr3"
-      },
-      {
-       "t": "scripts\\_ds_hb_main.pex",
-       "h": "zs1B0KoEey/l"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_alchemistcrown.pex",
-       "h": "voD9nSKJfuKQ"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_bloodofthehunt.pex",
-       "h": "CMdPURa2tckV"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_bloody.pex",
-       "h": "KvQZ1JDm6Oab"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_bonebuffs.pex",
-       "h": "24QmVD+A47Qr"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_config.pex",
-       "h": "O1DsXQdyBwjc"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_cursephthisis.pex",
-       "h": "QqkRJ8Maax4O"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_decurse.pex",
-       "h": "jywdFyQy/fCe"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_decurse1.pex",
-       "h": "SI686H+X/kpY"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_defective.pex",
-       "h": "fYiUVYksFybN"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_detectlifeoutdoor.pex",
-       "h": "DGlN0ScDCCkV"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_discerning.pex",
-       "h": "gk5Svk06sQII"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_dreamofgold.pex",
-       "h": "pu30J6O2IhGw"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_entropy.pex",
-       "h": "yF48s7O/RBjU"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_exploitweakness.pex",
-       "h": "w9/yFjwha2lg"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_flaming.pex",
-       "h": "jUcc+l9IOPUE"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_flowersofjone.pex",
-       "h": "lNPT171h1vev"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_flowersofjone_mgr.pex",
-       "h": "npVaKqSctVkL"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_forage.pex",
-       "h": "9AeX28v9FtIj"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_forceeffect.pex",
-       "h": "mirQJdzvAcpY"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_frostfall_exposureshim.pex",
-       "h": "bVmbfgZMtMPf"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_hircinescloak.pex",
-       "h": "6I+9G+qnrALy"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_hotkey.pex",
-       "h": "hEALvkM3wQPX"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_hottea.pex",
-       "h": "MZl+8chHdPNx"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_ineptitude.pex",
-       "h": "gzsKs4MyydYM"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_kenhunted.pex",
-       "h": "dkNPm8D1lvtS"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_kenhunted_trigger.pex",
-       "h": "doXRAobz3Dtn"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_moondance.pex",
-       "h": "QXRs/6e1icZj"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_muddle.pex",
-       "h": "i/Mz5MfQh+QV"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_outdooronly.pex",
-       "h": "zurhOmDAQAFF"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_primitivecooking.pex",
-       "h": "1taAJBFH6iq3"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_regionset.pex",
-       "h": "xIoDK8gjoSZR"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_scavenging.pex",
-       "h": "vXhzfQVAuYt1"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_scrimshaw.pex",
-       "h": "ZfJL4ozlMUtW"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_sensedirection.pex",
-       "h": "bveyaO9M73a0"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_shade.pex",
-       "h": "sJCFC0ncbY+H"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_soupsstews.pex",
-       "h": "32qU15w4i+6o"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_strangebrew.pex",
-       "h": "3YtM+WkQA/wG"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_summonspirit.pex",
-       "h": "iBeYGq89j5rD"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_taxonomy.pex",
-       "h": "s1zVhOiENCs5"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_wheatboontea.pex",
-       "h": "xYA2XG4OFtji"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_winetasting.pex",
-       "h": "CF/yxXgBSJjN"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgref_alchemistcrown.pex",
-       "h": "1Y1BW80IDsZm"
-      },
-      {
-       "t": "scripts\\_ds_hb_monsters.pex",
-       "h": "M4Q7Z4YO8Iie"
-      },
-      {
-       "t": "scripts\\_ds_hb_obj_bonesilverring.pex",
-       "h": "BJiSDiUCV3Px"
-      },
-      {
-       "t": "scripts\\_ds_hb_obj_dread.pex",
-       "h": "AnP2hT5w3PIw"
-      },
-      {
-       "t": "scripts\\_ds_hb_obj_dumpster.pex",
-       "h": "UsEutyGl3wIr"
-      },
-      {
-       "t": "scripts\\_ds_hb_obj_exitfurniture.pex",
-       "h": "a7vRBaUUc0mB"
-      },
-      {
-       "t": "scripts\\_ds_hb_obj_grimeyshim.pex",
-       "h": "9//kAxh5/TcR"
-      },
-      {
-       "t": "scripts\\_ds_hb_obj_grimeystrongbox.pex",
-       "h": "3/dytoqrTVWS"
-      },
-      {
-       "t": "scripts\\_ds_hb_obj_heartwoodbow.pex",
-       "h": "Wc/1xjzKXilp"
-      },
-      {
-       "t": "scripts\\_ds_hb_obj_hircinelute.pex",
-       "h": "o3twGTUi5E0e"
-      },
-      {
-       "t": "scripts\\_ds_hb_obj_huntersbedroll.pex",
-       "h": "9tZRvcyCB7fm"
-      },
-      {
-       "t": "scripts\\_ds_hb_obj_huntersbedroll_furn.pex",
-       "h": "fvc5CK2/Dp++"
-      },
-      {
-       "t": "scripts\\_ds_hb_obj_hunterscache.pex",
-       "h": "j7O0W3lcUoOI"
-      },
-      {
-       "t": "scripts\\_ds_hb_obj_hunterscache_cont.pex",
-       "h": "GNet6ZYHqenF"
-      },
-      {
-       "t": "scripts\\_ds_hb_obj_lyartcairn.pex",
-       "h": "2cdojT12RmAc"
-      },
-      {
-       "t": "scripts\\_ds_hb_obj_meatgrinder.pex",
-       "h": "rggTTlYlMnCI"
-      },
-      {
-       "t": "scripts\\_ds_hb_obj_scavenging_furn.pex",
-       "h": "C1ktcBzidHK6"
-      },
-      {
-       "t": "scripts\\_ds_hb_pet_activate.pex",
-       "h": "FIhYDeR6r4+m"
-      },
-      {
-       "t": "scripts\\_ds_hb_pet_finder.pex",
-       "h": "au/ZoqjQ+/YL"
-      },
-      {
-       "t": "scripts\\_ds_hb_player.pex",
-       "h": "wSev52Rws82X"
-      },
-      {
-       "t": "scripts\\_ds_hb_prkf_carcassclean.pex",
-       "h": "sWPdbgicz/1x"
-      },
-      {
-       "t": "scripts\\_ds_hb_prkf_carcassempty.pex",
-       "h": "0kkclWPA6cv1"
-      },
-      {
-       "t": "scripts\\_ds_hb_prkf_carcassfresh.pex",
-       "h": "nFLMKZenmlMY"
-      },
-      {
-       "t": "scripts\\_ds_hb_prkf_carcassmonster.pex",
-       "h": "T71frEfmOXiq"
-      },
-      {
-       "t": "scripts\\_ds_hb_prkf_startup.pex",
-       "h": "vKf7XryZJeSe"
-      },
-      {
-       "t": "scripts\\_ds_hb_qf_hircinesvigil.pex",
-       "h": "6TriffhyD7a2"
-      },
-      {
-       "t": "scripts\\_ds_hb_qf_startuphelper.pex",
-       "h": "CgpjJmyyM1rw"
-      },
-      {
-       "t": "scripts\\_ds_hb_soupmanager.pex",
-       "h": "/qe5XaixDhGb"
-      },
-      {
-       "t": "scripts\\_ds_hb_tracks_finder.pex",
-       "h": "hhGUTctnONTq"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_actions.psc",
-       "h": "0JnU1Qv+RoVh"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_animals.psc",
-       "h": "zRihPnTxyJhe"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_carcassarray.psc",
-       "h": "MTOzn/k8TKRP"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_globals.psc",
-       "h": "L+RYuXEzS9o3"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_items.psc",
-       "h": "8Yn8/nYXXBsU"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_knives.psc",
-       "h": "WegRoLS8tse4"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_main.psc",
-       "h": "vlJujB19xnT/"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_alchemistcrown.psc",
-       "h": "UFYKv2lAKM8Z"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_bloodofthehunt.psc",
-       "h": "xSkBaNqsgsKo"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_bloody.psc",
-       "h": "GW+wT2K7RVs3"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_bonebuffs.psc",
-       "h": "jpb6Z1CghuqW"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_config.psc",
-       "h": "TxKzlk5uslHM"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_cursephthisis.psc",
-       "h": "4HzZqW4spf0U"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_decurse.psc",
-       "h": "N024EEMwtQZr"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_decurse1.psc",
-       "h": "9VQ0SRX8e9Zv"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_defective.psc",
-       "h": "rwOOlujSI7ED"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_detectlifeoutdoor.psc",
-       "h": "8UrtY0oDzcZD"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_discerning.psc",
-       "h": "M05SGwXTahI1"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_dreamofgold.psc",
-       "h": "xk3ImcVZuPbd"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_entropy.psc",
-       "h": "nyH4Vux1uA5u"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_exploitweakness.psc",
-       "h": "IeSxriVjdBb+"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_flaming.psc",
-       "h": "BkbQqK/Q6wSf"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_flowersofjone.psc",
-       "h": "8zHbjWgyRikq"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_flowersofjone_mgr.psc",
-       "h": "BQpohm9HFvTZ"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_forage.psc",
-       "h": "IqvPfuFDqTKN"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_forceeffect.psc",
-       "h": "i0WmG7d2yu3j"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_frostfall_exposureshim.psc",
-       "h": "MUYnIR9vDwsM"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_hircinescloak.psc",
-       "h": "EIRN5UMao4Vk"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_hotkey.psc",
-       "h": "XfJxYC/d3nm/"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_hottea.psc",
-       "h": "rSx9UclujVXP"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_ineptitude.psc",
-       "h": "LMXfgq5kjMm6"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_kenhunted.psc",
-       "h": "jJPjM7UGrhXv"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_kenhunted_trigger.psc",
-       "h": "sfCfD9e92Cv3"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_moondance.psc",
-       "h": "SAlSsnXSivDR"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_muddle.psc",
-       "h": "axZpGiyH9e6M"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_outdooronly.psc",
-       "h": "UU4hijU/2tft"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_primitivecooking.psc",
-       "h": "pHsxta+jXT//"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_regionset.psc",
-       "h": "dzSo5LsJMDSa"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_scavenging.psc",
-       "h": "jT1UEeDiETXS"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_scrimshaw.psc",
-       "h": "sM0KNhhDQ4yD"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_sensedirection.psc",
-       "h": "W27CFIysYmKl"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_shade.psc",
-       "h": "xO7KdLFGNhi/"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_soupsstews.psc",
-       "h": "bsRTykeqoxOw"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_strangebrew.psc",
-       "h": "7Ftobj4CuTS1"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_summonspirit.psc",
-       "h": "RKABZ2VAlqFK"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_taxonomy.psc",
-       "h": "tT0k9oNq1vCb"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_wheatboontea.psc",
-       "h": "suCIWH/VIrDW"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_winetasting.psc",
-       "h": "/+H6LD7Wbffh"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_monsters.psc",
-       "h": "MExOsjNew1Vf"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_obj_bonesilverring.psc",
-       "h": "S1d+sAiZIa5N"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_obj_dread.psc",
-       "h": "qvS5mH3xUFRt"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_obj_dumpster.psc",
-       "h": "UeGzyhgotxEi"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_obj_exitfurniture.psc",
-       "h": "zQYSn4tDjCFc"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_obj_grimeyshim.psc",
-       "h": "Y7cate9oP6hp"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_obj_grimeystrongbox.psc",
-       "h": "7hOrVaxokwlM"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_obj_heartwoodbow.psc",
-       "h": "WxOWx+OqQIlD"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_obj_hircinelute.psc",
-       "h": "G5PzgZZQsBQq"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_obj_huntersbedroll.psc",
-       "h": "pVujjeXJ9aVE"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_obj_huntersbedroll_furn.psc",
-       "h": "tZdl9cH0nxrh"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_obj_hunterscache.psc",
-       "h": "JTNuqjzkKCY6"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_obj_hunterscache_cont.psc",
-       "h": "BwfOweKHyvS5"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_obj_lyartcairn.psc",
-       "h": "upmGfPvjVfoD"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_obj_meatgrinder.psc",
-       "h": "iHaFSu3TN40X"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_obj_scavenging_furn.psc",
-       "h": "us/9eVq3Y+pB"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_pet_activate.psc",
-       "h": "tg+zP+cGq3bC"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_pet_finder.psc",
-       "h": "hcZJL17+0Cvf"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_player.psc",
-       "h": "3D/Y2ZZCJK21"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_prkf_carcassclean.psc",
-       "h": "ypcg7C7/eH/4"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_prkf_carcassempty.psc",
-       "h": "g0H4jSy7/fte"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_prkf_carcassfresh.psc",
-       "h": "HC4YT1WKKMgK"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_prkf_carcassmonster.psc",
-       "h": "WJ8EXc4Bls18"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_prkf_startup.psc",
-       "h": "70Eo8luxLJ6t"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_qf_hircinesvigil.psc",
-       "h": "gaV3k/eQFGsI"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_qf_startuphelper.psc",
-       "h": "qzrEmkp56GSI"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_soupmanager.psc",
-       "h": "WEPAzrlbMLPi"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_tracks_finder.psc",
-       "h": "acsnebtR3J4Y"
-      },
-      {
-       "t": "textures\\armor\\amuletsandrings\\engravedboneblank.dds",
-       "h": "C1RC5Y8N88/E"
-      },
-      {
-       "t": "textures\\armor\\amuletsandrings\\engravedboneblank_m.dds",
-       "h": "xfyHrtohyb+j"
-      },
-      {
-       "t": "textures\\armor\\amuletsandrings\\engravedboneblank_n.dds",
-       "h": "OrK/P28+QyCa"
-      },
-      {
-       "t": "textures\\armor\\amuletsandrings\\engravedboneh.dds",
-       "h": "phzcGS9LjxHu"
-      },
-      {
-       "t": "textures\\armor\\amuletsandrings\\engravedboneh_n.dds",
-       "h": "Elev+of9mGFc"
-      },
-      {
-       "t": "textures\\armor\\amuletsandrings\\engravedbonej.dds",
-       "h": "J/WaAPYemzgA"
-      },
-      {
-       "t": "textures\\armor\\amuletsandrings\\engravedbonej_n.dds",
-       "h": "zqEQfQp5Wpl2"
-      },
-      {
-       "t": "textures\\armor\\amuletsandrings\\engravedbonek.dds",
-       "h": "fhlplxnAQWD2"
-      },
-      {
-       "t": "textures\\armor\\amuletsandrings\\engravedbonek_n.dds",
-       "h": "koYcqzPo/0E7"
-      },
-      {
-       "t": "textures\\armor\\amuletsandrings\\rwsgenericamulets.dds",
-       "h": "schdMqnl2W5h"
-      },
-      {
-       "t": "textures\\armor\\amuletsandrings\\rwsgenericamulets_n.dds",
-       "h": "9WVOH0buQwN3"
-      },
-      {
-       "t": "textures\\armor\\amuletsandrings\\rwsgenericrings.dds",
-       "h": "yrQqXrSg6jXX"
-      },
-      {
-       "t": "textures\\armor\\amuletsandrings\\rwsgenericrings_n.dds",
-       "h": "NusIpceDi8ym"
-      },
-      {
-       "t": "textures\\armor\\amuletsandrings\\rwsgenericringsantler.dds",
-       "h": "ccBYPrcEkWPj"
-      },
-      {
-       "t": "textures\\armor\\amuletsandrings\\rwsgenericringsantler_n.dds",
-       "h": "Pr8BbrolOf/9"
-      },
-      {
-       "t": "textures\\armor\\amuletsandrings\\rwsgenericringsorig.dds",
-       "h": "d4rMXA5tWXsf"
-      },
-      {
-       "t": "textures\\armor\\amuletsandrings\\stone.dds",
-       "h": "fNMe7BWCyFvm"
-      },
-      {
-       "t": "textures\\armor\\amuletsandrings\\stone_m.dds",
-       "h": "5gEboLx2OUSx"
-      },
-      {
-       "t": "textures\\armor\\amuletsandrings\\stone_n.dds",
-       "h": "DzMnh4BRydZT"
-      },
-      {
-       "t": "textures\\clutter\\horkertusk\\horkertusk.dds",
-       "h": "zGVZqRxdiBnL"
-      },
-      {
-       "t": "textures\\cubemaps\\clorcisch_e.dds",
-       "h": "iur6IW/y8Yvw"
-      },
-      {
-       "t": "textures\\dagothballs\\dragonbone\\dagger\\dagger.dds",
-       "h": "irYzwl8KjrO1"
-      },
-      {
-       "t": "textures\\dagothballs\\dragonbone\\dagger\\dagger_m.dds",
-       "h": "8vaVTQK24cyx"
-      },
-      {
-       "t": "textures\\dagothballs\\dragonbone\\dagger\\dagger_n.dds",
-       "h": "idIAH2WlWuc/"
-      },
-      {
-       "t": "textures\\hunterborn\\amberluce01.dds",
-       "h": "+QMvAicwPcsb"
-      },
-      {
-       "t": "textures\\hunterborn\\amberluce01_n.dds",
-       "h": "pCY04Y1C8Tph"
-      },
-      {
-       "t": "textures\\hunterborn\\applecabbagestew.dds",
-       "h": "EaMbJo35q/yQ"
-      },
-      {
-       "t": "textures\\hunterborn\\applecabbagestew_n.dds",
-       "h": "S8kApiYI2Q+r"
-      },
-      {
-       "t": "textures\\hunterborn\\beefstew.dds",
-       "h": "wP5NJH2x9cdj"
-      },
-      {
-       "t": "textures\\hunterborn\\beefstew_n.dds",
-       "h": "KtZqajXjMKxE"
-      },
-      {
-       "t": "textures\\hunterborn\\bowl.dds",
-       "h": "aHhlXmWRHWCR"
-      },
-      {
-       "t": "textures\\hunterborn\\bowl_n.dds",
-       "h": "VsLAXRQgoW/x"
-      },
-      {
-       "t": "textures\\hunterborn\\bristlebackskin.dds",
-       "h": "cqNvGjymc00t"
-      },
-      {
-       "t": "textures\\hunterborn\\cabbagepotatosoup.dds",
-       "h": "C4BOQpNB2K8F"
-      },
-      {
-       "t": "textures\\hunterborn\\cabbagepotatosoup_n.dds",
-       "h": "rhQ+DunvsfBu"
-      },
-      {
-       "t": "textures\\hunterborn\\cabbagesoup.dds",
-       "h": "uxmOGEiPFXSS"
-      },
-      {
-       "t": "textures\\hunterborn\\cabbagesoup_n.dds",
-       "h": "7KntZ60hMWHn"
-      },
-      {
-       "t": "textures\\hunterborn\\chickensoup.dds",
-       "h": "BaTrYRcaNe2T"
-      },
-      {
-       "t": "textures\\hunterborn\\chickensoup_n.dds",
-       "h": "r+X6GyQgHxuA"
-      },
-      {
-       "t": "textures\\hunterborn\\clamchowder.dds",
-       "h": "cuj96QWEsKuz"
-      },
-      {
-       "t": "textures\\hunterborn\\clamchowder_n.dds",
-       "h": "QoCf9wF9Og3g"
-      },
-      {
-       "t": "textures\\hunterborn\\cookpot.dds",
-       "h": "MZdCH88jWJnh"
-      },
-      {
-       "t": "textures\\hunterborn\\cookpot_n.dds",
-       "h": "vezJSiLhoIEU"
-      },
-      {
-       "t": "textures\\hunterborn\\dogmeatstew.dds",
-       "h": "h3GAfa2T6EVT"
-      },
-      {
-       "t": "textures\\hunterborn\\dogmeatstew_n.dds",
-       "h": "BuPFB0OU/F7z"
-      },
-      {
-       "t": "textures\\hunterborn\\elsweyrfondue.dds",
-       "h": "w22hSJUTLcjv"
-      },
-      {
-       "t": "textures\\hunterborn\\fishsoup.dds",
-       "h": "FNOUm11pLd8l"
-      },
-      {
-       "t": "textures\\hunterborn\\fishsoup_n.dds",
-       "h": "WXhMLhR9KlnQ"
-      },
-      {
-       "t": "textures\\hunterborn\\heartwood.dds",
-       "h": "XhnFhKOwPX1P"
-      },
-      {
-       "t": "textures\\hunterborn\\heartwood_n.dds",
-       "h": "cFLdwXMXBHHE"
-      },
-      {
-       "t": "textures\\hunterborn\\heartwoodbark.dds",
-       "h": "oF+2QR5xN+Mj"
-      },
-      {
-       "t": "textures\\hunterborn\\heartwoodbark_n.dds",
-       "h": "k0x5XxjCN/4i"
-      },
-      {
-       "t": "textures\\hunterborn\\horkerstew.dds",
-       "h": "Sm0wzIAqrpYl"
-      },
-      {
-       "t": "textures\\hunterborn\\horkerstew_n.dds",
-       "h": "iJpv2PKwO6/v"
-      },
-      {
-       "t": "textures\\hunterborn\\horkeryamstew.dds",
-       "h": "JHsb40CMYORk"
-      },
-      {
-       "t": "textures\\hunterborn\\horkeryamstew_n.dds",
-       "h": "VDW1GBYp491+"
-      },
-      {
-       "t": "textures\\hunterborn\\hunterstew.dds",
-       "h": "98KjVYbGlicF"
-      },
-      {
-       "t": "textures\\hunterborn\\hunterstew_n.dds",
-       "h": "fAfQDMJkK3mD"
-      },
-      {
-       "t": "textures\\hunterborn\\knucklebones - copy.dds",
-       "h": "LVUd5E+VWuX8"
-      },
-      {
-       "t": "textures\\hunterborn\\knucklebones.dds",
-       "h": "xsXq4ScIOu5K"
-      },
-      {
-       "t": "textures\\hunterborn\\knucklebones_n.dds",
-       "h": "8vMqIeFNll4r"
-      },
-      {
-       "t": "textures\\hunterborn\\leekpotatosoup.dds",
-       "h": "+y04Wk1N7E1+"
-      },
-      {
-       "t": "textures\\hunterborn\\leekpotatosoup_n.dds",
-       "h": "WNiaKNLqYDCw"
-      },
-      {
-       "t": "textures\\hunterborn\\moonbutter01.dds",
-       "h": "UGKpH5TEUArM"
-      },
-      {
-       "t": "textures\\hunterborn\\moonbutter01_n.dds",
-       "h": "EGmWZx6t4eJx"
-      },
-      {
-       "t": "textures\\hunterborn\\mushroomsoup.dds",
-       "h": "lQ9Mopy2Fakl"
-      },
-      {
-       "t": "textures\\hunterborn\\mushroomsoup_n.dds",
-       "h": "++ccvEprd/TF"
-      },
-      {
-       "t": "textures\\hunterborn\\pheasantstew.dds",
-       "h": "hMdxN0sISODn"
-      },
-      {
-       "t": "textures\\hunterborn\\pheasantstew_n.dds",
-       "h": "7X+eAlZTC2Ig"
-      },
-      {
-       "t": "textures\\hunterborn\\potatosoup.dds",
-       "h": "7kjhxcDFHvmG"
-      },
-      {
-       "t": "textures\\hunterborn\\potatosoup_n.dds",
-       "h": "43ieOwnGcowi"
-      },
-      {
-       "t": "textures\\hunterborn\\rabbitstew.dds",
-       "h": "E9HW/S8AWmfL"
-      },
-      {
-       "t": "textures\\hunterborn\\rabbitstew_n.dds",
-       "h": "PcsozEolFFbn"
-      },
-      {
-       "t": "textures\\hunterborn\\rest.dds",
-       "h": "41uCsiGNdpEs"
-      },
-      {
-       "t": "textures\\hunterborn\\rest_n.dds",
-       "h": "qjIopg1xEFmx"
-      },
-      {
-       "t": "textures\\hunterborn\\salmonchowder.dds",
-       "h": "/vG22zgm9fHh"
-      },
-      {
-       "t": "textures\\hunterborn\\salmonchowder_n.dds",
-       "h": "h2y6avVMOaWg"
-      },
-      {
-       "t": "textures\\hunterborn\\stew.dds",
-       "h": "6Ja5k/V1t8F4"
-      },
-      {
-       "t": "textures\\hunterborn\\stew_n.dds",
-       "h": "V/RHeofjOp33"
-      },
-      {
-       "t": "textures\\hunterborn\\tomatosoup.dds",
-       "h": "/rwDFe52A9T7"
-      },
-      {
-       "t": "textures\\hunterborn\\tomatosoup_n.dds",
-       "h": "7Y1NB9kRTuGU"
-      },
-      {
-       "t": "textures\\hunterborn\\vegetablesoup.dds",
-       "h": "E838vHNw4OPJ"
-      },
-      {
-       "t": "textures\\hunterborn\\vegetablesoup_n.dds",
-       "h": "u38IXr6iwm0O"
-      },
-      {
-       "t": "textures\\hunterborn\\venisonstew.dds",
-       "h": "2OCYx42u+8fg"
-      },
-      {
-       "t": "textures\\hunterborn\\venisonstew_n.dds",
-       "h": "zdd9XCxjAsAj"
-      },
-      {
-       "t": "textures\\hunterborn\\watermelonsoup.dds",
-       "h": "FECOeKcriMiG"
-      },
-      {
-       "t": "textures\\hunterborn\\watermelonsoup_n.dds",
-       "h": "rhQ+DunvsfBu"
-      },
-      {
-       "t": "textures\\ingredients\\hb_animal eyes_n.dds",
-       "h": "Q/zEHaW3i8Xi"
-      },
-      {
-       "t": "textures\\ingredients\\hb_eyebear.dds",
-       "h": "G0AQqs88Mghx"
-      },
-      {
-       "t": "textures\\ingredients\\hb_eyeboar.dds",
-       "h": "xGi4KH4NPlkB"
-      },
-      {
-       "t": "textures\\ingredients\\hb_eyedragon.dds",
-       "h": "pHwFUtvMaXaz"
-      },
-      {
-       "t": "textures\\ingredients\\hb_eyeelk.dds",
-       "h": "wpc0Jp7qi2t5"
-      },
-      {
-       "t": "textures\\ingredients\\hb_eyefox.dds",
-       "h": "RbmYL6SqNkaS"
-      },
-      {
-       "t": "textures\\ingredients\\hb_eyefox_n.dds",
-       "h": "1cxU1SV02VCC"
-      },
-      {
-       "t": "textures\\ingredients\\hb_eyegoat.dds",
-       "h": "MNQ6orrcnBcv"
-      },
-      {
-       "t": "textures\\ingredients\\hb_eyehare.dds",
-       "h": "Kl346L1NH0zf"
-      },
-      {
-       "t": "textures\\ingredients\\hb_eyemammoth.dds",
-       "h": "6kSJuTKXVdPn"
-      },
-      {
-       "t": "textures\\ingredients\\hb_eyetroll.dds",
-       "h": "FFi7MtV67GBo"
-      },
-      {
-       "t": "textures\\ingredients\\hb_eyewerewolf.dds",
-       "h": "K7kNx8iP4am9"
-      },
-      {
-       "t": "textures\\ingredients\\hb_eyewolf.dds",
-       "h": "Ff0jzFFivlki"
-      },
-      {
-       "t": "textures\\ingredients\\hb_poleyebear.dds",
-       "h": "T0R85ZjcK8P7"
-      },
-      {
-       "t": "textures\\ingredients\\hb_poleyeboar.dds",
-       "h": "kt/t9+aAmZg2"
-      },
-      {
-       "t": "textures\\ingredients\\hb_poleyedragon.dds",
-       "h": "jGKuM1DJN5Cx"
-      },
-      {
-       "t": "textures\\ingredients\\hb_poleyefox.dds",
-       "h": "JypfwOnHiAxV"
-      },
-      {
-       "t": "textures\\ingredients\\hb_poleyegoat.dds",
-       "h": "2ExYrWy6bfwi"
-      },
-      {
-       "t": "textures\\ingredients\\hb_poleyehare.dds",
-       "h": "04AR3s2J0axf"
-      },
-      {
-       "t": "textures\\ingredients\\hb_poleyemammoth.dds",
-       "h": "qxAXUEQUlO1D"
-      },
-      {
-       "t": "textures\\ingredients\\hb_poleyesabrecat.dds",
-       "h": "MfZJ2WqJwV9P"
-      },
-      {
-       "t": "textures\\ingredients\\hb_poleyetroll.dds",
-       "h": "Kv7rdRYivXtA"
-      },
-      {
-       "t": "textures\\ingredients\\hb_poleyewerewolf.dds",
-       "h": "O3cj5hWU3+Hu"
-      },
-      {
-       "t": "textures\\ingredients\\hb_poleyewolf.dds",
-       "h": "70a+2OMmL6nn"
-      },
-      {
-       "t": "textures\\ingredients\\rwscoweye.dds",
-       "h": "7xj6oaLGm8Vm"
-      },
-      {
-       "t": "textures\\ingredients\\rwsgianteye.dds",
-       "h": "krd7IO64zyzU"
-      },
-      {
-       "t": "textures\\ingredients\\rwsratseye01.dds",
-       "h": "7odXr3gc0PB5"
-      },
-      {
-       "t": "textures\\ingredients\\rwsratseye01_m.dds",
-       "h": "gl+m0e2Nobak"
-      },
-      {
-       "t": "textures\\ingredients\\rwsratseye01_n.dds",
-       "h": "hg+QZzAzT4Qu"
-      },
-      {
-       "t": "textures\\ingredients\\thumbs.db",
-       "h": "Uq0cKxMhyY9A"
-      },
-      {
-       "t": "textures\\insanity\\weapons\\fang\\fang.dds",
-       "h": "0v05fD9SvQQP"
-      },
-      {
-       "t": "textures\\insanity\\weapons\\fang\\fang_m.dds",
-       "h": "wMV+WlEyQIpM"
-      },
-      {
-       "t": "textures\\insanity\\weapons\\fang\\fang_n.dds",
-       "h": "g0uLegs6SRgX"
-      },
-      {
-       "t": "textures\\insanity\\weapons\\fang\\scb.dds",
-       "h": "JQhAvA2dQRBO"
-      },
-      {
-       "t": "textures\\insanity\\weapons\\fang\\scb_m.dds",
-       "h": "z5mbDuGpfSmx"
-      },
-      {
-       "t": "textures\\insanity\\weapons\\fang\\scb_n.dds",
-       "h": "SPDrYNxkeD9X"
-      },
-      {
-       "t": "textures\\weapons\\clebonyweapons\\cldagger.dds",
-       "h": "POqKjAlqcS5m"
-      },
-      {
-       "t": "textures\\weapons\\clebonyweapons\\cldagger_m.dds",
-       "h": "mk/r4tTgxike"
-      },
-      {
-       "t": "textures\\weapons\\clebonyweapons\\cldagger_n.dds",
-       "h": "oHLLXyRDNOwL"
-      },
-      {
-       "t": "textures\\weapons\\clebonyweapons\\cldaggerscb.dds",
-       "h": "Xnz0IY524Zop"
-      },
-      {
-       "t": "textures\\weapons\\clebonyweapons\\cldaggerscb_m.dds",
-       "h": "nT63wes6BRJe"
-      },
-      {
-       "t": "textures\\weapons\\clebonyweapons\\cldaggerscb_n.dds",
-       "h": "uMx9Nd9GORME"
-      },
-      {
-       "t": "textures\\weapons\\clorcishreplacer\\cldagger.dds",
-       "h": "oQYv1wSdYmKf"
-      },
-      {
-       "t": "textures\\weapons\\clorcishreplacer\\cldagger_m.dds",
-       "h": "UoPe7lbsB0Wv"
-      },
-      {
-       "t": "textures\\weapons\\clorcishreplacer\\cldagger_n.dds",
-       "h": "S6RZfc8VRVtm"
-      },
-      {
-       "t": "textures\\weapons\\clorcishreplacer\\cldaggerscb.dds",
-       "h": "6lj0UGvCGY5w"
-      },
-      {
-       "t": "textures\\weapons\\clorcishreplacer\\cldaggerscb_m.dds",
-       "h": "9wgs8mjxnaPJ"
-      },
-      {
-       "t": "textures\\weapons\\clorcishreplacer\\cldaggerscb_n.dds",
-       "h": "clCLLtQKgsqo"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - hobbit\\blade2.dds",
-       "h": "H+gMFHsE/fRe"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - hobbit\\blade2_n.dds",
-       "h": "bgCyL7WV+1bS"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - hobbit\\blade_m.dds",
-       "h": "z2ktYDNrwPme"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - hobbit\\knife32_n.dds",
-       "h": "241U36rQyc0S"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - hobbit\\knife34.dds",
-       "h": "zJSFbeuFcTca"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - hobbit\\knife4_m.dds",
-       "h": "lwk3k0P+lBcc"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - hobbit\\knifeb26.dds",
-       "h": "vrsfnqUOm5De"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - hobbit\\knifeb3_m.dds",
-       "h": "/o0zzQl/VEfX"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - hobbit\\knifeb4_n.dds",
-       "h": "HMLWgpvdEUQc"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - hobbit\\scabbard1_n.dds",
-       "h": "S5aEcBryw+tF"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - hobbit\\scabbard2_m.dds",
-       "h": "gMWmd6JNZOFN"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - hobbit\\sheath.dds",
-       "h": "4AsK41kUJRPE"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - hobbit\\sheath_m.dds",
-       "h": "uiDS2VkIDeND"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - hobbit\\sheath_n.dds",
-       "h": "Fcupe+0TwEFd"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - horker\\arrow.dds",
-       "h": "jeB6bowPDPRM"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - horker\\arrow_m.dds",
-       "h": "tGz8yRtjQsKF"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - horker\\arrow_n.dds",
-       "h": "IGF1Me/i4JxG"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - horker\\bow.dds",
-       "h": "oam0SUOwlAQP"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - horker\\bow_m.dds",
-       "h": "tK14xI6KfK/s"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - horker\\bow_n.dds",
-       "h": "stG8zKhxQPER"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - horker\\cube.dds",
-       "h": "iK5naM+oagfs"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - horker\\stone.dds",
-       "h": "fNMe7BWCyFvm"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - horker\\stone_m.dds",
-       "h": "5gEboLx2OUSx"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - horker\\stone_n.dds",
-       "h": "DzMnh4BRydZT"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - horker\\stoneknifehandle.dds",
-       "h": "Io5jNyaoPoLL"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - horker\\stonescabbards.dds",
-       "h": "5HtDwakmdBoX"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - wp1\\dagger.dds",
-       "h": "7EfLcOBIQE/d"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - wp1\\dagger_m.dds",
-       "h": "elshXYaO05qE"
-      },
-      {
-       "t": "textures\\weapons\\ghosu - wp1\\dagger_n.dds",
-       "h": "FYZUHpVHmwnI"
-      },
-      {
-       "t": "textures\\weapons\\witchbattleweapon\\blade.dds",
-       "h": "oZXWo4g/HOT+"
-      },
-      {
-       "t": "textures\\weapons\\witchbattleweapon\\blade_m.dds",
-       "h": "1ukzXbSB9Xec"
-      },
-      {
-       "t": "textures\\weapons\\witchbattleweapon\\blade_n.dds",
-       "h": "7AXJOjVmgCo2"
-      }
-     ]
-    }
    ]
   },
   {
@@ -20943,165 +19155,6 @@
      "skip": [
       "scripts\\_snplayeralias.pex",
       "source\\scripts\\_snplayeralias.psc"
-     ]
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "interface\\hunterborn\\hunterborn.dds",
-       "h": "PtBbGbBGAU60"
-      },
-      {
-       "t": "interface\\translations\\hunterborn_czech.txt",
-       "h": "fnXk4OiVzDKg"
-      },
-      {
-       "t": "interface\\translations\\hunterborn_english.txt",
-       "h": "fnXk4OiVzDKg"
-      },
-      {
-       "t": "interface\\translations\\hunterborn_french.txt",
-       "h": "fnXk4OiVzDKg"
-      },
-      {
-       "t": "interface\\translations\\hunterborn_german.txt",
-       "h": "fnXk4OiVzDKg"
-      },
-      {
-       "t": "interface\\translations\\hunterborn_italian.txt",
-       "h": "fnXk4OiVzDKg"
-      },
-      {
-       "t": "interface\\translations\\hunterborn_japanese.txt",
-       "h": "fnXk4OiVzDKg"
-      },
-      {
-       "t": "interface\\translations\\hunterborn_polish.txt",
-       "h": "fnXk4OiVzDKg"
-      },
-      {
-       "t": "interface\\translations\\hunterborn_russian.txt",
-       "h": "fnXk4OiVzDKg"
-      },
-      {
-       "t": "interface\\translations\\hunterborn_spanish.txt",
-       "h": "fnXk4OiVzDKg"
-      },
-      {
-       "t": "scripts\\_ds_hb_actions.pex",
-       "h": "WalzwhixuKCL"
-      },
-      {
-       "t": "scripts\\_ds_hb_animals.pex",
-       "h": "s1S+ms9B/Zby"
-      },
-      {
-       "t": "scripts\\_ds_hb_globals.pex",
-       "h": "ya4KhV8HAdgw"
-      },
-      {
-       "t": "scripts\\_ds_hb_items.pex",
-       "h": "g9LVZrc2ljDv"
-      },
-      {
-       "t": "scripts\\_ds_hb_main.pex",
-       "h": "yuQt1eTIT2wZ"
-      },
-      {
-       "t": "scripts\\_ds_hb_mcm.pex",
-       "h": "wB6/rTgZijks"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_forage.pex",
-       "h": "NgsLJmSizffe"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_taxonomy.pex",
-       "h": "/9zCqOi0YjoD"
-      },
-      {
-       "t": "scripts\\_ds_hb_mgef_track.pex",
-       "h": "N2+ao0+EB380"
-      },
-      {
-       "t": "scripts\\_ds_hb_monsters.pex",
-       "h": "sFNx5jjvba1G"
-      },
-      {
-       "t": "scripts\\_ds_hb_obj_hunterscache.pex",
-       "h": "TJe/LHbjbkls"
-      },
-      {
-       "t": "scripts\\_ds_hb_player.pex",
-       "h": "ZZ9bjr3XK/R6"
-      },
-      {
-       "t": "scripts\\_ds_hb_soupmanager.pex",
-       "h": "YaHUbwbj0VCE"
-      },
-      {
-       "t": "scripts\\_ilg_conjurehuntingknifescript.pex",
-       "h": "T7eCjeSHIr0X"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_actions.psc",
-       "h": "UWi5vLm3vviD"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_animals.psc",
-       "h": "uft+KyFlFvbC"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_globals.psc",
-       "h": "jhLz1ZY3Aq96"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_items.psc",
-       "h": "IfEARz8DjNgF"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_main.psc",
-       "h": "Aa8GiNoVntuN"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mcm.psc",
-       "h": "H+zxSt9XXUwM"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_forage.psc",
-       "h": "rAVWMQI1kl1P"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_taxonomy.psc",
-       "h": "DMmjUXZBdbDz"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_mgef_track.psc",
-       "h": "jw8r35WmryV4"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_monsters.psc",
-       "h": "SJ31gVN6KcmM"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_obj_hunterscache.psc",
-       "h": "AHuvgLEMm1Cu"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_player.psc",
-       "h": "6e5a79iuXoTU"
-      },
-      {
-       "t": "source\\scripts\\_ds_hb_soupmanager.psc",
-       "h": "HWsNwJQnLCEQ"
-      },
-      {
-       "t": "source\\scripts\\_ilg_conjurehuntingknifescript.psc",
-       "h": "z3LnZD8OeR8K"
-      }
      ]
     }
    ]
@@ -21343,10 +19396,8 @@
    "installers": [
     {
      "h": "NMGrb4sWXuLR/3JYgbkLiYUEdlXpXGKxixbvG1rOduc",
-     "type": "SIMPLE",
-     "params": {
-      "root": "00 - main\\"
-     }
+     "type": "FOMOD",
+     "params": {}
     }
    ]
   },
@@ -21355,10 +19406,8 @@
    "installers": [
     {
      "h": "GS/xlT5ns8ihVDEC/yg9SSCg8Qe7YCrLKOOi+D8Mjrc",
-     "type": "SIMPLE",
-     "params": {
-      "root": "00 - main\\"
-     }
+     "type": "FOMOD",
+     "params": {}
     }
    ]
   },
@@ -21457,213 +19506,32 @@
    "installers": [
     {
      "h": "GcSalohB7tzggiuIzWGlPmZiMp3rFhE2qP8fCK/CHDg",
-     "type": "BAIN",
+     "type": "FOMOD",
      "params": {
-      "bain": [
-       "00 core\\",
-       "01 wigs\\",
-       "10 wigs bodyslide (cbbe)\\"
+      "sel": [
+       {
+        "step": "Options",
+        "grp": "Options",
+        "plugin": "Wigs (optional)"
+       },
+       {
+        "step": "Wigs Options",
+        "grp": "Wigs Collision (BodySlide)",
+        "plugin": "CBBE (default)"
+       },
+       {
+        "step": "Wigs Options",
+        "grp": "Wigs Collision (BodySlide)",
+        "plugin": "TBD"
+       },
+       {
+        "step": "Wigs Options",
+        "grp": "Wigs Collision (BodySlide)",
+        "plugin": "BHUNP"
+       }
       ]
      },
      "skip": [
-      "meshes\\armor\\kswigshdt\\f\\anchor_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\anchor_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\angels_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\angels_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\anna_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\anna_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\anto92_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\anto92_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\aroma_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\aroma_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\babydoll_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\babydoll_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\babydollband_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\babydollband_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\bluebird_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\bluebird_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\caress_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\caress_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\cliche_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\cliche_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\crazylove_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\crazylove_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\desirae_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\desirae_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\desperate_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\desperate_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\didar_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\didar_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\dollmaker_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\dollmaker_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\anchor_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\anchor_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\angels_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\angels_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\bluebird_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\bluebird_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\cliche_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\cliche_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\crazylove_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\crazylove_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\fontanaditrevi_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\fontanaditrevi_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\galaxy_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\galaxy_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\kaysa_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\kaysa_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\koala_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\koala_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\metropolis2_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\metropolis2_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\metropolis_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\metropolis_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\milliet_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\milliet_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\ominous_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\ominous_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\ominouslace_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\ominouslace_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\paraguay_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\paraguay_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\princess_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\princess_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\rosette_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\rosette_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\rosetteroses_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\rosetteroses_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\silentlips_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\silentlips_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\sky047_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\sky047_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\sky176_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\sky176_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\sky188_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\sky188_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\sky190_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\sky190_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\sky201_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\sky201_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\sky208_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\sky208_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\spring_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\spring_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\veneris_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\veneris_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\wine_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\elves\\wine_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\erena_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\erena_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\fontanaditrevi_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\fontanaditrevi_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\freesia_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\freesia_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\galaxy_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\galaxy_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\gecko_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\gecko_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\harvest_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\harvest_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\honey_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\honey_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\honeyed_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\honeyed_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\icarus_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\icarus_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\jackdaw_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\jackdaw_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\kaysa_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\kaysa_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\kikyo_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\kikyo_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\koala_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\koala_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\lotus_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\lotus_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\mellow_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\mellow_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\metropolis2_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\metropolis2_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\metropolis_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\metropolis_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\milliet_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\milliet_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\moonrise_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\moonrise_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\ominous_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\ominous_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\ominouslace_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\ominouslace_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\paraguay_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\paraguay_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\princess_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\princess_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\rosette_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\rosette_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\rosetteroses_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\rosetteroses_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\rosiecloud_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\rosiecloud_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\runaway_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\runaway_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\searching_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\searching_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\silentlips_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\silentlips_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky022_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky022_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky047_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky047_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky097_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky097_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky146_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky146_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky176_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky176_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky179_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky179_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky188_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky188_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky190_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky190_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky201_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky201_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky208_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky208_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky239_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky239_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky250_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky250_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky6063_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\sky6063_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\snow_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\snow_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\sparklers_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\sparklers_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\spring_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\spring_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\stayawake_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\stayawake_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\steammist_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\steammist_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\summerhaze_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\summerhaze_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\sweetvillain_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\sweetvillain_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\tellme_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\tellme_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\tonight_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\tonight_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\traveler_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\traveler_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\veneris_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\veneris_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\vicecity_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\vicecity_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\wine_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\wine_1.nif",
-      "meshes\\armor\\kswigshdt\\f\\youth_0.nif",
-      "meshes\\armor\\kswigshdt\\f\\youth_1.nif",
       "meshes\\ks hairdo's\\hdt\\virtualhaircollision_1.nif",
       "meshes\\ks hairdo's\\hdt\\virtualhaircollision_2.nif",
       "meshes\\ks hairdo's\\hdt\\virtualhaircollision_3.nif",
@@ -21671,7 +19539,587 @@
      ]
     }
    ],
+   "xarchives": [
+    {
+     "ar": 0,
+     "files": [
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\anchor.nif",
+       "h": "bmoualIKrF6S"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\angels.nif",
+       "h": "i3IxRAe3IWFP"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\bluebird.nif",
+       "h": "12eYzuxs9ltE"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\cliche.nif",
+       "h": "iVNN6rlYE/6r"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\crazylove.nif",
+       "h": "GYiU81srG/37"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\fontanaditrevi.nif",
+       "h": "BPiXf/EfINTw"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\galaxy.nif",
+       "h": "chcMM6sqqeeV"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\kaysa.nif",
+       "h": "ZYZfr50kw9Rd"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\koala.nif",
+       "h": "LHFBGhwE3SlT"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\metropolis.nif",
+       "h": "XHljuJ4bMNwz"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\metropolis2.nif",
+       "h": "uz7Oo98VB4Wh"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\milliet.nif",
+       "h": "aMQhmh8kpS7h"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\ominous.nif",
+       "h": "ZCpW8zwslnty"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\ominouslace.nif",
+       "h": "mHXAPtlVsNDk"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\paraguay.nif",
+       "h": "6Wy+lKc6EJCu"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\princess.nif",
+       "h": "InwRDKYIRIMf"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\rosette.nif",
+       "h": "40GyIqZEedj6"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\rosetteroses.nif",
+       "h": "VtTVybNvZwAv"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\silentlips.nif",
+       "h": "1l3a81aMG5n/"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\sky047.nif",
+       "h": "DjX7788ZZANv"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\sky176.nif",
+       "h": "qyaERdYE+ZEk"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\sky188.nif",
+       "h": "iX7RgBbPPAuB"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\sky190.nif",
+       "h": "qne35pT2N7jo"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\sky201.nif",
+       "h": "uPaIiL9YEzqA"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\sky208.nif",
+       "h": "MEzABRSOt8bR"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\spring.nif",
+       "h": "qLq2InEe5+vx"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\veneris.nif",
+       "h": "+Nl8b+JCNXnj"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp elves\\cbbe\\wine.nif",
+       "h": "FHXXLWBQPBAI"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\anchor.nif",
+       "h": "jRebxi2eK9zx"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\angels.nif",
+       "h": "AUjIHK7E2JPN"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\anna.nif",
+       "h": "TD7uGO+PVEC4"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\anto92.nif",
+       "h": "l9U3P5dwwHtz"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\aroma.nif",
+       "h": "G00/EQHCUwcp"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\babydoll.nif",
+       "h": "UDM20D+vBVcu"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\babydollband.nif",
+       "h": "fFeUyrZFTWm+"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\bluebird.nif",
+       "h": "KT8FJXmsjtaQ"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\caress.nif",
+       "h": "wFq9pIw2UCVE"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\cliche.nif",
+       "h": "xSnudwYRK0uK"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\collision shape 1.osd",
+       "h": "pnAANul+3v0Z"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\collision shape 2.osd",
+       "h": "QETYob1ZVeDE"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\collision shape 3.osd",
+       "h": "FWDH0EncPsZo"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\crazylove.nif",
+       "h": "84ahexbEJy2W"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\desirae.nif",
+       "h": "9Z0oznl9eJTb"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\desperate.nif",
+       "h": "+yzTII8J6W98"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\didar.nif",
+       "h": "ARQGi5Ji+9Rh"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\dollmaker.nif",
+       "h": "QNkqCm9OzXIV"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\erena.nif",
+       "h": "o62evPk8/BiR"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\fontanaditrevi.nif",
+       "h": "EUgCauIh3+Jd"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\freesia.nif",
+       "h": "QJ0tYGUhtaKC"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\galaxy.nif",
+       "h": "+UI2KArriKjq"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\gecko.nif",
+       "h": "t/DtcE4rMWHF"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\harvest.nif",
+       "h": "QUTPFfO7fHHb"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\honey.nif",
+       "h": "R6LUv5iEZlNz"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\honeyed.nif",
+       "h": "e8wwCqWIYXOx"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\icarus.nif",
+       "h": "i5mj3ETZBrKQ"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\jackdaw.nif",
+       "h": "5ZocfEIZtwFY"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\kaysa.nif",
+       "h": "emR9zBYv+xuA"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\kikyo.nif",
+       "h": "lBormOlOWzuD"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\koala.nif",
+       "h": "jkoJ9qgGvnEo"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\lime.nif",
+       "h": "Pq6beTnNk7lj"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\lotus.nif",
+       "h": "zUacu4XcBaOZ"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\mellow.nif",
+       "h": "K080MWQeX7OT"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\metropolis.nif",
+       "h": "ikRJ34iwr0a3"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\metropolis2.nif",
+       "h": "PLBVnZPOX+jc"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\milliet.nif",
+       "h": "kiHLJPfYTqDC"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\moonrise.nif",
+       "h": "7YRCqczXmTgN"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\ominous.nif",
+       "h": "tlKpB+txC8Ua"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\ominouslace.nif",
+       "h": "v43lLWDXhTAi"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\paraguay.nif",
+       "h": "yUBoJOt0MrGl"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\princess.nif",
+       "h": "5CgqgOz/Jw+C"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\rosette.nif",
+       "h": "7+RKmkFbcR1M"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\rosetteroses.nif",
+       "h": "Cp9Dtl4zMACx"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\rosiecloud.nif",
+       "h": "hOnfxGBb9Jk6"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\runaway.nif",
+       "h": "Qgoef4NH4TuN"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\searching.nif",
+       "h": "wvN+ormMCfrs"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\silentlips.nif",
+       "h": "rBWNBRHn2lrS"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky022.nif",
+       "h": "C8P/FvrIxDxJ"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky047.nif",
+       "h": "o9LUOxtz4ySV"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky097.nif",
+       "h": "AWVcqFAWYvLV"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky146.nif",
+       "h": "AfIaf9wqxVac"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky176.nif",
+       "h": "8vgjn4TbqUSX"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky179.nif",
+       "h": "xuqNprW8zKhl"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky188.nif",
+       "h": "ixRUbHDN9Hi7"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky190.nif",
+       "h": "a2sgnOcsmlF7"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky201.nif",
+       "h": "nbOE+DavUfGr"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky208.nif",
+       "h": "2vkdzvudk+lk"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky218.nif",
+       "h": "ivP0yS2pGVk2"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky239.nif",
+       "h": "yampTxOuGiYL"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky250.nif",
+       "h": "mOOoLYMk2ms1"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sky6063.nif",
+       "h": "p4fCa1zyNdhO"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\snow.nif",
+       "h": "7t6nwTzgMEbh"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sparklers.nif",
+       "h": "CDfoKEFGHg5n"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\spring.nif",
+       "h": "rWJeBqlyXNyc"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\stayawake.nif",
+       "h": "ZJal/JDBlsqy"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\steammist.nif",
+       "h": "NtwfZW0ZUT2i"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\summerhaze.nif",
+       "h": "itMStcceagd5"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\sweetvillain.nif",
+       "h": "qsfmbk1fTcR/"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\tellme.nif",
+       "h": "/VCHC7/3cIra"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\tonight.nif",
+       "h": "z7GjaLzr7dqM"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\traveler.nif",
+       "h": "6H8LEg7qH3Ep"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\veneris.nif",
+       "h": "6Wma0hl/ANDG"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\vicecity.nif",
+       "h": "Q4Yo2LwzZakS"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\wine.nif",
+       "h": "6ApYlfvNUFxO"
+      },
+      {
+       "t": "calientetools\\bodyslide\\shapedata\\ks wigs smp\\cbbe\\youth.nif",
+       "h": "t2G2nwXDizHX"
+      },
+      {
+       "t": "calientetools\\bodyslide\\slidergroups\\ks wigs smp (cbbe).xml",
+       "h": "Yn0FA1oFKKCm"
+      },
+      {
+       "t": "calientetools\\bodyslide\\slidergroups\\ks wigs smp elves (cbbe).xml",
+       "h": "d7M3rk3yXMkv"
+      },
+      {
+       "t": "calientetools\\bodyslide\\slidersets\\ks wigs smp (cbbe).osp",
+       "h": "rqK0kBa25SMw"
+      },
+      {
+       "t": "calientetools\\bodyslide\\slidersets\\ks wigs smp elves (cbbe).osp",
+       "h": "hIZMWRrDv8US"
+      },
+      {
+       "t": "kswigssmp.esp",
+       "h": "HY//9+WCLCOV"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\amor.nif",
+       "h": "Mog3AsrpO9al"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\angelic.nif",
+       "h": "Fbel5DCpGgsV"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\cambrian.nif",
+       "h": "mv9AbaNXxwaP"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\cassy.nif",
+       "h": "61z2E0oEXqwV"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\cerigo.nif",
+       "h": "3uiXxU5HruUX"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\cola.nif",
+       "h": "50jY8SybkHZu"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\crescent.nif",
+       "h": "FB2vOgcDLYqJ"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\elves\\cerigo.nif",
+       "h": "EdNsFzc4A1WG"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\elves\\highlife.nif",
+       "h": "+evIQ42Yf8ZJ"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\elves\\vivacity.nif",
+       "h": "muYpi3MJoCu/"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\elves\\zoella.nif",
+       "h": "ogZY/DYcTPPy"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\foamsummer.nif",
+       "h": "vMZfHFBohrIu"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\harvestfeathers.nif",
+       "h": "mCMkvy+9etha"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\highlife.nif",
+       "h": "bTjOO+ZS+bUg"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\himiko.nif",
+       "h": "kLNJiGoRdJSh"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\kerli.nif",
+       "h": "7M7hZvLStzUb"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\lavender.nif",
+       "h": "bTCjzghL+J5R"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\lime.nif",
+       "h": "Pq6beTnNk7lj"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\onlyyou.nif",
+       "h": "l7PtIaFRzvql"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\onlyyounolace.nif",
+       "h": "MdFaZrj3lvyJ"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\scarlet.nif",
+       "h": "tFUk9wbq7Kdd"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\sky218.nif",
+       "h": "ivP0yS2pGVk2"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\slowly.nif",
+       "h": "4cls3BDVuKIL"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\starlet.nif",
+       "h": "G5OY2HTShrgt"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\studio.nif",
+       "h": "XkEofia0sfub"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\sweetescape.nif",
+       "h": "KbNnPYmVTqw0"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\sweetscar.nif",
+       "h": "J7XQJUj67c1V"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\sweetscar2.nif",
+       "h": "ytZ8CDXYdYbn"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\topgorgeous.nif",
+       "h": "Pi9+20IUv7bI"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\vapor.nif",
+       "h": "EhcMz3AFdyqI"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\vivacity.nif",
+       "h": "L2PzRQ5vU6yD"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\xoxo.nif",
+       "h": "o5Bgj7/rxSUT"
+      },
+      {
+       "t": "meshes\\armor\\kswigshdt\\f\\zoella.nif",
+       "h": "MtNIcs6eJHwh"
+      }
+     ]
+    }
+   ],
    "unknownbytools": [
+    "meshes\\ks hairdo's\\hdt\\virtualhaircollision_2.nif",
+    "meshes\\ks hairdo's\\hdt\\virtualhaircollision_3.nif",
+    "meshes\\ks hairdo's\\hdt\\virtualhaircollision_4.nif"
+   ],
+   "unknown": [
     "meshes\\armor\\kswigshdt\\f\\anchor_0.nif",
     "meshes\\armor\\kswigshdt\\f\\anchor_1.nif",
     "meshes\\armor\\kswigshdt\\f\\angels_0.nif",
@@ -21870,11 +20318,6 @@
     "meshes\\armor\\kswigshdt\\f\\wine_1.nif",
     "meshes\\armor\\kswigshdt\\f\\youth_0.nif",
     "meshes\\armor\\kswigshdt\\f\\youth_1.nif",
-    "meshes\\ks hairdo's\\hdt\\virtualhaircollision_2.nif",
-    "meshes\\ks hairdo's\\hdt\\virtualhaircollision_3.nif",
-    "meshes\\ks hairdo's\\hdt\\virtualhaircollision_4.nif"
-   ],
-   "unknown": [
     "meshes\\ks hairdo's\\hdt\\virtualhaircollision_1.nif"
    ]
   },
@@ -23802,29 +22245,6 @@
       ]
      }
     }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "mcm\\config\\skyui_se\\config.json",
-       "h": "oYk1cf7iE1Dg"
-      },
-      {
-       "t": "mcm\\config\\skyui_se\\settings.ini",
-       "h": "k3aqZ3pWx3Z1"
-      },
-      {
-       "t": "mcm\\settings\\readme.txt",
-       "h": "eGLVtwz9oual"
-      },
-      {
-       "t": "source\\scripts\\ski_configmenu.psc",
-       "h": "OG4lcU6RGrPr"
-      }
-     ]
-    }
    ]
   },
   {
@@ -24645,10 +23065,8 @@
    "installers": [
     {
      "h": "HJxlCdNJrZqsULm8LXbDAjJkDnSv8aE8Acd1JLYpjLo",
-     "type": "SIMPLE",
-     "params": {
-      "root": "00_core\\"
-     }
+     "type": "FOMOD",
+     "params": {}
     }
    ],
    "xarchives": [
@@ -24976,10 +23394,8 @@
    "installers": [
     {
      "h": "OwNe/6YQzlWWYLI4Gna3MyB/JHZ+WfaN/VYX46mYYxo",
-     "type": "SIMPLE",
-     "params": {
-      "root": "00_core\\"
-     }
+     "type": "FOMOD",
+     "params": {}
     }
    ],
    "xarchives": [
@@ -26413,37 +24829,9 @@
         "plugin": "2K Textures"
        }
       ]
-     }
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "meshes\\interface\\lockpicking\\sos\\lockpick_ayleidlock03.nif",
-       "h": "GOcjqO2HinOS"
-      },
-      {
-       "t": "meshes\\interface\\lockpicking\\sos\\lockpick_lock01_water.nif",
-       "h": "QrzgfM67W7gA"
-      },
-      {
-       "t": "meshes\\interface\\lockpicking\\sos\\lockpick_nordiclock02.nif",
-       "h": "DmBFIx2M0Zqb"
-      },
-      {
-       "t": "meshes\\interface\\lockpicking\\sos\\lockpick_soulcairnlock01.nif",
-       "h": "N5kLWEOKpPm0"
-      },
-      {
-       "t": "meshes\\interface\\lockpicking\\sos\\lockpick_trap01.nif",
-       "h": "hMUC8qUi6X1B"
-      },
-      {
-       "t": "meshes\\interface\\lockpicking\\sos\\lockpick_vigilant_coldharborlock01.nif",
-       "h": "VrqUtacmdfpH"
-      }
+     },
+     "skip": [
+      "addons_lid.ini"
      ]
     }
    ],
@@ -27359,65 +25747,25 @@
         "plugin": "Remove Gags"
        }
       ]
-     }
+     },
+     "skip": [
+      "scripts\\source\\ses_api.psc",
+      "scripts\\source\\slv_enforcerlocationcheck.psc",
+      "scripts\\source\\slv_eventhandler.psc",
+      "scripts\\source\\slv_find_playerdialoguetarget.psc",
+      "scripts\\source\\slv_mcmmenu.psc",
+      "scripts\\source\\slv_onhitoutfitrestore.psc",
+      "scripts\\source\\slv_periodiccheck.psc",
+      "scripts\\source\\slv_sexlab.psc",
+      "scripts\\source\\slv_utilities.psc",
+      "scripts\\source\\slv_versioncheck.psc"
+     ]
     }
    ],
    "xarchives": [
     {
      "ar": 0,
      "files": [
-      {
-       "t": "scripts\\ses_api.pex",
-       "h": "4skj1UrQVEkU"
-      },
-      {
-       "t": "scripts\\slv_enforcerlocationcheck.pex",
-       "h": "/yTkIheZSS1x"
-      },
-      {
-       "t": "scripts\\slv_eventhandler.pex",
-       "h": "8/PoOt21idDi"
-      },
-      {
-       "t": "scripts\\slv_find_playerdialoguetarget.pex",
-       "h": "tf5hgE0TKA/l"
-      },
-      {
-       "t": "scripts\\slv_mcmmenu.pex",
-       "h": "uDDjNQcG8sXs"
-      },
-      {
-       "t": "scripts\\slv_onhitoutfitrestore.pex",
-       "h": "6qY6YveZtSfG"
-      },
-      {
-       "t": "scripts\\slv_periodiccheck.pex",
-       "h": "00cW5T4UVXdw"
-      },
-      {
-       "t": "scripts\\slv_sexlab.pex",
-       "h": "zhnKdpgbtgdg"
-      },
-      {
-       "t": "scripts\\slv_utilities.pex",
-       "h": "F3DB7nxrKdei"
-      },
-      {
-       "t": "scripts\\slv_versioncheck.pex",
-       "h": "TSdj4+4jLT+J"
-      },
-      {
-       "t": "skse\\plugins\\slaverun\\defaultslaverunsettings.json",
-       "h": "HwldnnTAM+y1"
-      },
-      {
-       "t": "skse\\plugins\\slaverun\\ses_outfits_npc_defaults.json",
-       "h": "kkhUtCSUxq33"
-      },
-      {
-       "t": "slaverunenforcerstandsalone.esp",
-       "h": "CHKE3cVDGS1E"
-      },
       {
        "t": "source\\scripts\\ses_api.psc",
        "h": "aAnGeiJtTOg8"
@@ -27457,10 +25805,6 @@
       {
        "t": "source\\scripts\\slv_versioncheck.psc",
        "h": "k1C6l3n0wJrO"
-      },
-      {
-       "t": "srrenforcerenhanced.esp",
-       "h": "08ZZ4f0CRRtf"
       }
      ]
     }
@@ -27700,31 +26044,8 @@
    "installers": [
     {
      "h": "b8mfUXRJYzpVRAprbuVlQFTJuTKg53OvfYnr8T7I/T8",
-     "type": "SIMPLE",
-     "params": {
-      "root": "files\\"
-     },
-     "skip": [
-      "summer skyrim - dlizzios mesh fixes patch.esp",
-      "summer skyrim - dlizzios mesh fixes patch.modgroups",
-      "summer skyrim - dracos heljarchen patch.esp",
-      "summer skyrim - dracos heljarchen patch.modgroups",
-      "summer skyrim - embersxd patch.esp",
-      "summer skyrim - embersxd patch.modgroups",
-      "summer skyrim - happy little trees patch.esp",
-      "summer skyrim - happy little trees patch.modgroups",
-      "summer skyrim - jk's high hrothgar patch.esp",
-      "summer skyrim - jks skyrim patch.esp",
-      "summer skyrim - landscape and water fixes patch.esp",
-      "summer skyrim - natenb summer patch.esp",
-      "summer skyrim - natenb summer patch.modgroups",
-      "summer skyrim - parallax txst fixes patch.esp",
-      "summer skyrim - parallax txst fixes patch.modgroups",
-      "summer skyrim - simply dirt roads.esp",
-      "summer skyrim - simply dirt roads.modgroups",
-      "summer skyrim - smim patch.esp",
-      "summer skyrim - smim patch.modgroups"
-     ]
+     "type": "FOMOD",
+     "params": {}
     }
    ]
   },
