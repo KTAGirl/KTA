@@ -16742,11 +16742,6 @@
         "step": "Install Type",
         "grp": "Options",
         "plugin": "Subtle Marker (Recommended)"
-       },
-       {
-        "step": "Marker Accessibility",
-        "grp": "Marker Options",
-        "plugin": "Bright White"
        }
       ]
      }
@@ -19430,15 +19425,54 @@
    "installers": [
     {
      "h": "a8EU5geGbzhc90p0ANoFbtR7mNXGr/7MGckZChT1FfY",
-     "type": "BAIN",
+     "type": "FOMOD",
      "params": {
-      "bain": [
-       "00 core - default eyes - human races\\",
-       "00 core - default eyes - other races\\",
-       "00 core - new eyes\\",
-       "01 complete\\"
+      "sel": [
+       {
+        "step": "Complete",
+        "grp": "Choose Version",
+        "plugin": "Complete - Full"
+       },
+       {
+        "step": "Add-Ons",
+        "grp": "Werewolf Eyes",
+        "plugin": "Werewolf"
+       },
+       {
+        "step": "Add-Ons",
+        "grp": "Dawnguard Eyes",
+        "plugin": "Dawnguard"
+       },
+       {
+        "step": "Vampire Eyes",
+        "grp": "Textures",
+        "plugin": "Vampire - Default"
+       },
+       {
+        "step": "Vampire Eyes",
+        "grp": "Serana Vamp Eyes",
+        "plugin": "Serana NPC"
+       }
       ]
-     }
+     },
+     "skip": [
+      "improved eyes skyrim - serana.esp",
+      "improved eyes skyrim - vamp.esp",
+      "meshes\\actors\\character\\character assets\\eyesfemalevampire_serana.nif",
+      "meshes\\actors\\character\\character assets\\eyesmalevampire_serana.nif",
+      "meshes\\actors\\character\\facegendata\\facegeom\\dawnguard.esm\\00002b6c.nif",
+      "textures\\actors\\character\\eyes\\eyeargonianvampirefemale.dds",
+      "textures\\actors\\character\\eyes\\eyeargonianvampiremale.dds",
+      "textures\\actors\\character\\eyes\\eyekhajiitvampire.dds",
+      "textures\\actors\\character\\eyes\\eyesnowelf.dds",
+      "textures\\actors\\character\\eyes\\eyevampire_01.dds",
+      "textures\\actors\\character\\eyes\\eyevampire_02.dds",
+      "textures\\actors\\character\\eyes\\eyevampire_serana.dds",
+      "textures\\actors\\character\\eyes\\eyewerewolfbeastbrown.dds",
+      "textures\\actors\\character\\eyes\\eyewolfenvironmentmask_m.dds",
+      "textures\\actors\\character\\facegendata\\facetint\\dawnguard.esm\\00002b6c.dds",
+      "textures\\character\\eyes\\eyevampire_serana.dds"
+     ]
     }
    ]
   },
@@ -24730,90 +24764,46 @@
    "installers": [
     {
      "h": "WMC/u8qWWY+xvmNo27GRq5rc/fnUIk3RKycu9t/EXnI",
-     "type": "BAIN",
+     "type": "FOMOD",
      "params": {
-      "bain": [
-       "00 common\\",
-       "11 common\\",
-       "12 common\\",
-       "13 common\\"
+      "sel": [
+       {
+        "step": "Body Type",
+        "grp": "Body Type",
+        "plugin": "Default Body"
+       },
+       {
+        "step": "Skin Texture",
+        "grp": "Skin Texture",
+        "plugin": "Hairy"
+       },
+       {
+        "step": "Skin Texture",
+        "grp": "Skin Texture",
+        "plugin": "Hairy"
+       },
+       {
+        "step": "Schlong Addons - Default - Hairy",
+        "grp": "Schlong Addons",
+        "plugin": "Average Schlong Addon"
+       },
+       {
+        "step": "Schlong Addons - Default - Hairy",
+        "grp": "Schlong Addons",
+        "plugin": "Regular Schlong Addon"
+       },
+       {
+        "step": "Schlong Addons - Default - Hairy",
+        "grp": "Schlong Addons",
+        "plugin": "Muscular Schlong Addon"
+       },
+       {
+        "step": "Schlong Addons - Default - Hairy",
+        "grp": "Skeletons",
+        "plugin": "Install male skeletons"
+       }
       ]
      }
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "meshes\\actors\\character\\character assets\\malebody_1.nif",
-       "h": "pqa0MEu2UXhz"
-      },
-      {
-       "t": "meshes\\actors\\character\\character assets\\malefeet_1.nif",
-       "h": "jxtLuxRo671Q"
-      },
-      {
-       "t": "meshes\\actors\\character\\character assets\\malehands_1.nif",
-       "h": "dzIuFvOeAtC5"
-      },
-      {
-       "t": "meshes\\actors\\character\\character assets\\malehandsargonian_1.nif",
-       "h": "ZP3UydQo7WAt"
-      },
-      {
-       "t": "meshes\\actors\\character\\character assets\\maleunderwear_1.nif",
-       "h": "jo1CLCMTohoY"
-      },
-      {
-       "t": "meshes\\actors\\character\\character assets\\skeleton.nif",
-       "h": "HeGBPQADG+da"
-      },
-      {
-       "t": "meshes\\actors\\character\\character assets\\skeletonbeast.nif",
-       "h": "HeGBPQADG+da"
-      },
-      {
-       "t": "meshes\\actors\\character\\character assets\\sos\\smurf average\\malegenitals_1.nif",
-       "h": "PDAiyjJbeNXN"
-      },
-      {
-       "t": "meshes\\actors\\character\\character assets\\sos\\smurf average\\werewolfgenitals_1.nif",
-       "h": "41CxNhy9DBk6"
-      },
-      {
-       "t": "meshes\\actors\\character\\character assets\\sos\\vectorplexus muscular\\malegenitals_1.nif",
-       "h": "oepdsImViw5B"
-      },
-      {
-       "t": "meshes\\actors\\character\\character assets\\sos\\vectorplexus muscular\\werewolfgenitals_1.nif",
-       "h": "EQ4XfB/4HVQL"
-      },
-      {
-       "t": "meshes\\actors\\character\\character assets\\sos\\vectorplexus regular\\malegenitals_1.nif",
-       "h": "oQhHNsU8c/c/"
-      },
-      {
-       "t": "meshes\\actors\\character\\character assets\\sos\\vectorplexus regular\\werewolfgenitals_1.nif",
-       "h": "0jsFeG6q6Ksz"
-      },
-      {
-       "t": "textures\\actors\\character\\male\\malebody_1.dds",
-       "h": "GV6nfImtNWqc"
-      },
-      {
-       "t": "textures\\actors\\character\\male\\malehands_1.dds",
-       "h": "NAfMEDb9tl8S"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\smurf average\\malegenitals_1.dds",
-       "h": "9iKhDHDjyUOZ"
-      },
-      {
-       "t": "textures\\actors\\character\\sos\\vectorplexus regular\\malegenitals_1.dds",
-       "h": "XcPoK4ozY872"
-      }
-     ]
     }
    ]
   },
@@ -25107,17 +25097,10 @@
         "step": "Special Edition Optional",
         "grp": "Options",
         "plugin": "Extra"
-       },
-       {
-        "step": "Legendary Edition Optional",
-        "grp": "Options",
-        "plugin": "Patch (Not Extra)"
        }
       ]
      },
      "skip": [
-      "meshes\\markerx.nif",
-      "skse\\plugins\\setvehiclefixplugin.dll",
       "skse\\plugins\\sexlab\\racegenderscales.json"
      ]
     }
