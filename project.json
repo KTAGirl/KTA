@@ -701,11 +701,6 @@
         "step": "",
         "grp": "Main Files",
         "plugin": "REALly Blended Roads"
-       },
-       {
-        "step": "",
-        "grp": "SMIM Compatibility Patch",
-        "plugin": "Blended Roads"
        }
       ]
      }
@@ -17474,7 +17469,7 @@
        {
         "step": "Core Setup",
         "grp": "Race Skeletons",
-        "plugin": "None"
+        "plugin": "Unofficial Skyrim Patch"
        },
        {
         "step": "Core Setup",
@@ -17487,21 +17482,7 @@
         "plugin": "Extra"
        }
       ]
-     },
-     "skip": [
-      "skse\\plugins\\sexlab\\racegenderscales.json"
-     ]
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "skse\\plugins\\sexlab\\racegenderscales.json",
-       "s": "03_plugins\\usp\\skse\\plugins\\sexlab\\racegenderscales.json"
-      }
-     ]
+     }
     }
    ]
   },
