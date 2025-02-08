@@ -45,7 +45,7 @@
      }
     }
    ],
-   "tools": [
+   "modtools": [
     {
      "name": "OPTIONAL",
      "param": {
@@ -5583,7 +5583,7 @@
     "meshes\\dlc02\\clothes\\temple\\templepriestfboots_0.nif",
     "meshes\\dlc02\\clothes\\temple\\templepriestfboots_1.nif"
    ],
-   "tools": [
+   "modtools": [
     {
      "name": "OPTIONAL",
      "param": {
@@ -5958,7 +5958,7 @@
      }
     }
    ],
-   "tools": [
+   "modtools": [
     {
      "name": "OPTIONAL",
      "param": {
@@ -8685,7 +8685,7 @@
     "meshes\\devious\\zipsuit\\feet_0.nif",
     "meshes\\devious\\zipsuit\\feet_1.nif"
    ],
-   "tools": [
+   "modtools": [
     {
      "name": "OPTIONAL",
      "param": {
@@ -8773,7 +8773,7 @@
      }
     }
    ],
-   "tools": [
+   "modtools": [
     {
      "name": "OPTIONAL",
      "param": {
@@ -9889,7 +9889,7 @@
      }
     }
    ],
-   "tools": [
+   "modtools": [
     {
      "name": "OPTIONAL",
      "param": {
@@ -16584,7 +16584,7 @@
      }
     }
    ],
-   "tools": [
+   "modtools": [
     {
      "name": "OPTIONAL",
      "param": {
@@ -18073,7 +18073,7 @@
    "unknown": [
     "optional\\slaverunenforcerstandsalone.esmflagged.esp"
    ],
-   "tools": [
+   "modtools": [
     {
      "name": "SCRIPT2SOURCE",
      "param": {
@@ -18428,7 +18428,7 @@
      }
     }
    ],
-   "tools": [
+   "modtools": [
     {
      "name": "OPTIONAL",
      "param": {
