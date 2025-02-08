@@ -18067,70 +18067,19 @@
         "plugin": "Remove Gags"
        }
       ]
-     },
-     "skip": [
-      "scripts\\source\\ses_api.psc",
-      "scripts\\source\\slv_enforcerlocationcheck.psc",
-      "scripts\\source\\slv_eventhandler.psc",
-      "scripts\\source\\slv_find_playerdialoguetarget.psc",
-      "scripts\\source\\slv_mcmmenu.psc",
-      "scripts\\source\\slv_onhitoutfitrestore.psc",
-      "scripts\\source\\slv_periodiccheck.psc",
-      "scripts\\source\\slv_sexlab.psc",
-      "scripts\\source\\slv_utilities.psc",
-      "scripts\\source\\slv_versioncheck.psc"
-     ]
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "source\\scripts\\ses_api.psc",
-       "s": "scripts\\source\\ses_api.psc"
-      },
-      {
-       "t": "source\\scripts\\slv_enforcerlocationcheck.psc",
-       "s": "scripts\\source\\slv_enforcerlocationcheck.psc"
-      },
-      {
-       "t": "source\\scripts\\slv_eventhandler.psc",
-       "s": "scripts\\source\\slv_eventhandler.psc"
-      },
-      {
-       "t": "source\\scripts\\slv_find_playerdialoguetarget.psc",
-       "s": "scripts\\source\\slv_find_playerdialoguetarget.psc"
-      },
-      {
-       "t": "source\\scripts\\slv_mcmmenu.psc",
-       "s": "scripts\\source\\slv_mcmmenu.psc"
-      },
-      {
-       "t": "source\\scripts\\slv_onhitoutfitrestore.psc",
-       "s": "scripts\\source\\slv_onhitoutfitrestore.psc"
-      },
-      {
-       "t": "source\\scripts\\slv_periodiccheck.psc",
-       "s": "scripts\\source\\slv_periodiccheck.psc"
-      },
-      {
-       "t": "source\\scripts\\slv_sexlab.psc",
-       "s": "scripts\\source\\slv_sexlab.psc"
-      },
-      {
-       "t": "source\\scripts\\slv_utilities.psc",
-       "s": "scripts\\source\\slv_utilities.psc"
-      },
-      {
-       "t": "source\\scripts\\slv_versioncheck.psc",
-       "s": "scripts\\source\\slv_versioncheck.psc"
-      }
-     ]
+     }
     }
    ],
    "unknown": [
     "optional\\slaverunenforcerstandsalone.esmflagged.esp"
+   ],
+   "tools": [
+    {
+     "name": "SCRIPT2SOURCE",
+     "param": {
+      "script2source": true
+     }
+    }
    ]
   },
   {
