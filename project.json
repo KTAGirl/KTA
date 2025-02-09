@@ -9559,21 +9559,17 @@
         "plugin": "Thanks"
        }
       ]
-     },
-     "skip": [
-      ".\\fsmpm - the fsmp mcm.esp"
-     ]
+     }
     }
    ],
-   "xarchives": [
+   "modtools": [
     {
-     "ar": 0,
-     "files": [
-      {
-       "t": "optional\\fsmpm - the fsmp mcm.esp",
-       "s": "faster hdt-smp\\fsmpm\\fsmpm - the fsmp mcm.esp"
-      }
-     ]
+     "name": "OPTIONAL",
+     "param": {
+      "opt": [
+       "fsmpm - the fsmp mcm.esp"
+      ]
+     }
     }
    ]
   },
