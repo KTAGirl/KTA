@@ -6183,14 +6183,14 @@
      "type": "SIMPLE",
      "params": {
       "root": ""
-     },
-     "skip": [
-      "skse\\plugins\\crashlogger.ini"
-     ]
+     }
     }
    ],
-   "unknown": [
-    "skse\\plugins\\crashlogger.ini"
+   "patches": [
+    {
+     "name": "INI",
+     "param": {}
+    }
    ]
   },
   {
@@ -17670,14 +17670,22 @@
      "type": "SIMPLE",
      "params": {
       "root": ""
-     },
-     "skip": [
-      "skse\\plugins\\ssedisplaytweaks.ini"
-     ]
+     }
     }
    ],
-   "unknown": [
-    "skse\\plugins\\ssedisplaytweaks.ini"
+   "patches": [
+    {
+     "name": "INI",
+     "param": {
+      "over": [
+       {
+        "sect": "OSD",
+        "name": "enable",
+        "value": "true"
+       }
+      ]
+     }
+    }
    ]
   },
   {
