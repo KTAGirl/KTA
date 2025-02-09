@@ -684,8 +684,9 @@
    ],
    "patches": [
     {
-     "name": "SORTEDJSON",
-     "param": {
+     "f": "skse\\plugins\\bimbosofskyrim\\bimbomorphs\\upper body.json",
+     "t": "SORTEDJSON",
+     "p": {
       "float": [
        {
         "path": [
@@ -6188,8 +6189,9 @@
    ],
    "patches": [
     {
-     "name": "INI",
-     "param": {}
+     "f": "skse\\plugins\\crashlogger.ini",
+     "t": "INI",
+     "p": {}
     }
    ]
   },
@@ -10407,8 +10409,9 @@
    ],
    "patches": [
     {
-     "name": "SORTEDJSON",
-     "param": {
+     "f": "skse\\plugins\\storageutildata\\slheat&hunger\\config.json",
+     "t": "SORTEDJSON",
+     "p": {
       "float": [
        {
         "path": [
@@ -15930,7 +15933,6 @@
       "nemesis_engine\\lib\\encodings\\__pycache__\\utf_8.cpython-35.pyc",
       "nemesis_engine\\lib\\urllib\\__pycache__\\__init__.cpython-35.pyc",
       "nemesis_engine\\lib\\urllib\\__pycache__\\parse.cpython-35.pyc",
-      "nemesis_engine\\nemesis.ini",
       "nemesis_engine\\papyrus compiler\\scripts\\tesv_papyrus_flags.flg"
      ]
     }
@@ -15988,8 +15990,42 @@
     "nemesis_engine\\lib\\encodings\\__pycache__\\mbcs.cpython-35.pyc",
     "nemesis_engine\\lib\\encodings\\__pycache__\\utf_8.cpython-35.pyc",
     "nemesis_engine\\lib\\urllib\\__pycache__\\__init__.cpython-35.pyc",
-    "nemesis_engine\\lib\\urllib\\__pycache__\\parse.cpython-35.pyc",
-    "nemesis_engine\\nemesis.ini"
+    "nemesis_engine\\lib\\urllib\\__pycache__\\parse.cpython-35.pyc"
+   ],
+   "patches": [
+    {
+     "f": "nemesis_engine\\nemesis.ini",
+     "t": "INI",
+     "p": {
+      "over": [
+       {
+        "sect": "__SANGUINE_UNNAMED_SECTION__",
+        "name": "SkyrimDataDirectory",
+        "value": "D:\\SteamLibrary\\steamapps\\common\\Skyrim Special Edition\\data\\"
+       },
+       {
+        "sect": "__SANGUINE_UNNAMED_SECTION__",
+        "name": "MaxAnimation",
+        "value": "50000"
+       },
+       {
+        "sect": "__SANGUINE_UNNAMED_SECTION__",
+        "name": "modNameWidth",
+        "value": "380"
+       },
+       {
+        "sect": "__SANGUINE_UNNAMED_SECTION__",
+        "name": "authorWidth",
+        "value": "75"
+       },
+       {
+        "sect": "__SANGUINE_UNNAMED_SECTION__",
+        "name": "priorityWidth",
+        "value": "54"
+       }
+      ]
+     }
+    }
    ]
   },
   {
@@ -16652,14 +16688,28 @@
         "plugin": "2K Textures"
        }
       ]
-     },
-     "skip": [
-      "addons_lid.ini"
-     ]
+     }
     }
    ],
-   "unknown": [
-    "addons_lid.ini"
+   "patches": [
+    {
+     "f": "addons_lid.ini",
+     "t": "INI",
+     "p": {
+      "over": [
+       {
+        "sect": "__SANGUINE_UNNAMED_SECTION__",
+        "name": "Door|NONE|underwater",
+        "value": "interface/lockpicking/sos/lockpick_Lock01_Water.nif"
+       },
+       {
+        "sect": "__SANGUINE_UNNAMED_SECTION__",
+        "name": "Chest|NONE|underwater",
+        "value": "interface/lockpicking/sos/lockpick_Lock01_Water.nif"
+       }
+      ]
+     }
+    }
    ]
   },
   {
@@ -17675,12 +17725,13 @@
    ],
    "patches": [
     {
-     "name": "INI",
-     "param": {
+     "f": "skse\\plugins\\ssedisplaytweaks.ini",
+     "t": "INI",
+     "p": {
       "over": [
        {
         "sect": "OSD",
-        "name": "enable",
+        "name": "Enable",
         "value": "true"
        }
       ]
