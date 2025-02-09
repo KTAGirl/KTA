@@ -679,14 +679,73 @@
      "type": "SIMPLE",
      "params": {
       "root": "data\\"
-     },
-     "skip": [
-      "skse\\plugins\\bimbosofskyrim\\bimbomorphs\\upper body.json"
-     ]
+     }
     }
    ],
-   "unknown": [
-    "skse\\plugins\\bimbosofskyrim\\bimbomorphs\\upper body.json"
+   "patches": [
+    {
+     "name": "SORTEDJSON",
+     "param": {
+      "float": [
+       {
+        "path": [
+         "float",
+         "breasts"
+        ],
+        "n": 1.0
+       },
+       {
+        "path": [
+         "float",
+         "breastsfantasy"
+        ],
+        "n": 0.3
+       },
+       {
+        "path": [
+         "float",
+         "breastsnewsh"
+        ],
+        "n": 0.029999999329447746
+       },
+       {
+        "path": [
+         "float",
+         "breastsnewshsymmetry"
+        ],
+        "n": 0.7
+       },
+       {
+        "path": [
+         "float",
+         "breastssmall"
+        ],
+        "n": -0.3
+       },
+       {
+        "path": [
+         "float",
+         "doublemelon"
+        ],
+        "n": 0.0
+       },
+       {
+        "path": [
+         "float",
+         "pushup"
+        ],
+        "n": 0.1
+       },
+       {
+        "path": [
+         "float",
+         "shoulderwidth"
+        ],
+        "n": 0.4
+       }
+      ]
+     }
+    }
    ]
   },
   {
@@ -10343,14 +10402,157 @@
         "plugin": "EN"
        }
       ]
-     },
-     "skip": [
-      "skse\\plugins\\storageutildata\\slheat&hunger\\config.json"
-     ]
+     }
     }
    ],
-   "unknown": [
-    "skse\\plugins\\storageutildata\\slheat&hunger\\config.json"
+   "patches": [
+    {
+     "name": "SORTEDJSON",
+     "param": {
+      "float": [
+       {
+        "path": [
+         "float",
+         "wmenjoyment_modifier"
+        ],
+        "n": 1
+       },
+       {
+        "path": [
+         "float",
+         "wmhunger_overallmod"
+        ],
+        "n": 1
+       },
+       {
+        "path": [
+         "float",
+         "wmhunger_vampiremod"
+        ],
+        "n": 0.6
+       },
+       {
+        "path": [
+         "float",
+         "wmthirst_overallmod"
+        ],
+        "n": 0
+       },
+       {
+        "path": [
+         "float",
+         "wmwarmup_modifier"
+        ],
+        "n": 1
+       },
+       {
+        "path": [
+         "int",
+         "wm_enabled"
+        ],
+        "n": 1
+       },
+       {
+        "path": [
+         "int",
+         "wm_hungerenabled"
+        ],
+        "n": 1
+       },
+       {
+        "path": [
+         "int",
+         "wm_oralrequired"
+        ],
+        "n": 0
+       },
+       {
+        "path": [
+         "int",
+         "wmbase_warmthgain"
+        ],
+        "n": 40
+       },
+       {
+        "path": [
+         "int",
+         "wmbuffs_duration"
+        ],
+        "n": 10
+       },
+       {
+        "path": [
+         "int",
+         "wmdecrese_enabled"
+        ],
+        "n": 1
+       },
+       {
+        "path": [
+         "int",
+         "wmenjoyment_enabled"
+        ],
+        "n": 1
+       },
+       {
+        "path": [
+         "int",
+         "wmorgasm_enabled"
+        ],
+        "n": 1
+       },
+       {
+        "path": [
+         "int",
+         "wmorgasm_maxamount"
+        ],
+        "n": 3
+       },
+       {
+        "path": [
+         "int",
+         "wmorgasm_warmthgain"
+        ],
+        "n": 20
+       },
+       {
+        "path": [
+         "int",
+         "wmostim_found"
+        ],
+        "n": 0
+       },
+       {
+        "path": [
+         "int",
+         "wmsexlab_found"
+        ],
+        "n": 1
+       },
+       {
+        "path": [
+         "int",
+         "wmslso_found"
+        ],
+        "n": 0
+       },
+       {
+        "path": [
+         "int",
+         "wmsunhelm_found"
+        ],
+        "n": 1
+       },
+       {
+        "path": [
+         "int",
+         "wmwarmthtype"
+        ],
+        "n": 2
+       }
+      ]
+     }
+    }
    ]
   },
   {
