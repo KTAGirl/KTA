@@ -15999,27 +15999,27 @@
      "p": {
       "over": [
        {
-        "sect": "__SANGUINE_UNNAMED_SECTION__",
+        "sect": "__@#$SANGUINE_UNNAMED_SECTION$#@__",
         "name": "SkyrimDataDirectory",
         "value": "D:\\SteamLibrary\\steamapps\\common\\Skyrim Special Edition\\data\\"
        },
        {
-        "sect": "__SANGUINE_UNNAMED_SECTION__",
+        "sect": "__@#$SANGUINE_UNNAMED_SECTION$#@__",
         "name": "MaxAnimation",
         "value": "50000"
        },
        {
-        "sect": "__SANGUINE_UNNAMED_SECTION__",
+        "sect": "__@#$SANGUINE_UNNAMED_SECTION$#@__",
         "name": "modNameWidth",
         "value": "380"
        },
        {
-        "sect": "__SANGUINE_UNNAMED_SECTION__",
+        "sect": "__@#$SANGUINE_UNNAMED_SECTION$#@__",
         "name": "authorWidth",
         "value": "75"
        },
        {
-        "sect": "__SANGUINE_UNNAMED_SECTION__",
+        "sect": "__@#$SANGUINE_UNNAMED_SECTION$#@__",
         "name": "priorityWidth",
         "value": "54"
        }
@@ -16698,14 +16698,24 @@
      "p": {
       "over": [
        {
-        "sect": "__SANGUINE_UNNAMED_SECTION__",
+        "sect": "__@#$SANGUINE_UNNAMED_SECTION$#@__",
         "name": "Door|NONE|underwater",
         "value": "interface/lockpicking/sos/lockpick_Lock01_Water.nif"
        },
        {
-        "sect": "__SANGUINE_UNNAMED_SECTION__",
+        "sect": "__@#$SANGUINE_UNNAMED_SECTION$#@__",
         "name": "Chest|NONE|underwater",
         "value": "interface/lockpicking/sos/lockpick_Lock01_Water.nif"
+       }
+      ],
+      "del": [
+       {
+        "sect": "Underwater",
+        "name": "Door"
+       },
+       {
+        "sect": "Underwater",
+        "name": "Chest"
        }
       ]
      }
