@@ -8040,6 +8040,16 @@
        },
        {
         "step": "Step2",
+        "grp": "Optional Files",
+        "plugin": "Makeup Tweaks (Recommended)"
+       },
+       {
+        "step": "Step2",
+        "grp": "Optional Files",
+        "plugin": "Mouth (Recommended)"
+       },
+       {
+        "step": "Step2",
         "grp": "Subsurface Scattering",
         "plugin": "Subsurface Disabler (Recommended)"
        },
@@ -8091,85 +8101,6 @@
        }
       ]
      }
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "meshes\\actors\\character\\character assets\\mouth\\mouthhumanf.nif",
-       "s": "diamond female textures cbbe v2.4b\\mouth\\meshes\\actors\\character\\character assets\\mouth\\mouthhumanf.nif"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femalehead_cheeks.dds",
-       "s": "diamond female textures cbbe v2.4b\\makeup1\\tintmasks\\textures\\actors\\character\\character assets\\tintmasks\\femalehead_cheeks.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femalehead_cheeks2.dds",
-       "s": "diamond female textures cbbe v2.4b\\makeup1\\tintmasks\\textures\\actors\\character\\character assets\\tintmasks\\femalehead_cheeks2.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femalehead_frownlines.dds",
-       "s": "diamond female textures cbbe v2.4b\\makeup1\\tintmasks\\textures\\actors\\character\\character assets\\tintmasks\\femalehead_frownlines.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadbreton_lips.dds",
-       "s": "diamond female textures cbbe v2.4b\\makeup1\\tintmasks\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadbreton_lips.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadhighelf_lips.dds",
-       "s": "diamond female textures cbbe v2.4b\\makeup1\\tintmasks\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadbreton_lips.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_chin.dds",
-       "s": "diamond female textures cbbe v2.4b\\makeup1\\tintmasks\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_chin.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_forehead.dds",
-       "s": "diamond female textures cbbe v2.4b\\makeup1\\tintmasks\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_forehead.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_neck.dds",
-       "s": "diamond female textures cbbe v2.4b\\makeup1\\tintmasks\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_neck.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_nose.dds",
-       "s": "diamond female textures cbbe v2.4b\\makeup1\\tintmasks\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_nose.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadimperial_lips.dds",
-       "s": "diamond female textures cbbe v2.4b\\makeup1\\tintmasks\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadbreton_lips.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadnord_lips.dds",
-       "s": "diamond female textures cbbe v2.4b\\makeup1\\tintmasks\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadbreton_lips.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadredguard_lips.dds",
-       "s": "diamond female textures cbbe v2.4b\\makeup1\\tintmasks\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadbreton_lips.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femalelowereyesocket.dds",
-       "s": "diamond female textures cbbe v2.4b\\makeup1\\tintmasks\\textures\\actors\\character\\character assets\\tintmasks\\femalelowereyesocket.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femalenordeyelinerstyle_01.dds",
-       "s": "diamond female textures cbbe v2.4b\\makeup1\\tintmasks\\textures\\actors\\character\\character assets\\tintmasks\\femalenordeyelinerstyle_01.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleuppereyesocket.dds",
-       "s": "diamond female textures cbbe v2.4b\\makeup1\\tintmasks\\textures\\actors\\character\\character assets\\tintmasks\\femaleuppereyesocket.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\mouth\\mouthhuman.dds",
-       "s": "diamond female textures cbbe v2.4b\\mouth\\textures\\actors\\character\\mouth\\mouthhuman.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\mouth\\mouthhuman_n.dds",
-       "s": "diamond female textures cbbe v2.4b\\mouth\\textures\\actors\\character\\mouth\\mouthhuman_n.dds"
-      }
-     ]
     }
    ]
   },
@@ -8383,743 +8314,65 @@
         "step": "Main",
         "grp": "Main - Ambience",
         "plugin": "ELFX Enhancer"
+       },
+       {
+        "step": "Main",
+        "grp": "Main - Exterior",
+        "plugin": "ELFX - Exteriors"
+       },
+       {
+        "step": "Main",
+        "grp": "Main - Exterior",
+        "plugin": "ELFX - Enhanced Ice"
+       },
+       {
+        "step": "Patches",
+        "grp": "SMIM",
+        "plugin": "SMIM Meshes"
+       },
+       {
+        "step": "Misc. Optionals",
+        "grp": "Optionals",
+        "plugin": "Torches"
        }
       ]
-     }
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "elfx - exteriors.esp",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\elfx - exteriors.esp"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxsthalmorbarracks.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxsthalmorbarracks.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxsthalmorbarracksw.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxsthalmorbarracksw.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxsthalmorembassy.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxsthalmorembassy.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxsthalmorembassyw.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxsthalmorembassyw.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxsthalmorhouse.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxsthalmorhouse.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxsthalmorhousew.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxsthalmorhousew.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwharetino.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwharetino.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwharetinow.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwharetinow.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhbrunwulf.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhbrunwulf.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhbrunwulfw.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhbrunwulfw.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhcandlehearthinn.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhcandlehearthinn.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhchwindows.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhchwindows.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhclancruelsea.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhclancruelsea.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhclancruelseadestroyed.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhclancruelseadestroyed.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhclancruelseaw.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhclancruelseaw.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhclanshattershield.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhclanshattershield.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhclanshattershieldw.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhclanshattershieldw.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhhjerim1.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhhjerim1.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhhjerim1w.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhhjerim1w.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhmarket02.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhmarket02.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhmarket02w.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhmarket02w.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhmarket04.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhmarket04.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhmarket04w.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhmarket04w.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhstables.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhstables.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhstablesw.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhstablesw.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhstonequarterhouses01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhstonequarterhouses01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhstonequarterhouses01w.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhstonequarterhouses01w.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhtempletalos.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhtempletalos.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhtempletalos3.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhtempletalos3.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhtempletalos3w.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhtempletalos3w.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhtempletalosw.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhtempletalosw.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhviolagiorano.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhviolagiorano.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwhviolagioranow.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwhviolagioranow.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwinterholdexttower01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwinterholdexttower01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwinterholdexttower01w.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwinterholdexttower01w.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwinterholdexttowerring01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwinterholdexttowerring01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\elfx\\elfxwinterholdexttowerring01w.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\elfx\\elfxwinterholdexttowerring01w.nif"
-      },
-      {
-       "t": "meshes\\architecture\\markarth\\mrktemplecrag01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\markarth\\mrktemplecrag01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\riften\\rtbeebarb01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\riften\\rtbeebarb01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\riften\\rtblackbriarmanor01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\riften\\rtblackbriarmanor01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\riften\\rtblacksmith01city.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\riften\\rtblacksmith01city.nif"
-      },
-      {
-       "t": "meshes\\architecture\\riften\\rtfarmhouse01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\riften\\rtfarmhouse01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\riften\\rtfarmhouse02.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\riften\\rtfarmhouse02.nif"
-      },
-      {
-       "t": "meshes\\architecture\\riften\\rtfishery01city.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\riften\\rtfishery01city.nif"
-      },
-      {
-       "t": "meshes\\architecture\\riften\\rthaelgasbunkhouse01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\riften\\rthaelgasbunkhouse01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\riften\\rtlandc01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\riften\\rtlandc01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\riften\\rtlandl01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\riften\\rtlandl01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\riften\\rtlandr01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\riften\\rtlandr01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\riften\\rtmeadery01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\riften\\rtmeadery01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\riften\\rtmeadery02.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\riften\\rtmeadery02.nif"
-      },
-      {
-       "t": "meshes\\architecture\\riften\\rtmeadery02city.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\riften\\rtmeadery02city.nif"
-      },
-      {
-       "t": "meshes\\architecture\\riften\\rtmercerfreys01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\riften\\rtmercerfreys01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\riften\\rtmjollandtroutpurse01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\riften\\rtmjollandtroutpurse01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\riften\\rtorphanage01city.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\riften\\rtorphanage01city.nif"
-      },
-      {
-       "t": "meshes\\architecture\\riften\\rtpawnedprawn01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\riften\\rtpawnedprawn01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\riften\\rtplayerhouse01city.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\riften\\rtplayerhouse01city.nif"
-      },
-      {
-       "t": "meshes\\architecture\\riften\\rtplaza02.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\riften\\rtplaza02.nif"
-      },
-      {
-       "t": "meshes\\architecture\\riften\\rtplaza03.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\riften\\rtplaza03.nif"
-      },
-      {
-       "t": "meshes\\architecture\\riften\\rtsnowshodhouse01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\riften\\rtsnowshodhouse01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\riften\\rttempleplaza01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\riften\\rttempleplaza01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\riften\\rtwarehouse01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\riften\\rtwarehouse01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\solitude\\sbardscollege.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\solitude\\sbardscollege.nif"
-      },
-      {
-       "t": "meshes\\architecture\\solitude\\sbardscollegerooms.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\solitude\\sbardscollegerooms.nif"
-      },
-      {
-       "t": "meshes\\architecture\\solitude\\sbardscollegetower.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\solitude\\sbardscollegetower.nif"
-      },
-      {
-       "t": "meshes\\architecture\\solitude\\sbits and pieces.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\solitude\\sbits and pieces.nif"
-      },
-      {
-       "t": "meshes\\architecture\\solitude\\sblacksmith.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\solitude\\sblacksmith.nif"
-      },
-      {
-       "t": "meshes\\architecture\\solitude\\sbluepalace.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\solitude\\sbluepalace.nif"
-      },
-      {
-       "t": "meshes\\architecture\\solitude\\sbluepalaceentrance.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\solitude\\sbluepalaceentrance.nif"
-      },
-      {
-       "t": "meshes\\architecture\\solitude\\sbryling house.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\solitude\\sbryling house.nif"
-      },
-      {
-       "t": "meshes\\architecture\\solitude\\scastle.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\solitude\\scastle.nif"
-      },
-      {
-       "t": "meshes\\architecture\\solitude\\serikur house.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\solitude\\serikur house.nif"
-      },
-      {
-       "t": "meshes\\architecture\\solitude\\sevette san house.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\solitude\\sevette san house.nif"
-      },
-      {
-       "t": "meshes\\architecture\\solitude\\shmd_apothecary.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\solitude\\shmd_apothecary.nif"
-      },
-      {
-       "t": "meshes\\architecture\\solitude\\shouseforsale.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\solitude\\shouseforsale.nif"
-      },
-      {
-       "t": "meshes\\architecture\\solitude\\sninedivine.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\solitude\\sninedivine.nif"
-      },
-      {
-       "t": "meshes\\architecture\\solitude\\solitudebasemarket.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\solitude\\solitudebasemarket.nif"
-      },
-      {
-       "t": "meshes\\architecture\\solitude\\sraidiantraiments.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\solitude\\sraidiantraiments.nif"
-      },
-      {
-       "t": "meshes\\architecture\\solitude\\sstyrrshouse.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\solitude\\sstyrrshouse.nif"
-      },
-      {
-       "t": "meshes\\architecture\\solitude\\sstyrrshousedestroyed.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\solitude\\sstyrrshousedestroyed.nif"
-      },
-      {
-       "t": "meshes\\architecture\\solitude\\sthe winking skeever.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\solitude\\sthe winking skeever.nif"
-      },
-      {
-       "t": "meshes\\architecture\\solitude\\svittoriavicihouse.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\solitude\\svittoriavicihouse.nif"
-      },
-      {
-       "t": "meshes\\architecture\\solitude\\svittoriavicihousedestroyed.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\solitude\\svittoriavicihousedestroyed.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrbuildings\\wrbreezehome01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrbuildings\\wrbreezehome01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrbuildings\\wrcastleentrance01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrbuildings\\wrcastleentrance01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrbuildings\\wrcastlemainbuilding01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrbuildings\\wrcastlemainbuilding01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrbuildings\\wrcastlestonetowertop01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrbuildings\\wrcastlestonetowertop01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrbuildings\\wrfarmhousewindmill.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrbuildings\\wrfarmhousewindmill.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrbuildings\\wrguardhouse01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrbuildings\\wrguardhouse01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrbuildings\\wrhouse02.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrbuildings\\wrhouse02.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrbuildings\\wrhousebanneredmare01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrbuildings\\wrhousebanneredmare01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrbuildings\\wrhouseblacksmith01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrbuildings\\wrhouseblacksmith01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrbuildings\\wrhousegreymane01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrbuildings\\wrhousegreymane01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrbuildings\\wrhousemeadery01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrbuildings\\wrhousemeadery01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrbuildings\\wrhouseshack01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrbuildings\\wrhouseshack01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrbuildings\\wrhouseshack02.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrbuildings\\wrhouseshack02.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrbuildings\\wrhousestables01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrbuildings\\wrhousestables01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrbuildings\\wrhousestores01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrbuildings\\wrhousestores01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrbuildings\\wrhousestores02.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrbuildings\\wrhousestores02.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrbuildings\\wrhousewind01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrbuildings\\wrhousewind01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrbuildings\\wrhousewind02.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrbuildings\\wrhousewind02.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrbuildings\\wrhousewind03.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrbuildings\\wrhousewind03.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrbuildings\\wrhousewind04.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrbuildings\\wrhousewind04.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrbuildings\\wrjorvaskr01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrbuildings\\wrjorvaskr01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrbuildings\\wrtempleofk01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrbuildings\\wrtempleofk01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrterrain\\wrcompanionbase01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrterrain\\wrcompanionbase01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrterrain\\wrmainroadplains.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrterrain\\wrmainroadplains.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrterrain\\wrskyforge01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrterrain\\wrskyforge01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\whiterun\\wrterrain\\wrterwind01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\whiterun\\wrterrain\\wrterwind01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\windhelm\\whcenter.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\windhelm\\whcenter.nif"
-      },
-      {
-       "t": "meshes\\architecture\\windhelm\\whcenter4.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\windhelm\\whcenter4.nif"
-      },
-      {
-       "t": "meshes\\architecture\\windhelm\\whcenter5.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\windhelm\\whcenter5.nif"
-      },
-      {
-       "t": "meshes\\architecture\\windhelm\\whcenter6.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\windhelm\\whcenter6.nif"
-      },
-      {
-       "t": "meshes\\architecture\\windhelm\\whlanddead1.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\windhelm\\whlanddead1.nif"
-      },
-      {
-       "t": "meshes\\architecture\\windhelm\\whlanddead2.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\windhelm\\whlanddead2.nif"
-      },
-      {
-       "t": "meshes\\architecture\\windhelm\\whlandfront.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\windhelm\\whlandfront.nif"
-      },
-      {
-       "t": "meshes\\architecture\\windhelm\\whlandfront3.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\windhelm\\whlandfront3.nif"
-      },
-      {
-       "t": "meshes\\architecture\\windhelm\\whmarket01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\windhelm\\whmarket01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\windhelm\\whpalace1.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\windhelm\\whpalace1.nif"
-      },
-      {
-       "t": "meshes\\architecture\\windhelm\\whpalace2.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\windhelm\\whpalace2.nif"
-      },
-      {
-       "t": "meshes\\architecture\\windhelm\\whprison01.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\windhelm\\whprison01.nif"
-      },
-      {
-       "t": "meshes\\architecture\\windhelm\\whstonequarter2.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\windhelm\\whstonequarter2.nif"
-      },
-      {
-       "t": "meshes\\architecture\\windhelm\\whtempletalos2.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\windhelm\\whtempletalos2.nif"
-      },
-      {
-       "t": "meshes\\architecture\\windhelm\\whvalunstrad2.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\windhelm\\whvalunstrad2.nif"
-      },
-      {
-       "t": "meshes\\architecture\\windhelm\\whvalunstrad3.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\windhelm\\whvalunstrad3.nif"
-      },
-      {
-       "t": "meshes\\architecture\\windhelm\\whwallwulfharth.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\windhelm\\whwallwulfharth.nif"
-      },
-      {
-       "t": "meshes\\architecture\\windhelm\\windhelmbridge.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\windhelm\\windhelmbridge.nif"
-      },
-      {
-       "t": "meshes\\architecture\\windhelm\\windhelmbridge2.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\architecture\\windhelm\\windhelmbridge2.nif"
-      },
-      {
-       "t": "meshes\\clutter\\common\\torchpermanent01.nif",
-       "s": "enhancedlightsandfx 3.06\\04 torches\\meshes\\clutter\\common\\torchpermanent01.nif"
-      },
-      {
-       "t": "meshes\\clutter\\common\\torchsconce01.nif",
-       "s": "enhancedlightsandfx 3.06\\04 torches\\meshes\\clutter\\common\\torchsconce01.nif"
-      },
-      {
-       "t": "meshes\\effects\\elfx\\elfxbridgeshadow.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\effects\\elfx\\elfxbridgeshadow.nif"
-      },
-      {
-       "t": "meshes\\effects\\elfx\\elfxbridgeshadowthin.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\effects\\elfx\\elfxbridgeshadowthin.nif"
-      },
-      {
-       "t": "meshes\\effects\\elfx\\elfxshipshadow.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\effects\\elfx\\elfxshipshadow.nif"
-      },
-      {
-       "t": "meshes\\effects\\elfx\\fxsswarm.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\effects\\elfx\\fxsswarm.nif"
-      },
-      {
-       "t": "meshes\\effects\\elfx\\fxsswarmdense.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\effects\\elfx\\fxsswarmdense.nif"
-      },
-      {
-       "t": "meshes\\landscape\\unique\\markarthcliff02.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\landscape\\unique\\markarthcliff02.nif"
-      },
-      {
-       "t": "meshes\\landscape\\unique\\markarthcliff03.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\landscape\\unique\\markarthcliff03.nif"
-      },
-      {
-       "t": "meshes\\landscape\\unique\\markarthcliff04.nif",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\meshes\\landscape\\unique\\markarthcliff04.nif"
-      },
-      {
-       "t": "meshes\\weapons\\torch\\torch.nif",
-       "s": "enhancedlightsandfx 3.06\\04 torches\\meshes\\weapons\\torch\\torch.nif"
-      },
-      {
-       "t": "textures\\architecture\\solitude\\sinside.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\architecture\\solitude\\sinside.dds"
-      },
-      {
-       "t": "textures\\architecture\\solitude\\swindow01.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\architecture\\solitude\\swindow01.dds"
-      },
-      {
-       "t": "textures\\architecture\\solitude\\swindow03.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\architecture\\solitude\\swindow03.dds"
-      },
-      {
-       "t": "textures\\architecture\\solitude\\swindow03_n.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\architecture\\solitude\\swindow03_n.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\elfxbridgeshadows.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\elfxbridgeshadows.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\elfxbridgeshadows_n.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\elfxbridgeshadows_n.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\elfxbridgeshadowsend01.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\elfxbridgeshadowsend01.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\elfxbridgeshadowsthin.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\elfxbridgeshadowsthin.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\riften\\riftenwindowinner01.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\riften\\riftenwindowinner01.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\riften\\riftenwindows02.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\riften\\riftenwindows02.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\riften\\riftenwindows02_g.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\riften\\riftenwindows02_g.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\riften\\riftenwindows02_n.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\riften\\riftenwindows02_n.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\solitude\\sinside.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\architecture\\solitude\\sinside.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\solitude\\swindow01.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\architecture\\solitude\\swindow01.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\solitude\\swindow01_g.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\solitude\\swindow01_g.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\solitude\\swindow01_n.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\solitude\\swindow01_n.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\solitude\\swindow03.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\architecture\\solitude\\swindow03.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\solitude\\swindow03_g.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\solitude\\swindow03_g.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\solitude\\swindow03_n.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\architecture\\solitude\\swindow03_n.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\whiterun\\winterior.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\whiterun\\winterior.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\whiterun\\winterior02.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\whiterun\\winterior02.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\whiterun\\winteriordragonsreach01.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\whiterun\\winteriordragonsreach01.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\whiterun\\winteriordragonsreach02.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\whiterun\\winteriordragonsreach02.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\whiterun\\winteriorjorrvaskr.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\whiterun\\winteriorjorrvaskr.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\whiterun\\winteriortemple.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\whiterun\\winteriortemple.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\whiterun\\wrwindows01.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\whiterun\\wrwindows01.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\whiterun\\wrwindows01_em.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\whiterun\\wrwindows01_em.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\whiterun\\wrwindows01_g.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\whiterun\\wrwindows01_g.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\whiterun\\wrwindows01_n.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\whiterun\\wrwindows01_n.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\windhelm\\elfxwhwindow01.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\windhelm\\elfxwhwindow01.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\windhelm\\whinside.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\windhelm\\whinside.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\windhelm\\whinsidetemple.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\windhelm\\whinsidetemple.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\windhelm\\whwindow1.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\windhelm\\whwindow1.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\windhelm\\whwindow1_n.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\windhelm\\whwindow1_n.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\windhelm\\whwindowmaps.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\windhelm\\whwindowmaps.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\windhelm\\whwindowmaps_n.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\windhelm\\whwindowmaps_n.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\windhelm\\whwindowmapsglow_g.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\windhelm\\whwindowmapsglow_g.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\windhelm\\whwindowmapsmask_m.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\windhelm\\whwindowmapsmask_m.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\winterhold\\winterholdwindow01.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\winterhold\\winterholdwindow01.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\winterhold\\winterholdwindow01_n.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\winterhold\\winterholdwindow01_n.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\winterhold\\winterholdwindow02.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\winterhold\\winterholdwindow02.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\winterhold\\winterholdwindow02_em.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\winterhold\\winterholdwindow02_em.dds"
-      },
-      {
-       "t": "textures\\effects\\elfx\\windows\\winterhold\\wtinside.dds",
-       "s": "enhancedlightsandfx 3.06\\02 elfxexteriors\\textures\\effects\\elfx\\windows\\winterhold\\wtinside.dds"
-      }
+     },
+     "skip": [
+      "meshes\\dlc01\\landscape\\dlc01frozenlake01.nif",
+      "meshes\\dlc01\\landscape\\dlc01frozenlakebreak01.nif",
+      "meshes\\dlc01\\landscape\\dlc01frozenlakebreak02.nif",
+      "meshes\\dlc01\\landscape\\dlc01frozenlakebreakcap.nif",
+      "meshes\\dlc01\\landscape\\dlc01frozenlakebreakcap02.nif",
+      "meshes\\dlc01\\landscape\\dlc01frozenlakebreakexplosion.nif",
+      "meshes\\dlc01\\landscape\\dlc01frozenlakecracks1.nif",
+      "meshes\\dlc01\\landscape\\dlc01frozenlakecracks1edgene.nif",
+      "meshes\\dlc01\\landscape\\dlc01frozenlakecracks2.nif",
+      "meshes\\dlc01\\landscape\\dlc01frozenlakecracks3.nif",
+      "meshes\\dlc01\\landscape\\dlc01frozenlakecracks3edgene.nif",
+      "meshes\\dlc01\\landscape\\dlc01frozenlakeedgene.nif",
+      "meshes\\dlc01\\landscape\\dlc1icefloechunks01.nif",
+      "meshes\\dlc01\\landscape\\dlc1icefloechunks02.nif",
+      "meshes\\dlc01\\landscape\\dlc1icefloechunks03.nif",
+      "meshes\\dlc01\\landscape\\dlc1icefloel01.nif",
+      "meshes\\dlc01\\landscape\\dlc1icefloem01.nif",
+      "meshes\\dlc01\\landscape\\dlc1icefloes01.nif",
+      "meshes\\dlc01\\landscape\\dlc1icefloes02.nif",
+      "meshes\\landscape\\ice\\frozenmarshice01.nif",
+      "meshes\\landscape\\ice\\frozenmarshicefloechunks01.nif",
+      "meshes\\landscape\\ice\\frozenmarshicefloechunks02.nif",
+      "meshes\\landscape\\ice\\frozenmarshicefloechunks03.nif",
+      "meshes\\landscape\\ice\\frozenmarshicefloel01.nif",
+      "meshes\\landscape\\ice\\frozenmarshicefloem01.nif",
+      "meshes\\landscape\\ice\\frozenmarshicefloes01.nif",
+      "meshes\\landscape\\ice\\frozenmarshicefloes02.nif",
+      "meshes\\landscape\\ice\\frozenmarshicelandbrokenl01.nif",
+      "meshes\\landscape\\ice\\frozenmarshicelandbrokenl01skirt.nif",
+      "meshes\\landscape\\ice\\frozenpooll01.nif",
+      "meshes\\landscape\\ice\\icefloes01.nif",
+      "meshes\\landscape\\ice\\icefloessolid01.nif",
+      "meshes\\landscape\\ice\\icefloessolid02.nif",
+      "textures\\smim\\dungeons\\green\\smim_caveg_dirtcliffsroots.dds",
+      "textures\\smim\\dungeons\\green\\smim_caveg_dirtcliffsroots_n.dds"
      ]
     }
    ]
@@ -9317,256 +8570,34 @@
         "step": "Install Options",
         "grp": "Subsurface Scattering",
         "plugin": "Subsurface Textures (Default)"
+       },
+       {
+        "step": "Install Options",
+        "grp": "Optional Files",
+        "plugin": "Makeup Tweaks"
+       },
+       {
+        "step": "Install Options",
+        "grp": "Optional Files",
+        "plugin": "Face Detail Maps"
+       },
+       {
+        "step": "Install Options",
+        "grp": "Optional Files",
+        "plugin": "Eyes"
+       },
+       {
+        "step": "Install Options",
+        "grp": "Optional Files",
+        "plugin": "Mouth"
+       },
+       {
+        "step": "Install Options",
+        "grp": "Optional Files",
+        "plugin": "Additional Brow Shapes"
        }
       ]
      }
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "12femalebrows.esp",
-       "s": "fair skin complexion for cbbe v12.0 se\\brows\\12femalebrows.esp"
-      },
-      {
-       "t": "meshes\\actors\\character\\character assets\\eyesfemale.nif",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\meshes\\actors\\character\\character assets\\eyesfemale.nif"
-      },
-      {
-       "t": "meshes\\actors\\character\\character assets\\eyesfemalevampire.nif",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\meshes\\actors\\character\\character assets\\eyesfemalevampire.nif"
-      },
-      {
-       "t": "meshes\\actors\\character\\character assets\\faceparts\\eyefemaleleft.nif",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\meshes\\actors\\character\\character assets\\faceparts\\eyefemaleleft.nif"
-      },
-      {
-       "t": "meshes\\actors\\character\\character assets\\faceparts\\eyefemaleright.nif",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\meshes\\actors\\character\\character assets\\faceparts\\eyefemaleright.nif"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femalehead_cheeks.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femalehead_cheeks.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femalehead_cheeks2.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femalehead_cheeks2.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femalehead_frownlines.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femalehead_frownlines.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadbreton_lips.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadbreton_lips.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadhighelf_lips.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadbreton_lips.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_chin.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_chin.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_forehead.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_forehead.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_neck.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_neck.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_nose.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_nose.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadimperial_lips.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadbreton_lips.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadnord_lips.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadbreton_lips.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadredguard_lips.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadbreton_lips.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femalelowereyesocket.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femalelowereyesocket.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femalenordeyelinerstyle_01.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femalenordeyelinerstyle_01.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleuppereyesocket.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleuppereyesocket.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyeamber.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\textures\\actors\\character\\eyes\\eyeamber.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyeblind.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\textures\\actors\\character\\eyes\\eyeblind.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyeblue.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\textures\\actors\\character\\eyes\\eyeblue.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyebluebloodshot.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\textures\\actors\\character\\eyes\\eyebluebloodshot.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyebrown.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\textures\\actors\\character\\eyes\\eyebrown.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyebrown_n.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\textures\\actors\\character\\eyes\\eyebrown_n.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyebrown_sk.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\textures\\actors\\character\\eyes\\eyebrown_sk.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyebrownbloodshot.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\textures\\actors\\character\\eyes\\eyebrownbloodshot.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyedemon.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\textures\\actors\\character\\eyes\\eyedemon.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyeenvironmentmask_m.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\textures\\actors\\character\\eyes\\eyeenvironmentmask_m.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyegreen.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\textures\\actors\\character\\eyes\\eyegreen.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyegrey.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\textures\\actors\\character\\eyes\\eyegrey.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyehazel.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\textures\\actors\\character\\eyes\\eyehazel.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyehazelbrown.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\textures\\actors\\character\\eyes\\eyehazelbrown.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyelightgrey.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\textures\\actors\\character\\eyes\\eyelightgrey.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyesdarkblue.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\textures\\actors\\character\\eyes\\eyesdarkblue.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyesiceblue.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\textures\\actors\\character\\eyes\\eyesiceblue.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyevampire_01.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\textures\\actors\\character\\eyes\\eyevampire_01.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyevampire_02.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\textures\\actors\\character\\eyes\\eyevampire_02.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\eyes\\eyeyellow.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\textures\\actors\\character\\eyes\\eyeyellow.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femaleheaddetail_frekles.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\freckles\\textures\\actors\\character\\female\\femaleheaddetail_frekles.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femaleheaddetail_rough.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\freckles\\textures\\actors\\character\\female\\femaleheaddetail_rough.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\femalebrows\\cubrow_01.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\brows\\textures\\actors\\character\\femalebrows\\cubrow_01.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\femalebrows\\cubrow_02.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\brows\\textures\\actors\\character\\femalebrows\\cubrow_02.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\femalebrows\\cubrow_03.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\brows\\textures\\actors\\character\\femalebrows\\cubrow_03.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\femalebrows\\cubrow_04.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\brows\\textures\\actors\\character\\femalebrows\\cubrow_04.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\femalebrows\\cubrow_05.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\brows\\textures\\actors\\character\\femalebrows\\cubrow_05.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\femalebrows\\cubrow_06.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\brows\\textures\\actors\\character\\femalebrows\\cubrow_06.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\femalebrows\\cubrow_07.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\brows\\textures\\actors\\character\\femalebrows\\cubrow_07.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\femalebrows\\cubrow_08.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\brows\\textures\\actors\\character\\femalebrows\\cubrow_08.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\femalebrows\\cubrow_09.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\brows\\textures\\actors\\character\\femalebrows\\cubrow_09.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\femalebrows\\cubrow_10.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\brows\\textures\\actors\\character\\femalebrows\\cubrow_10.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\femalebrows\\cubrow_11.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\brows\\textures\\actors\\character\\femalebrows\\cubrow_11.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\femalebrows\\cubrow_12.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\brows\\textures\\actors\\character\\femalebrows\\cubrow_12.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\femalebrows\\cubrow_n.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\brows\\textures\\actors\\character\\femalebrows\\cubrow_n.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\femalebrows\\femalebrow_n.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\brows\\textures\\actors\\character\\femalebrows\\cubrow_n.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\male\\blankdetailmap.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\freckles\\textures\\actors\\character\\male\\blankdetailmap.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\mouth\\mouthhuman.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\mouth\\textures\\actors\\character\\mouth\\mouthhuman.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\mouth\\mouthhuman_n.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\mouth\\textures\\actors\\character\\mouth\\mouthhuman_n.dds"
-      },
-      {
-       "t": "textures\\cubemaps\\eyecubemap.dds",
-       "s": "fair skin complexion for cbbe v12.0 se\\eyes\\textures\\cubemaps\\eyecubemap.dds"
-      }
-     ]
     }
    ]
   },
@@ -10020,321 +9051,130 @@
        {
         "step": "Main Install",
         "grp": "Glevs Sexy Skyrim Mods",
+        "plugin": "Glevs Sexy Signs"
+       },
+       {
+        "step": "Main Install",
+        "grp": "Glevs Sexy Skyrim Mods",
+        "plugin": "Glevs Sexy Shields"
+       },
+       {
+        "step": "Main Install",
+        "grp": "Glevs Sexy Skyrim Mods",
+        "plugin": "Glevs Sexy Coin"
+       },
+       {
+        "step": "Main Install",
+        "grp": "Glevs Sexy Skyrim Mods",
+        "plugin": "Glevs Sexy Adventure Tent"
+       },
+       {
+        "step": "Main Install",
+        "grp": "Glevs Sexy Skyrim Mods",
         "plugin": "Glevs Sexy Banners"
        },
        {
         "step": "Glevs Sexy Banners",
         "grp": "Glevs Sexy Banners Versions",
         "plugin": "Glev Sexy Banners V2"
+       },
+       {
+        "step": "Glevs Sexy Adventure Tent",
+        "grp": "Glevs Sexy Adventure Tent Version",
+        "plugin": "Futa Adventure Tent"
        }
       ]
-     }
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "meshes\\clutter\\coin01.nif",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexycoin_futahead_dogtails\\meshes\\clutter\\coin01.nif"
-      },
-      {
-       "t": "meshes\\clutter\\signage\\riften\\signrtblacksmith01.nif",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\meshes\\clutter\\signage\\riften\\signrtblacksmith01.nif"
-      },
-      {
-       "t": "meshes\\clutter\\signage\\riverwood\\signriverwoodriverwoodblacksmith01.nif",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\meshes\\clutter\\signage\\riften\\signrtblacksmith01.nif"
-      },
-      {
-       "t": "meshes\\clutter\\signage\\riverwood\\signriverwoodriverwoodtrader01.nif",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\meshes\\clutter\\signage\\riverwood\\signriverwoodriverwoodtrader01.nif"
-      },
-      {
-       "t": "meshes\\clutter\\signage\\whiterun\\signwrblacksmith01.nif",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\meshes\\clutter\\signage\\riften\\signrtblacksmith01.nif"
-      },
-      {
-       "t": "meshes\\clutter\\signage\\windhelm\\signwhblacksmith01.nif",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\meshes\\clutter\\signage\\riften\\signrtblacksmith01.nif"
-      },
-      {
-       "t": "textures\\armor\\stormcloaks\\dawnstarsymbol.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevguardsheilds\\textures\\armor\\stormcloaks\\dawnstarsymbol.dds"
-      },
-      {
-       "t": "textures\\armor\\stormcloaks\\dawnstarsymbol_n.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevguardsheilds\\textures\\armor\\stormcloaks\\dawnstarsymbol_n.dds"
-      },
-      {
-       "t": "textures\\armor\\stormcloaks\\falkreathsymbol.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevguardsheilds\\textures\\armor\\stormcloaks\\falkreathsymbol.dds"
-      },
-      {
-       "t": "textures\\armor\\stormcloaks\\falkreathsymbol_n.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevguardsheilds\\textures\\armor\\stormcloaks\\falkreathsymbol_n.dds"
-      },
-      {
-       "t": "textures\\armor\\stormcloaks\\hjaalmarchsymbol.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevguardsheilds\\textures\\armor\\stormcloaks\\hjaalmarchsymbol.dds"
-      },
-      {
-       "t": "textures\\armor\\stormcloaks\\hjaalmarchsymbol_n.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevguardsheilds\\textures\\armor\\stormcloaks\\hjaalmarchsymbol_n.dds"
-      },
-      {
-       "t": "textures\\armor\\stormcloaks\\markarthsymbol.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevguardsheilds\\textures\\armor\\stormcloaks\\markarthsymbol.dds"
-      },
-      {
-       "t": "textures\\armor\\stormcloaks\\markarthsymbol_n.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevguardsheilds\\textures\\armor\\stormcloaks\\markarthsymbol_n.dds"
-      },
-      {
-       "t": "textures\\armor\\stormcloaks\\riftensymbol.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevguardsheilds\\textures\\armor\\stormcloaks\\riftensymbol.dds"
-      },
-      {
-       "t": "textures\\armor\\stormcloaks\\riftensymbol_n.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevguardsheilds\\textures\\armor\\stormcloaks\\riftensymbol_n.dds"
-      },
-      {
-       "t": "textures\\armor\\stormcloaks\\solitudesymbol.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevguardsheilds\\textures\\armor\\stormcloaks\\solitudesymbol.dds"
-      },
-      {
-       "t": "textures\\armor\\stormcloaks\\solitudesymbol_n.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevguardsheilds\\textures\\armor\\stormcloaks\\solitudesymbol_n.dds"
-      },
-      {
-       "t": "textures\\armor\\stormcloaks\\stormcloaksshield.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevguardsheilds\\textures\\armor\\stormcloaks\\stormcloaksshield.dds"
-      },
-      {
-       "t": "textures\\armor\\stormcloaks\\stormcloaksshield_n.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevguardsheilds\\textures\\armor\\stormcloaks\\stormcloaksshield_n.dds"
-      },
-      {
-       "t": "textures\\armor\\stormcloaks\\whiterunsymbol.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevguardsheilds\\textures\\armor\\stormcloaks\\whiterunsymbol.dds"
-      },
-      {
-       "t": "textures\\armor\\stormcloaks\\whiterunsymbol_n.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevguardsheilds\\textures\\armor\\stormcloaks\\whiterunsymbol_n.dds"
-      },
-      {
-       "t": "textures\\armor\\stormcloaks\\windhelmsymbol.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevguardsheilds\\textures\\armor\\stormcloaks\\windhelmsymbol.dds"
-      },
-      {
-       "t": "textures\\armor\\stormcloaks\\windhelmsymbol_n.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevguardsheilds\\textures\\armor\\stormcloaks\\windhelmsymbol_n.dds"
-      },
-      {
-       "t": "textures\\armor\\stormcloaks\\winterholdsymbol.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevguardsheilds\\textures\\armor\\stormcloaks\\winterholdsymbol.dds"
-      },
-      {
-       "t": "textures\\armor\\stormcloaks\\winterholdsymbol_n.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevguardsheilds\\textures\\armor\\stormcloaks\\winterholdsymbol_n.dds"
-      },
-      {
-       "t": "textures\\clutter\\coin01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexycoin_futahead_dogtails\\textures\\clutter\\coin01.dds"
-      },
-      {
-       "t": "textures\\clutter\\coin01_n.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexycoin_futahead_dogtails\\textures\\clutter\\coin01_n.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\inns\\signbraidwoodinn01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\inns\\signbraidwoodinn01.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\inns\\signdeadmansdrink01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\inns\\signdeadmansdrink01.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\inns\\signfourshieldstavern01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\inns\\signfourshieldstavern01.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\inns\\signfrostfruitinn01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\inns\\signfrostfruitinn01.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\inns\\signfrozenhearth01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\inns\\signfrozenhearth01.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\inns\\signinn01_n.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\inns\\signinn01_n.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\inns\\signmoorsideinn01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\inns\\signmoorsideinn01.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\inns\\signnightgateinn01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\inns\\signnightgateinn01.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\inns\\signoldhroldan01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\inns\\signoldhroldan01.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\inns\\signvilemyr01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\inns\\signvilemyr01.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\inns\\signwindpeakinn01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\inns\\signwindpeakinn01.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\inns\\thumbs.db",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\inns\\thumbs.db"
-      },
-      {
-       "t": "textures\\clutter\\signage\\riften\\signrtbeeandbarb01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\riften\\signrtbeeandbarb01.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\riften\\signrtbeeandbarb01_n.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\riften\\signrtbeeandbarb01_n.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\riften\\signrtblackbriarmeadery01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\riften\\signrtblackbriarmeadery01.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\riften\\signrtblackbriarmeadery01_n.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\riften\\signrtblackbriarmeadery01_n.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\riften\\signrtfishery01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\riften\\signrtfishery01.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\riften\\signrtfishery01_n.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\riften\\signrtfishery01_n.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\riften\\signrtorphanage01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\riften\\signrtorphanage01.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\riften\\signrtorphanage01_n.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\riften\\signrtorphanage01_n.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\riften\\signrtpawnshop01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\riften\\signrtpawnshop01.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\riften\\signrtpawnshop01_n.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\riften\\signrtpawnshop01_n.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\riften\\thumbs.db",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\riften\\thumbs.db"
-      },
-      {
-       "t": "textures\\clutter\\signage\\riverwood\\riverwoodblacksmith01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\riverwood\\riverwoodblacksmith01.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\riverwood\\riverwoodblacksmith01_n.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\riverwood\\riverwoodblacksmith01_n.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\riverwood\\riverwoodriverwoodtrader01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\riverwood\\riverwoodriverwoodtrader01.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\riverwood\\riverwoodriverwoodtrader01_n.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\riverwood\\riverwoodblacksmith01_n.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\solitude\\sangelinearomatics.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\solitude\\sangelinearomatics.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\solitude\\sangelinearomatics_n.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\solitude\\sangelinearomatics_n.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\solitude\\sbitsandpices.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\solitude\\sbitsandpices.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\solitude\\sbitsandpices_n.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\solitude\\sbitsandpices_n.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\solitude\\sfletcher.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\solitude\\sfletcher.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\solitude\\sfletcher_n.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\solitude\\sfletcher_n.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\solitude\\sradientraiments.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\solitude\\sradientraiments.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\solitude\\sradientraiments_n.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\solitude\\sradientraiments_n.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\solitude\\swinkingskeever.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\solitude\\swinkingskeever.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\solitude\\swinkingskeever_n.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\solitude\\swinkingskeever_n.dds"
-      },
-      {
-       "t": "textures\\clutter\\signage\\solitude\\thumbs.db",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signage\\solitude\\thumbs.db"
-      },
-      {
-       "t": "textures\\clutter\\signalchemyshop01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signalchemyshop01.dds"
-      },
-      {
-       "t": "textures\\clutter\\signbanneredmare01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signbanneredmare01.dds"
-      },
-      {
-       "t": "textures\\clutter\\signcandlehearthinn01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signcandlehearthinn01.dds"
-      },
-      {
-       "t": "textures\\clutter\\signdrunkenhuntsman.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signdrunkenhuntsman.dds"
-      },
-      {
-       "t": "textures\\clutter\\signgeneralgoods01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signgeneralgoods01.dds"
-      },
-      {
-       "t": "textures\\clutter\\signhonningbrewmeadery01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signhonningbrewmeadery01.dds"
-      },
-      {
-       "t": "textures\\clutter\\signraggedflagon01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signraggedflagon01.dds"
-      },
-      {
-       "t": "textures\\clutter\\signstables01.dds",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\signstables01.dds"
-      },
-      {
-       "t": "textures\\clutter\\thumbs.db",
-       "s": "glevsexyskyrim_2016-2-4\\glevssexyskyrim\\glevsexysignsv1-1\\textures\\clutter\\thumbs.db"
-      }
+     },
+     "skip": [
+      "glevadventuretent.esp",
+      "meshes\\ax\\paintings\\paintinglc0108.nif",
+      "meshes\\ax\\paintings\\paintinglc0208.nif",
+      "meshes\\ax\\paintings\\paintingmc0308.nif",
+      "textures\\clutter\\glevadventuretent\\framevt.dds",
+      "textures\\clutter\\glevadventuretent\\framevt_n.dds",
+      "textures\\clutter\\glevadventuretent\\framewd.dds",
+      "textures\\clutter\\glevadventuretent\\framewd_n.dds",
+      "textures\\clutter\\glevadventuretent\\genericbanner01_n.dds",
+      "textures\\clutter\\glevadventuretent\\inside-textures\\glevsexybanner1.dds",
+      "textures\\clutter\\glevadventuretent\\inside-textures\\glevsexybanner2.dds",
+      "textures\\clutter\\glevadventuretent\\inside-textures\\glevsexybanner3.dds",
+      "textures\\clutter\\glevadventuretent\\inside-textures\\glevsexybanner4.dds",
+      "textures\\clutter\\glevadventuretent\\inside-textures\\glevsexybanner5.dds",
+      "textures\\clutter\\glevadventuretent\\inside-textures\\glevsexybanner6.dds",
+      "textures\\clutter\\glevadventuretent\\inside-textures\\glevsexybanner7.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner1.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner10.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner11.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner12.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner13.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner14.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner15.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner16.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner17.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner18.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner19.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner2.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner20.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner3.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner4.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner5.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner6.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner7.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner8.dds",
+      "textures\\clutter\\glevadventuretent\\outside-textures\\glevsexybanner9.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq1.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq10.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq11.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq12.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq13.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq14.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq15.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq16.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq17.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq18.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq19.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq2.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq20.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq3.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq4.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq5.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq6.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq7.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq8.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq9.dds",
+      "textures\\clutter\\glevadventuretent\\sq-paintings\\glevpaintsq_n.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt1.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt10.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt11.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt12.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt13.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt14.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt15.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt16.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt17.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt18.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt19.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt2.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt20.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt3.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt4.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt5.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt6.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt7.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt8.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt9.dds",
+      "textures\\clutter\\glevadventuretent\\vt-paintings\\glevpaintvt_n.dds",
+      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd1.dds",
+      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd10.dds",
+      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd2.dds",
+      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd3.dds",
+      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd4.dds",
+      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd5.dds",
+      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd6.dds",
+      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd7.dds",
+      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd8.dds",
+      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd9.dds",
+      "textures\\clutter\\glevadventuretent\\wd-paintings\\glevpaintwd_n.dds"
      ]
     }
    ]
