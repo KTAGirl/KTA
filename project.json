@@ -858,431 +858,92 @@
    "installers": [
     {
      "h": "rNcq9HPDw+NUAsRKeQMTNBYTmeeDNozADX4wFqDrGv0",
-     "type": "SIMPLE",
+     "type": "FOMOD",
      "params": {
-      "root": "bnp skin 2k (cbbe - replacer+player version)\\"
-     },
-     "skip": [
-      "fomod\\info.xml",
-      "fomod\\moduleconfig.xml",
-      "images\\altmer\\marks.jpg",
-      "images\\altmer\\nomarks.jpg",
-      "images\\altmer\\top.jpg",
-      "images\\body normals\\altmer.jpg",
-      "images\\body normals\\altmerless.jpg",
-      "images\\body normals\\bosmer.jpg",
-      "images\\body normals\\bosmerless.jpg",
-      "images\\body normals\\breton.jpg",
-      "images\\body normals\\bretonsoft.jpg",
-      "images\\body normals\\dunmerlessskinny.jpg",
-      "images\\body normals\\dunmerskinny.jpg",
-      "images\\body normals\\imperial.jpg",
-      "images\\body normals\\imperialless.jpg",
-      "images\\body normals\\nord.jpg",
-      "images\\body normals\\nordless.jpg",
-      "images\\body normals\\orc.jpg",
-      "images\\body normals\\orcless.jpg",
-      "images\\body normals\\redguard.jpg",
-      "images\\body normals\\redguardless.jpg",
-      "images\\bosmer\\heavy.jpg",
-      "images\\bosmer\\light.jpg",
-      "images\\bosmer\\top.jpg",
-      "images\\breton\\moles.jpg",
-      "images\\breton\\top.jpg",
-      "images\\dunmer\\less.jpg",
-      "images\\dunmer\\skinny.jpg",
-      "images\\dunmer\\top.jpg",
-      "images\\face normals\\1.7old.jpg",
-      "images\\face normals\\1.7young.jpg",
-      "images\\face normals\\2.0old.jpg",
-      "images\\face normals\\2.0young.jpg",
-      "images\\imperial\\clean.jpg",
-      "images\\imperial\\scars.jpg",
-      "images\\imperial\\top.jpg",
-      "images\\makeup\\makeup.jpg",
-      "images\\nord\\frostnip.jpg",
-      "images\\nord\\top.jpg",
-      "images\\nord\\without.jpg",
-      "images\\orc\\dirt.jpg",
-      "images\\orc\\nodirt.jpg",
-      "images\\orc\\top.jpg",
-      "images\\redguard\\tan.jpg",
-      "images\\redguard\\top.jpg",
-      "images\\redguard\\without.jpg",
-      "images\\speculars\\default.jpg",
-      "images\\speculars\\glossy.jpg",
-      "images\\speculars\\matte.jpg",
-      "images\\speculars\\wet.jpg",
-      "images\\thank you\\thankyou.jpg",
-      "images\\title\\title.jpg",
-      "images\\vagina\\brown.jpg",
-      "images\\vagina\\deep pink.jpg",
-      "images\\vagina\\ebony.jpg",
-      "images\\vagina\\neutral.jpg",
-      "images\\vagina\\pale pink.jpg",
-      "images\\vagina\\red.jpg",
-      "images\\vagina\\white.jpg",
-      "images\\vampire\\diffuse\\1.jpg",
-      "images\\vampire\\diffuse\\2.jpg",
-      "images\\vampire\\diffuse\\3.jpg",
-      "images\\vampire\\diffuse\\4.jpg",
-      "images\\vampire\\diffuse\\5.jpg",
-      "images\\vampire\\diffuse\\6.jpg",
-      "images\\vampire\\normals\\1.7old.jpg",
-      "images\\vampire\\normals\\1.7young.jpg",
-      "images\\vampire\\normals\\2.0old.jpg",
-      "images\\vampire\\normals\\2.0young.jpg",
-      "images\\vampire\\normals\\humanlike.jpg",
-      "options\\body normal\\big boobs\\boxer50%\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\big boobs\\boxer\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\big boobs\\chubby\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\big boobs\\dovakini50%\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\big boobs\\dovakini\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\big boobs\\less skinny\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\big boobs\\smooth50%\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\big boobs\\smooth\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\big boobs\\soft\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\big boobs\\sporty50%\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\big boobs\\sporty\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\big boobs\\toned50%\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\big boobs\\toned\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\big boobs\\veiny\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\big boobs\\vigorexia50%\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\big boobs\\vigorexia\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\small boobs\\boxer50%\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\small boobs\\boxer\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\small boobs\\chubby\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\small boobs\\dovakini50%\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\small boobs\\dovakini\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\small boobs\\less skinny\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\small boobs\\smooth50%\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\small boobs\\smooth\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\small boobs\\soft\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\small boobs\\sporty50%\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\small boobs\\sporty\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\small boobs\\toned50%\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\small boobs\\toned\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\small boobs\\veiny\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\small boobs\\vigorexia50%\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\body normal\\small boobs\\vigorexia\\textures\\actors\\character\\female\\femalebody_1_msn.dds",
-      "options\\diffuse selection\\dark\\+tanline\\textures\\actors\\character\\female\\femalebody_1.dds",
-      "options\\diffuse selection\\dark\\+tanline\\textures\\actors\\character\\female\\femalehands_1.dds",
-      "options\\diffuse selection\\dark\\+tanline\\textures\\actors\\character\\female\\femalehead.dds",
-      "options\\diffuse selection\\dark\\-tanline\\textures\\actors\\character\\female\\femalebody_1.dds",
-      "options\\diffuse selection\\dark\\-tanline\\textures\\actors\\character\\female\\femalehands_1.dds",
-      "options\\diffuse selection\\dark\\-tanline\\textures\\actors\\character\\female\\femalehead.dds",
-      "options\\diffuse selection\\dirty\\+dirt\\textures\\actors\\character\\female\\femalebody_1.dds",
-      "options\\diffuse selection\\dirty\\+dirt\\textures\\actors\\character\\female\\femalehands_1.dds",
-      "options\\diffuse selection\\dirty\\+dirt\\textures\\actors\\character\\female\\femalehead.dds",
-      "options\\diffuse selection\\dirty\\-dirt\\textures\\actors\\character\\female\\femalebody_1.dds",
-      "options\\diffuse selection\\dirty\\-dirt\\textures\\actors\\character\\female\\femalehands_1.dds",
-      "options\\diffuse selection\\dirty\\-dirt\\textures\\actors\\character\\female\\femalehead.dds",
-      "options\\diffuse selection\\freckles\\+freckles\\textures\\actors\\character\\female\\femalebody_1.dds",
-      "options\\diffuse selection\\freckles\\+freckles\\textures\\actors\\character\\female\\femalehands_1.dds",
-      "options\\diffuse selection\\freckles\\+freckles\\textures\\actors\\character\\female\\femalehead.dds",
-      "options\\diffuse selection\\freckles\\-freckles\\textures\\actors\\character\\female\\femalebody_1.dds",
-      "options\\diffuse selection\\freckles\\-freckles\\textures\\actors\\character\\female\\femalehands_1.dds",
-      "options\\diffuse selection\\freckles\\-freckles\\textures\\actors\\character\\female\\femalehead.dds",
-      "options\\diffuse selection\\frostnip\\+frostnip\\textures\\actors\\character\\female\\femalebody_1.dds",
-      "options\\diffuse selection\\frostnip\\+frostnip\\textures\\actors\\character\\female\\femalehands_1.dds",
-      "options\\diffuse selection\\frostnip\\+frostnip\\textures\\actors\\character\\female\\femalehead.dds",
-      "options\\diffuse selection\\frostnip\\-frostnip\\textures\\actors\\character\\female\\femalebody_1.dds",
-      "options\\diffuse selection\\frostnip\\-frostnip\\textures\\actors\\character\\female\\femalehands_1.dds",
-      "options\\diffuse selection\\frostnip\\-frostnip\\textures\\actors\\character\\female\\femalehead.dds",
-      "options\\diffuse selection\\highlights\\+streatchmarks\\textures\\actors\\character\\female\\femalebody_1.dds",
-      "options\\diffuse selection\\highlights\\+streatchmarks\\textures\\actors\\character\\female\\femalehands_1.dds",
-      "options\\diffuse selection\\highlights\\+streatchmarks\\textures\\actors\\character\\female\\femalehead.dds",
-      "options\\diffuse selection\\highlights\\-streatchmarks\\textures\\actors\\character\\female\\femalebody_1.dds",
-      "options\\diffuse selection\\highlights\\-streatchmarks\\textures\\actors\\character\\female\\femalehands_1.dds",
-      "options\\diffuse selection\\highlights\\-streatchmarks\\textures\\actors\\character\\female\\femalehead.dds",
-      "options\\diffuse selection\\moles\\textures\\actors\\character\\female\\femalebody_1.dds",
-      "options\\diffuse selection\\moles\\textures\\actors\\character\\female\\femalehands_1.dds",
-      "options\\diffuse selection\\moles\\textures\\actors\\character\\female\\femalehead.dds",
-      "options\\diffuse selection\\scars\\+scars\\textures\\actors\\character\\female\\femalebody_1.dds",
-      "options\\diffuse selection\\scars\\+scars\\textures\\actors\\character\\female\\femalehands_1.dds",
-      "options\\diffuse selection\\scars\\+scars\\textures\\actors\\character\\female\\femalehead.dds",
-      "options\\diffuse selection\\scars\\-scars\\textures\\actors\\character\\female\\femalebody_1.dds",
-      "options\\diffuse selection\\scars\\-scars\\textures\\actors\\character\\female\\femalehands_1.dds",
-      "options\\diffuse selection\\scars\\-scars\\textures\\actors\\character\\female\\femalehead.dds",
-      "options\\diffuse selection\\veiny\\+veiny\\textures\\actors\\character\\female\\femalebody_1.dds",
-      "options\\diffuse selection\\veiny\\+veiny\\textures\\actors\\character\\female\\femalehands_1.dds",
-      "options\\diffuse selection\\veiny\\+veiny\\textures\\actors\\character\\female\\femalehead.dds",
-      "options\\diffuse selection\\veiny\\-veiny\\textures\\actors\\character\\female\\femalebody_1.dds",
-      "options\\diffuse selection\\veiny\\-veiny\\textures\\actors\\character\\female\\femalehands_1.dds",
-      "options\\diffuse selection\\veiny\\-veiny\\textures\\actors\\character\\female\\femalehead.dds",
-      "options\\face normal\\1.7old\\textures\\actors\\character\\bretonfemale\\femalehead_msn.dds",
-      "options\\face normal\\1.7old\\textures\\actors\\character\\female\\femalehead_msn.dds",
-      "options\\face normal\\1.7old\\textures\\actors\\character\\imperialfemale\\femalehead_msn.dds",
-      "options\\face normal\\1.7old\\textures\\actors\\character\\redguardfemale\\femalehead_msn.dds",
-      "options\\face normal\\1.7young\\textures\\actors\\character\\bretonfemale\\femalehead_msn.dds",
-      "options\\face normal\\1.7young\\textures\\actors\\character\\female\\femalehead_msn.dds",
-      "options\\face normal\\1.7young\\textures\\actors\\character\\imperialfemale\\femalehead_msn.dds",
-      "options\\face normal\\1.7young\\textures\\actors\\character\\redguardfemale\\femalehead_msn.dds",
-      "options\\face normal\\2.0old\\textures\\actors\\character\\bretonfemale\\femalehead_msn.dds",
-      "options\\face normal\\2.0old\\textures\\actors\\character\\female\\femalehead_msn.dds",
-      "options\\face normal\\2.0old\\textures\\actors\\character\\imperialfemale\\femalehead_msn.dds",
-      "options\\face normal\\2.0old\\textures\\actors\\character\\redguardfemale\\femalehead_msn.dds",
-      "options\\face normal\\2.0young\\textures\\actors\\character\\bretonfemale\\femalehead_msn.dds",
-      "options\\face normal\\2.0young\\textures\\actors\\character\\female\\femalehead_msn.dds",
-      "options\\face normal\\2.0young\\textures\\actors\\character\\imperialfemale\\femalehead_msn.dds",
-      "options\\face normal\\2.0young\\textures\\actors\\character\\redguardfemale\\femalehead_msn.dds",
-      "options\\face normal\\elves\\1.7old\\textures\\actors\\character\\darkelffemale\\femalehead_msn.dds",
-      "options\\face normal\\elves\\1.7old\\textures\\actors\\character\\femaleorc\\femaleheadorc_msn.dds",
-      "options\\face normal\\elves\\1.7old\\textures\\actors\\character\\highelffemale\\femalehead_msn.dds",
-      "options\\face normal\\elves\\1.7old\\textures\\actors\\character\\woodelffemale\\femalehead_msn.dds",
-      "options\\face normal\\elves\\1.7young\\textures\\actors\\character\\darkelffemale\\femalehead_msn.dds",
-      "options\\face normal\\elves\\1.7young\\textures\\actors\\character\\femaleorc\\femaleheadorc_msn.dds",
-      "options\\face normal\\elves\\1.7young\\textures\\actors\\character\\highelffemale\\femalehead_msn.dds",
-      "options\\face normal\\elves\\1.7young\\textures\\actors\\character\\woodelffemale\\femalehead_msn.dds",
-      "options\\face normal\\elves\\2.0elves alt\\textures\\actors\\character\\darkelffemale\\femalehead_msn.dds",
-      "options\\face normal\\elves\\2.0elves alt\\textures\\actors\\character\\femaleorc\\femaleheadorc_msn.dds",
-      "options\\face normal\\elves\\2.0elves alt\\textures\\actors\\character\\highelffemale\\femalehead_msn.dds",
-      "options\\face normal\\elves\\2.0elves alt\\textures\\actors\\character\\woodelffemale\\femalehead_msn.dds",
-      "options\\face normal\\elves\\2.0old\\textures\\actors\\character\\darkelffemale\\femalehead_msn.dds",
-      "options\\face normal\\elves\\2.0old\\textures\\actors\\character\\femaleorc\\femaleheadorc_msn.dds",
-      "options\\face normal\\elves\\2.0old\\textures\\actors\\character\\highelffemale\\femalehead_msn.dds",
-      "options\\face normal\\elves\\2.0old\\textures\\actors\\character\\woodelffemale\\femalehead_msn.dds",
-      "options\\face normal\\elves\\2.0young\\textures\\actors\\character\\darkelffemale\\femalehead_msn.dds",
-      "options\\face normal\\elves\\2.0young\\textures\\actors\\character\\femaleorc\\femaleheadorc_msn.dds",
-      "options\\face normal\\elves\\2.0young\\textures\\actors\\character\\highelffemale\\femalehead_msn.dds",
-      "options\\face normal\\elves\\2.0young\\textures\\actors\\character\\woodelffemale\\femalehead_msn.dds",
-      "options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femalehead_cheeks.dds",
-      "options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femalehead_cheeks2.dds",
-      "options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femalehead_frownlines.dds",
-      "options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadbreton_lips.dds",
-      "options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadhighelf_lips.dds",
-      "options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_chin.dds",
-      "options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_forehead.dds",
-      "options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_neck.dds",
-      "options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_nose.dds",
-      "options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadimperial_lips.dds",
-      "options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadnord_lips.dds",
-      "options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadredguard_lips.dds",
-      "options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femalelowereyesocket.dds",
-      "options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femalenordeyelinerstyle_01.dds",
-      "options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleuppereyesocket.dds",
-      "options\\specular\\default\\dark\\textures\\actors\\character\\female\\femalebody_1_s.dds",
-      "options\\specular\\default\\dark\\textures\\actors\\character\\female\\femalehead_s.dds",
-      "options\\specular\\default\\dirty\\textures\\actors\\character\\female\\femalebody_1_s.dds",
-      "options\\specular\\default\\dirty\\textures\\actors\\character\\female\\femalehead_s.dds",
-      "options\\specular\\default\\freckles\\textures\\actors\\character\\female\\femalebody_1_s.dds",
-      "options\\specular\\default\\freckles\\textures\\actors\\character\\female\\femalehead_s.dds",
-      "options\\specular\\default\\frostnip\\textures\\actors\\character\\female\\femalebody_1_s.dds",
-      "options\\specular\\default\\frostnip\\textures\\actors\\character\\female\\femalehead_s.dds",
-      "options\\specular\\default\\highlights\\textures\\actors\\character\\female\\femalebody_1_s.dds",
-      "options\\specular\\default\\highlights\\textures\\actors\\character\\female\\femalehead_s.dds",
-      "options\\specular\\default\\moles\\textures\\actors\\character\\female\\femalebody_1_s.dds",
-      "options\\specular\\default\\moles\\textures\\actors\\character\\female\\femalehead_s.dds",
-      "options\\specular\\default\\scars\\textures\\actors\\character\\female\\femalebody_1_s.dds",
-      "options\\specular\\default\\scars\\textures\\actors\\character\\female\\femalehead_s.dds",
-      "options\\specular\\default\\shared\\textures\\actors\\character\\female\\femalehands_1_s.dds",
-      "options\\specular\\default\\veiny\\textures\\actors\\character\\female\\femalebody_1_s.dds",
-      "options\\specular\\default\\veiny\\textures\\actors\\character\\female\\femalehead_s.dds",
-      "options\\specular\\glossy\\textures\\actors\\character\\female\\femalebody_1_s.dds",
-      "options\\specular\\glossy\\textures\\actors\\character\\female\\femalehands_1_s.dds",
-      "options\\specular\\glossy\\textures\\actors\\character\\female\\femalehead_s.dds",
-      "options\\specular\\matte\\textures\\actors\\character\\female\\femalebody_1_s.dds",
-      "options\\specular\\matte\\textures\\actors\\character\\female\\femalehands_1_s.dds",
-      "options\\specular\\matte\\textures\\actors\\character\\female\\femalehead_s.dds",
-      "options\\specular\\wet\\textures\\actors\\character\\female\\femalebody_1_s.dds",
-      "options\\specular\\wet\\textures\\actors\\character\\female\\femalehands_1_s.dds",
-      "options\\specular\\wet\\textures\\actors\\character\\female\\femalehead_s.dds",
-      "options\\vagina\\brown\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
-      "options\\vagina\\deep pink\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
-      "options\\vagina\\ebony\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
-      "options\\vagina\\natural\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
-      "options\\vagina\\pale pink\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
-      "options\\vagina\\red\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
-      "options\\vagina\\shared\\textures\\actors\\character\\female\\femalebody_etc_v2_1_msn.dds",
-      "options\\vagina\\shared\\textures\\actors\\character\\female\\femalebody_etc_v2_1_s.dds",
-      "options\\vagina\\shared\\textures\\actors\\character\\female\\femalebody_etc_v2_1_sk.dds",
-      "options\\vagina\\white\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
-      "options\\vampire\\diffuse\\1\\textures\\actors\\character\\female\\femaleheadvampire.dds",
-      "options\\vampire\\diffuse\\1\\textures\\actors\\character\\female\\femaleheadvampire_sk.dds",
-      "options\\vampire\\diffuse\\2\\textures\\actors\\character\\female\\femaleheadvampire.dds",
-      "options\\vampire\\diffuse\\2\\textures\\actors\\character\\female\\femaleheadvampire_sk.dds",
-      "options\\vampire\\diffuse\\3\\textures\\actors\\character\\female\\femaleheadvampire.dds",
-      "options\\vampire\\diffuse\\3\\textures\\actors\\character\\female\\femaleheadvampire_sk.dds",
-      "options\\vampire\\diffuse\\4\\textures\\actors\\character\\female\\femaleheadvampire.dds",
-      "options\\vampire\\diffuse\\4\\textures\\actors\\character\\female\\femaleheadvampire_sk.dds",
-      "options\\vampire\\diffuse\\5\\textures\\actors\\character\\female\\femaleheadvampire.dds",
-      "options\\vampire\\diffuse\\5\\textures\\actors\\character\\female\\femaleheadvampire_sk.dds",
-      "options\\vampire\\diffuse\\6\\textures\\actors\\character\\female\\femaleheadvampire.dds",
-      "options\\vampire\\diffuse\\6\\textures\\actors\\character\\female\\femaleheadvampire_sk.dds",
-      "options\\vampire\\normals\\1.7old\\textures\\actors\\character\\female\\femaleheadvampire_msn.dds",
-      "options\\vampire\\normals\\1.7young\\textures\\actors\\character\\female\\femaleheadvampire_msn.dds",
-      "options\\vampire\\normals\\2.0old\\textures\\actors\\character\\female\\femaleheadvampire_msn.dds",
-      "options\\vampire\\normals\\2.0young\\textures\\actors\\character\\female\\femaleheadvampire_msn.dds",
-      "options\\vampire\\normals\\humanlike\\textures\\actors\\character\\female\\femaleheadvampire_msn.dds",
-      "options\\vampire\\speculars face\\1\\textures\\actors\\character\\female\\femaleheadvampire_s.dds",
-      "options\\vampire\\speculars face\\2\\textures\\actors\\character\\female\\femaleheadvampire_s.dds",
-      "options\\vampire\\speculars face\\3\\textures\\actors\\character\\female\\femaleheadvampire_s.dds",
-      "options\\vampire\\speculars face\\4\\textures\\actors\\character\\female\\femaleheadvampire_s.dds",
-      "options\\vampire\\speculars face\\5\\textures\\actors\\character\\female\\femaleheadvampire_s.dds",
-      "options\\vampire\\speculars face\\6\\textures\\actors\\character\\female\\femaleheadvampire_s.dds",
-      "options\\vampire\\speculars face\\glossy\\textures\\actors\\character\\female\\femaleheadvampire_s.dds",
-      "options\\vampire\\speculars face\\matte\\textures\\actors\\character\\female\\femaleheadvampire_s.dds",
-      "options\\vampire\\speculars face\\wet\\textures\\actors\\character\\female\\femaleheadvampire_s.dds"
-     ]
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "textures\\actors\\character\\bretonfemale\\femalehead_msn.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\face normal\\1.7old\\textures\\actors\\character\\bretonfemale\\femalehead_msn.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femalehead_cheeks.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femalehead_cheeks.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femalehead_cheeks2.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femalehead_cheeks2.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femalehead_frownlines.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femalehead_frownlines.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadbreton_lips.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadbreton_lips.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadhighelf_lips.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadbreton_lips.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_chin.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_chin.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_forehead.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_forehead.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_neck.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_neck.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_nose.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadhuman_nose.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadimperial_lips.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadbreton_lips.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadnord_lips.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadbreton_lips.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleheadredguard_lips.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleheadbreton_lips.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femalelowereyesocket.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femalelowereyesocket.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femalenordeyelinerstyle_01.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femalenordeyelinerstyle_01.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\character assets\\tintmasks\\femaleuppereyesocket.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\makeup\\textures\\actors\\character\\character assets\\tintmasks\\femaleuppereyesocket.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\darkelffemale\\femalehead_msn.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\face normal\\elves\\2.0old\\textures\\actors\\character\\darkelffemale\\femalehead_msn.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalebody_1.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\diffuse selection\\highlights\\+streatchmarks\\textures\\actors\\character\\female\\femalebody_1.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalebody_1_msn.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\body normal\\big boobs\\soft\\textures\\actors\\character\\female\\femalebody_1_msn.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalebody_1_s.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\specular\\default\\highlights\\textures\\actors\\character\\female\\femalebody_1_s.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalebody_etc_v2_1.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\vagina\\red\\textures\\actors\\character\\female\\femalebody_etc_v2_1.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalebody_etc_v2_1_msn.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\vagina\\shared\\textures\\actors\\character\\female\\femalebody_etc_v2_1_msn.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalebody_etc_v2_1_s.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\vagina\\shared\\textures\\actors\\character\\female\\femalebody_etc_v2_1_s.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalebody_etc_v2_1_sk.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\vagina\\shared\\textures\\actors\\character\\female\\femalebody_etc_v2_1_sk.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalehands_1.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\diffuse selection\\highlights\\+streatchmarks\\textures\\actors\\character\\female\\femalehands_1.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalehands_1_s.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\specular\\default\\shared\\textures\\actors\\character\\female\\femalehands_1_s.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalehead.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\diffuse selection\\highlights\\+streatchmarks\\textures\\actors\\character\\female\\femalehead.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalehead_msn.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\face normal\\1.7old\\textures\\actors\\character\\female\\femalehead_msn.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femalehead_s.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\specular\\default\\highlights\\textures\\actors\\character\\female\\femalehead_s.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femaleheadvampire.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\vampire\\diffuse\\1\\textures\\actors\\character\\female\\femaleheadvampire.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femaleheadvampire_msn.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\vampire\\normals\\1.7old\\textures\\actors\\character\\female\\femaleheadvampire_msn.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femaleheadvampire_s.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\vampire\\speculars face\\1\\textures\\actors\\character\\female\\femaleheadvampire_s.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\female\\femaleheadvampire_sk.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\vampire\\diffuse\\1\\textures\\actors\\character\\female\\femaleheadvampire_sk.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\femaleorc\\femaleheadorc_msn.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\face normal\\elves\\2.0old\\textures\\actors\\character\\femaleorc\\femaleheadorc_msn.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\highelffemale\\femalehead_msn.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\face normal\\elves\\2.0old\\textures\\actors\\character\\highelffemale\\femalehead_msn.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\imperialfemale\\femalehead_msn.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\face normal\\1.7old\\textures\\actors\\character\\imperialfemale\\femalehead_msn.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\redguardfemale\\femalehead_msn.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\face normal\\1.7old\\textures\\actors\\character\\redguardfemale\\femalehead_msn.dds"
-      },
-      {
-       "t": "textures\\actors\\character\\woodelffemale\\femalehead_msn.dds",
-       "s": "bnp skin 2k (cbbe - replacer+player version)\\options\\face normal\\elves\\2.0old\\textures\\actors\\character\\woodelffemale\\femalehead_msn.dds"
-      }
-     ]
+      "root": "bnp skin 2k (cbbe - replacer+player version)",
+      "sel": [
+       {
+        "step": "Introduction",
+        "grp": "Introduction",
+        "plugin": "Introduction"
+       },
+       {
+        "step": "Face normals (humans)",
+        "grp": "Younger or older",
+        "plugin": "V1.7Mature"
+       },
+       {
+        "step": "Face normals (elves)",
+        "grp": "Younger or older",
+        "plugin": "V2.0Mature"
+       },
+       {
+        "step": "Vampire diffuse face selection",
+        "grp": "Vampire diffuse face selection",
+        "plugin": "1"
+       },
+       {
+        "step": "Vampire normal face selection",
+        "grp": "Vampire normal face selection",
+        "plugin": "V1.7Mature"
+       },
+       {
+        "step": "Body skin selection",
+        "grp": "Body skin selection",
+        "plugin": "Highlights"
+       },
+       {
+        "step": "Stretchmarks skin selection",
+        "grp": "Stretchmarks skin selection",
+        "plugin": "With stretchmarks"
+       },
+       {
+        "step": "Boob size",
+        "grp": "Boob size",
+        "plugin": "Big boobs"
+       },
+       {
+        "step": "Body muscle selection (big boobs)",
+        "grp": "Body muscle selection",
+        "plugin": "Soft"
+       },
+       {
+        "step": "Specular selection",
+        "grp": "Specular selection",
+        "plugin": "Default"
+       },
+       {
+        "step": "Default specular selection",
+        "grp": "Default specular selection",
+        "plugin": "Highlights"
+       },
+       {
+        "step": "Vampire face speculars",
+        "grp": "Vampire face speculars",
+        "plugin": "1"
+       },
+       {
+        "step": "Makeup option",
+        "grp": "Makeup option",
+        "plugin": "I want the makeup"
+       },
+       {
+        "step": "Custom vagina",
+        "grp": "Custom vagina",
+        "plugin": "Red"
+       },
+       {
+        "step": "Esp fix",
+        "grp": "Esp fix",
+        "plugin": "I want the fix"
+       },
+       {
+        "step": "Thank you!",
+        "grp": "Thank you!",
+        "plugin": "Done"
+       }
+      ]
+     }
     }
    ]
   },
@@ -5783,188 +5444,54 @@
   },
   {
    "name": "cbpc - physics with collisions - orig",
-   "zero": [
-    "skse\\plugins\\cbpc.log"
-   ],
    "installers": [
     {
      "h": "zg9mC3la9z22P+Qr/Am2gV5WKUpX3WyHgdT014M20Zo",
-     "type": "SIMPLE",
+     "type": "FOMOD",
      "params": {
-      "root": "00 data\\"
-     },
-     "skip": [
-      "120fps\\bounce10\\cbpconfig.txt",
-      "120fps\\bounce1\\cbpconfig.txt",
-      "120fps\\bounce2\\cbpconfig.txt",
-      "120fps\\bounce3\\cbpconfig.txt",
-      "120fps\\bounce4\\cbpconfig.txt",
-      "120fps\\bounce5\\cbpconfig.txt",
-      "120fps\\bounce6\\cbpconfig.txt",
-      "120fps\\bounce7\\cbpconfig.txt",
-      "120fps\\bounce8\\cbpconfig.txt",
-      "120fps\\bounce9\\cbpconfig.txt",
-      "7b oppai\\skse\\plugins\\cbpcollisionconfig.txt",
-      "amplitude1-5\\cbpconfig_bellyamplitude.txt",
-      "amplitude1-5\\cbpconfig_breastamplitude.txt",
-      "amplitude1-5\\cbpconfig_buttamplitude.txt",
-      "amplitude1\\cbpconfig_bellyamplitude.txt",
-      "amplitude1\\cbpconfig_breastamplitude.txt",
-      "amplitude1\\cbpconfig_buttamplitude.txt",
-      "amplitude2\\cbpconfig_bellyamplitude.txt",
-      "amplitude2\\cbpconfig_breastamplitude.txt",
-      "amplitude2\\cbpconfig_buttamplitude.txt",
-      "amplitude2_4\\cbpconfig_bellyamplitude.txt",
-      "amplitude2_4\\cbpconfig_breastamplitude.txt",
-      "amplitude2_4\\cbpconfig_buttamplitude.txt",
-      "amplitude2_5\\cbpconfig_bellyamplitude.txt",
-      "amplitude2_5\\cbpconfig_breastamplitude.txt",
-      "amplitude2_5\\cbpconfig_buttamplitude.txt",
-      "amplitude3\\cbpconfig_bellyamplitude.txt",
-      "amplitude3\\cbpconfig_breastamplitude.txt",
-      "amplitude3\\cbpconfig_buttamplitude.txt",
-      "amplitude3_5\\cbpconfig_bellyamplitude.txt",
-      "amplitude3_5\\cbpconfig_breastamplitude.txt",
-      "amplitude3_5\\cbpconfig_buttamplitude.txt",
-      "amplitude4\\cbpconfig_bellyamplitude.txt",
-      "amplitude4\\cbpconfig_breastamplitude.txt",
-      "amplitude4\\cbpconfig_buttamplitude.txt",
-      "amplitude5\\cbpconfig_bellyamplitude.txt",
-      "amplitude5\\cbpconfig_breastamplitude.txt",
-      "amplitude5\\cbpconfig_buttamplitude.txt",
-      "bombshell\\skse\\plugins\\cbpcollisionconfig.txt",
-      "bounce10\\cbpconfig.txt",
-      "bounce1\\cbpconfig.txt",
-      "bounce2\\cbpconfig.txt",
-      "bounce3\\cbpconfig.txt",
-      "bounce4\\cbpconfig.txt",
-      "bounce5\\cbpconfig.txt",
-      "bounce6\\cbpconfig.txt",
-      "bounce7\\cbpconfig.txt",
-      "bounce8\\cbpconfig.txt",
-      "bounce9\\cbpconfig.txt",
-      "cbbe curvy\\skse\\plugins\\cbpcollisionconfig.txt",
-      "cbbe fetish\\skse\\plugins\\cbpcollisionconfig.txt",
-      "cbbe sevenbase\\skse\\plugins\\cbpcollisionconfig.txt",
-      "cbbe slim\\skse\\plugins\\cbpcollisionconfig.txt",
-      "cbbe slimat0curvyat100\\skse\\plugins\\cbpcollisionconfig.txt",
-      "cbbe vanilla\\skse\\plugins\\cbpcollisionconfig.txt",
-      "cbpc.log",
-      "cbpcbounceinterpolationconfig_test.txt",
-      "cbpccollisioninterpolationconfig_test.txt",
-      "cbpcmasterconfig.txt",
-      "cbpcollisionconfig.txt",
-      "cbpcollisionconfig_yuriana.txt",
-      "cbpconfig.txt",
-      "cbpconfig_gravity.txt",
-      "cbpcplayercollisioneventconfig.txt",
-      "cbpcsystem.ini",
-      "cbpweaponcollisionconfig.txt",
-      "gog 1.6.1179\\cbp.dll",
-      "gog 1.6.1179\\cbp.pdb",
-      "gog 1.6.659\\cbp.dll",
-      "gog 1.6.659\\cbp.pdb",
-      "shiva\\skse\\plugins\\cbpcollisionconfig.txt",
-      "shizof's body\\skse\\plugins\\cbpcollisionconfig.txt",
-      "sse 1.5.23\\cbp.dll",
-      "sse 1.5.23\\cbp.pdb",
-      "sse 1.5.39\\cbp.dll",
-      "sse 1.5.39\\cbp.pdb",
-      "sse 1.5.50\\cbp.dll",
-      "sse 1.5.50\\cbp.pdb",
-      "sse 1.5.53\\cbp.dll",
-      "sse 1.5.53\\cbp.pdb",
-      "sse 1.5.62\\cbp.dll",
-      "sse 1.5.62\\cbp.pdb",
-      "sse 1.5.73\\cbp.dll",
-      "sse 1.5.73\\cbp.pdb",
-      "sse 1.5.80\\cbp.dll",
-      "sse 1.5.80\\cbp.pdb",
-      "sse 1.5.97\\cbp.dll",
-      "sse 1.5.97\\cbp.pdb",
-      "sse 1.6.1130\\cbp.dll",
-      "sse 1.6.1130\\cbp.pdb",
-      "sse 1.6.1170\\cbp.dll",
-      "sse 1.6.1170\\cbp.pdb",
-      "sse 1.6.318\\cbp.dll",
-      "sse 1.6.318\\cbp.pdb",
-      "sse 1.6.323\\cbp.dll",
-      "sse 1.6.323\\cbp.pdb",
-      "sse 1.6.342\\cbp.dll",
-      "sse 1.6.342\\cbp.pdb",
-      "sse 1.6.353\\cbp.dll",
-      "sse 1.6.353\\cbp.pdb",
-      "sse 1.6.629\\cbp.dll",
-      "sse 1.6.629\\cbp.pdb",
-      "sse 1.6.640\\cbp.dll",
-      "sse 1.6.640\\cbp.pdb",
-      "tmbe\\skse\\plugins\\cbpcollisionconfig.txt",
-      "touched by dibella\\skse\\plugins\\cbpcollisionconfig.txt",
-      "unp pinup\\skse\\plugins\\cbpcollisionconfig.txt",
-      "unpb\\skse\\plugins\\cbpcollisionconfig.txt",
-      "vr 1.4.15\\cbp.dll",
-      "vr 1.4.15\\cbp.pdb",
-      "wench body\\skse\\plugins\\cbpcollisionconfig.txt"
-     ]
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "skse\\plugins\\cbp.dll",
-       "s": "00 data\\sse 1.6.1170\\cbp.dll"
-      },
-      {
-       "t": "skse\\plugins\\cbp.pdb",
-       "s": "00 data\\sse 1.6.1170\\cbp.pdb"
-      },
-      {
-       "t": "skse\\plugins\\cbpcbounceinterpolationconfig_test.txt",
-       "s": "00 data\\cbpcbounceinterpolationconfig_test.txt"
-      },
-      {
-       "t": "skse\\plugins\\cbpccollisioninterpolationconfig_test.txt",
-       "s": "00 data\\cbpccollisioninterpolationconfig_test.txt"
-      },
-      {
-       "t": "skse\\plugins\\cbpcmasterconfig.txt",
-       "s": "00 data\\cbpcmasterconfig.txt"
-      },
-      {
-       "t": "skse\\plugins\\cbpcollisionconfig.txt",
-       "s": "00 data\\cbbe curvy\\skse\\plugins\\cbpcollisionconfig.txt"
-      },
-      {
-       "t": "skse\\plugins\\cbpcollisionconfig_yuriana.txt",
-       "s": "00 data\\cbpcollisionconfig_yuriana.txt"
-      },
-      {
-       "t": "skse\\plugins\\cbpconfig.txt",
-       "s": "00 data\\bounce10\\cbpconfig.txt"
-      },
-      {
-       "t": "skse\\plugins\\cbpconfig_bellyamplitude.txt",
-       "s": "00 data\\amplitude1\\cbpconfig_bellyamplitude.txt"
-      },
-      {
-       "t": "skse\\plugins\\cbpconfig_breastamplitude.txt",
-       "s": "00 data\\amplitude1\\cbpconfig_breastamplitude.txt"
-      },
-      {
-       "t": "skse\\plugins\\cbpconfig_buttamplitude.txt",
-       "s": "00 data\\amplitude1\\cbpconfig_buttamplitude.txt"
-      },
-      {
-       "t": "skse\\plugins\\cbpcplayercollisioneventconfig.txt",
-       "s": "00 data\\cbpcplayercollisioneventconfig.txt"
-      },
-      {
-       "t": "skse\\plugins\\cbpcsystem.ini",
-       "s": "00 data\\cbpcsystem.ini"
-      }
-     ]
+      "sel": [
+       {
+        "step": "Select Game",
+        "grp": "Select Game",
+        "plugin": "Skyrim Special Edition"
+       },
+       {
+        "step": "Select SSE Version",
+        "grp": "Select SSE Version",
+        "plugin": "SSE 1.6.1170"
+       },
+       {
+        "step": "Select Your Body Shape",
+        "grp": "Body Shape",
+        "plugin": "CBBE Curvy"
+       },
+       {
+        "step": "FPS Selection (For Bounce Config)",
+        "grp": "Select Your FPS",
+        "plugin": "60 fps"
+       },
+       {
+        "step": "Bounce Config",
+        "grp": "Bounce Config for 1 Breast Bone Body",
+        "plugin": "10 - Jiggliest"
+       },
+       {
+        "step": "Bounce Amplitude",
+        "grp": "Breast Amplitude",
+        "plugin": "Normal"
+       },
+       {
+        "step": "Bounce Amplitude",
+        "grp": "Butt Amplitude",
+        "plugin": "Normal"
+       },
+       {
+        "step": "Bounce Amplitude",
+        "grp": "Belly Amplitude",
+        "plugin": "Normal"
+       }
+      ]
+     }
     }
    ]
   },
@@ -13655,11 +13182,6 @@
         "plugin": "Hairy"
        },
        {
-        "step": "Skin Texture",
-        "grp": "Skin Texture",
-        "plugin": "Hairy"
-       },
-       {
         "step": "Schlong Addons - Default - Hairy",
         "grp": "Schlong Addons",
         "plugin": "Average Schlong Addon"
@@ -14612,23 +14134,14 @@
         "step": "Main and optionals",
         "grp": "Install comments?",
         "plugin": "Slaverun Reloaded Comments"
+       },
+       {
+        "step": "Main and optionals",
+        "grp": "Install alternative json config for Apachii Hairstyles?",
+        "plugin": "Slaverun Json config for ApachiiSky"
        }
       ]
-     },
-     "skip": [
-      "skse\\plugins\\slaverun\\slaverunconfig.json"
-     ]
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "skse\\plugins\\slaverun\\slaverunconfig.json",
-       "s": "slaverunreloadedapachehairs\\skse\\plugins\\slaverun\\slaverunconfig.json"
-      }
-     ]
+     }
     }
    ]
   },
