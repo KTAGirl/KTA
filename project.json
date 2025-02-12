@@ -27,7 +27,7 @@
    "installers": [
     {
      "h": "/wS91+uY85n/Jvjwu8PLWJusin0JiUr2agzDYZoYTjM",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "04 - porntars pack 2.0 esp replacer\\data\\"
      }
@@ -39,7 +39,7 @@
    "installers": [
     {
      "h": "PL6nI5JDnfPFM1j2jUjLxbrK0VbYRFf93iGJge7/gTE",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "devious followers - continued se v 2.14.5\\"
      }
@@ -90,7 +90,7 @@
    "installers": [
     {
      "h": "kiweV1A2PI22RphO89LP7jg8a4jVxo/bmaHdClrcXvg",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -102,7 +102,7 @@
    "installers": [
     {
      "h": "nbLVjv+gp0VX5YgWXYGuX2BEoOtNx8j+2SHjo1ZpaP4",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -139,7 +139,7 @@
    "installers": [
     {
      "h": "5wCascraFpNOpjohKFQy28TIkZSNuL3E9XN5tJMjGgI",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -151,7 +151,7 @@
    "installers": [
     {
      "h": "evbszQkk6+w01cVf6orHtQdXD/ZQogF6340dJgdCRmk",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -181,7 +181,7 @@
    "installers": [
     {
      "h": "ZoRWt4vWNXihKiqOkLN7VoGEOYmGFtzOMBTMwZPYfoA",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "amputator framework tweaked v1.3 (15-oct-2019) sse\\"
      }
@@ -193,7 +193,7 @@
    "installers": [
     {
      "h": "Ga7uiOk6YRjCYu/py4ozknosjmNh1Fk4T8LNr4R1DAw",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -205,7 +205,7 @@
    "installers": [
     {
      "h": "Dxci3T9g2SBwOEcShUGEzR4nWhfWurdX78EavBgnhYY",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -217,7 +217,7 @@
    "installers": [
     {
      "h": "mGsRYwtsk8Zf+aZEGn6sRCAS93/QpzhrzzAHX6/Rmf0",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -229,7 +229,7 @@
    "installers": [
     {
      "h": "mEK0c5+T/FT9kIXmdFy9JoZgbC4YdjgFpkY4B2La3Vs",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -241,7 +241,7 @@
    "installers": [
     {
      "h": "Kqt9N96Ve08zvvtdoO1TztsHs6GoimCnrC7HBeOVOXA",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -253,7 +253,7 @@
    "installers": [
     {
      "h": "O/HRGjlXqk3Dd/MbIU+VPOjJqcju6nwFyCWqkKuAU9A",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "anub c 3.2021\\"
      }
@@ -265,7 +265,7 @@
    "installers": [
     {
      "h": "HC9ZEAGo188IBNHxTm/Le7CJiotUW05swFuUK9wnDBc",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -277,7 +277,7 @@
    "installers": [
     {
      "h": "gT83LEIU+OtW0Q9r0L2oX01YHsbzDkIX7BixebL0rik",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -289,69 +289,10 @@
    "installers": [
     {
      "h": "XHj9Ev/FR4/4g8pjTkWmgfHip6WSUjOboyjPCQdl+vk",
-     "type": "SIMPLE",
+     "type": "MO2DEFAULT",
      "params": {
       "root": "data\\"
      }
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "apachiiskyhair.v.1.6.full.txt",
-       "s": "apachiiskyhair.v.1.6.full.txt"
-      },
-      {
-       "t": "female_1-21.jpg",
-       "s": "female_1-21.jpg"
-      },
-      {
-       "t": "female_22-25.jpg",
-       "s": "female_22-25.jpg"
-      },
-      {
-       "t": "female_26-30.jpg",
-       "s": "female_26-30.jpg"
-      },
-      {
-       "t": "female_31-39.jpg",
-       "s": "female_31-39.jpg"
-      },
-      {
-       "t": "female_40-42.jpg",
-       "s": "female_40-42.jpg"
-      },
-      {
-       "t": "how to activate mod.jpg",
-       "s": "how to activate mod.jpg"
-      },
-      {
-       "t": "how to manually install.jpg",
-       "s": "how to manually install.jpg"
-      },
-      {
-       "t": "khajiitfemale_1-3.jpg",
-       "s": "khajiitfemale_1-3.jpg"
-      },
-      {
-       "t": "khajiitfemale_4-5.jpg",
-       "s": "khajiitfemale_4-5.jpg"
-      },
-      {
-       "t": "male_1-10.jpg",
-       "s": "male_1-10.jpg"
-      },
-      {
-       "t": "male_11-17.jpg",
-       "s": "male_11-17.jpg"
-      },
-      {
-       "t": "male_18-21.jpg",
-       "s": "male_18-21.jpg"
-      }
-     ]
     }
    ]
   },
@@ -360,57 +301,10 @@
    "installers": [
     {
      "h": "pG65M5Oi3uyowbqihgXTLXbo603vMw0cywmWq/c0ztM",
-     "type": "SIMPLE",
+     "type": "MO2DEFAULT",
      "params": {
       "root": "data\\"
      }
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "apachii_skyhair__female_1.5.1.txt",
-       "s": "apachii_skyhair__female_1.5.1.txt"
-      },
-      {
-       "t": "femalehair_v1_3.jpg",
-       "s": "femalehair_v1_3.jpg"
-      },
-      {
-       "t": "femalehair_v_1_4_image1.jpg",
-       "s": "femalehair_v_1_4_image1.jpg"
-      },
-      {
-       "t": "femalehair_v_1_4_image2.jpg",
-       "s": "femalehair_v_1_4_image2.jpg"
-      },
-      {
-       "t": "femalehair_v_1_4_image3.jpg",
-       "s": "femalehair_v_1_4_image3.jpg"
-      },
-      {
-       "t": "femalehair_v_1_5_image1.jpg",
-       "s": "femalehair_v_1_5_image1.jpg"
-      },
-      {
-       "t": "femalehair_v_1_5_image2_rg.jpg",
-       "s": "femalehair_v_1_5_image2_rg.jpg"
-      },
-      {
-       "t": "femalehair_v_1_5_image3_khajiit.jpg",
-       "s": "femalehair_v_1_5_image3_khajiit.jpg"
-      },
-      {
-       "t": "hairforelves.jpg",
-       "s": "hairforelves.jpg"
-      },
-      {
-       "t": "hairfororcs.jpg",
-       "s": "hairfororcs.jpg"
-      }
-     ]
     }
    ]
   },
@@ -419,7 +313,7 @@
    "installers": [
     {
      "h": "fq6V6aacA/sY6GXRS/SzxSwrXZl1lV5pTHFWdKXBU24",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "atlas map markers\\"
      }
@@ -479,7 +373,7 @@
    "installers": [
     {
      "h": "N7MGaXvfkQNp6k5YTAXTLzIFxD1u5cn6dEKEv3Jt7hw",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -491,7 +385,7 @@
    "installers": [
     {
      "h": "aL7+h75acNBMvN0H98S52AdKp3bItKQQDQwZDD13zMk",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -503,7 +397,7 @@
    "installers": [
     {
      "h": "5j2AtPLekarH9Ww3EZQK+hZlCaCBbesRoa39Pdwk6v8",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -515,7 +409,7 @@
    "installers": [
     {
      "h": "D441A9qMLKBAUdaHyFjtEKLEmT88NuQM46M6v+/L/1k",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "tawoba replacer 3bbb amazing body\\"
      }
@@ -635,7 +529,7 @@
    "installers": [
     {
      "h": "O3Slca1mK87zJq0ENc607Sra0roOrsANgbZC4RxqS5Q",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "bimbodemeanor\\"
      }
@@ -647,7 +541,7 @@
    "installers": [
     {
      "h": "iFgBQV7cbBHiDKnFaHf5Mr7F5m64jzEzw4EYfexL880",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -659,7 +553,7 @@
    "installers": [
     {
      "h": "+6pClZ/25k5y+2eWM85q7smev0kFJ5rd6P2rXkDNS4g",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -671,7 +565,7 @@
    "installers": [
     {
      "h": "OYwgaiF5+MsJLb8YKUWsY4KCSUfh+S9O/s0Hu8247aw",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -767,7 +661,7 @@
    "installers": [
     {
      "h": "LUO4cLIAHGMNLio8RhZOCM4uTuW/MYreyVWZMIiLhzc",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -779,7 +673,7 @@
    "installers": [
     {
      "h": "mVinJQNiwIJjkiq3rYH5Go0jE4iP91ACOTG9Dl/kZ8U",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -791,7 +685,7 @@
    "installers": [
     {
      "h": "knBru4pZSGaPJAjquIhR6lb6Jn3xpXjEPOfJ9iwEKms",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -803,7 +697,7 @@
    "installers": [
     {
      "h": "QxgLPqdCWfeb1sxiqrAcRPEa2T2ArxYm5NOtAeMGka0",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -815,7 +709,7 @@
    "installers": [
     {
      "h": "SYmRe+fEcCKicqOt9VQz0FzUOgwuOifI7Poo8234XCs",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -827,14 +721,14 @@
    "installers": [
     {
      "h": "laqsURxWM5bS5JUz9fPn0MuOtuJI+rCq4sO+EWxN/94",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
     },
     {
      "h": "Md/fTT06oCqUPhOSkg4kDWkuVlSj1f2Eof1qTL8VK6M",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -846,7 +740,7 @@
    "installers": [
     {
      "h": "R4G7WY1eggM0NB2i5pojkpvIdvvQwnL0hloF+R1oAdw",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -952,7 +846,7 @@
    "installers": [
     {
      "h": "QCKuzT4bOABXH8W5v81xH+YYBYdSYrHMK9qKk5VNb1U",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "bodyslot\\"
      }
@@ -964,7 +858,7 @@
    "installers": [
     {
      "h": "+nJb4BFFZTouL5179O0Rwk8tCdgvMzVwf+BM88Dn3RE",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      },
@@ -1262,7 +1156,7 @@
     },
     {
      "h": "iwhgN0VYOydz7Gdcp1fNJZpYcpqVRWsYGejjUB5V4qw",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "sos - futanari cbbe sse v1.1b\\data\\"
      },
@@ -2190,7 +2084,7 @@
    "installers": [
     {
      "h": "vudaC0Wm0rGsHEcE/DZYD7iA7LGnF+S6nEkJOyY5wiQ",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "bofs babes n bimbos 1.3\\"
      }
@@ -2202,7 +2096,7 @@
    "installers": [
     {
      "h": "qTVIB1oJTM6StDMLjQkte7rVrBBK6ZHwtq2I7QGg5Ck",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -2214,7 +2108,7 @@
    "installers": [
     {
      "h": "4eRp1oRd2szB4AwJSan0y+32q5/Zpb2OvIX5F+FdfiE",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "book of shadows nv1.2\\"
      }
@@ -2226,7 +2120,7 @@
    "installers": [
     {
      "h": "M6KnDhQubQbB/h1jRuOL7dDN+XqKXY9M5gRjThYNDOg",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -2238,7 +2132,7 @@
    "installers": [
     {
      "h": "gu91SCl5qMe/Ol/b6rewKkkY9HSf05Alksd6ABfpZqQ",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -2250,7 +2144,7 @@
    "installers": [
     {
      "h": "9XwuHS+gshR6BlqjSVLIjcMqk4lRSwHtPPhmsjYGrXo",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "brandingdeviceofdoom_0_53_se\\data\\"
      }
@@ -2262,7 +2156,7 @@
    "installers": [
     {
      "h": "mmHzqmULzqxnRUs0q6QvwrbGqIgGtjxKe8NxfkBeKSQ",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -2274,7 +2168,7 @@
    "installers": [
     {
      "h": "v5duRJmnGEnG43CZH3v3AazrTuTVskRHRpanE0Hct7k",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -2286,7 +2180,7 @@
    "installers": [
     {
      "h": "P6lULLSdEAr0SpTqZa8FC2nv/lMhJ1ma1u47ZeaBl3k",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -4877,7 +4771,7 @@
     },
     {
      "h": "Yx5YSzCYK16j/NLVfh9N5BKkt1sFSxp8ZtkXLbIBDfA",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      },
@@ -5172,14 +5066,14 @@
     },
     {
      "h": "oHGBuOzkp7cPBOx51OVt1jX9kJWRyBQCHQRRE9d6Sbc",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
     },
     {
      "h": "Pk/XA0A/O7YLhzPQTXF3EjFUi6XomqQhLacP1Pw1pA0",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -5500,7 +5394,7 @@
    "installers": [
     {
      "h": "FOa/TNPlOpH+A5GparnGojapSg5Ehi14gTVYbnKRXdk",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -5575,7 +5469,7 @@
    "installers": [
     {
      "h": "k0YvdUH34FbKkD9xfN48aBZJ8Kd+mmB65ADsYgg1W+o",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -5587,7 +5481,7 @@
    "installers": [
     {
      "h": "PpNyJh1CK5yi9lmDtOKqPQwWt95iwllgwXMLIVnna0A",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -5599,7 +5493,7 @@
    "installers": [
     {
      "h": "ltZYHZQZEL2nIZHDSaGgr+/8sk5s2UjnXIbIDqKvd3w",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "console scrolling for laptop users\\"
      }
@@ -5611,7 +5505,7 @@
    "installers": [
     {
      "h": "F65cCRLx5ApTpA8KrBtHIJ2gRRbtDes4Y+DsygghBrM",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -5623,7 +5517,7 @@
    "installers": [
     {
      "h": "qOFK9TGCHqJp4ro0GnMnPJc4w84YCxs1X5HGvBy9gSs",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -5642,7 +5536,7 @@
    "installers": [
     {
      "h": "NJxaEtSN3XXHmKcDwE7qh/32Jr3cIllNhMUSH/7rz4Q",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -5654,7 +5548,7 @@
    "installers": [
     {
      "h": "zGH5hOgJwoeIymJdiSpUtwf6QzFMxMpB/Vmuwne2h64",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -5666,7 +5560,7 @@
    "installers": [
     {
      "h": "MRJcKQqjQ1U+jC85N8AGCj2VurhePjkiYtxDPbNb6MA",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "deadly mutilation v1.3.3 core\\"
      }
@@ -5688,7 +5582,7 @@
    "installers": [
     {
      "h": "as0mkAoTZTUjJUoaxNKxjwXo75l1hGW+GOnGSogEnT8",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "destructible display cases - sse - 1.4\\data\\"
      }
@@ -6061,7 +5955,7 @@
    "installers": [
     {
      "h": "LCyFPFL6D/rd2irjOvY6fEaFmqXaNZXWeG8IxJ5GSoo",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "devious follower - updated esps for v1.6.1170 v2.14.6\\"
      }
@@ -6087,7 +5981,7 @@
    "installers": [
     {
      "h": "pq9GEJ7fuLLo2yTYgP1iX3MzcEYtdlTfpZ3b4HttfGE",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "df spank slal mini-pack - se\\"
      }
@@ -6204,7 +6098,7 @@
    "installers": [
     {
      "h": "a7sj3KcNABZTeHEEPBrKwAOnkxWdll7EYBNsWmKFEnY",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -6216,7 +6110,7 @@
    "installers": [
     {
      "h": "KK1xftiNwMXKO5wB3PeEmnRwPlCKVWCyE0NJZgaYIpE",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -6228,7 +6122,7 @@
    "installers": [
     {
      "h": "eMh9sOfDq0wBN0RhMBT1472QoLD5mEwEtJ6CtQkCwgs",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "dynamic weather and time based detectionv2.14\\"
      }
@@ -6240,21 +6134,10 @@
    "installers": [
     {
      "h": "CEvqzAUpOqwRO37S83kGAu1Co9xXLWE7FlnLyLu219I",
-     "type": "SIMPLE",
+     "type": "MO2DEFAULT",
      "params": {
       "root": "edhildils vaermina effigy\\data\\"
      }
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "edhildils vaermina effigy readme.txt",
-       "s": "edhildils vaermina effigy\\edhildils vaermina effigy readme.txt"
-      }
-     ]
     }
    ]
   },
@@ -6263,25 +6146,10 @@
    "installers": [
     {
      "h": "0Vx4aiUEEzqcY/3u0opYILp9wrwEfuHPpP0H/s+gq9g",
-     "type": "SIMPLE",
+     "type": "MO2DEFAULT",
      "params": {
       "root": "edhildils winterhold mage statue\\data\\"
      }
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "edhildils winterhol mage statue readme.txt",
-       "s": "edhildils winterhold mage statue\\edhildils winterhol mage statue readme.txt"
-      },
-      {
-       "t": "linking.txt",
-       "s": "edhildils winterhold mage statue\\linking.txt"
-      }
-     ]
     }
    ]
   },
@@ -6290,7 +6158,7 @@
    "installers": [
     {
      "h": "Q1vnbXTGtou4Tzx1TVY19iDWUjZk17oszV+VL7nT4pE",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "unique flowers and plants sse - esp version\\data\\"
      }
@@ -6302,7 +6170,7 @@
    "installers": [
     {
      "h": "8B0u6JIW3YzHGe4XcmGG9CbeqmrRH/qOvtF8aBmatPA",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -6314,7 +6182,7 @@
    "installers": [
     {
      "h": "oR2IWZNQHfAWMfdcycn7b/l4j+EyUfR0CX+b4nrTUjo",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -6477,7 +6345,7 @@
    "installers": [
     {
      "h": "ijhMPKXDA7xN57MlB/bhT6pOAy6+uoG5qNwtdL3iEaE",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -6489,7 +6357,7 @@
    "installers": [
     {
      "h": "y/TxTz8NTiRSHPRhW8DF7WKS5GtPQfOW1IJg3cai0EM",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -6501,7 +6369,7 @@
    "installers": [
     {
      "h": "4sbe4wBq1vqaOX5G1jEjRDN+esm9HTlPTcIR1J/85YI",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -6513,7 +6381,7 @@
    "installers": [
     {
      "h": "nja/hKBmBJAMVt2zovH2LT7PbaIwoCLkFk00pdzhEaQ",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -6535,7 +6403,7 @@
    "installers": [
     {
      "h": "0sOtWU3bPOzUYHbeQz9G3DhKxW9RlYxpAX0303rTO8Q",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "even more makeup 2k\\"
      }
@@ -6570,7 +6438,7 @@
    "installers": [
     {
      "h": "7UiNU/yc++TSrENxBrRuuP67Hq4+QNSJcFi6x5nJZSs",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -6582,7 +6450,7 @@
    "installers": [
     {
      "h": "UkQhvKCzAxfxBp+MR2ZJyHdGkIanhDe7IDH/VFfD+TA",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -6594,7 +6462,7 @@
    "installers": [
     {
      "h": "enMst122Imj9FSEtcA9L3L4Vtdevyn7g9QLS8VqFoMc",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -6606,7 +6474,7 @@
    "installers": [
     {
      "h": "1s8hR/zYn9jAOeLQd6p+SMP2MalHmrIhtcaEG0jSikE",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -6618,7 +6486,7 @@
    "installers": [
     {
      "h": "+9F6QC+Jp8CHt3MxT9imLYVYHfeHlqap0vFbJTuc8vY",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -6630,7 +6498,7 @@
    "installers": [
     {
      "h": "96Q12mx8+iVJAMO68AC5yE0Igopo+tQ++fexD9S7yZE",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -6765,7 +6633,7 @@
    "installers": [
     {
      "h": "MhIsKWSyCK4KHyPZR5vaM3mgs9BUAGNOYiTpeywWleM",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -6777,7 +6645,7 @@
    "installers": [
     {
      "h": "06zJ7trb8i/8YShV3nrij1PEW3bijkBX9fxpGpnpXnE",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -6789,7 +6657,7 @@
    "installers": [
     {
      "h": "BxxMf00IFxsaiZMdQvRO4NNAoEbxYYkYorzjkES/Nas",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "flower fields se - high res loose files fixed\\"
      }
@@ -6801,7 +6669,7 @@
    "installers": [
     {
      "h": "ftR12dshCZcFqXhqoZDIlUGuLlF3xNHxRLoqXkvSRDE",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -7032,7 +6900,7 @@
    "installers": [
     {
      "h": "9iFtv2VwgDe5bCG7uqdghefweKKZCCXGQooy2vZ+UGQ",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -7044,18 +6912,20 @@
    "installers": [
     {
      "h": "wPuQ3X5D8LwLtrb9Bpq9uIYbXgOTdp/rIPxr4YA3TVw",
-     "type": "SIMPLE",
+     "type": "MO2DEFAULT",
      "params": {
       "root": "fnis creature pack se 7.6\\data\\"
      }
     },
     {
      "h": "PJvR4CNxLny7KPssZA1Dcv43aDJN2kbKFfzeIvyrj7Q",
-     "type": "SIMPLE",
+     "type": "MO2DEFAULT",
      "params": {
       "root": "fnis behavior se 7.6 xxl\\data\\"
      },
      "skip": [
+      "fnis_readme_7.6 se xxl.txt",
+      "fnisacweaponscript_example_script.psc",
       "meshes\\actors\\character\\behaviors\\0_master.hkx",
       "meshes\\actors\\character\\behaviors\\1hm_behavior.hkx",
       "meshes\\actors\\character\\behaviors\\1hm_locomotion.hkx",
@@ -7076,17 +6946,6 @@
       "meshes\\animationdatasinglefile.txt",
       "meshes\\animationsetdatasinglefile.txt",
       "scripts\\fnis_aa.pex"
-     ]
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "readme_fnis_creaturepack_se_7.6.txt",
-       "s": "fnis creature pack se 7.6\\readme_fnis_creaturepack_se_7.6.txt"
-      }
      ]
     }
    ],
@@ -7115,7 +6974,7 @@
    "installers": [
     {
      "h": "sFwGFi1cVnAgRDr2py1i69gs2GNaC/1Plrbm1ArKR04",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -7127,7 +6986,7 @@
    "installers": [
     {
      "h": "+YVgcxaLnCiZfBzvduFe32rYIZ7nAgZlTXojrgJc8EE",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -7212,7 +7071,7 @@
    "installers": [
     {
      "h": "7tyGd67GpI2PpVcWfdactz2Fgl4WnYETvn+OFyDmoig",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -8545,7 +8404,7 @@
    "installers": [
     {
      "h": "4UNY9rFiRtjKdrHJ0ARbJRrIqBwaLf4gndtwOAbRttE",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "hotkey reminder\\"
      }
@@ -8608,7 +8467,7 @@
    "installers": [
     {
      "h": "TiFcy99FDm3pSC0tExWpmJjxdYJ781RO0cdoAFCgGQA",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "hvergelmir's aesthetics - brows - high poly\\"
      }
@@ -8643,7 +8502,7 @@
    "installers": [
     {
      "h": "+RZ14MNR+eOYM16UUcLune1YLDgLWGO3Y3zZmLASles",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "hydra_slavegirls_sse_v1.0\\"
      }
@@ -8655,7 +8514,7 @@
    "installers": [
     {
      "h": "VZOIKKAqoh0TFcw2TgTDubfAZV43edtIRdY+GWBPzfg",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -8667,7 +8526,7 @@
    "installers": [
     {
      "h": "mtcH4XYVboZYF/m6lkifjaMPGnzyvuf9it9/uEG2zJU",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -8722,7 +8581,7 @@
    "installers": [
     {
      "h": "pMTfg8Ye0wdYzaKK+K+fiYSlYiAbM8y//rw3R2mjX4M",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -8734,7 +8593,7 @@
    "installers": [
     {
      "h": "W403cPonv5tfLzI2j+0jkz5i9HT1Kz0AwYqjbJM54iM",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -8774,14 +8633,14 @@
    "installers": [
     {
      "h": "zSVIvMVH+wNybarVe7Uq78kvECX4NBMNnOPxviWRa+0",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
     },
     {
      "h": "jpIrm0T8IEog8q7srByJE5FCOUPtppOL60rqSOI6KaY",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -8793,7 +8652,7 @@
    "installers": [
     {
      "h": "UGUGyFdllFac/pGkrfY+lS2UaAgW6t/9k3ZB1SXJlGI",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "koralina's eyebrows\\"
      }
@@ -8805,7 +8664,7 @@
    "installers": [
     {
      "h": "grUYMJjXdQSY7YqrLp/eDkKrOEHYVW9g+qBshJ4cR8k",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -11077,7 +10936,7 @@
    "installers": [
     {
      "h": "3mbVhoC0Oefhtw4H5PRW7FeXQyK7DF9Ox0KHGsmAlWQ",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -11112,7 +10971,7 @@
    "installers": [
     {
      "h": "1j4cUQbixvDVu1L+VAfhUrtY4Qk5qRHb97Oa6rL9+F0",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -11124,7 +10983,7 @@
    "installers": [
     {
      "h": "drcVDXp9IPUoCAhEyS2YCoLjNWOuXdEQumOYDkIFB1U",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "masculinizedlevellists-1.1\\"
      }
@@ -11136,7 +10995,7 @@
    "installers": [
     {
      "h": "0JbyL3V40bPIF+OZ2XcAlVgjClT9kDiP1oc9mLrEI64",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -11176,7 +11035,7 @@
    "installers": [
     {
      "h": "PFZR/OvKw9mfuCn6eD4m7eIL2nrXR0sped5xbP25oxo",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -11188,7 +11047,7 @@
    "installers": [
     {
      "h": "Ioc+/LlWzB1cnKvxwpUQufdln7ceBMzwrZhlishmtz8",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "meatfarm_v1.3.1\\data\\"
      }
@@ -11200,7 +11059,7 @@
    "installers": [
     {
      "h": "3tlD9z/zhSDgdfiEcsGjlwP7PKe8CnDGduMPcFIaEQI",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -11212,7 +11071,7 @@
    "installers": [
     {
      "h": "V0HNXzCZm6QgwF55P8Dv1BmSji+m+kLJ/LjkDYeUlO0",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -11224,7 +11083,7 @@
    "installers": [
     {
      "h": "i+pBKDcxEeZGa76eAwWPZQL4J6WaB/QfwnJApeVaHUw",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -11236,7 +11095,7 @@
    "installers": [
     {
      "h": "Svq2gWXsaVCocyOpdfYTG48qablveHzX4jC5QmbeX5Q",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "mfgfix ng\\"
      }
@@ -11248,7 +11107,7 @@
    "installers": [
     {
      "h": "Rod8t9aA32b99uHXJdEZEqsmcindqzFwuAGg7To7KDk",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -11279,7 +11138,7 @@
    "installers": [
     {
      "h": "19B+/z4Q5yaYk9A8VLwYyaHyozr6ieR75ZgCXzQtVIY",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "more colorful critters enb light v02\\"
      }
@@ -11291,7 +11150,7 @@
    "installers": [
     {
      "h": "19LsKt2DJMpDlbIzS2RrxafB3B8GIjqgJZy6oYO4lpg",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "mcc3\\data\\"
      }
@@ -11303,7 +11162,7 @@
    "installers": [
     {
      "h": "EIzlx6dP/X+qvHxw4jSRI2DX++Hh1fKJbMYHKbJLH3I",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -11315,7 +11174,7 @@
    "installers": [
     {
      "h": "XqX8PWSWQBA3jVFsfeJvrpFY9FzMRKQ+gz9j7VzZ9U8",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -11327,25 +11186,10 @@
    "installers": [
     {
      "h": "jIDvSdUsO4oU/koXDy2hi78742cL16AkDw+918aa+8Q",
-     "type": "SIMPLE",
+     "type": "MO2DEFAULT",
      "params": {
       "root": "data\\"
      }
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "mnc change log.txt",
-       "s": "mnc change log.txt"
-      },
-      {
-       "t": "mnc credits.txt",
-       "s": "mnc credits.txt"
-      }
-     ]
     }
    ]
   },
@@ -11447,7 +11291,7 @@
    "installers": [
     {
      "h": "30nKQ/iLoGpbeovuy/2OH2T5ZTDgrZyl5B9zUVW7vbY",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "naked comments begone\\"
      }
@@ -11497,7 +11341,7 @@
    "installers": [
     {
      "h": "7yr9AMmgRyvtKpcZgsGpVzin3CjryQlyZNasgx3atW8",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "nazonootoko\\"
      }
@@ -11791,7 +11635,7 @@
    "installers": [
     {
      "h": "Dd+k5RmtJO167egVeIwIfv1zCDsfxkqhwpDjWktgECg",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "1-2k. new dibella statues 2.0\\data\\"
      }
@@ -11803,7 +11647,7 @@
    "installers": [
     {
      "h": "yu56OePn49ymfOUM2rsOAYXfj2lsixHAcsizG99ajOY",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "2k mara\\data\\"
      }
@@ -11815,7 +11659,7 @@
    "installers": [
     {
      "h": "9nCwshXcKLytys/sCBzF1XQlaFKBA+7aQYLOAJTak8Q",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "1-2k nocturnal statue se ver.1\\data\\"
      }
@@ -11827,7 +11671,7 @@
    "installers": [
     {
      "h": "jNqTQX67LW0DWpaJe+M11rF50qkuagZCC/t3XiML8No",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "1-2k. statue of namira\\data\\"
      }
@@ -11839,7 +11683,7 @@
    "installers": [
     {
      "h": "QYhLF0owQaEfLFljXKtcajYxBldNs6zaPbwwz23KI7s",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "2-4k. new vaermina statue gold\\data\\"
      }
@@ -11851,7 +11695,7 @@
    "installers": [
     {
      "h": "ykKv61ESFzcitIK8VQaRNuq5fJKyo0O4MfclBp5Hq7g",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -11891,7 +11735,7 @@
    "installers": [
     {
      "h": "uijiDKwUph5PgTKnWo2wYnJxAeTFSFmB50ei0tsxwyE",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -11903,7 +11747,7 @@
    "installers": [
     {
      "h": "AFfe4yIhTtceidS/00LvWyOUvh4HmT60X0GH28f2cmk",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -11915,7 +11759,7 @@
    "installers": [
     {
      "h": "hrhZJcrAmwXSish1rLfUES56iUAgNr/le/HO2kjyzLw",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -11927,7 +11771,7 @@
    "installers": [
     {
      "h": "SUvEu69asZzu2wXuqkZQqOd6XU9ClgL324FuIkIZJsI",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -11939,7 +11783,7 @@
    "installers": [
     {
      "h": "RT25MWF9KJM73kuDk2PTXobtw3Z9Nx07gNQfe8ibjTM",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -11951,7 +11795,7 @@
    "installers": [
     {
      "h": "rfxXB9IDMQbxl88FtWxnnGMAi27kZ2lJFjy6FzBdOgs",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -11963,14 +11807,14 @@
    "installers": [
     {
      "h": "x0YQRElCTaL3PFX6obitLxWN9StqOxT+npWA7sqw9HU",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
     },
     {
      "h": "QyHwq4KvTc7GKvn+tRPf4NNuIh5WMI+YMN6Y5iWuWfI",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -12044,7 +11888,7 @@
    "installers": [
     {
      "h": "8cLfVzSAcj85pJp5QlUUuLXc+aEg6BGT2AMiPB/PETU",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -12056,7 +11900,7 @@
    "installers": [
     {
      "h": "orZcO0yJ7bN9ZTTL2DFlv7uh8XhCvuL4jQ74djnFs2Y",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -12068,7 +11912,7 @@
    "installers": [
     {
      "h": "O37uMRBVzYUqcloka17bi7KfeP7EYiaDR1HuDPE3vGg",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "papyrus tweaks ng\\"
      }
@@ -12080,7 +11924,7 @@
    "installers": [
     {
      "h": "RBs72vghWsdqV6KSqa0sPiFZfqtAukqjn4EJhJTvHj0",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -12092,7 +11936,7 @@
    "installers": [
     {
      "h": "mJKrdbPIq7LeLzmzmUQmkG85qRiWuMUveP1csZiSu3E",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "parasites\\data\\"
      },
@@ -12232,7 +12076,7 @@
    "installers": [
     {
      "h": "Sf2xujJKmaSXQoHFYIp3gLnTu1GLG3Wu5/nX0jdgxpI",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "parasitestextures\\data\\"
      }
@@ -12244,7 +12088,7 @@
    "installers": [
     {
      "h": "Rhy7P1vz7lQftJ1FEqVA9LoEPompxVIvDJPa8vqH+sc",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "parasitesvoicepack\\data\\"
      }
@@ -12289,7 +12133,7 @@
    "installers": [
     {
      "h": "v//FdekZFW+6WMldlNZGEQN2p+p20a+h/uasyJiMpx0",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "patched se sl tools\\"
      }
@@ -12301,7 +12145,7 @@
    "installers": [
     {
      "h": "G1EwequYIMQedWsnkn1R45TL370kcQtcOhcinied8F4",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -12313,7 +12157,7 @@
    "installers": [
     {
      "h": "zhqVzee0npCBxmsb/WV6dEnHDaJpvrHH64rzY0oOcB4",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -12325,7 +12169,7 @@
    "installers": [
     {
      "h": "V5BGJ9cmSdFvi9bQiLm3pbzPw8eyP+9r7ghqYkCkzA8",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -12337,7 +12181,7 @@
    "installers": [
     {
      "h": "J7i7w17n9rPCtj3nf6F0dDni/jct+U/hVWEa7YvxEw0",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -12349,7 +12193,7 @@
    "installers": [
     {
      "h": "jC3QGP9J9wU/9vG83/37LmhcS8cME3gYHr00umI872I",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -12361,7 +12205,7 @@
    "installers": [
     {
      "h": "c8jL+o8MLjtM3adFtBTTKX1Dk9d2kk4vKffyqzAX+to",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -12373,7 +12217,7 @@
    "installers": [
     {
      "h": "c1/5q2UgfRGycVcCPahpTLVpEc9u0lhmVVntHDsyn0g",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -12385,7 +12229,7 @@
    "installers": [
     {
      "h": "7IMWybHLq26zWS/4Gwc+Ojl6EsXeirvq8PqDFD4Cw+0",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -12435,7 +12279,7 @@
    "installers": [
     {
      "h": "/sUQEodDXfadRTZQWjq6/7CfQfTXM7Sw9LnkKLKYBT8",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "prison alternative pop addon\\"
      }
@@ -12447,7 +12291,7 @@
    "installers": [
     {
      "h": "8aT9oCPftkREst+tL23CxODfUa++OQQoGajub/zA6r0",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      },
@@ -12594,7 +12438,7 @@
    "installers": [
     {
      "h": "CXSrW6W2UMYpPugtFOE33lTMxpEzm2c9VdLiomXKwTg",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -12617,10 +12461,144 @@
    "installers": [
     {
      "h": "BxH6mKQp+lf2i46U0KA+S8XpsFAl32ioEWUXYzDtm+s",
-     "type": "SIMPLE",
+     "type": "MO2DEFAULT",
      "params": {
       "root": "0- install main files first\\data\\"
-     }
+     },
+     "skip": [
+      "enblocal.ini",
+      "enbseries\\_locationweather.ini",
+      "enbseries\\_weatherlist.ini",
+      "enbseries\\enbadaptation.fx",
+      "enbseries\\enbadaptation.fx.ini",
+      "enbseries\\enbbloom.fx",
+      "enbseries\\enbbloom.fx.ini",
+      "enbseries\\enbdepthoffield.fx",
+      "enbseries\\enbdepthoffield.fx.ini",
+      "enbseries\\enbeffect.fx",
+      "enbseries\\enbeffect.fx.ini",
+      "enbseries\\enbeffectpostpass.fx",
+      "enbseries\\enbeffectpostpass.fx.ini",
+      "enbseries\\enbeffectprepass.fx",
+      "enbseries\\enbeffectprepass.fx.ini",
+      "enbseries\\enblens.fx",
+      "enbseries\\enblens.fx.ini",
+      "enbseries\\enbraindrops.png",
+      "enbseries\\enbunderwater.fx",
+      "enbseries\\enbunderwater.fx.ini",
+      "enbseries\\enbunderwaternoise.bmp",
+      "enbseries\\textures\\cameras\\balancewhite.png",
+      "enbseries\\textures\\cameras\\prcameras.png",
+      "enbseries\\textures\\cameras\\prfilms.png",
+      "enbseries\\textures\\colorgrades\\dropblue.png",
+      "enbseries\\textures\\colorgrades\\limitedrange.png",
+      "enbseries\\textures\\colorgrades\\natenb_cc.png",
+      "enbseries\\textures\\colorgrades\\nighteye.png",
+      "enbseries\\textures\\colorgrades\\prcolorgrades.png",
+      "enbseries\\textures\\colorgrades\\prfinish.png",
+      "enbseries\\textures\\colorgrades\\satlimit.png",
+      "enbseries\\textures\\lenses\\bloomdirt.jpg",
+      "enbseries\\textures\\lenses\\defectinsta.jpg",
+      "enbseries\\textures\\lenses\\leakd.jpg",
+      "enbseries\\textures\\lenses\\leaki.jpg",
+      "enbseries\\textures\\lenses\\leakn.jpg",
+      "enbseries\\textures\\lenses\\lensleakd.jpg",
+      "enbseries\\textures\\lenses\\lensleaki.jpg",
+      "enbseries\\textures\\lenses\\lensleakn.jpg",
+      "enbseries\\textures\\overlays\\compositiongrid.png",
+      "enbseries\\textures\\overlays\\dirt01.jpg",
+      "enbseries\\textures\\overlays\\dirt02.jpg",
+      "enbseries\\textures\\overlays\\dirt03.jpg",
+      "enbseries\\textures\\overlays\\dirt04.jpg",
+      "enbseries\\textures\\overlays\\dirt05.jpg",
+      "enbseries\\textures\\overlays\\dirt06.jpg",
+      "enbseries\\textures\\overlays\\dirt07.jpg",
+      "enbseries\\textures\\overlays\\dirt08.png",
+      "enbseries\\textures\\overlays\\dirt09.png",
+      "enbseries\\textures\\overlays\\dirt10.png",
+      "enbseries\\textures\\overlays\\frame_01.png",
+      "enbseries\\textures\\overlays\\frame_02.png",
+      "enbseries\\textures\\overlays\\frame_03.png",
+      "enbseries\\textures\\overlays\\frame_04.png",
+      "enbseries\\textures\\overlays\\frame_05.png",
+      "enbseries\\textures\\overlays\\frame_06.png",
+      "enbseries\\textures\\overlays\\frame_07od.png",
+      "enbseries\\textures\\overlays\\frame_08.png",
+      "enbseries\\textures\\overlays\\frame_09.png",
+      "enbseries\\textures\\overlays\\frame_10.png",
+      "enbseries\\textures\\overlays\\frame_11.png",
+      "enbseries\\textures\\overlays\\frame_12od.png",
+      "enbseries\\textures\\overlays\\frame_13.png",
+      "enbseries\\textures\\overlays\\frame_14.png",
+      "enbseries\\textures\\overlays\\frame_15.png",
+      "enbseries\\textures\\overlays\\frame_16.png",
+      "enbseries\\textures\\overlays\\frame_17.png",
+      "enbseries\\textures\\overlays\\frame_18.png",
+      "enbseries\\textures\\overlays\\frame_19.png",
+      "enbseries\\textures\\overlays\\frame_20.png",
+      "enbseries\\textures\\overlays\\frame_21.png",
+      "enbseries\\textures\\overlays\\frame_22.png",
+      "enbseries\\textures\\overlays\\frame_23.png",
+      "enbseries\\textures\\overlays\\frame_24.png",
+      "enbseries\\textures\\overlays\\frame_25.png",
+      "enbseries\\textures\\overlays\\list_cg.png",
+      "enbseries\\textures\\overlays\\list_films.png",
+      "enbseries\\textures\\overlays\\natenb_badinstall.png",
+      "enbseries\\textures\\overlays\\tutorial\\tuto_01.png",
+      "enbseries\\textures\\overlays\\tutorial\\tuto_02.png",
+      "enbseries\\textures\\overlays\\tutorial\\tuto_03.png",
+      "enbseries\\textures\\overlays\\tutorial\\tuto_04.png",
+      "enbseries\\textures\\overlays\\tutorial\\tuto_05.png",
+      "enbseries\\w\\apocrypha.ini",
+      "enbseries\\w\\blackreach.ini",
+      "enbseries\\w\\bloodmoon.ini",
+      "enbseries\\w\\cloudy.ini",
+      "enbseries\\w\\cloudy_aurora.ini",
+      "enbseries\\w\\cloudy_auroradlc.ini",
+      "enbseries\\w\\cloudy_dark.ini",
+      "enbseries\\w\\cloudy_ma.ini",
+      "enbseries\\w\\cloudy_wet.ini",
+      "enbseries\\w\\cloudyclear.ini",
+      "enbseries\\w\\cloudyff.ini",
+      "enbseries\\w\\cloudysn.ini",
+      "enbseries\\w\\eclipse.ini",
+      "enbseries\\w\\falmervalley.ini",
+      "enbseries\\w\\fog.ini",
+      "enbseries\\w\\fogco.ini",
+      "enbseries\\w\\fogff.ini",
+      "enbseries\\w\\fogma.ini",
+      "enbseries\\w\\fograin.ini",
+      "enbseries\\w\\fogre.ini",
+      "enbseries\\w\\fogvt.ini",
+      "enbseries\\w\\helgen.ini",
+      "enbseries\\w\\overcast_dark.ini",
+      "enbseries\\w\\overcastcoma.ini",
+      "enbseries\\w\\overcastff.ini",
+      "enbseries\\w\\overcastpf.ini",
+      "enbseries\\w\\overcastre.ini",
+      "enbseries\\w\\overcastriften.ini",
+      "enbseries\\w\\overcasttu.ini",
+      "enbseries\\w\\rain.ini",
+      "enbseries\\w\\snowclear.ini",
+      "enbseries\\w\\snowfog.ini",
+      "enbseries\\w\\snowovercast.ini",
+      "enbseries\\w\\soulcairn.ini",
+      "enbseries\\w\\sovngarde.ini",
+      "enbseries\\w\\sovngardefog.ini",
+      "enbseries\\w\\storm_dlc2.ini",
+      "enbseries\\w\\storm_rain.ini",
+      "enbseries\\w\\storm_rainff.ini",
+      "enbseries\\w\\storm_raintu.ini",
+      "enbseries\\w\\storm_snow.ini",
+      "enbseries\\w\\sunny.ini",
+      "enbseries\\w\\sunny_aurora.ini",
+      "enbseries\\w\\sunny_clearskies.ini",
+      "enbseries\\w\\sunny_clearskiessn.ini",
+      "enbseries\\w\\sunnyco.ini",
+      "enbseries\\w\\sunnyma.ini",
+      "enbseries\\w\\sunnysn.ini",
+      "enbseries\\w\\weathers_interior.ini"
+     ]
     }
    ],
    "xarchives": [
@@ -13036,7 +13014,7 @@
    "installers": [
     {
      "h": "1RRyso/YJ8EfH6bjvGeQeY3sNUI3bXLS02YxoXH9e94",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -13048,7 +13026,7 @@
    "installers": [
     {
      "h": "b3JrlleoWlt5NSyY0hB9iRGUd3FwCJNUbQJUAgCTfn8",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -13060,7 +13038,7 @@
    "installers": [
     {
      "h": "yFCRkvHlI0WLWXUx6jYcoHg7iQGjJ7M7NKIeId+LmV4",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -13072,7 +13050,7 @@
    "installers": [
     {
      "h": "2pMxcypxVwctcsC4ABDn4ltyD1IHA7wUgSsH52vw9vM",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -13084,7 +13062,7 @@
    "installers": [
     {
      "h": "tIcrluKAfezvro2xA4kX/u3DhK2byh4HZef3SoVp8SY",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -13096,7 +13074,7 @@
    "installers": [
     {
      "h": "u1VuZwBwK5To49laM6BMiGWVD/qlFzs65vYhB7UhVxk",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -13108,7 +13086,7 @@
    "installers": [
     {
      "h": "ai7GsgNdSCYdzbUMCzFshkLyJoKCOoz7wfbqU5p+2jE",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -13120,7 +13098,7 @@
    "installers": [
     {
      "h": "2nFo78FOIkhR+ySyB1pUsnWPdQePjFdbfqvrCC25nJw",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "riften hd violet roofs_sse_with_lod_sse_v01.00_desaturated\\data\\"
      }
@@ -13132,7 +13110,7 @@
    "installers": [
     {
      "h": "KCpJJx6vwc67vIO08lhX3l6I23LH2oOl2P+9gO9CMf8",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -13144,7 +13122,7 @@
    "installers": [
     {
      "h": "cDgjmDhtCJrleSIdIU0gDw5bI7zhcFTlWsT2Mn3tVCQ",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "ryamakeup1.1\\"
      }
@@ -13156,7 +13134,7 @@
    "installers": [
     {
      "h": "ZrI7s+ZVyh/do1lxefdRZMM/iuH+Vca0Prs6u1sehVg",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -13211,7 +13189,7 @@
    "installers": [
     {
      "h": "oLOvmPbsedMyhI4FLBezuqHA1C/zyFK452F553bi4vI",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "scoe texture set - slacs plus 4k v1\\"
      }
@@ -13223,7 +13201,7 @@
    "installers": [
     {
      "h": "NWhXX15oRPpesyMWHLnJbh7NefWC4yOtDR+58fcGnM8",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "se sla monitor widget v1_5_1\\data\\"
      }
@@ -13307,7 +13285,7 @@
    "installers": [
     {
      "h": "XDHepAToZjcNTqLTBMk827oX8OiiUtw2zcoS/2p+9Qo",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "serial strip se v1.1.4\\"
      }
@@ -13319,21 +13297,10 @@
    "installers": [
     {
      "h": "i1DCuXHG1eYZMITNhx0/I0wo3rkHkFXdCSYQPlRRQlM",
-     "type": "SIMPLE",
+     "type": "MO2DEFAULT",
      "params": {
       "root": "sevenbase dibella statue\\data\\"
      }
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "dibellastatue readme.txt",
-       "s": "sevenbase dibella statue\\dibellastatue readme.txt"
-      }
-     ]
     }
    ]
   },
@@ -13342,7 +13309,7 @@
    "installers": [
     {
      "h": "eLLmCkVIpWgFbVftteIQf5q0MY4f5ULHt2uj35omHMM",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "sex lab - sexual fame framework se v0.99\\"
      }
@@ -13354,7 +13321,7 @@
    "installers": [
     {
      "h": "kfz/4PR4SSiWzeHnZPuYt1tsyGwDD/+YpmSXhnT4YtI",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "sexistguards v2.91 sse\\data\\"
      }
@@ -13427,7 +13394,7 @@
    "installers": [
     {
      "h": "IvaZAhUm/SA0mZx5Ws1VBqdfCQ+cLWYOGB7WnbayZUo",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -13457,7 +13424,7 @@
    "installers": [
     {
      "h": "Hep9klJbgPW0IznphyCrIdQTjSkvsdStdlIOD6BNT/M",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -13469,7 +13436,7 @@
    "installers": [
     {
      "h": "PnRLgf+k2lVl4M5w5qbcccjnbBoDvBqsS0lN1Q0etqk",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "sexlab solutions v3 - revisited se v1.1.6\\"
      }
@@ -13481,7 +13448,7 @@
    "installers": [
     {
      "h": "rVsCzfmdK6KuEKMdipO4t+GDxFn8A4aIrhe0UKJhGIA",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -13526,7 +13493,7 @@
    "installers": [
     {
      "h": "9sGb8bEehLWCmf2AWWI1fZ8Qu8o8+0GzIaschFwr34U",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -13538,7 +13505,7 @@
    "installers": [
     {
      "h": "txvq3kinzPEqzgX7U7uqg8g+kpQ8xoHdrc/JrqQ4H1M",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      },
@@ -13558,7 +13525,7 @@
    "installers": [
     {
      "h": "Led1Qv3BIMAGX5DPOfNMXmsvy4rqAMe5p7zapVC5rac",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -13570,7 +13537,7 @@
    "installers": [
     {
      "h": "LJUWMSw5+dO/BjnKD7qtBBvG3NzH2DbfS2isaYvAF9c",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -13582,21 +13549,10 @@
    "installers": [
     {
      "h": "BRZkAyUXZcE9kn4wHIq7BAUwJXGPgZPytUfJnHEhh4U",
-     "type": "SIMPLE",
+     "type": "MO2DEFAULT",
      "params": {
       "root": "sexy mara statue\\data\\"
      }
-    }
-   ],
-   "xarchives": [
-    {
-     "ar": 0,
-     "files": [
-      {
-       "t": "sexy mara statue readme.txt",
-       "s": "sexy mara statue\\sexy mara statue readme.txt"
-      }
-     ]
     }
    ]
   },
@@ -13605,7 +13561,7 @@
    "installers": [
     {
      "h": "sIxddg3XJNJ0abXpltl/r2QA1ZkF6mBMpq4CjGAFxTQ",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -13617,7 +13573,7 @@
    "installers": [
     {
      "h": "mjnSMHGhMswShj+qB6NOOk79wLTabN1P6Stx+5Dt32U",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "sebrows\\data\\"
      }
@@ -13629,7 +13585,7 @@
    "installers": [
     {
      "h": "fGzoj6qv/xhe1CIByC+26yL2WtafTKOOgbGt0m0LT94",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -13641,7 +13597,7 @@
    "installers": [
     {
      "h": "fhje+rXS67N4Q8F1eXYzNnmA1mF9fTAyZ1HB1QRVkXc",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -13653,7 +13609,7 @@
    "installers": [
     {
      "h": "r4Q5/hsrqEB0oBrFo+nmwG8HG9PRRLsEB7Jrd8hAzCs",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -13665,7 +13621,7 @@
    "installers": [
     {
      "h": "cQfGZnt1jREsssze5mmlhXIFXPLzYUQPOOyUtZIJNiA",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -13677,7 +13633,7 @@
    "installers": [
     {
      "h": "CZ2909t9+RqpO8Y4y43Qd9wx3P4aYssIe3OsBasgzo8",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "skooma whore se v1.01\\"
      }
@@ -13689,7 +13645,7 @@
    "installers": [
     {
      "h": "1yl/Gh1hPlJl4a9Nu/6L03oycZwczvNj/GGH+m66CEg",
-     "type": "SIMPLE",
+     "type": "MO2DEFAULT",
      "params": {
       "root": "skse64_2_02_06\\data\\"
      },
@@ -13755,7 +13711,419 @@
       "scripts\\source\\utility.psc",
       "scripts\\source\\weapon.psc",
       "scripts\\source\\weather.psc",
-      "scripts\\source\\wornobject.psc"
+      "scripts\\source\\wornobject.psc",
+      "skse64_1_6_1170.dll",
+      "skse64_loader.exe",
+      "skse64_readme.txt",
+      "skse64_whatsnew.txt",
+      "src\\common\\common\\.gitignore",
+      "src\\common\\common\\common.vcproj",
+      "src\\common\\common\\common.vcxproj",
+      "src\\common\\common\\common.vcxproj.filters",
+      "src\\common\\common\\common_vc11.sln",
+      "src\\common\\common\\common_vc11.vcxproj",
+      "src\\common\\common\\common_vc11.vcxproj.filters",
+      "src\\common\\common\\common_vc14.sln",
+      "src\\common\\common\\common_vc14.vcxproj",
+      "src\\common\\common\\common_vc14.vcxproj.filters",
+      "src\\common\\common\\common_vc9.sln",
+      "src\\common\\common\\common_vc9.vcproj",
+      "src\\common\\common\\iarchive.cpp",
+      "src\\common\\common\\iarchive.h",
+      "src\\common\\common\\ibufferstream.cpp",
+      "src\\common\\common\\ibufferstream.h",
+      "src\\common\\common\\iconsole.cpp",
+      "src\\common\\common\\iconsole.h",
+      "src\\common\\common\\icriticalsection.h",
+      "src\\common\\common\\idatabase.cpp",
+      "src\\common\\common\\idatabase.h",
+      "src\\common\\common\\idatabase.inc",
+      "src\\common\\common\\idatastream.cpp",
+      "src\\common\\common\\idatastream.h",
+      "src\\common\\common\\idebuglog.cpp",
+      "src\\common\\common\\idebuglog.h",
+      "src\\common\\common\\idirectoryiterator.cpp",
+      "src\\common\\common\\idirectoryiterator.h",
+      "src\\common\\common\\idynamiccreate.cpp",
+      "src\\common\\common\\idynamiccreate.h",
+      "src\\common\\common\\ierrors.cpp",
+      "src\\common\\common\\ierrors.h",
+      "src\\common\\common\\ievent.cpp",
+      "src\\common\\common\\ievent.h",
+      "src\\common\\common\\ififo.cpp",
+      "src\\common\\common\\ififo.h",
+      "src\\common\\common\\ifilestream.cpp",
+      "src\\common\\common\\ifilestream.h",
+      "src\\common\\common\\iinterlockedlong.cpp",
+      "src\\common\\common\\iinterlockedlong.h",
+      "src\\common\\common\\ilinkedlist.h",
+      "src\\common\\common\\imempool.cpp",
+      "src\\common\\common\\imempool.h",
+      "src\\common\\common\\imutex.cpp",
+      "src\\common\\common\\imutex.h",
+      "src\\common\\common\\ipipeclient.cpp",
+      "src\\common\\common\\ipipeclient.h",
+      "src\\common\\common\\ipipeserver.cpp",
+      "src\\common\\common\\ipipeserver.h",
+      "src\\common\\common\\iprefix.cpp",
+      "src\\common\\common\\iprefix.h",
+      "src\\common\\common\\irangemap.cpp",
+      "src\\common\\common\\irangemap.h",
+      "src\\common\\common\\ireadwritelock.cpp",
+      "src\\common\\common\\ireadwritelock.h",
+      "src\\common\\common\\isegmentstream.cpp",
+      "src\\common\\common\\isegmentstream.h",
+      "src\\common\\common\\isingleton.cpp",
+      "src\\common\\common\\isingleton.h",
+      "src\\common\\common\\itextparser.cpp",
+      "src\\common\\common\\itextparser.h",
+      "src\\common\\common\\ithread.cpp",
+      "src\\common\\common\\ithread.h",
+      "src\\common\\common\\itimer.cpp",
+      "src\\common\\common\\itimer.h",
+      "src\\common\\common\\itypes.cpp",
+      "src\\common\\common\\itypes.h",
+      "src\\skse64\\sheets\\common.props",
+      "src\\skse64\\sheets\\forcedinclude.props",
+      "src\\skse64\\sheets\\postbuild.props",
+      "src\\skse64\\sheets\\runtime.props",
+      "src\\skse64\\skse64.sln",
+      "src\\skse64\\skse64\\bsmodeldb.cpp",
+      "src\\skse64\\skse64\\bsmodeldb.h",
+      "src\\skse64\\skse64\\cmakelists.txt",
+      "src\\skse64\\skse64\\colors.cpp",
+      "src\\skse64\\skse64\\colors.h",
+      "src\\skse64\\skse64\\custommenu.cpp",
+      "src\\skse64\\skse64\\custommenu.h",
+      "src\\skse64\\skse64\\gameapi.cpp",
+      "src\\skse64\\skse64\\gameapi.h",
+      "src\\skse64\\skse64\\gamebsextradata.cpp",
+      "src\\skse64\\skse64\\gamebsextradata.h",
+      "src\\skse64\\skse64\\gamecamera.cpp",
+      "src\\skse64\\skse64\\gamecamera.h",
+      "src\\skse64\\skse64\\gamedata.cpp",
+      "src\\skse64\\skse64\\gamedata.h",
+      "src\\skse64\\skse64\\gameevents.cpp",
+      "src\\skse64\\skse64\\gameevents.h",
+      "src\\skse64\\skse64\\gameextradata.cpp",
+      "src\\skse64\\skse64\\gameextradata.h",
+      "src\\skse64\\skse64\\gameformcomponents.cpp",
+      "src\\skse64\\skse64\\gameformcomponents.h",
+      "src\\skse64\\skse64\\gameforms.cpp",
+      "src\\skse64\\skse64\\gameforms.h",
+      "src\\skse64\\skse64\\gamehandlers.cpp",
+      "src\\skse64\\skse64\\gamehandlers.h",
+      "src\\skse64\\skse64\\gameinput.cpp",
+      "src\\skse64\\skse64\\gameinput.h",
+      "src\\skse64\\skse64\\gamemenus.cpp",
+      "src\\skse64\\skse64\\gamemenus.h",
+      "src\\skse64\\skse64\\gameobjects.cpp",
+      "src\\skse64\\skse64\\gameobjects.h",
+      "src\\skse64\\skse64\\gamepathing.cpp",
+      "src\\skse64\\skse64\\gamepathing.h",
+      "src\\skse64\\skse64\\gamereferences.cpp",
+      "src\\skse64\\skse64\\gamereferences.h",
+      "src\\skse64\\skse64\\gameresources.cpp",
+      "src\\skse64\\skse64\\gameresources.h",
+      "src\\skse64\\skse64\\gamertti.cpp",
+      "src\\skse64\\skse64\\gamertti.h",
+      "src\\skse64\\skse64\\gamertti.inl",
+      "src\\skse64\\skse64\\gamesettings.cpp",
+      "src\\skse64\\skse64\\gamesettings.h",
+      "src\\skse64\\skse64\\gamestreams.cpp",
+      "src\\skse64\\skse64\\gamestreams.h",
+      "src\\skse64\\skse64\\gamethreads.cpp",
+      "src\\skse64\\skse64\\gamethreads.h",
+      "src\\skse64\\skse64\\gametypes.cpp",
+      "src\\skse64\\skse64\\gametypes.h",
+      "src\\skse64\\skse64\\gameutilities.cpp",
+      "src\\skse64\\skse64\\gameutilities.h",
+      "src\\skse64\\skse64\\globallocks.cpp",
+      "src\\skse64\\skse64\\globallocks.h",
+      "src\\skse64\\skse64\\hashutil.cpp",
+      "src\\skse64\\skse64\\hashutil.h",
+      "src\\skse64\\skse64\\hooks_camera.cpp",
+      "src\\skse64\\skse64\\hooks_camera.h",
+      "src\\skse64\\skse64\\hooks_data.cpp",
+      "src\\skse64\\skse64\\hooks_data.h",
+      "src\\skse64\\skse64\\hooks_debug.cpp",
+      "src\\skse64\\skse64\\hooks_debug.h",
+      "src\\skse64\\skse64\\hooks_diagnostics.cpp",
+      "src\\skse64\\skse64\\hooks_diagnostics.h",
+      "src\\skse64\\skse64\\hooks_directinput8create.cpp",
+      "src\\skse64\\skse64\\hooks_directinput8create.h",
+      "src\\skse64\\skse64\\hooks_event.cpp",
+      "src\\skse64\\skse64\\hooks_event.h",
+      "src\\skse64\\skse64\\hooks_gameplay.cpp",
+      "src\\skse64\\skse64\\hooks_gameplay.h",
+      "src\\skse64\\skse64\\hooks_handlers.cpp",
+      "src\\skse64\\skse64\\hooks_handlers.h",
+      "src\\skse64\\skse64\\hooks_memory.cpp",
+      "src\\skse64\\skse64\\hooks_memory.h",
+      "src\\skse64\\skse64\\hooks_netimmerse.cpp",
+      "src\\skse64\\skse64\\hooks_netimmerse.h",
+      "src\\skse64\\skse64\\hooks_obscript.cpp",
+      "src\\skse64\\skse64\\hooks_obscript.h",
+      "src\\skse64\\skse64\\hooks_papyrus.cpp",
+      "src\\skse64\\skse64\\hooks_papyrus.h",
+      "src\\skse64\\skse64\\hooks_saveload.cpp",
+      "src\\skse64\\skse64\\hooks_saveload.h",
+      "src\\skse64\\skse64\\hooks_scaleform.cpp",
+      "src\\skse64\\skse64\\hooks_scaleform.h",
+      "src\\skse64\\skse64\\hooks_threads.cpp",
+      "src\\skse64\\skse64\\hooks_threads.h",
+      "src\\skse64\\skse64\\hooks_ui.cpp",
+      "src\\skse64\\skse64\\hooks_ui.h",
+      "src\\skse64\\skse64\\inputmap.cpp",
+      "src\\skse64\\skse64\\inputmap.h",
+      "src\\skse64\\skse64\\internalserialization.cpp",
+      "src\\skse64\\skse64\\internalserialization.h",
+      "src\\skse64\\skse64\\internaltasks.cpp",
+      "src\\skse64\\skse64\\internaltasks.h",
+      "src\\skse64\\skse64\\niadditionalgeometrydata.cpp",
+      "src\\skse64\\skse64\\niadditionalgeometrydata.h",
+      "src\\skse64\\skse64\\nicontrollers.cpp",
+      "src\\skse64\\skse64\\nicontrollers.h",
+      "src\\skse64\\skse64\\niextradata.cpp",
+      "src\\skse64\\skse64\\niextradata.h",
+      "src\\skse64\\skse64\\nigeometry.cpp",
+      "src\\skse64\\skse64\\nigeometry.h",
+      "src\\skse64\\skse64\\niinterpolators.cpp",
+      "src\\skse64\\skse64\\niinterpolators.h",
+      "src\\skse64\\skse64\\nilight.cpp",
+      "src\\skse64\\skse64\\nilight.h",
+      "src\\skse64\\skse64\\nimaterial.cpp",
+      "src\\skse64\\skse64\\nimaterial.h",
+      "src\\skse64\\skse64\\ninodes.cpp",
+      "src\\skse64\\skse64\\ninodes.h",
+      "src\\skse64\\skse64\\niobjects.cpp",
+      "src\\skse64\\skse64\\niobjects.h",
+      "src\\skse64\\skse64\\niproperties.cpp",
+      "src\\skse64\\skse64\\niproperties.h",
+      "src\\skse64\\skse64\\nirenderer.cpp",
+      "src\\skse64\\skse64\\nirenderer.h",
+      "src\\skse64\\skse64\\nirtti.cpp",
+      "src\\skse64\\skse64\\nirtti.h",
+      "src\\skse64\\skse64\\niserialization.cpp",
+      "src\\skse64\\skse64\\niserialization.h",
+      "src\\skse64\\skse64\\nitextures.cpp",
+      "src\\skse64\\skse64\\nitextures.h",
+      "src\\skse64\\skse64\\nitypes.cpp",
+      "src\\skse64\\skse64\\nitypes.h",
+      "src\\skse64\\skse64\\obscript.cpp",
+      "src\\skse64\\skse64\\obscript.h",
+      "src\\skse64\\skse64\\papyrusactivemagiceffect.cpp",
+      "src\\skse64\\skse64\\papyrusactivemagiceffect.h",
+      "src\\skse64\\skse64\\papyrusactor.cpp",
+      "src\\skse64\\skse64\\papyrusactor.h",
+      "src\\skse64\\skse64\\papyrusactorbase.cpp",
+      "src\\skse64\\skse64\\papyrusactorbase.h",
+      "src\\skse64\\skse64\\papyrusactorvalueinfo.cpp",
+      "src\\skse64\\skse64\\papyrusactorvalueinfo.h",
+      "src\\skse64\\skse64\\papyrusalias.cpp",
+      "src\\skse64\\skse64\\papyrusalias.h",
+      "src\\skse64\\skse64\\papyrusammo.cpp",
+      "src\\skse64\\skse64\\papyrusammo.h",
+      "src\\skse64\\skse64\\papyrusargs.cpp",
+      "src\\skse64\\skse64\\papyrusargs.h",
+      "src\\skse64\\skse64\\papyrusarmor.cpp",
+      "src\\skse64\\skse64\\papyrusarmor.h",
+      "src\\skse64\\skse64\\papyrusarmoraddon.cpp",
+      "src\\skse64\\skse64\\papyrusarmoraddon.h",
+      "src\\skse64\\skse64\\papyrusart.cpp",
+      "src\\skse64\\skse64\\papyrusart.h",
+      "src\\skse64\\skse64\\papyrusbook.cpp",
+      "src\\skse64\\skse64\\papyrusbook.h",
+      "src\\skse64\\skse64\\papyruscamera.cpp",
+      "src\\skse64\\skse64\\papyruscamera.h",
+      "src\\skse64\\skse64\\papyruscell.cpp",
+      "src\\skse64\\skse64\\papyruscell.h",
+      "src\\skse64\\skse64\\papyrusclass.cpp",
+      "src\\skse64\\skse64\\papyrusclass.h",
+      "src\\skse64\\skse64\\papyruscolorform.cpp",
+      "src\\skse64\\skse64\\papyruscolorform.h",
+      "src\\skse64\\skse64\\papyruscombatstyle.cpp",
+      "src\\skse64\\skse64\\papyruscombatstyle.h",
+      "src\\skse64\\skse64\\papyrusconstructibleobject.cpp",
+      "src\\skse64\\skse64\\papyrusconstructibleobject.h",
+      "src\\skse64\\skse64\\papyrusdefaultobjectmanager.cpp",
+      "src\\skse64\\skse64\\papyrusdefaultobjectmanager.h",
+      "src\\skse64\\skse64\\papyrusdelayfunctors.cpp",
+      "src\\skse64\\skse64\\papyrusdelayfunctors.h",
+      "src\\skse64\\skse64\\papyrusenchantment.cpp",
+      "src\\skse64\\skse64\\papyrusenchantment.h",
+      "src\\skse64\\skse64\\papyrusequipslot.cpp",
+      "src\\skse64\\skse64\\papyrusequipslot.h",
+      "src\\skse64\\skse64\\papyruseventfunctor.h",
+      "src\\skse64\\skse64\\papyrusevents.cpp",
+      "src\\skse64\\skse64\\papyrusevents.h",
+      "src\\skse64\\skse64\\papyrusfaction.cpp",
+      "src\\skse64\\skse64\\papyrusfaction.h",
+      "src\\skse64\\skse64\\papyrusflora.cpp",
+      "src\\skse64\\skse64\\papyrusflora.h",
+      "src\\skse64\\skse64\\papyrusform.cpp",
+      "src\\skse64\\skse64\\papyrusform.h",
+      "src\\skse64\\skse64\\papyrusformlist.cpp",
+      "src\\skse64\\skse64\\papyrusformlist.h",
+      "src\\skse64\\skse64\\papyrusgame.cpp",
+      "src\\skse64\\skse64\\papyrusgame.h",
+      "src\\skse64\\skse64\\papyrusgamedata.cpp",
+      "src\\skse64\\skse64\\papyrusgamedata.h",
+      "src\\skse64\\skse64\\papyrusheadpart.cpp",
+      "src\\skse64\\skse64\\papyrusheadpart.h",
+      "src\\skse64\\skse64\\papyrusingredient.cpp",
+      "src\\skse64\\skse64\\papyrusingredient.h",
+      "src\\skse64\\skse64\\papyrusinput.cpp",
+      "src\\skse64\\skse64\\papyrusinput.h",
+      "src\\skse64\\skse64\\papyrusinterfaces.cpp",
+      "src\\skse64\\skse64\\papyrusinterfaces.h",
+      "src\\skse64\\skse64\\papyruskeyword.cpp",
+      "src\\skse64\\skse64\\papyruskeyword.h",
+      "src\\skse64\\skse64\\papyrusleveledactor.cpp",
+      "src\\skse64\\skse64\\papyrusleveledactor.h",
+      "src\\skse64\\skse64\\papyrusleveleditem.cpp",
+      "src\\skse64\\skse64\\papyrusleveleditem.h",
+      "src\\skse64\\skse64\\papyrusleveledspell.cpp",
+      "src\\skse64\\skse64\\papyrusleveledspell.h",
+      "src\\skse64\\skse64\\papyruslocation.cpp",
+      "src\\skse64\\skse64\\papyruslocation.h",
+      "src\\skse64\\skse64\\papyrusmagiceffect.cpp",
+      "src\\skse64\\skse64\\papyrusmagiceffect.h",
+      "src\\skse64\\skse64\\papyrusmath.cpp",
+      "src\\skse64\\skse64\\papyrusmath.h",
+      "src\\skse64\\skse64\\papyrusmisc.cpp",
+      "src\\skse64\\skse64\\papyrusmisc.h",
+      "src\\skse64\\skse64\\papyrusmodevent.cpp",
+      "src\\skse64\\skse64\\papyrusmodevent.h",
+      "src\\skse64\\skse64\\papyrusnativefunctiondef.inl",
+      "src\\skse64\\skse64\\papyrusnativefunctiondef_base.inl",
+      "src\\skse64\\skse64\\papyrusnativefunctions.cpp",
+      "src\\skse64\\skse64\\papyrusnativefunctions.h",
+      "src\\skse64\\skse64\\papyrusnetimmerse.cpp",
+      "src\\skse64\\skse64\\papyrusnetimmerse.h",
+      "src\\skse64\\skse64\\papyrusobjectreference.cpp",
+      "src\\skse64\\skse64\\papyrusobjectreference.h",
+      "src\\skse64\\skse64\\papyrusobjects.cpp",
+      "src\\skse64\\skse64\\papyrusobjects.h",
+      "src\\skse64\\skse64\\papyrusperk.cpp",
+      "src\\skse64\\skse64\\papyrusperk.h",
+      "src\\skse64\\skse64\\papyruspotion.cpp",
+      "src\\skse64\\skse64\\papyruspotion.h",
+      "src\\skse64\\skse64\\papyrusquest.cpp",
+      "src\\skse64\\skse64\\papyrusquest.h",
+      "src\\skse64\\skse64\\papyrusrace.cpp",
+      "src\\skse64\\skse64\\papyrusrace.h",
+      "src\\skse64\\skse64\\papyrusreferencealias.cpp",
+      "src\\skse64\\skse64\\papyrusreferencealias.h",
+      "src\\skse64\\skse64\\papyrusscroll.cpp",
+      "src\\skse64\\skse64\\papyrusscroll.h",
+      "src\\skse64\\skse64\\papyrusshout.cpp",
+      "src\\skse64\\skse64\\papyrusshout.h",
+      "src\\skse64\\skse64\\papyrusskse.cpp",
+      "src\\skse64\\skse64\\papyrusskse.h",
+      "src\\skse64\\skse64\\papyrussound.cpp",
+      "src\\skse64\\skse64\\papyrussound.h",
+      "src\\skse64\\skse64\\papyrussounddescriptor.cpp",
+      "src\\skse64\\skse64\\papyrussounddescriptor.h",
+      "src\\skse64\\skse64\\papyrusspawnertask.cpp",
+      "src\\skse64\\skse64\\papyrusspawnertask.h",
+      "src\\skse64\\skse64\\papyrusspell.cpp",
+      "src\\skse64\\skse64\\papyrusspell.h",
+      "src\\skse64\\skse64\\papyrusstringutil.cpp",
+      "src\\skse64\\skse64\\papyrusstringutil.h",
+      "src\\skse64\\skse64\\papyrustextureset.cpp",
+      "src\\skse64\\skse64\\papyrustextureset.h",
+      "src\\skse64\\skse64\\papyrustree.cpp",
+      "src\\skse64\\skse64\\papyrustree.h",
+      "src\\skse64\\skse64\\papyrusui.cpp",
+      "src\\skse64\\skse64\\papyrusui.h",
+      "src\\skse64\\skse64\\papyrusuicallback.cpp",
+      "src\\skse64\\skse64\\papyrusuicallback.h",
+      "src\\skse64\\skse64\\papyrusutility.cpp",
+      "src\\skse64\\skse64\\papyrusutility.h",
+      "src\\skse64\\skse64\\papyrusvalue.cpp",
+      "src\\skse64\\skse64\\papyrusvalue.h",
+      "src\\skse64\\skse64\\papyrusvm.cpp",
+      "src\\skse64\\skse64\\papyrusvm.h",
+      "src\\skse64\\skse64\\papyrusweapon.cpp",
+      "src\\skse64\\skse64\\papyrusweapon.h",
+      "src\\skse64\\skse64\\papyrusweather.cpp",
+      "src\\skse64\\skse64\\papyrusweather.h",
+      "src\\skse64\\skse64\\papyruswornobject.cpp",
+      "src\\skse64\\skse64\\papyruswornobject.h",
+      "src\\skse64\\skse64\\pluginapi.h",
+      "src\\skse64\\skse64\\pluginloaderrordialog.rc",
+      "src\\skse64\\skse64\\pluginmanager.cpp",
+      "src\\skse64\\skse64\\pluginmanager.h",
+      "src\\skse64\\skse64\\resource.h",
+      "src\\skse64\\skse64\\scaleformapi.cpp",
+      "src\\skse64\\skse64\\scaleformapi.h",
+      "src\\skse64\\skse64\\scaleformcallbacks.cpp",
+      "src\\skse64\\skse64\\scaleformcallbacks.h",
+      "src\\skse64\\skse64\\scaleformextendeddata.cpp",
+      "src\\skse64\\skse64\\scaleformextendeddata.h",
+      "src\\skse64\\skse64\\scaleformloader.cpp",
+      "src\\skse64\\skse64\\scaleformloader.h",
+      "src\\skse64\\skse64\\scaleformmovie.cpp",
+      "src\\skse64\\skse64\\scaleformmovie.h",
+      "src\\skse64\\skse64\\scaleformstate.cpp",
+      "src\\skse64\\skse64\\scaleformstate.h",
+      "src\\skse64\\skse64\\scaleformtypes.cpp",
+      "src\\skse64\\skse64\\scaleformtypes.h",
+      "src\\skse64\\skse64\\scaleformvalue.cpp",
+      "src\\skse64\\skse64\\scaleformvalue.h",
+      "src\\skse64\\skse64\\scaleformvm.cpp",
+      "src\\skse64\\skse64\\scaleformvm.h",
+      "src\\skse64\\skse64\\serialization.cpp",
+      "src\\skse64\\skse64\\serialization.h",
+      "src\\skse64\\skse64\\skse64.cpp",
+      "src\\skse64\\skse64\\skse64.def",
+      "src\\skse64\\skse64\\skse64.vcxproj",
+      "src\\skse64\\skse64\\skse64.vcxproj.filters",
+      "src\\skse64\\skse64\\translation.cpp",
+      "src\\skse64\\skse64\\translation.h",
+      "src\\skse64\\skse64_common\\branchtrampoline.cpp",
+      "src\\skse64\\skse64_common\\branchtrampoline.h",
+      "src\\skse64\\skse64_common\\cmakelists.txt",
+      "src\\skse64\\skse64_common\\relocation.cpp",
+      "src\\skse64\\skse64_common\\relocation.h",
+      "src\\skse64\\skse64_common\\safewrite.cpp",
+      "src\\skse64\\skse64_common\\safewrite.h",
+      "src\\skse64\\skse64_common\\skse64_common.vcxproj",
+      "src\\skse64\\skse64_common\\skse64_common.vcxproj.filters",
+      "src\\skse64\\skse64_common\\skse_version.h",
+      "src\\skse64\\skse64_common\\skse_version.rc",
+      "src\\skse64\\skse64_common\\utilities.cpp",
+      "src\\skse64\\skse64_common\\utilities.h",
+      "src\\skse64\\skse64_license.txt",
+      "src\\skse64\\skse64_loader\\cmakelists.txt",
+      "src\\skse64\\skse64_loader\\main.cpp",
+      "src\\skse64\\skse64_loader\\options.cpp",
+      "src\\skse64\\skse64_loader\\options.h",
+      "src\\skse64\\skse64_loader\\skse64_loader.vcxproj",
+      "src\\skse64\\skse64_loader\\skse64_loader.vcxproj.filters",
+      "src\\skse64\\skse64_loader_common\\cmakelists.txt",
+      "src\\skse64\\skse64_loader_common\\identifyexe.cpp",
+      "src\\skse64\\skse64_loader_common\\identifyexe.h",
+      "src\\skse64\\skse64_loader_common\\inject.cpp",
+      "src\\skse64\\skse64_loader_common\\inject.h",
+      "src\\skse64\\skse64_loader_common\\loadererror.cpp",
+      "src\\skse64\\skse64_loader_common\\loadererror.h",
+      "src\\skse64\\skse64_loader_common\\skse64_loader_common.vcxproj",
+      "src\\skse64\\skse64_loader_common\\skse64_loader_common.vcxproj.filters",
+      "src\\skse64\\skse64_loader_common\\steam.cpp",
+      "src\\skse64\\skse64_loader_common\\steam.h",
+      "src\\skse64\\skse64_steam_loader\\cmakelists.txt",
+      "src\\skse64\\skse64_steam_loader\\main.cpp",
+      "src\\skse64\\skse64_steam_loader\\skse64_steam_loader.def",
+      "src\\skse64\\skse64_steam_loader\\skse64_steam_loader.vcxproj",
+      "src\\skse64\\skse64_steam_loader\\skse64_steam_loader.vcxproj.filters",
+      "src\\skse64\\xbyak\\cmakelists.txt",
+      "src\\skse64\\xbyak\\copyright",
+      "src\\skse64\\xbyak\\xbyak.h",
+      "src\\skse64\\xbyak\\xbyak_bin2hex.h",
+      "src\\skse64\\xbyak\\xbyak_mnemonic.h",
+      "src\\skse64\\xbyak\\xbyak_util.h"
      ]
     }
    ],
@@ -13913,7 +14281,7 @@
    "installers": [
     {
      "h": "U3Xg6RBR9XrUY9/jQSu6WKu5dfhHmpaN2dTl0ylDFmI",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -13925,7 +14293,7 @@
    "installers": [
     {
      "h": "2ZxboYX/gS8fqm+W5CIe+JiBSoEF98+jyqm9Pk6Vu8o",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -13980,7 +14348,7 @@
    "installers": [
     {
      "h": "blNCHOqRw8O4TImKmUJgAOqXiV3ICgfU0vcTQJjMlYo",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -14025,7 +14393,7 @@
    "installers": [
     {
      "h": "XxZz5GNkEYs+AJmttlyURR6MAQ2wMu52+HBWOAhUDmI",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -14037,7 +14405,7 @@
    "installers": [
     {
      "h": "L9uLJS7PHDq8+6Q8jgnR8LTmszLwn2MdsDBtfeBgPxw",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -14049,7 +14417,7 @@
    "installers": [
     {
      "h": "V4zcXFJltLbSdaoY5icoTvde0eLnl2X19JH67k4TORY",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -14061,7 +14429,7 @@
    "installers": [
     {
      "h": "cc66mmxLVDl3Ra2nxuUWyrP++IxktkXwqNaaH+SAo3Y",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -14150,7 +14518,7 @@
    "installers": [
     {
      "h": "iz3xBexBtpfVST83hsyRtpz5lRazUQHfA3nMAYkPJ60",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -14162,7 +14530,7 @@
    "installers": [
     {
      "h": "Hh0s3YW41wO8m47aiGuH7EPK6p2rsk+ZqwcEsDoe2nc",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -14174,7 +14542,7 @@
    "installers": [
     {
      "h": "nsZqIHkIGtWmlCNYhq7Axeu8IhJIoTDIMMfaB38AQ34",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -14186,7 +14554,7 @@
    "installers": [
     {
      "h": "uMC6t3op9BOkbgEPbvRunnScHodAxXHZEd/+FLWsrCY",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -14198,7 +14566,7 @@
    "installers": [
     {
      "h": "iHweSOWvJBxbdHnhpsPP/xS5hViKAAWGliFPWt8+RlQ",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -14210,7 +14578,7 @@
    "installers": [
     {
      "h": "sfvOvwFhMTwZPUJWBzHjvsNS5J1PITVBvjbTNR5T0wo",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "emerald shiny\\"
      }
@@ -14222,7 +14590,7 @@
    "installers": [
     {
      "h": "iwhgN0VYOydz7Gdcp1fNJZpYcpqVRWsYGejjUB5V4qw",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "sos - futanari cbbe sse v1.1b\\data\\"
      },
@@ -14262,7 +14630,7 @@
    "installers": [
     {
      "h": "LthSu3gk6x7rw+elgk5wgBJOEj+vA0/uCT9oHg8Gka0",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -14274,7 +14642,7 @@
    "installers": [
     {
      "h": "CLi8b1SM8SqoKiNBZu/hCFG/uZTQI5Py5xZ1TmsxdOA",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -14301,7 +14669,7 @@
    "installers": [
     {
      "h": "Os2QRKKRALKkyXcKDSCEaWX69O0CPC3H1SeSFw2w5JQ",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      },
@@ -14319,7 +14687,7 @@
    "installers": [
     {
      "h": "yceof2WBaFHX1TBHAC6oKxMloLvMf5OrkDP0+0GtCT8",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "pmsse nier aio\\data\\"
      }
@@ -14331,7 +14699,7 @@
    "installers": [
     {
      "h": "yYZphLiZO/oIWowEjo/hsBhDEXe5qfMjDEXeyqRhwls",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -14343,7 +14711,7 @@
    "installers": [
     {
      "h": "v+xkBpc9gq2VnAxJhFjxMLGbVwWGex/BU5Tc9EAKPQI",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -14373,7 +14741,7 @@
    "installers": [
     {
      "h": "hpIUqbx7ix3KXugqpvXBGtxcsmxLfurfeXQJYufS0KY",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -14409,7 +14777,7 @@
    "installers": [
     {
      "h": "8zfaSb4LXTFUNXR4PL11HEVs1byT3wRAkYVSxUlxdmo",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      },
@@ -14427,7 +14795,7 @@
    "installers": [
     {
      "h": "GjB+OJorQgTUoOVmI3uW+Z1Z2hP4x/DclzABfSYKQVM",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "suspiciouscityguards\\"
      }
@@ -14439,7 +14807,7 @@
    "installers": [
     {
      "h": "aEfX/swyHcoURKiyb0+4nxXfw0eZEpc2ES06/PiQ2v0",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      },
@@ -14457,7 +14825,7 @@
    "installers": [
     {
      "h": "TWZo+bUfQj0KjeUoqCuKPlgpP1MfZ56eESgQqbf1t40",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -14480,7 +14848,7 @@
    "installers": [
     {
      "h": "cfv4kkmu/iyqYsVN/ALbhIZjL+utBIqEguad5QVlcZ8",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -14492,7 +14860,7 @@
    "installers": [
     {
      "h": "7YeyuOB5bl5o5Yeza8rHXXC21Z8srGGZsbP2dYI0fig",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "the eyes of beauty ai - vanilla replacer 1k - v1.final\\"
      }
@@ -14504,7 +14872,7 @@
    "installers": [
     {
      "h": "cbzVUFl9ElPcHDPphbAC1E1TtBfXidQZoeGh5aYtf5Q",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -14516,7 +14884,7 @@
    "installers": [
     {
      "h": "79tznV7z9YG0dkd1//1j8mFBWFUOvopdO21xcsKZmpo",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -14528,7 +14896,7 @@
    "installers": [
     {
      "h": "GOLVc9JJCgmWSmLB9RPgenuDp1E+/qi5Uae90fFqi+g",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -14540,7 +14908,7 @@
    "installers": [
     {
      "h": "UUifK/0HdqJbPWtfqUPQ62Xy50C4L8FDjZGic/5obmg",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "toomanynotifications\\"
      }
@@ -14552,7 +14920,7 @@
    "installers": [
     {
      "h": "zuMl5/38u5RbOorBmZXRK2smU2h4kRFnL4kNV9WTIwM",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -14564,7 +14932,7 @@
    "installers": [
     {
      "h": "PdEzRJ4U3fLqG+yEH6uLghmNDQor5N9j/zVQr2VuxzM",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -14576,7 +14944,7 @@
    "installers": [
     {
      "h": "EnFmS5WwuQhdlEMbmrsdJFAcOFAHV6WORifEDYUFiSk",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -14588,7 +14956,7 @@
    "installers": [
     {
      "h": "PVzS46W+rQQ60v0nExOPqgfPXYHx3q6+r1l9ALQWN6Y",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -14600,7 +14968,7 @@
    "installers": [
     {
      "h": "YAROG/NpnrXGfL8Q6dbP0rAv+4cmTK0vuqlgebFsdR0",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -20508,7 +20876,7 @@
    "installers": [
     {
      "h": "DYLoZ0SSFjvow7lXgLfLln69GNAcOjZ3O+kGvQggil4",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
@@ -20520,7 +20888,7 @@
    "installers": [
     {
      "h": "DUusGG9vRsuRmBw2okhpeaNpdqiVt9Z0wlN7ItSBOEk",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "waterfalls-common\\"
      },
@@ -20749,7 +21117,7 @@
    "installers": [
     {
      "h": "UvC/7cks6FWhWJCz0AJtGWJOFr+4G2aPSjWnLbS57KE",
-     "type": "SIMPLE",
+     "type": "MO2DEFAULT",
      "params": {
       "root": "whiterun roof tiles blue\\data\\"
      }
@@ -20761,7 +21129,7 @@
    "installers": [
     {
      "h": "2AfY+bZQRO2tbwKdGLNW1bCTN9u1p5yQL3ATAuhO96s",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -20773,7 +21141,7 @@
    "installers": [
     {
      "h": "xO2w3LLSBqB1Ffgd4mEpsqrsxqZOVwLyZP0ciaqFZ7w",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "windhelm hd red roofs with_lod_sse_weathered_v01.00\\data\\"
      }
@@ -20791,7 +21159,7 @@
    "installers": [
     {
      "h": "YjNbrVY4AEAqT0fkEL+WtaazuSCmtepgbNcj0Dlz7UE",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "animations\\base\\fnis alternate animations\\"
      }
@@ -21166,7 +21534,7 @@
    "installers": [
     {
      "h": "W/Ay/BVwQTRiojagsL+2lXbh9QpeYPGCWb8LCX6aiUI",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -21178,7 +21546,7 @@
    "installers": [
     {
      "h": "4rBFjo0OeZmBFb0inaMDOtCc/FDemCwTR/1lCuH1T5s",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      }
@@ -21190,7 +21558,7 @@
    "installers": [
     {
      "h": "UMvxxGKCCnlt733ZOdr2oT1MIpsff2n1Zdalxvxnsq4",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": ""
      },
@@ -21266,7 +21634,7 @@
    "installers": [
     {
      "h": "r6FKuGWgJYTgEt1UYWCem+ZGr428FT+r34yF75sSOB0",
-     "type": "SIMPLE",
+     "type": "SIMPLEUNPACK",
      "params": {
       "root": "data\\"
      }
